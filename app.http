@@ -1,0 +1,33 @@
+POST http://localhost:5000/aptitude
+Content-Type: application/json
+
+{
+    "standard":"aptitudeEM",
+    "subject":"12-16Unit"
+}
+
+
+###
+POST http://localhost:5000/aptitude
+Content-Type: application/json
+
+{
+    "standard":"aptitudeEM",
+    "subject":"12-16Unit"
+}
+
+###
+POST http://localhost:5000/api/aptitude 
+Content-Type: application/json
+
+{
+    "selectedTopics":["simplification", "percentage", "rp"],
+    "selectedOptions":5
+}
+
+###
+POST http://localhost:5000/aggregate-tamil-questions
+
+
+###
+POST http://localhost:5000/api/weekly-test-em 
