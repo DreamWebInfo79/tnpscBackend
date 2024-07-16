@@ -25,9 +25,6 @@ Content-Type: application/json
     "selectedOptions":5
 }
 
-###
-POST http://localhost:5000/aggregate-tamil-questions
-
 
 ###
 GET http://localhost:5000/api/weekly-test-em 

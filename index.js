@@ -1,7 +1,4 @@
 require('dotenv').config();
-console.log('GOOGLE_CLIENT_ID:', process.env.GOOGLE_CLIENT_ID);
-console.log('GOOGLE_CLIENT_SECRET:', process.env.GOOGLE_CLIENT_SECRET);
-console.log('GOOGLE_CALLBACK_URL:', process.env.GOOGLE_CALLBACK_URL);
 const serverless = require('serverless-http');
 const express = require('express');
 const session = require('express-session');
@@ -11,10 +8,7 @@ const GoogleStrategy = require('passport-google-oauth20').Strategy;
 const { v4: uuidv4 } = require('uuid');
 const crypto = require('crypto');
 
-mongoose.connect(process.env.MONGO_URI, {
-  useNewUrlParser: true,
-  useUnifiedTopology: true,
-});
+mongoose.connect(process.env.MONGO_URI);
 
 const app = express();
 
@@ -72,7 +66,6 @@ const QuestionSchema = new mongoose.Schema({
 const Question = dbSixth.model('Question', QuestionSchema, 'termOne');
 const User = dbUser.model('User', UserSchema);
 
-console.log(process.env.GOOGLE_CLIENT_ID);
 
 passport.use(
   new GoogleStrategy(
@@ -336,11 +329,11 @@ app.get('/api/weekly-test-em', async (req, res) => {
       ...aptitudeQuestions,
     ];
 
-    console.log("totalQuestions",selectedQuestions);
+    // console.log("totalQuestions",selectedQuestions);
 
-    console.log('Tamil Questions:', tamilQuestions.length);
-    console.log('GS Questions:', gsQuestions.length);
-    console.log('Aptitude Questions:', aptitudeQuestions.length);
+    // console.log('Tamil Questions:', tamilQuestions.length);
+    // console.log('GS Questions:', gsQuestions.length);
+    // console.log('Aptitude Questions:', aptitudeQuestions.length);
 
     res.status(200).send({ selectedQuestions });
   } catch (error) {
