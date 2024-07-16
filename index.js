@@ -313,7 +313,7 @@ app.post('/aggregate-tamil-questions', async (req, res) => {
   }
 });
 
-app.post('/api/weekly-test-em', async (req, res) => {
+app.get('/api/weekly-test-em', async (req, res) => {
   const newDbName = 'weeklyTest';
   const newCollectionName = 'allQuestionsEM';
 
@@ -337,7 +337,7 @@ app.post('/api/weekly-test-em', async (req, res) => {
     console.log('GS Questions:', gsQuestions.length);
     console.log('Aptitude Questions:', aptitudeQuestions.length);
 
-    res.json(selectedQuestions);
+    res.status(200).send({ selectedQuestions });
   } catch (error) {
     console.error('Error fetching questions:', error);
     res.status(500).send({ message: 'Error fetching questions' });

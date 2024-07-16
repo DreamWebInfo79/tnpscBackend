@@ -30,4 +30,4 @@ POST http://localhost:5000/aggregate-tamil-questions
 
 
 ###
-POST http://localhost:5000/api/weekly-test-em 
+GET http://localhost:5000/api/weekly-test-em 
