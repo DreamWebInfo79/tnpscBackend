@@ -7,13 +7,24 @@ const mongoose = require('mongoose');
 const GoogleStrategy = require('passport-google-oauth20').Strategy;
 const { v4: uuidv4 } = require('uuid');
 const crypto = require('crypto');
+const { OAuth2Client } = require('google-auth-library');
+const client = new OAuth2Client(process.env.GOOGLE_CLIENT_ID);
 
-mongoose.connect(process.env.MONGO_URI);
+
+mongoose.connect(process.env.MONGO_URI, {
+  useNewUrlParser: true,
+  useUnifiedTopology: true,
+});
 
 const app = express();
 
+const allowedOrigins = ['http://localhost:3001'];
+
 app.use((req, res, next) => {
-  res.setHeader('Access-Control-Allow-Origin', '*');
+  const origin = req.headers.origin;
+  if (allowedOrigins.includes(origin)) {
+    res.setHeader('Access-Control-Allow-Origin', origin);
+  }
   res.setHeader('Access-Control-Allow-Methods', 'GET, POST, OPTIONS, PUT, PATCH, DELETE');
   res.setHeader('Access-Control-Allow-Headers', 'Content-Type, Authorization');
   res.setHeader('Access-Control-Allow-Credentials', true);
@@ -24,7 +35,7 @@ const UserSchema = new mongoose.Schema({
   googleId: String,
   displayName: String,
   email: String,
-  uniqueId: String,
+  uniqueId: String
 });
 
 const secret = crypto.randomBytes(32).toString('hex');
@@ -56,64 +67,108 @@ const QuestionSchema = new mongoose.Schema({
   options: [String],
   answer: String,
   explanation: String,
-  topic: String ,
+  topic: String,
   type: String,
-
 });
-
-
 
 const Question = dbSixth.model('Question', QuestionSchema, 'termOne');
 const User = dbUser.model('User', UserSchema);
 
+// const dbNizhalUser = mongoose.connection.useDb('nizhaluser');
+// dbNizhalUser.on('error', console.error.bind(console, 'MongoDB connection error:'));
+// dbNizhalUser.once('open', () => {
+//   console.log('Connected to MongoDB');
+// });
 
-passport.use(
-  new GoogleStrategy(
-    {
-      clientID: process.env.GOOGLE_CLIENT_ID,
-      clientSecret: process.env.GOOGLE_CLIENT_SECRET,
-      callbackURL: process.env.GOOGLE_CALLBACK_URL,
-    },
-    async (accessToken, refreshToken, profile, done) => {
-      try {
-        let user = await User.findOne({ googleId: profile.id });
+// User model for nizhaluser database
+// const User = dbNizhalUser.model('User', UserSchema);
 
-        if (!user) {
-          const uniqueId = generateUniqueId();
-          user = new User({
-            googleId: profile.id,
-            displayName: profile.displayName,
-            email: profile.emails[0].value,
-            uniqueId: uniqueId,
-          });
-          await user.save();
-        }
+passport.use(new GoogleStrategy({
+  clientID: process.env.GOOGLE_CLIENT_ID,
+  clientSecret: process.env.GOOGLE_CLIENT_SECRET,
+  callbackURL: process.env.GOOGLE_CALLBACK_URL
+},
+async (accessToken, refreshToken, profile, done) => {
+  try {
+    let user = await User.findOne({ googleId: profile.id });
 
-        return done(null, user);
-      } catch (err) {
-        return done(err, null);
-      }
+    if (!user) {
+      const uniqueId = generateUniqueId();
+      user = new User({
+        googleId: profile.id,
+        displayName: profile.displayName,
+        email: profile.emails[0].value,
+        uniqueId: uniqueId
+      });
+      await user.save();
     }
-  )
-);
 
-passport.serializeUser((user, done) => {
-  done(null, user);
+    const profileImageUrl = profile.photos[0].value;
+
+    const userWithProfileImage = {
+      ...user.toObject(),
+      profileImageUrl
+    };
+
+    console.log(userWithProfileImage);
+    return done(null, userWithProfileImage);
+  } catch (err) {
+    return done(err, null);
+  }
+}
+));
+
+passport.serializeUser((userWithProfileImage, done) => {
+  done(null, userWithProfileImage);
 });
 
 passport.deserializeUser((obj, done) => {
   done(null, obj);
 });
 
-app.get('/auth/google', passport.authenticate('google', { scope: ['profile', 'email'] }));
+app.get('/auth/google',
+  passport.authenticate('google', { scope: ['profile', 'email'] }));
 
-app.get(
-  '/auth/google/callback',
-  passport.authenticate('google', { failureRedirect: '/' }),
-  (req, res) => {
-    res.redirect('/');
-  }
-);
+  app.post('/auth/google/callback', async (req, res) => {
+    const { token } = req.body;
+  
+    try {
+      const ticket = await client.verifyIdToken({
+        idToken: token,
+        audience: process.env.GOOGLE_CLIENT_ID,
+      });
+      const payload = ticket.getPayload();
+  
+      let user = await User.findOne({ googleId: payload.sub });
+  
+      if (!user) {
+        const uniqueId = generateUniqueId();
+        user = new User({
+          googleId: payload.sub,
+          displayName: payload.name,
+          email: payload.email,
+          uniqueId: uniqueId
+        });
+        await user.save();
+      }
+  
+      const userWithProfileImage = {
+        ...user.toObject(),
+        profileImageUrl: payload.picture,
+      };
+  
+      req.login(userWithProfileImage, (err) => {
+        if (err) {
+          return res.status(500).send(err);
+        }
+        res.status(200).json(userWithProfileImage);
+      });
+    } catch (error) {
+      console.error('Error processing login:', error);
+      res.status(500).send({ message: 'Error processing login' });
+    }
+  });
+  
 
 app.get('/helloworld', (req, res) => {
   res.send('Hello World!');
@@ -135,21 +190,6 @@ app.post('/questions', async (req, res) => {
   }
 });
 
-// app.post('/aptitude', async (req, res) => {
-//     const { standard, subject } = req.body;
-  
-//     try {
-//       const database = mongoose.connection.useDb(standard);
-//       const Question = database.model('Question', QuestionSchema, subject);
-  
-//       const questions = await Question.find({}).sort({question_number:1});
-  
-//       res.json(questions);
-//       console.log(questions);
-//     } catch (error) {
-//       res.status(500).send(error);
-//     }
-//   });
 app.post('/api/aptitude', async (req, res) => {
   const { selectedTopics, selectedOptions } = req.body;
 
@@ -175,8 +215,6 @@ app.post('/api/aptitude', async (req, res) => {
   }
 });
 
-
-
 app.post('/add-question', async (req, res) => {
   try {
     const newQuestion = new Question(req.body);
@@ -187,20 +225,7 @@ app.post('/add-question', async (req, res) => {
   }
 });
 
-// app.post('/api/aptitude', async (req, res) => {
-//   const { selectedTopics, selectedOption } = req.body;
-
-//   console.log('Selected Topics:', selectedTopics);
-//   console.log('Selected Option:', selectedOption);
-
-
-//   res.status(200).send({ message: 'Data received successfully' });
-// });
-
-
 app.post('/aggregate-aptitude-questions', async (req, res) => {
-  // const dbNames = ['db1', 'db2', 'db3', 'db4', 'db5', 'db6', 'db7', 'db8', 'db9', 'db10'];
-  // const collectionNames = ['collection1', 'collection2', 'collection3', 'collection4', 'collection5'];
   const dbNames = ['commonAptitudeEM'];
   const collectionNames = ['allAptitude'];
   const newDbName = 'weeklyTest';
@@ -231,6 +256,21 @@ app.post('/aggregate-aptitude-questions', async (req, res) => {
   }
 });
 
+// app.get('/', (req, res) => {
+//   if (req.user) {
+//     const { uniqueId, displayName, imageUrl } = req.user;
+//     res.send(`
+//       <div>
+//         <h1>Hello ${displayName}</h1>
+//         <img src="${imageUrl}" alt="${displayName}" />
+//         <p>Your unique ID is ${uniqueId}</p>
+//       </div>
+//     `);
+//   } else {
+//     res.send('Hello Guest. Please <a href="/auth/google">login with Google</a>.');
+//   }
+// });
+
 app.get('/', (req, res) => {
   if (req.user) {
     const uniqueId = req.user.uniqueId;
@@ -240,9 +280,17 @@ app.get('/', (req, res) => {
   }
 });
 
+app.get('/api/user', (req, res) => {
+  if (req.user) {
+    const { uniqueId, displayName, imageUrl } = req.user;
+    res.json({ uniqueId, displayName, imageUrl });
+  } else {
+    res.status(401).json({ message: 'Unauthorized' });
+  }
+});
 
 app.post('/add-gs-questions', async (req, res) => {
-  const dbNames = ['generalStudiesEM']; 
+  const dbNames = ['generalStudiesEM'];
   const newDbName = 'weeklyTest';
   const newCollectionName = 'allQuestionsEM';
 
@@ -275,13 +323,11 @@ app.post('/add-gs-questions', async (req, res) => {
   }
 });
 
-
 app.post('/aggregate-tamil-questions', async (req, res) => {
-  const dbNames = ['sixthTamil', 'seventhTamil', 'eightTamil', 'ninthTamil', 'Tenth']; // Example database names
+  const dbNames = ['sixthTamil', 'seventhTamil', 'eightTamil', 'ninthTamil', 'Tenth'];
   const newDbName = 'weeklyTest';
   const newCollectionName = 'allQuestionsEM';
 
-  
   try {
     let allQuestions = [];
 
@@ -329,12 +375,6 @@ app.get('/api/weekly-test-em', async (req, res) => {
       ...aptitudeQuestions,
     ];
 
-    // console.log("totalQuestions",selectedQuestions);
-
-    // console.log('Tamil Questions:', tamilQuestions.length);
-    // console.log('GS Questions:', gsQuestions.length);
-    // console.log('Aptitude Questions:', aptitudeQuestions.length);
-
     res.status(200).send({ selectedQuestions });
   } catch (error) {
     console.error('Error fetching questions:', error);
@@ -342,9 +382,7 @@ app.get('/api/weekly-test-em', async (req, res) => {
   }
 });
 
-
-
-const PORT = process.env.PORT || 5000;
+const PORT = process.env.PORT || 3000;
 app.listen(PORT, () => {
   console.log(`Server started on http://localhost:${PORT}`);
 });
