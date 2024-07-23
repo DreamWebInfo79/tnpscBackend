@@ -318,12 +318,11 @@ app.delete('/api/delete-questions', async (req, res) => {
 
 // payment
 
-
-const SALT_KEY = '99dca50f-ca85-495c-b9d4-93175e09c059';
-const MERCHANT_ID = 'M22EBJVFV4DM6';
-const SALT_INDEX = '1';
-const BASE_URL = 'https://api-preprod.phonepe.com/apis/pg-sandbox/pg/v1/pay';
-const MAX_RETRIES = 5;
+const SALT_KEY = process.env.SALT_KEY;
+const MERCHANT_ID = process.env.MERCHANT_ID;
+const SALT_INDEX = process.env.SALT_INDEX;
+const MAX_RETRIES = process.env.MAX_RETRIES;
+const PROD_URL = process.env.PROD_URL;
 
 app.post('/api/pay',async(req,res)=>{
   try{
@@ -334,33 +333,25 @@ app.post('/api/pay',async(req,res)=>{
       merchantTransactionId:merchantTransactionId,
       merchantUserId:req.body.name + "12345",
       amount:1000,
-      redirectUrl:`http://localhost:3001/status?id=${merchantTransactionId}`,
-      redirectMode:'REDIRECT',
-      callbackUrl:`http://localhost:3001/status?id=${merchantTransactionId}`,
+      redirectUrl:`https://2mn4dxxw3hj2yrhqzbsxdyirva0uksoy.lambda-url.ap-south-1.on.aws/status?id=${merchantTransactionId}`,
+      redirectMode:'POST',
       mobileNumber: req.body.number,
       paymentInstrument:{
         type: 'PAY_PAGE'
       }
     }
-    console.log(data);
     const payload=JSON.stringify(data);
-    console.log("payload",payload)
     const payloadMain=Buffer.from(payload).toString('base64');
-    console.log("payloadMain",payloadMain);
     const keyIndex= 1
     const string = payloadMain + '/pg/v1/pay'+ SALT_KEY;
-    console.log("keyIndex",keyIndex);
     const sha256 = crypto.createHash('sha256').update(string).digest('hex');
-    console.log("sha256",sha256);
     const checksum = sha256 + '###' + keyIndex;
-    console.log("checksum",checksum);
     
-    const prod_Url = 'https://api.phonepe.com/apis/hermes/pg/v1/pay'
   
   
     const options = {
       method: 'POST',
-      url:prod_Url,
+      url:PROD_URL,
       headers: { 
         'Content-Type':'application/json',
         'X-VERIFY':checksum
@@ -382,10 +373,42 @@ console.log(e);
   }
 })
 
-app.post('/status/:id', function(req, res) {
-  console.log("success");
-})
+app.post("/status", async (req, res) => {
 
+  const merchantTransactionId = req.query.id
+  const merchantId = MERCHANT_ID
+
+  const keyIndex = 1;
+  const string = `/pg/v1/status/${merchantId}/${merchantTransactionId}` + SALT_KEY;
+  const sha256 = crypto.createHash('sha256').update(string).digest('hex');
+  const checksum = sha256 + "###" + keyIndex;
+
+  const options = {
+      method: 'GET',
+      url: `https://api-preprod.phonepe.com/apis/pg-sandbox/pg/v1/status/${merchantId}/${merchantTransactionId}`,
+      headers: {
+          accept: 'application/json',
+          'Content-Type': 'application/json',
+          'X-VERIFY': checksum,
+          'X-MERCHANT-ID': `${merchantId}`
+      }
+  };
+
+  axios.request(options).then(async (response) => {
+          if (response.data.success === true) {
+            console.log(res);
+              const url = `https://nizhaltnpsc.com/success`
+              return res.redirect(url)
+          } else {
+              const url = `https://nizhaltnpsc.com/failure`
+              return res.redirect(url)
+          }
+      })
+      .catch((error) => {
+          console.error(error);
+      });
+
+})
 
 // function generateXVerify(payloadBase64) {
 //   const data = payloadBase64 + '/pg/v1/pay' + SALT_KEY;
@@ -462,10 +485,10 @@ app.post('/status/:id', function(req, res) {
 //   }
 // });
 
-const PORT = process.env.PORT || 3000;
-app.listen(PORT, () => {
-  console.log(`Server started on http://localhost:${PORT}`);
-});
+// const PORT = process.env.PORT || 3000;
+// app.listen(PORT, () => {
+//   console.log(`Server started on http://localhost:${PORT}`);
+// });
 
 
 
