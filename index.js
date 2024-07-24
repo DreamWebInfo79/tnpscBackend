@@ -19,7 +19,7 @@ mongoose.connect(process.env.MONGO_URI, {
 
 const app = express();
 
-const allowedOrigins = ['http://localhost:3000', 'https://nizhaltnpsc.com', 'http://localhost:3001'];
+const allowedOrigins = ['http://localhost:3000', 'https://nizhaltnpsc.com', 'http://localhost:3001', 'https://www.nizhaltnpsc.com'];
 
 app.use((req, res, next) => {
   const origin = req.headers.origin;
@@ -261,8 +261,9 @@ app.get('/api/weekly-test-em', async (req, res) => {
   }
 });
 
+
 app.get('/api/duplicate-questions', async (req, res) => {
-  const { databaseName, collectionName } = req.query;
+  const { databaseName, collectionName } = req.body;
 
   try {
     const database = mongoose.connection.useDb(databaseName);
@@ -341,11 +342,14 @@ app.post('/api/pay',async(req,res)=>{
       }
     }
     const payload=JSON.stringify(data);
+    // console.log(payload);
     const payloadMain=Buffer.from(payload).toString('base64');
     const keyIndex= 1
     const string = payloadMain + '/pg/v1/pay'+ SALT_KEY;
     const sha256 = crypto.createHash('sha256').update(string).digest('hex');
     const checksum = sha256 + '###' + keyIndex;
+    // console.log("PROD_URL",PROD_URL);  
+    // console.log("SALT_KEY",SALT_KEY);
     
   
   
@@ -361,12 +365,26 @@ app.post('/api/pay',async(req,res)=>{
       }
     }
 
-    await axios(options).then(function(response) {
-      console.log(response.data);
+
+    await axios(options).then(function (response) {
+      res.setHeader('Access-Control-Allow-Origin', 'https://nizhaltnpsc.com');
+      res.setHeader('Access-Control-Allow-Methods', 'GET, POST, OPTIONS, PUT, PATCH, DELETE');
+      res.setHeader('Access-Control-Allow-Headers', 'X-Requested-With,content-type');
+      res.setHeader('Access-Control-Allow-Credentials', true);
       return res.json(response.data);
-    }).catch(function(err) {
+    }).catch(function (err) {
       console.log(err);
+
+    //   await axios(options).then(function (response) {
+    //     console.log(response.data);
+    //     return res.json(response.data);
+    // }).catch(function (err) {
+    //   console.log(err);
+    
+
+      res.status(500).send({ message: `Error processing payment ${err}`});
     });
+
   
   }catch(e){
 console.log(e);
@@ -485,10 +503,10 @@ app.post("/status", async (req, res) => {
 //   }
 // });
 
-// const PORT = process.env.PORT || 3000;
-// app.listen(PORT, () => {
-//   console.log(`Server started on http://localhost:${PORT}`);
-// });
+const PORT = process.env.PORT || 3000;
+app.listen(PORT, () => {
+  console.log(`Server started on http://localhost:${PORT}`);
+});
 
 
 
