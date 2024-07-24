@@ -35,8 +35,8 @@ POST http://localhost:3000/api/duplicate-questions
 Content-Type: application/json
 
 {
-    "databaseName":"aptitudeEM",
-    "collectionName":"12-16Unit"
+    "databaseName":"seventhTamil",
+    "collectionName":"termTwoUnitOne"
 }
 
 ###
@@ -44,10 +44,30 @@ POST http://localhost:3000/api/delete-questions
 Content-Type: application/json
 
 {
-    "databaseName":"aptitudeEM",
-    "collectionName":"12-16Unit",
-    "ids":["1","2","3","4"]
-}
+    "databaseName":"seventhTamil",
+    "collectionName":"termTwoUnitOne",
+    "ids":[
+    "667fca493d73a20b0ed5d702",
+    "667fca493d73a20b0ed5d6e8",
+    "667fca493d73a20b0ed5d6ee",
+    "667fca493d73a20b0ed5d6ed",
+    "667fca493d73a20b0ed5d6fd",
+    "667fca493d73a20b0ed5d6f7",
+    "667fca493d73a20b0ed5d6fb",
+    "667fca493d73a20b0ed5d708",
+    "667fca493d73a20b0ed5d6f2",
+    "667fca493d73a20b0ed5d701",
+    "667fca493d73a20b0ed5d6f4",
+    "667fca493d73a20b0ed5d6eb",
+    "667fca493d73a20b0ed5d6f6",
+    "667fca493d73a20b0ed5d6fa",
+    "667fca493d73a20b0ed5d6ef",
+    "667fca493d73a20b0ed5d700",
+    "667fca493d73a20b0ed5d709",
+    "667fca493d73a20b0ed5d6f0",
+    "667fca493d73a20b0ed5d704",
+    "667fca493d73a20b0ed5d705",
+    "667fca493d73a20b0ed5d6fe"  ]
+    }
 
 
-content

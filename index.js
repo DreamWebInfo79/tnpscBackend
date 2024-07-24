@@ -2,6 +2,7 @@ require('dotenv').config();
 const serverless = require('serverless-http');
 const express = require('express');
 const session = require('express-session');
+const bodyParser = require('body-parser');
 const passport = require('passport');
 const mongoose = require('mongoose');
 const axios = require('axios');
@@ -18,6 +19,8 @@ mongoose.connect(process.env.MONGO_URI, {
 });
 
 const app = express();
+
+
 
 const allowedOrigins = ['http://localhost:3000', 'https://nizhaltnpsc.com', 'http://localhost:3001', 'https://www.nizhaltnpsc.com'];
 
@@ -36,7 +39,9 @@ const UserSchema = new mongoose.Schema({
   googleId: String,
   displayName: String,
   email: String,
-  uniqueId: String
+  uniqueId: String,
+  plan: String,
+  count: Number,
 });
 
 const secret = crypto.randomBytes(32).toString('hex');
@@ -46,6 +51,7 @@ app.use(passport.initialize());
 app.use(passport.session());
 app.use(express.json());
 app.use(express.urlencoded({extended: true}));
+app.use(bodyParser.json());
 
 function generateUniqueId() {
   return uuidv4();
@@ -100,7 +106,9 @@ async (accessToken, refreshToken, profile, done) => {
         googleId: profile.id,
         displayName: profile.displayName,
         email: profile.emails[0].value,
-        uniqueId: uniqueId
+        uniqueId: uniqueId,
+        plan:"free",
+        count:0,
       });
       await user.save();
     }
@@ -112,7 +120,6 @@ async (accessToken, refreshToken, profile, done) => {
       profileImageUrl
     };
 
-    console.log(userWithProfileImage);
     return done(null, userWithProfileImage);
   } catch (err) {
     return done(err, null);
@@ -149,7 +156,9 @@ app.get('/auth/google',
           googleId: payload.sub,
           displayName: payload.name,
           email: payload.email,
-          uniqueId: uniqueId
+          uniqueId: uniqueId,
+          plan:"free",
+          count:0,
         });
         await user.save();
       }
@@ -177,31 +186,56 @@ app.get('/helloworld', (req, res) => {
 });
 
 app.post('/questions', async (req, res) => {
-  const { standard, subject } = req.body;
+  const { user_id, standard, subject } = req.body;
 
   try {
+    const user = await User.findById(user_id); 
+    if (!user) {
+      return res.status(404).send({ message: 'User not found' });
+    }
+
+    const isNotPremiumOrBasic = user.plan !== 'premium' && user.plan !== 'basic';
+    
+    if (isNotPremiumOrBasic) {
+      user.count = (user.count || 0) + 1;
+      await user.save();
+    }
+
     const database = mongoose.connection.useDb(standard);
     const Question = database.model('Question', QuestionSchema, subject);
-
     const questions = await Question.aggregate([{ $sample: { size: 20 } }]);
 
     res.json(questions);
     console.log(questions);
   } catch (error) {
+    console.error('Error processing request:', error);
     res.status(500).send(error);
   }
 });
 
-app.post('/api/aptitude', async (req, res) => {
-  const { selectedTopics, selectedOptions } = req.body;
 
+app.post('/api/aptitude', async (req, res) => {
+  const { user_id, selectedTopics, selectedOptions, selectedLanguage } = req.body;
+  // const selectedLanguage = need to send from frontend databasename there is only two databse
+  // commonAptitudeEM and commonAptitudeTM
   try {
+    const user = await User.findById(user_id); 
+    if (!user) {
+      return res.status(404).send({ message: 'User not found' });
+    }
+
+    const isNotPremiumOrBasic = user.plan !== 'premium' && user.plan !== 'basic';
+
+    if (isNotPremiumOrBasic) {
+      user.count = (user.count || 0) + 1;
+      await user.save();
+    }
+
     let questions = [];
     for (const topic of selectedTopics) {
-      const database = mongoose.connection.useDb("commonAptitudeEM");
+      const database = mongoose.connection.useDb(selectedLanguage);
       const Question = database.model('Question', QuestionSchema, "allAptitude");
 
-      // Fetch a random set of `selectedOptions` questions for each topic
       const topicQuestions = await Question.aggregate([
         { $match: { topic: topic } },
         { $sample: { size: selectedOptions } }
@@ -218,14 +252,15 @@ app.post('/api/aptitude', async (req, res) => {
 });
 
 
-app.get('/', (req, res) => {
-  if (req.user) {
-    const uniqueId = req.user.uniqueId;
-    res.send(`Hello ${req.user.displayName}. Your unique ID is ${uniqueId}.`);
-  } else {
-    res.send('Hello Guest. Please <a href="/auth/google">login with Google</a>.');
-  }
-});
+
+// app.get('/', (req, res) => {
+//   if (req.user) {
+//     const uniqueId = req.user.uniqueId;
+//     res.send(`Hello ${req.user.displayName}. Your unique ID is ${uniqueId}.`);
+//   } else {
+//     res.send('Hello Guest. Please <a href="/auth/google">login with Google</a>.');
+//   }
+// });
 
 app.get('/api/user', (req, res) => {
   if (req.user) {
@@ -239,8 +274,20 @@ app.get('/api/user', (req, res) => {
 app.get('/api/weekly-test-em', async (req, res) => {
   const newDbName = 'weeklyTest';
   const newCollectionName = 'allQuestionsEM';
+  const user_id = req.body.user_id; 
 
   try {
+    const user = await User.findById(user_id); 
+    if (!user) {
+      return res.status(404).send({ message: 'User not found' });
+    }
+
+    const isPremiumOrBasic = user.plan === 'premium' || user.plan === 'basic';
+    
+    if (!isPremiumOrBasic) {
+      return res.status(403).send({ message: 'Access denied. Premium or basic plan required.' });
+    }
+
     const aggregatedDb = mongoose.connection.useDb(newDbName);
     const AggregatedQuestion = aggregatedDb.model('AggregatedQuestion', QuestionSchema, newCollectionName);
 
@@ -262,7 +309,8 @@ app.get('/api/weekly-test-em', async (req, res) => {
 });
 
 
-app.get('/api/duplicate-questions', async (req, res) => {
+
+app.post('/api/duplicate-questions', async (req, res) => {
   const { databaseName, collectionName } = req.body;
 
   try {
@@ -284,14 +332,25 @@ app.get('/api/duplicate-questions', async (req, res) => {
       }
     ]);
 
-    res.status(200).json(duplicateQuestions);
+    const duplicateIdsToKeep = [];
+    const remainingIds = [];
+
+    duplicateQuestions.forEach(group => {
+      duplicateIdsToKeep.push(group.docs[0]._id);
+      
+      for (let i = 1; i < group.docs.length; i++) {
+        remainingIds.push(group.docs[i]._id);
+      }
+    });
+
+    res.status(200).json({duplicateQuestions,remainingIds});
   } catch (error) {
     console.error('Error fetching duplicate questions:', error);
     res.status(500).send({ message: 'Error fetching duplicate questions' });
   }
 });
 
-app.delete('/api/delete-questions', async (req, res) => {
+app.post('/api/delete-questions', async (req, res) => {
   const { databaseName, collectionName, ids } = req.body;
 
   if (!Array.isArray(ids) || ids.length === 0) {
@@ -307,6 +366,7 @@ app.delete('/api/delete-questions', async (req, res) => {
     if (result.deletedCount === 0) {
       return res.status(404).send({ message: 'No questions found to delete' });
     }
+    console.log(res)
 
     res.status(200).send({ message: 'Questions deleted successfully', deletedCount: result.deletedCount });
   } catch (error) {
@@ -332,8 +392,8 @@ app.post('/api/pay',async(req,res)=>{
     const data={
       merchantId:MERCHANT_ID,
       merchantTransactionId:merchantTransactionId,
-      merchantUserId:req.body.name + "12345",
-      amount:1000,
+      merchantUserId:`${req.body.name}12345`,
+      amount:req.body.amount * 100,
       redirectUrl:`https://2mn4dxxw3hj2yrhqzbsxdyirva0uksoy.lambda-url.ap-south-1.on.aws/status?id=${merchantTransactionId}`,
       redirectMode:'POST',
       mobileNumber: req.body.number,
@@ -367,7 +427,7 @@ app.post('/api/pay',async(req,res)=>{
 
 
     await axios(options).then(function (response) {
-      res.setHeader('Access-Control-Allow-Origin', 'https://nizhaltnpsc.com');
+      res.setHeader('Access-Control-Allow-Origin', 'https://nizhaltnpsc.com', '*');
       res.setHeader('Access-Control-Allow-Methods', 'GET, POST, OPTIONS, PUT, PATCH, DELETE');
       res.setHeader('Access-Control-Allow-Headers', 'X-Requested-With,content-type');
       res.setHeader('Access-Control-Allow-Credentials', true);
@@ -387,14 +447,13 @@ app.post('/api/pay',async(req,res)=>{
 
   
   }catch(e){
-console.log(e);
+    console.log(e);
   }
 })
 
-app.post("/status", async (req, res) => {
-
-  const merchantTransactionId = req.query.id
-  const merchantId = MERCHANT_ID
+app.post('/status', async (req, res) => {
+  const merchantTransactionId = req.query.id;
+  const merchantId = MERCHANT_ID;
 
   const keyIndex = 1;
   const string = `/pg/v1/status/${merchantId}/${merchantTransactionId}` + SALT_KEY;
@@ -402,106 +461,53 @@ app.post("/status", async (req, res) => {
   const checksum = sha256 + "###" + keyIndex;
 
   const options = {
-      method: 'GET',
-      url: `https://api-preprod.phonepe.com/apis/pg-sandbox/pg/v1/status/${merchantId}/${merchantTransactionId}`,
-      headers: {
-          accept: 'application/json',
-          'Content-Type': 'application/json',
-          'X-VERIFY': checksum,
-          'X-MERCHANT-ID': `${merchantId}`
-      }
+    method: 'GET',
+    url: `https://api-preprod.phonepe.com/apis/pg-sandbox/pg/v1/status/${merchantId}/${merchantTransactionId}`,
+    headers: {
+      accept: 'application/json',
+      'Content-Type': 'application/json',
+      'X-VERIFY': checksum,
+      'X-MERCHANT-ID': `${merchantId}`
+    }
   };
 
-  axios.request(options).then(async (response) => {
-          if (response.data.success === true) {
-            console.log(res);
-              const url = `https://nizhaltnpsc.com/success`
-              return res.redirect(url)
-          } else {
-              const url = `https://nizhaltnpsc.com/failure`
-              return res.redirect(url)
-          }
-      })
-      .catch((error) => {
-          console.error(error);
-      });
+  try {
+    const response = await axios.request(options);
 
-})
+    if (response.data.success === true) {
+      const paymentData = response.data; 
 
-// function generateXVerify(payloadBase64) {
-//   const data = payloadBase64 + '/pg/v1/pay' + SALT_KEY;
-//   const hash = crypto.createHash('sha256').update(data).digest('hex');
-//   return `${hash}###${SALT_INDEX}`;
-// }
+      const user_id = paymentData.user_id;
+      const amount = paymentData.amount;
 
-// async function makeRequestWithRetry(url, data, headers, retries = 0) {
-//   try {
-//     const response = await axios.post(url, data, { headers });
-//     return response.data;
-//   } catch (error) {
-//     if (error.response && error.response.status === 429 && retries < MAX_RETRIES) {
-//       const retryAfter = parseInt(error.response.headers['retry-after'], 10) || 1;
-//       await new Promise(resolve => setTimeout(resolve, retryAfter * 1000 * (2 ** retries)));
-//       return makeRequestWithRetry(url, data, headers, retries + 1);
-//     } else {
-//       throw error;
-//     }
-//   }
-// }
+      let plan;
+      if (amount === 99) {
+        plan = 'basic';
+      } else if (amount === 199) {
+        plan = 'premium';
+      }
 
-// app.post('/api/pay', async (req, res) => {
-//   const { merchantTransactionId, merchantUserId, amount, redirectUrl, callbackUrl, mobileNumber } = req.body;
+      // Update the user's plan in the database
+      if (plan) {
+        await User.findByIdAndUpdate(user_id, { $set: { plan } });
+      }
 
-//   const payload = {
-//     merchantId: MERCHANT_ID,
-//     merchantTransactionId,
-//     merchantUserId,
-//     amount,
-//     redirectUrl,
-//     redirectMode: 'REDIRECT',
-//     callbackUrl,
-//     mobileNumber,
-//     paymentInstrument: {
-//       type: 'PAY_PAGE'
-//     }
-//   };
+      // Redirect to success page
+      const successUrl = `https://nizhaltnpsc.com/payment/success`;
+      return res.redirect(successUrl);
+    } else {
+      // Redirect to failure page if payment was not successful
+      const failureUrl = `https://nizhaltnpsc.com/payment/failure`;
+      return res.redirect(failureUrl);
+    }
+  } catch (error) {
+    console.error('Error verifying payment status:', error);
+    const failureUrl = `https://nizhaltnpsc.com/payment/failure`;
+    return res.redirect(failureUrl);
+  }
+});
 
-//   const newPayload={
-//     "merchantId": "PGTESTPAYUAT",
-//     "merchantTransactionId": "MT7850590068188104",
-//     "merchantUserId": "MUID123",
-//     "amount": 10000,
-//     "redirectUrl": "http://localhost:3000/",
-//     "redirectMode": "REDIRECT",
-//     "callbackUrl": "http://localhost:3000/callback-url",
-//     "mobileNumber": "9999999999",
-//     "paymentInstrument": {
-//       "type": "PAY_PAGE"
-//     }
-//   }
 
-//   const payloadBase64 = Buffer.from(JSON.stringify(newPayload)).toString('base64');
-//   const xVerify = generateXVerify(payloadBase64);
-
-//   const headers = {
-//     'Content-Type': 'application/json',
-//     'X-VERIFY': xVerify
-//   };
-
-//   const data = {
-//     request: payloadBase64
-//   };
-
-//   try {
-//     const response = await makeRequestWithRetry(BASE_URL, data, headers);
-//     res.json(response);
-//     console.log(response)
-//   } catch (error) {
-//     console.log(response)
-//     // console.error('Error initiating payment:', error);
-//     res.status(500).send('Internal Server Error');
-//   }
-// });
 
 const PORT = process.env.PORT || 3000;
 app.listen(PORT, () => {
