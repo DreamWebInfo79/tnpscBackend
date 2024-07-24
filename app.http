@@ -1,5 +1,5 @@
 
-POST http://localhost:5000/aptitude
+POST http://localhost:3000/aptitude
 Content-Type: application/json
 
 {
@@ -9,7 +9,7 @@ Content-Type: application/json
 
 
 ###
-POST http://localhost:5000/aptitude
+POST http://localhost:3000/aptitude
 Content-Type: application/json
 
 {
@@ -18,25 +18,27 @@ Content-Type: application/json
 }
 
 ###
-POST http://localhost:5000/api/aptitude 
+POST http://localhost:3000/api/aptitude 
 Content-Type: application/json
 
 {
+    "user_id": "f359857a-1bac-4f37-9d73-27b19bf26eed",
     "selectedTopics":["simplification", "percentage", "rp"],
-    "selectedOptions":5
+    "selectedOptions":5,
+    "selectedLanguage":"commonAptitudeEM"
 }
 
 
 ###
-GET http://localhost:5000/api/weekly-test-em
+GET http://localhost:3000/api/weekly-test-em
 
 ###
 POST http://localhost:3000/api/duplicate-questions 
 Content-Type: application/json
 
 {
-    "databaseName":"seventhTamil",
-    "collectionName":"termTwoUnitOne"
+    "databaseName":"Tenth",
+    "collectionName":"unitEight"
 }
 
 ###
@@ -44,30 +46,18 @@ POST http://localhost:3000/api/delete-questions
 Content-Type: application/json
 
 {
-    "databaseName":"seventhTamil",
-    "collectionName":"termTwoUnitOne",
-    "ids":[
-    "667fca493d73a20b0ed5d702",
-    "667fca493d73a20b0ed5d6e8",
-    "667fca493d73a20b0ed5d6ee",
-    "667fca493d73a20b0ed5d6ed",
-    "667fca493d73a20b0ed5d6fd",
-    "667fca493d73a20b0ed5d6f7",
-    "667fca493d73a20b0ed5d6fb",
-    "667fca493d73a20b0ed5d708",
-    "667fca493d73a20b0ed5d6f2",
-    "667fca493d73a20b0ed5d701",
-    "667fca493d73a20b0ed5d6f4",
-    "667fca493d73a20b0ed5d6eb",
-    "667fca493d73a20b0ed5d6f6",
-    "667fca493d73a20b0ed5d6fa",
-    "667fca493d73a20b0ed5d6ef",
-    "667fca493d73a20b0ed5d700",
-    "667fca493d73a20b0ed5d709",
-    "667fca493d73a20b0ed5d6f0",
-    "667fca493d73a20b0ed5d704",
-    "667fca493d73a20b0ed5d705",
-    "667fca493d73a20b0ed5d6fe"  ]
+    "databaseName":"Tenth",
+    "collectionName":"unitEight",
+    "ids":   [
+    "66825980b7f9839d1d2fda38",
+    "66825980b7f9839d1d2fda3a",
+    "66825980b7f9839d1d2fda3c",
+    "66825980b7f9839d1d2fda35",
+    "66825980b7f9839d1d2fda36",
+    "66825980b7f9839d1d2fda37",
+    "66825980b7f9839d1d2fda39",
+    "66825980b7f9839d1d2fda3b"
+  ]
     }
 
 

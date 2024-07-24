@@ -189,7 +189,7 @@ app.post('/questions', async (req, res) => {
   const { user_id, standard, subject } = req.body;
 
   try {
-    const user = await User.findById(user_id); 
+    const user = await User.findOne({ uniqueId: user_id }); 
     if (!user) {
       return res.status(404).send({ message: 'User not found' });
     }
@@ -219,10 +219,12 @@ app.post('/api/aptitude', async (req, res) => {
   // const selectedLanguage = need to send from frontend databasename there is only two databse
   // commonAptitudeEM and commonAptitudeTM
   try {
-    const user = await User.findById(user_id); 
+    const user = await User.findOne({ uniqueId: user_id }); 
     if (!user) {
       return res.status(404).send({ message: 'User not found' });
     }
+
+    console.log(user);
 
     const isNotPremiumOrBasic = user.plan !== 'premium' && user.plan !== 'basic';
 
@@ -277,7 +279,7 @@ app.get('/api/weekly-test-em', async (req, res) => {
   const user_id = req.body.user_id; 
 
   try {
-    const user = await User.findById(user_id); 
+    const user = await User.findOne({ uniqueId: user_id }); 
     if (!user) {
       return res.status(404).send({ message: 'User not found' });
     }
@@ -388,13 +390,14 @@ const PROD_URL = process.env.PROD_URL;
 app.post('/api/pay',async(req,res)=>{
   try{
     let merchantTransactionId=req.body.transactionId;
+    let user_id=req.body.userId;
 
     const data={
       merchantId:MERCHANT_ID,
       merchantTransactionId:merchantTransactionId,
       merchantUserId:`${req.body.name}12345`,
       amount:req.body.amount * 100,
-      redirectUrl:`https://2mn4dxxw3hj2yrhqzbsxdyirva0uksoy.lambda-url.ap-south-1.on.aws/status?id=${merchantTransactionId}`,
+      redirectUrl:`https://2mn4dxxw3hj2yrhqzbsxdyirva0uksoy.lambda-url.ap-south-1.on.aws/status?id=${merchantTransactionId}user_id=${user_id}`,
       redirectMode:'POST',
       mobileNumber: req.body.number,
       paymentInstrument:{
@@ -453,6 +456,7 @@ app.post('/api/pay',async(req,res)=>{
 
 app.post('/status', async (req, res) => {
   const merchantTransactionId = req.query.id;
+  const user_id=req.query.user_id;
   const merchantId = MERCHANT_ID;
 
   const keyIndex = 1;
@@ -477,7 +481,7 @@ app.post('/status', async (req, res) => {
     if (response.data.success === true) {
       const paymentData = response.data; 
 
-      const user_id = paymentData.user_id;
+      // const user_id = paymentData.user_id;
       const amount = paymentData.amount;
 
       let plan;
@@ -485,18 +489,16 @@ app.post('/status', async (req, res) => {
         plan = 'basic';
       } else if (amount === 199) {
         plan = 'premium';
+      }else if (amount === 1){
+        plan="standard"
       }
 
-      // Update the user's plan in the database
       if (plan) {
-        await User.findByIdAndUpdate(user_id, { $set: { plan } });
+        await User.findOneAndUpdate({ uniqueId: user_id }, { $set: { plan } });
       }
-
-      // Redirect to success page
       const successUrl = `https://nizhaltnpsc.com/payment/success`;
       return res.redirect(successUrl);
     } else {
-      // Redirect to failure page if payment was not successful
       const failureUrl = `https://nizhaltnpsc.com/payment/failure`;
       return res.redirect(failureUrl);
     }
@@ -513,9 +515,6 @@ const PORT = process.env.PORT || 3000;
 app.listen(PORT, () => {
   console.log(`Server started on http://localhost:${PORT}`);
 });
-
-
-
 
 
 module.exports.handler = serverless(app);
