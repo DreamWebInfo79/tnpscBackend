@@ -37,8 +37,8 @@ POST http://localhost:3000/api/duplicate-questions
 Content-Type: application/json
 
 {
-    "databaseName":"weeklyTest",
-    "collectionName":"allQuestionsEM"
+    "databaseName":"commonAptitudeEM",
+    "collectionName":"allAptitude"
 }
 
 ###
@@ -46,13 +46,29 @@ POST http://localhost:3000/api/delete-questions
 Content-Type: application/json
 
 {
-    "databaseName":"weeklyTest",
-    "collectionName":"allQuestionsEM",
+    "databaseName":"commonAptitudeEM",
+    "collectionName":"allAptitude",
     "ids":[
-    "667d9002981319e70d2b0ddc",
-    "667fcebf3d73a20b0ee1362d",
-    "667ecafd981319e70d2eb693",
-    "667ecafd981319e70d2eb687"  ]
+    "6686f2bab7f9839d1d8374df",
+    "66881513b7f9839d1d56aa5a",
+    "66881513b7f9839d1d56aa5c",
+    "66881513b7f9839d1d56aa59",
+    "6686ee27b7f9839d1d784940",
+    "66881513b7f9839d1d56aa5b",
+    "6686ee27b7f9839d1d784960",
+    "66881782b7f9839d1d5ccf48",
+    "66881513b7f9839d1d56aa5d",
+    "6686f2bab7f9839d1d8374e0",
+    "6686ee27b7f9839d1d784938",
+    "6686ee27b7f9839d1d784964",
+    "6686f2bab7f9839d1d8374e1",
+    "66881513b7f9839d1d56aa58",
+    "6686ee27b7f9839d1d784941",
+    "6686f2bab7f9839d1d8374db",
+    "6686f2bab7f9839d1d8374e2",
+    "6686ee27b7f9839d1d784950",
+    "66881782b7f9839d1d5ccf3d",
+    "66881782b7f9839d1d5ccf4d"  ]
     }
 
 
@@ -70,3 +86,7 @@ Content-Type: application/json
     "amount": 1,
     "number": "9999999999"
 }
+
+
+###
+POST http://localhost:3000/aggregate-aptitude-questions

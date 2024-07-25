@@ -315,10 +315,10 @@ app.get('/api/weekly-test-em', async (req, res) => {
 app.post('/aggregate-aptitude-questions', async (req, res) => {
   // const dbNames = ['db1', 'db2', 'db3', 'db4', 'db5', 'db6', 'db7', 'db8', 'db9', 'db10'];
   // const collectionNames = ['collection1', 'collection2', 'collection3', 'collection4', 'collection5'];
-  const dbNames = ['commonAptitudeEM'];
-  const collectionNames = ['allAptitude'];
-  const newDbName = 'weeklyTest';
-  const newCollectionName = 'allQuestionsEM';
+  const dbNames = ['aptitudeEM'];
+  const collectionNames = ['1-4thUnit', '8-12Unit','5-6thUnit','12-16Unit'];
+  const newDbName = 'commonAptitudeEM';
+  const newCollectionName = 'allAptitude';
 
   try {
     let allQuestions = [];
