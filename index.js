@@ -519,6 +519,8 @@ app.post('/status/:transactionId/:user_id', async (req, res) => {
                   plan = 'basic';
               } else if (amount === 199) {
                   plan = 'premium';
+              }else{
+                plan = 'free';
               }
               if (plan) {
                   await User.findOneAndUpdate({ uniqueId: user_id }, { $set: { plan } });
@@ -542,7 +544,7 @@ app.post('/status/:transactionId/:user_id', async (req, res) => {
   const interval = setInterval(async () => {
       attempts++;
       await pollPaymentStatus();
-  }, 2000);
+  }, 3000);
 
   await pollPaymentStatus();
 });
