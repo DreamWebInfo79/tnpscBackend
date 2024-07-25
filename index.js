@@ -311,6 +311,40 @@ app.get('/api/weekly-test-em', async (req, res) => {
 });
 
 
+//API USED TO MERGE COLLECTIONS
+app.post('/aggregate-aptitude-questions', async (req, res) => {
+  // const dbNames = ['db1', 'db2', 'db3', 'db4', 'db5', 'db6', 'db7', 'db8', 'db9', 'db10'];
+  // const collectionNames = ['collection1', 'collection2', 'collection3', 'collection4', 'collection5'];
+  const dbNames = ['commonAptitudeEM'];
+  const collectionNames = ['allAptitude'];
+  const newDbName = 'weeklyTest';
+  const newCollectionName = 'allQuestionsEM';
+
+  try {
+    let allQuestions = [];
+
+    for (const dbName of dbNames) {
+      const db = mongoose.connection.useDb(dbName);
+
+      for (const collectionName of collectionNames) {
+        const Question = db.model('Question', QuestionSchema, collectionName);
+        const questions = await Question.find({}).lean();
+        allQuestions = allQuestions.concat(questions);
+      }
+    }
+
+    const aggregatedDb = mongoose.connection.useDb(newDbName);
+    const AggregatedQuestion = aggregatedDb.model('AggregatedQuestion', QuestionSchema, newCollectionName);
+
+    await AggregatedQuestion.insertMany(allQuestions.map(q => ({ ...q, type: 'aptitude' })));
+
+    res.status(201).send('Aptitude questions aggregated successfully');
+  } catch (error) {
+    console.error('Error aggregating aptitude questions:', error);
+    res.status(500).send({ message: 'Error aggregating aptitude questions' });
+  }
+});
+
 
 app.post('/api/duplicate-questions', async (req, res) => {
   const { databaseName, collectionName } = req.body;
@@ -436,54 +470,6 @@ app.post('/api/pay', async (req, res) => {
   }
 });
 
-// app.post('/status/:transactionId/:user_id', async (req, res) => {
-//   const merchantTransactionId = req.params.transactionId; 
-//   const user_id = req.params.user_id;
-//   const merchantId = MERCHANT_ID;
-//   const keyIndex = 1;
-//   const string = `/pg/v1/status/${merchantId}/${merchantTransactionId}` + SALT_KEY;
-//   const sha256 = crypto.createHash('sha256').update(string).digest('hex');
-//   const checksum = sha256 + "###" + keyIndex;
-
-
-//   const options = {
-//       method: 'GET',
-//       url: `https://api.phonepe.com/apis/hermes/pg/v1/status/${merchantId}/${merchantTransactionId}`,
-//       headers: {
-//           accept: 'application/json',
-//           'Content-Type': 'application/json',
-//           'X-VERIFY': checksum,
-//           'X-MERCHANT-ID': `${merchantId}`
-//       }
-//   };
-
-// const response= await axios.request(options)
-//   try {
-//       const response = await axios.request(options);
-//       if (response.data.code === "PAYMENT_SUCCESS") {
-//           const paymentData = response.data;
-//           const amount = paymentData.data.amount;
-//           let plan;
-//           if (amount === 99) {
-//               plan = 'basic';
-//           } else if (amount === 199) {
-//               plan = 'premium';
-//           }
-//           if (plan) {
-//               await User.findOneAndUpdate({ uniqueId: user_id }, { $set: { plan } });
-//           }
-//           const successUrl = 'https://nizhaltnpsc.com/payment/success';
-//           return res.redirect(successUrl);
-//       } else {
-//           const failureUrl = 'https://nizhaltnpsc.com/payment/failure';
-//           return res.redirect(failureUrl);
-//       }
-//   } catch (error) {
-//       console.error('Error verifying payment status:', error);
-//       const failureUrl = 'https://nizhaltnpsc.com/payment/failuree';
-//       return res.redirect(failureUrl);
-//   }
-// });
 
 app.post('/status/:transactionId/:user_id', async (req, res) => {
   const merchantTransactionId = req.params.transactionId; 
