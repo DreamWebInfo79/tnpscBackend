@@ -37,8 +37,8 @@ POST http://localhost:3000/api/duplicate-questions
 Content-Type: application/json
 
 {
-    "databaseName":"Tenth",
-    "collectionName":"unitEight"
+    "databaseName":"weeklyTest",
+    "collectionName":"allQuestionsEM"
 }
 
 ###
@@ -46,18 +46,105 @@ POST http://localhost:3000/api/delete-questions
 Content-Type: application/json
 
 {
-    "databaseName":"Tenth",
-    "collectionName":"unitEight",
-    "ids":   [
-    "66825980b7f9839d1d2fda38",
-    "66825980b7f9839d1d2fda3a",
-    "66825980b7f9839d1d2fda3c",
-    "66825980b7f9839d1d2fda35",
-    "66825980b7f9839d1d2fda36",
-    "66825980b7f9839d1d2fda37",
-    "66825980b7f9839d1d2fda39",
-    "66825980b7f9839d1d2fda3b"
-  ]
+    "databaseName":"weeklyTest",
+    "collectionName":"allQuestionsEM",
+    "ids":[
+    "66805c9b3d73a20b0e3e2cf6",
+    "66805c9b3d73a20b0e3e2cda",
+    "668258deb7f9839d1d2e53aa",
+    "668258deb7f9839d1d2e53b2",
+    "668258deb7f9839d1d2e53ba",
+    "668258deb7f9839d1d2e53c7",
+    "667d781e981319e70def7148",
+    "667d7b89981319e70df7b024",
+    "667d7b89981319e70df7b01a",
+    "667d695f981319e70dc9bb4c",
+    "667d695f981319e70dc9bb6a",
+    "667d6962981319e70dc9c292",
+    "667d6962981319e70dc9c288",
+    "667d6962981319e70dc9c27e",
+    "667d6962981319e70dc9c274",
+    "667eefc13915bae08417aa3c",
+    "667eefc13915bae08417aa48",
+    "667eefc13915bae08417aa54",
+    "66805c9b3d73a20b0e3e2cf5",
+    "66805c9b3d73a20b0e3e2cff",
+    "66825a59b7f9839d1d323663",
+    "66825a59b7f9839d1d32366a",
+    "66825a59b7f9839d1d323671",
+    "66825a59b7f9839d1d323678",
+    "66859b9cb7f9839d1d34837e",
+    "667ef55f3915bae08425e9e6",
+    "667ef55f3915bae08425e9f2",
+    "667ef55f3915bae08425e9fe",
+    "66881513b7f9839d1d56aa5a",
+    "66825426b7f9839d1d21c578",
+    "667d9002981319e70d2b0ddc",
+    "667fcebf3d73a20b0ee1362d",
+    "667ef6773915bae084289373",
+    "667ef6773915bae08428937a",
+    "667ef6773915bae084289381",
+    "668257a1b7f9839d1d2b2262",
+    "668257a1b7f9839d1d2b2270",
+    "667d695f981319e70dc9bb58",
+    "667d695f981319e70dc9bb4e",
+    "667d695f981319e70dc9bb6c",
+    "667d6962981319e70dc9c280",
+    "667d6962981319e70dc9c28a",
+    "667d6962981319e70dc9c294",
+    "667d6962981319e70dc9c276",
+    "668161b13d73a20b0e961453",
+    "668161b13d73a20b0e96145b",
+    "668161b13d73a20b0e961463",
+    "668161b13d73a20b0e96146b",
+    "668161b13d73a20b0e961473",
+    "668257a1b7f9839d1d2b2264",
+    "668257a1b7f9839d1d2b2272",
+    "66805c9b3d73a20b0e3e2cf7",
+    "667d23e1981319e70d128f0e",
+    "667d23e1981319e70d128f19",
+    "667d23e1981319e70d128efa",
+    "667d23e1981319e70d128f06",
+    "667d23e1981319e70d128f1d",
+    "667d23e1981319e70d128f02",
+    "667d23e1981319e70d128f11",
+    "667d23e1981319e70d128efe",
+    "667d23e1981319e70d128f0a",
+    "667d23e1981319e70d128f15",
+    "6681999b3d73a20b0e1b319d",
+    "6681999b3d73a20b0e1b3185",
+    "6681999b3d73a20b0e1b3179",
+    "66819ae43d73a20b0e1e42be",
+    "66819ae43d73a20b0e1e42ca",
+    "66825a59b7f9839d1d323661",
+    "66825a59b7f9839d1d323668",
+    "66825a59b7f9839d1d32366f",
+    "66825a59b7f9839d1d323676",
+    "66825a59b7f9839d1d32367d",
+    "668162703d73a20b0e97d17e",
+    "66859b9cb7f9839d1d34837c",
+    "667ee4d13915bae084fbba6d",
+    "667ee4d13915bae084fbba77",
+    "667ee4d13915bae084fbba81",
+    "66815e3a3d73a20b0e8e014d",
+    "667ef55f3915bae08425e9e8",
+    "667ef55f3915bae08425e9f4",
+    "667ecafd981319e70d2eb693",
+    "667ecafd981319e70d2eb687"  ]
     }
 
 
+###
+POST http://localhost:3000/status?id=T324897238568
+
+###
+POST http://localhost:3000/api/pay 
+Content-Type: application/json
+
+{
+    "transactionId": "T324897238568",
+    "userId": "b0b6555d-637f-45d4-9f96-3aad3bd54404",
+    "name": "jeevan",
+    "amount": 1,
+    "number": "9999999999"
+}
