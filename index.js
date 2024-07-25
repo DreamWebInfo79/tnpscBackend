@@ -381,80 +381,153 @@ app.post('/api/delete-questions', async (req, res) => {
 
 // payment
 
-const SALT_KEY = process.env.SALT_KEY;
-const MERCHANT_ID = process.env.MERCHANT_ID;
-const SALT_INDEX = process.env.SALT_INDEX;
-const MAX_RETRIES = process.env.MAX_RETRIES;
-const PROD_URL = process.env.PROD_URL;
+const SALT_KEY = process.env.PHONEPE_API_KEY;
+const MERCHANT_ID = process.env.PHONEPE_MERCHANT_ID;
+const SALT_INDEX = process.env.PHONEPE_KEY_INDEX;
+const MAX_RETRIES = process.env.PHONEPE_MAX_RETRIES;
+const PROD_URL = process.env.PHONEPE_URL;
 
-app.post('/api/pay',async(req,res)=>{
-  try{
-    let merchantTransactionId=req.body.transactionId;
-    let user_id=req.body.userId;
+app.post('/api/pay', async (req, res) => {
+  try {
+      let merchantTransactionId = req.body.transactionId;
+      let user_id = req.body.userId;
+      const data = {
+          merchantId: MERCHANT_ID,
+          merchantTransactionId: merchantTransactionId,
+          merchantUserId: 'MUID' + `${req.body.name}12345`,
+          amount: req.body.amount * 100,
+          redirectUrl: `https://2mn4dxxw3hj2yrhqzbsxdyirva0uksoy.lambda-url.ap-south-1.on.aws/status/${merchantTransactionId}/${user_id}`,
+          redirectMode: 'POST',
+          mobileNumber: req.body.number,
+          paymentInstrument: {
+              type: 'PAY_PAGE'
+          }
+      };
+      const payload = JSON.stringify(data);
+      const payloadMain = Buffer.from(payload).toString('base64');
+      const keyIndex = 1;
+      const string = payloadMain + '/pg/v1/pay' + SALT_KEY;
+      const sha256 = crypto.createHash('sha256').update(string).digest('hex');
+      const checksum = sha256 + '###' + keyIndex;
 
-    const data={
-      merchantId:MERCHANT_ID,
-      merchantTransactionId:'M'+ merchantTransactionId,
-      merchantUserId:'MUID'+`${req.body.name}12345`,
-      amount:req.body.amount * 100,
-      // redirectUrl:`http://localhost:3000/status?id={merchantTransactionId}&user_id={user_id}`,
-      redirectUrl:`https://2mn4dxxw3hj2yrhqzbsxdyirva0uksoy.lambda-url.ap-south-1.on.aws/status?id=${merchantTransactionId}&user_id=${user_id}`,
-      redirectMode:'POST',
-      mobileNumber: req.body.number,
-      paymentInstrument:{
-        type: 'PAY_PAGE'
-      }
-    }
-    const payload=JSON.stringify(data);
-    // console.log(payload);
-    const payloadMain=Buffer.from(payload).toString('base64');
-    const keyIndex= 1
-    const string = payloadMain + '/pg/v1/pay'+ SALT_KEY;
-    const sha256 = crypto.createHash('sha256').update(string).digest('hex');
-    const checksum = sha256 + '###' + keyIndex;
-    // console.log("PROD_URL",PROD_URL);  
-    // console.log("SALT_KEY",SALT_KEY);
-    
-  
-  
-    const options = {
-      method: 'POST',
-      url:PROD_URL,
-      headers: { 
-        accept: 'application/json',
-        'Content-Type':'application/json',
-        'X-VERIFY':checksum
-      },
-      data:{
-         request:payloadMain
-      }
-    }
+      const options = {
+          method: 'POST',
+          url: PROD_URL,
+          headers: {
+              accept: 'application/json',
+              'Content-Type': 'application/json',
+              'X-VERIFY': checksum
+          },
+          data: { request: payloadMain }
+      };
 
-
-    await axios(options).then(function (response) {
-      res.setHeader('Access-Control-Allow-Origin', 'https://nizhaltnpsc.com', 'https://www.nizhaltnpsc.com','*');
-      res.setHeader('Access-Control-Allow-Methods', 'GET, POST, OPTIONS, PUT, PATCH, DELETE');
-      res.setHeader('Access-Control-Allow-Headers', 'X-Requested-With,content-type');
-      res.setHeader('Access-Control-Allow-Credentials', true);
-      return res.json(response.data);
-    }).catch(function (err) {
-      console.log(err);
-
-    //   await axios(options).then(function (response) {
-    //     console.log(response.data);
-    //     return res.json(response.data);
-    // }).catch(function (err) {
-    //   console.log(err);
-    
-
-      res.status(500).send({ message: `Error processing payment ${err}`});
-    });
-
-  
-  }catch(e){
-    console.log(e);
+      await axios(options).then(function (response) {
+          res.setHeader('Access-Control-Allow-Origin', 'https://nizhaltnpsc.com');
+          res.setHeader('Access-Control-Allow-Methods', 'GET, POST, OPTIONS, PUT, PATCH, DELETE');
+          res.setHeader('Access-Control-Allow-Headers', 'X-Requested-With,content-type');
+          res.setHeader('Access-Control-Allow-Credentials', true);
+          return res.json(response.data);
+      }).catch(function (err) {
+          console.log(err);
+          res.status(500).send({ message: `Error processing payment ${err}` });
+      });
+  } catch (e) {
+      console.log(e);
   }
-})
+});
+
+app.post('/status/:transactionId/:user_id', async (req, res) => {
+  const merchantTransactionId = req.params.transactionId; 
+  const user_id = req.params.user_id;
+  const merchantId = MERCHANT_ID;
+  const keyIndex = 1;
+  const string = `/pg/v1/status/${merchantId}/${merchantTransactionId}` + SALT_KEY;
+  const sha256 = crypto.createHash('sha256').update(string).digest('hex');
+  const checksum = sha256 + "###" + keyIndex;
+
+
+  const options = {
+      method: 'GET',
+      url: `https://api.phonepe.com/apis/hermes/pg/v1/status/${merchantId}/${merchantTransactionId}`,
+      headers: {
+          accept: 'application/json',
+          'Content-Type': 'application/json',
+          'X-VERIFY': checksum,
+          'X-MERCHANT-ID': `${merchantId}`
+      }
+  };
+
+const response= await axios.request(options)
+  try {
+      const response = await axios.request(options);
+      console.log(response);
+      if (response.data.code === "PAYMENT_SUCCESS") {
+          const paymentData = response.data;
+          const amount = paymentData.data.amount;
+          let plan;
+          if (amount === 99) {
+              plan = 'basic';
+          } else if (amount === 199) {
+              plan = 'premium';
+          } else {
+              plan = "standard";
+          }
+          if (plan) {
+              await User.findOneAndUpdate({ uniqueId: user_id }, { $set: { plan } });
+          }
+          const successUrl = 'https://nizhaltnpsc.com/payment/success';
+          return res.redirect(successUrl);
+      } else {
+          const failureUrl = 'https://nizhaltnpsc.com/payment/failure';
+          return res.redirect(failureUrl);
+      }
+  } catch (error) {
+      console.error('Error verifying payment status:', error);
+      const failureUrl = 'https://nizhaltnpsc.com/payment/failuree';
+      return res.redirect(failureUrl);
+  }
+});
+
+//status route for testing
+// app.post('/status', async (req, res) => {
+//   const merchantTransactionId = req.query.id;
+//   const user_id = req.query.user_id; // Unused variable
+//   const merchantId = MERCHANT_ID;
+
+//   const keyIndex = 1;
+//   const string = `/pg/v1/status/${merchantId}/${merchantTransactionId}` + SALT_KEY;
+//   const sha256 = crypto.createHash('sha256').update(string).digest('hex');
+//   const checksum = sha256 + "###" + keyIndex;
+
+//   const options = {
+//     method: 'GET',
+//     url: `https://api-preprod.phonepe.com/apis/pg-sandbox/pg/v1/status/${merchantId}/${merchantTransactionId}`,
+//     headers: {
+//       accept: 'application/json',
+//       'Content-Type': 'application/json',
+//       'X-VERIFY': checksum,
+//       'X-MERCHANT-ID': `${merchantId}`
+//     }
+//   };
+
+//   try {
+//     const response = await axios.request(options);
+//     res.send(response.data);
+//   } catch (error) {
+//     res.status(500).send({ error: 'An error occurred while fetching the status', details: error.message });
+//   }
+// });
+
+
+const PORT = process.env.PORT || 3000;
+app.listen(PORT, () => {
+  console.log(`Server started on http://localhost:${PORT}`);
+});
+
+
+module.exports.handler = serverless(app);
+
+
 
 // app.post('/status', async (req, res) => {
 //   const merchantTransactionId = req.query.id;
@@ -511,44 +584,9 @@ app.post('/api/pay',async(req,res)=>{
 //   }
 // });
 
-app.post('/status', async (req, res) => {
-  const merchantTransactionId = req.query.id;
-  const user_id = req.query.user_id;
-  const merchantId = MERCHANT_ID;
-
-  const keyIndex = 1;
-  const string = `/pg/v1/status/${merchantId}/${merchantTransactionId}` + SALT_KEY;
-  const sha256 = crypto.createHash('sha256').update(string).digest('hex');
-  const checksum = sha256 + "###" + keyIndex;
-
-  const options = {
-    method: 'GET',
-    url: `https://api-preprod.phonepe.com/apis/pg-sandbox/pg/v1/status/${merchantId}/${merchantTransactionId}`,
-    headers: {
-      accept: 'application/json',
-      'Content-Type': 'application/json',
-      'X-VERIFY': checksum,
-      'X-MERCHANT-ID': `${merchantId}`
-    }
-  };
-
-  const response = await axios.request(options);
-
-  if (response.data) {
-    const successUrl = `https://nizhaltnpsc.com/payment/success?response=${response.data}`;
-    return res.redirect(successUrl);
-  } else {
-    const failureUrl = `https://nizhaltnpsc.com/payment/failuree?response=${encodeURIComponent(JSON.stringify(response.data))}`;
-    return res.redirect(failureUrl);
-  }
-});
-
-
-
-//working prod api for status
 // app.post('/status', async (req, res) => {
 //   const merchantTransactionId = req.query.id;
-//   const user_id=req.query.user_id;
+//   const user_id = req.query.user_id;
 //   const merchantId = MERCHANT_ID;
 
 //   const keyIndex = 1;
@@ -566,80 +604,14 @@ app.post('/status', async (req, res) => {
 //       'X-MERCHANT-ID': `${merchantId}`
 //     }
 //   };
-  
-//   try {
-//     const response = await axios.request(options);
-//     console.log(response);
 
-//     if (response.data.code === "PAYMENT_SUCCESS") {
-//       console.log(response);
-//       const paymentData = response.data; 
+//   const response = await axios.request(options);
 
-//       const amount = paymentData.data.amount;
-
-//       let plan;
-//       if (amount === 99) {
-//         plan = 'basic';
-//       } else if (amount === 199) {
-//         plan = 'premium';
-//       }else {
-//         plan="standard";
-//       }
-//       if (plan) {
-//         await User.findOneAndUpdate({ uniqueId: user_id }, { $set: { plan } });
-//       }
-
-//       const successUrl = 'https://nizhaltnpsc.com/payment/success';
-//       return res.redirect(successUrl);
-//     } else {
-//       const failureUrl = 'https://nizhaltnpsc.com/payment/failure';
-//       return res.redirect(failureUrl);
-      
-//     }
-//   } catch (error) {
-//     console.error('Error verifying payment status:', error);
-//     const failureUrl = 'https://nizhaltnpsc.com/payment/failure';
+//   if (response.data) {
+//     const successUrl = `https://nizhaltnpsc.com/payment/success?response=${response.data}`;
+//     return res.redirect(successUrl);
+//   } else {
+//     const failureUrl = `https://nizhaltnpsc.com/payment/failuree?response=${encodeURIComponent(JSON.stringify(response.data))}`;
 //     return res.redirect(failureUrl);
 //   }
 // });
-
-
-
-//status route for testing
-// app.post('/status', async (req, res) => {
-//   const merchantTransactionId = req.query.id;
-//   const user_id = req.query.user_id; // Unused variable
-//   const merchantId = MERCHANT_ID;
-
-//   const keyIndex = 1;
-//   const string = `/pg/v1/status/${merchantId}/${merchantTransactionId}` + SALT_KEY;
-//   const sha256 = crypto.createHash('sha256').update(string).digest('hex');
-//   const checksum = sha256 + "###" + keyIndex;
-
-//   const options = {
-//     method: 'GET',
-//     url: `https://api-preprod.phonepe.com/apis/pg-sandbox/pg/v1/status/${merchantId}/${merchantTransactionId}`,
-//     headers: {
-//       accept: 'application/json',
-//       'Content-Type': 'application/json',
-//       'X-VERIFY': checksum,
-//       'X-MERCHANT-ID': `${merchantId}`
-//     }
-//   };
-
-//   try {
-//     const response = await axios.request(options);
-//     res.send(response.data);
-//   } catch (error) {
-//     res.status(500).send({ error: 'An error occurred while fetching the status', details: error.message });
-//   }
-// });
-
-
-// const PORT = process.env.PORT || 3000;
-// app.listen(PORT, () => {
-//   console.log(`Server started on http://localhost:${PORT}`);
-// });
-
-
-module.exports.handler = serverless(app);
