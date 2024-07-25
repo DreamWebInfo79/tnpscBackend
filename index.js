@@ -456,11 +456,16 @@ app.post('/api/pay', async (req, res) => {
       };
 
       await axios(options).then(function (response) {
-          res.setHeader('Access-Control-Allow-Origin', 'https://nizhaltnpsc.com');
-          res.setHeader('Access-Control-Allow-Methods', 'GET, POST, OPTIONS, PUT, PATCH, DELETE');
-          res.setHeader('Access-Control-Allow-Headers', 'X-Requested-With,content-type');
-          res.setHeader('Access-Control-Allow-Credentials', true);
-          return res.json(response.data);
+        const allowedOrigins = ['https://nizhaltnpsc.com', 'https://www.nizhaltnpsc.com'];
+        const origin = req.headers.origin;
+        if (allowedOrigins.includes(origin)) {
+            res.setHeader('Access-Control-Allow-Origin', origin);
+        }
+        res.setHeader('Access-Control-Allow-Methods', 'GET, POST, OPTIONS, PUT, PATCH, DELETE');
+        res.setHeader('Access-Control-Allow-Headers', 'X-Requested-With,content-type');
+        res.setHeader('Access-Control-Allow-Credentials', true);
+        return res.json(response.data);
+    
       }).catch(function (err) {
           console.log(err);
           res.status(500).send({ message: `Error processing payment ${err}` });
