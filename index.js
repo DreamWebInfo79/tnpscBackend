@@ -398,7 +398,7 @@ app.post('/api/pay',async(req,res)=>{
       merchantUserId:'MUID'+`${req.body.name}12345`,
       amount:req.body.amount * 100,
       // redirectUrl:`http://localhost:3000/status?id={merchantTransactionId}&user_id={user_id}`,
-      redirectUrl:`https://2mn4dxxw3hj2yrhqzbsxdyirva0uksoy.lambda-url.ap-south-1.on.aws/status?id=${merchantTransactionId}&user_id=${user_id}`,
+      redirectUrl:`https://2mn4dxxw3hj2yrhqzbsxdyirva0uksoy.lambda-url.ap-south-1.on.aws/status?transactionId=${merchantTransactionId}&user_id=${user_id}`,
       redirectMode:'POST',
       mobileNumber: req.body.number,
       paymentInstrument:{
@@ -456,6 +456,97 @@ app.post('/api/pay',async(req,res)=>{
   }
 })
 
+
+// working prod api for status
+app.post('/status', async (req, res) => {
+  const merchantTransactionId = req.query.transactionId;
+  const user_id=req.query.user_id;
+  const merchantId = MERCHANT_ID;
+
+  const keyIndex = 1;
+  const string = `/pg/v1/status/${merchantId}/${merchantTransactionId}` + SALT_KEY;
+  const sha256 = crypto.createHash('sha256').update(string).digest('hex');
+  const checksum = sha256 + "###" + keyIndex;
+
+  const options = {
+    method: 'GET',
+    url: `https://api-preprod.phonepe.com/apis/pg-sandbox/pg/v1/status/${merchantId}/${merchantTransactionId}`,
+    headers: {
+      accept: 'application/json',
+      'Content-Type': 'application/json',
+      'X-VERIFY': checksum,
+      'X-MERCHANT-ID': `${merchantId}`
+    }
+  };
+  
+  try {
+    const response = await axios.request(options);
+
+    if (response.data.code === "PAYMENT_SUCCESS") {
+      const paymentData = response.data; 
+
+      const amount = paymentData.data.amount;
+
+      let plan;
+      if (amount === 99) {
+        plan = 'basic';
+      } else if (amount === 199) {
+        plan = 'premium';
+      }else {
+        plan="standard";
+      }
+      if (plan) {
+        await User.findOneAndUpdate({ uniqueId: user_id }, { $set: { plan } });
+      }
+
+      const successUrl = 'https://nizhaltnpsc.com/payment/success';
+      return res.redirect(successUrl);
+    } else {
+      const failureUrl = 'https://nizhaltnpsc.com/payment/failure';
+      return res.redirect(failureUrl);
+      
+    }
+  } catch (error) {
+    console.error('Error verifying payment status:', error);
+    const failureUrl = 'https://nizhaltnpsc.com/payment/failure';
+    return res.redirect(failureUrl);
+  }
+});
+
+
+
+//status route for testing
+// app.post('/status', async (req, res) => {
+//   const merchantTransactionId = req.query.id;
+//   const user_id = req.query.user_id; // Unused variable
+//   const merchantId = MERCHANT_ID;
+
+//   const keyIndex = 1;
+//   const string = `/pg/v1/status/${merchantId}/${merchantTransactionId}` + SALT_KEY;
+//   const sha256 = crypto.createHash('sha256').update(string).digest('hex');
+//   const checksum = sha256 + "###" + keyIndex;
+
+//   const options = {
+//     method: 'GET',
+//     url: `https://api-preprod.phonepe.com/apis/pg-sandbox/pg/v1/status/${merchantId}/${merchantTransactionId}`,
+//     headers: {
+//       accept: 'application/json',
+//       'Content-Type': 'application/json',
+//       'X-VERIFY': checksum,
+//       'X-MERCHANT-ID': `${merchantId}`
+//     }
+//   };
+
+//   try {
+//     const response = await axios.request(options);
+//     res.send(response.data);
+//   } catch (error) {
+//     res.status(500).send({ error: 'An error occurred while fetching the status', details: error.message });
+//   }
+// });
+
+
+
 // app.post('/status', async (req, res) => {
 //   const merchantTransactionId = req.query.id;
 //   const user_id = req.query.user_id;
@@ -511,44 +602,9 @@ app.post('/api/pay',async(req,res)=>{
 //   }
 // });
 
-app.post('/status', async (req, res) => {
-  const merchantTransactionId = req.query.id;
-  const user_id = req.query.user_id;
-  const merchantId = MERCHANT_ID;
-
-  const keyIndex = 1;
-  const string = `/pg/v1/status/${merchantId}/${merchantTransactionId}` + SALT_KEY;
-  const sha256 = crypto.createHash('sha256').update(string).digest('hex');
-  const checksum = sha256 + "###" + keyIndex;
-
-  const options = {
-    method: 'GET',
-    url: `https://api-preprod.phonepe.com/apis/pg-sandbox/pg/v1/status/${merchantId}/${merchantTransactionId}`,
-    headers: {
-      accept: 'application/json',
-      'Content-Type': 'application/json',
-      'X-VERIFY': checksum,
-      'X-MERCHANT-ID': `${merchantId}`
-    }
-  };
-
-  const response = await axios.request(options);
-
-  if (response.data) {
-    const successUrl = `https://nizhaltnpsc.com/payment/success?response=${response.data}`;
-    return res.redirect(successUrl);
-  } else {
-    const failureUrl = `https://nizhaltnpsc.com/payment/failuree?response=${encodeURIComponent(JSON.stringify(response.data))}`;
-    return res.redirect(failureUrl);
-  }
-});
-
-
-
-//working prod api for status
 // app.post('/status', async (req, res) => {
 //   const merchantTransactionId = req.query.id;
-//   const user_id=req.query.user_id;
+//   const user_id = req.query.user_id;
 //   const merchantId = MERCHANT_ID;
 
 //   const keyIndex = 1;
@@ -566,74 +622,19 @@ app.post('/status', async (req, res) => {
 //       'X-MERCHANT-ID': `${merchantId}`
 //     }
 //   };
-  
-//   try {
-//     const response = await axios.request(options);
-//     console.log(response);
 
-//     if (response.data.code === "PAYMENT_SUCCESS") {
-//       console.log(response);
-//       const paymentData = response.data; 
+//   const response = await axios.request(options);
 
-//       const amount = paymentData.data.amount;
-
-//       let plan;
-//       if (amount === 99) {
-//         plan = 'basic';
-//       } else if (amount === 199) {
-//         plan = 'premium';
-//       }else {
-//         plan="standard";
-//       }
-//       if (plan) {
-//         await User.findOneAndUpdate({ uniqueId: user_id }, { $set: { plan } });
-//       }
-
-//       const successUrl = 'https://nizhaltnpsc.com/payment/success';
-//       return res.redirect(successUrl);
-//     } else {
-//       const failureUrl = 'https://nizhaltnpsc.com/payment/failure';
-//       return res.redirect(failureUrl);
-      
-//     }
-//   } catch (error) {
-//     console.error('Error verifying payment status:', error);
-//     const failureUrl = 'https://nizhaltnpsc.com/payment/failure';
+//   if (response.data) {
+//     const successUrl = `https://nizhaltnpsc.com/payment/success?response=${response.data}`;
+//     return res.redirect(successUrl);
+//   } else {
+//     const failureUrl = `https://nizhaltnpsc.com/payment/failuree?response=${encodeURIComponent(JSON.stringify(response.data))}`;
 //     return res.redirect(failureUrl);
 //   }
 // });
 
 
-
-//status route for testing
-// app.post('/status', async (req, res) => {
-//   const merchantTransactionId = req.query.id;
-//   const user_id = req.query.user_id; // Unused variable
-//   const merchantId = MERCHANT_ID;
-
-//   const keyIndex = 1;
-//   const string = `/pg/v1/status/${merchantId}/${merchantTransactionId}` + SALT_KEY;
-//   const sha256 = crypto.createHash('sha256').update(string).digest('hex');
-//   const checksum = sha256 + "###" + keyIndex;
-
-//   const options = {
-//     method: 'GET',
-//     url: `https://api-preprod.phonepe.com/apis/pg-sandbox/pg/v1/status/${merchantId}/${merchantTransactionId}`,
-//     headers: {
-//       accept: 'application/json',
-//       'Content-Type': 'application/json',
-//       'X-VERIFY': checksum,
-//       'X-MERCHANT-ID': `${merchantId}`
-//     }
-//   };
-
-//   try {
-//     const response = await axios.request(options);
-//     res.send(response.data);
-//   } catch (error) {
-//     res.status(500).send({ error: 'An error occurred while fetching the status', details: error.message });
-//   }
-// });
 
 
 // const PORT = process.env.PORT || 3000;
