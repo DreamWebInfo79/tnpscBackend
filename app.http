@@ -18,7 +18,7 @@ Content-Type: application/json
 }
 
 ###
-POST http://localhost:3000/api/aptitude 
+POST http://localhost:3001/api/aptitude 
 Content-Type: application/json
 
 {
@@ -30,7 +30,7 @@ Content-Type: application/json
 
 
 ###
-POST http://localhost:3000/api/weekly-test-em
+POST http://localhost:3001/api/weekly-test-em
 Content-Type: application/json
 
 {
@@ -41,13 +41,13 @@ Content-Type: application/json
 
 
 ###
-POST http://localhost:3000/api/duplicate-questions 
-Content-Type: application/json
+# POST http://localhost:3000/api/duplicate-questions 
+# Content-Type: application/json
 
-{
-    "databaseName":"commonAptitudeEM",
-    "collectionName":"allAptitude"
-}
+# {
+#     "databaseName":"commonAptitudeEM",
+#     "collectionName":"allAptitude"
+# }
 
 ###
 POST http://localhost:3000/api/delete-questions
@@ -98,3 +98,7 @@ Content-Type: application/json
 
 ###
 POST http://localhost:3000/aggregate-aptitude-questions
+
+
+###
+POST http://localhost:3001/copy-aptitude-questions

@@ -216,7 +216,6 @@ app.post('/questions', async (req, res) => {
 
 app.post('/api/aptitude', async (req, res) => {
   const { userId, selectedTopics, selectedOptions, selectedLanguage } = req.body;
-  console.log(userId, selectedTopics, selectedOptions, selectedLanguage)
   // const selectedLanguage = need to send from frontend databasename there is only two databse
   // commonAptitudeEM and commonAptitudeTM
   try {
@@ -237,9 +236,7 @@ app.post('/api/aptitude', async (req, res) => {
     for (const topic of selectedTopics) {
       const database = mongoose.connection.useDb(selectedLanguage);
       const Question = database.model('Question', QuestionSchema, "allAptitude");
-      console.log(Question)
 
-      console.log(`Fetching questions from ${selectedLanguage}.allAptitude for topic: ${topic}`);
 
 
       const topicQuestions = await Question.aggregate([
@@ -351,6 +348,33 @@ app.post('/aggregate-aptitude-questions', async (req, res) => {
     res.status(500).send({ message: 'Error aggregating aptitude questions' });
   }
 });
+
+// API USED TO CREATE NEW DB AND COLLECTION FROM OTHER DB AND COLLECTION
+app.post('/copy-aptitude-questions', async (req, res) => {
+  const { sourceDbName, sourceCollectionName, targetDbName, targetCollectionName } = req.body;
+
+  try {
+    const sourceDb = mongoose.connection.useDb("weeklyTest");
+    const SourceQuestion = sourceDb.model('Question', QuestionSchema, "allQuestionsEM");
+
+    const aptitudeQuestions = await SourceQuestion.find({ type : 'aptitude' }).lean();
+
+    if (aptitudeQuestions.length === 0) {
+      return res.status(404).send({ message: 'No aptitude questions found' });
+    }
+
+    const targetDb = mongoose.connection.useDb("commonAptitudeTM");
+    const TargetQuestion = targetDb.model('Question', QuestionSchema, "allAptitude");
+
+    await TargetQuestion.insertMany(aptitudeQuestions);
+
+    res.status(201).send({ message: 'Aptitude questions copied successfully', count: aptitudeQuestions.length });
+  } catch (error) {
+    console.error('Error copying aptitude questions:', error);
+    res.status(500).send({ message: 'Error copying aptitude questions' });
+  }
+});
+
 
 
 app.post('/api/duplicate-questions', async (req, res) => {
@@ -549,7 +573,7 @@ app.post('/status/:transactionId/:userId', async (req, res) => {
 
 
 
-const PORT = process.env.PORT || 3000;
+const PORT = process.env.PORT || 3001;
 app.listen(PORT, () => {
   console.log(`Server started on http://localhost:${PORT}`);
 });
