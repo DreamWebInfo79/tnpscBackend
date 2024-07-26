@@ -215,9 +215,9 @@ app.post('/questions', async (req, res) => {
 
 
 app.post('/api/aptitude', async (req, res) => {
-  const { userId, selectedTopics, selectedOptions, selectedLanguage } = req.body;
+  const { userId, selectedTopics, selectedOptions, medium } = req.body;
 
-  if (!userId || !selectedTopics || !selectedOptions || !selectedLanguage) {
+  if (!userId || !selectedTopics || !selectedOptions || !medium) {
     return res.status(400).send({ message: 'Invalid request data' });
   }
 
@@ -232,8 +232,9 @@ app.post('/api/aptitude', async (req, res) => {
       await user.save();
     }
 
-    const databaseName = selectedLanguage === 'EM' ? 'commonAptitudeEM' : 'commonAptitudeTM';
-    const database = mongoose.connection.useDb(databaseName);
+    // const databaseName = medium === 'commonAptitudeEM' ? 'commonAptitudeEM' : 'commonAptitudeTM';
+    // console.log(databaseName);
+    const database = mongoose.connection.useDb(medium);
     const Question = database.model('Question', QuestionSchema, 'allAptitude');
 
     let questions = [];
@@ -320,38 +321,38 @@ app.post('/api/weekly-test-em', async (req, res) => {
 
 
 //API USED TO MERGE COLLECTIONS
-app.post('/aggregate-aptitude-questions', async (req, res) => {
-  // const dbNames = ['db1', 'db2', 'db3', 'db4', 'db5', 'db6', 'db7', 'db8', 'db9', 'db10'];
-  // const collectionNames = ['collection1', 'collection2', 'collection3', 'collection4', 'collection5'];
-  const dbNames = ['generalStudiesTM'];
-  const collectionNames = ['Development Administration in TN','History, Culture, Heritage, and Socio-Political Movements of TN','IndianPolity','currentEvents','economics','generalStudies','geography','history','indianNationalMovement'];
-  const newDbName = 'weeklyTest';
-  const newCollectionName = 'allQuestionsTM';
+// app.post('/aggregate-aptitude-questions', async (req, res) => {
+//   // const dbNames = ['db1', 'db2', 'db3', 'db4', 'db5', 'db6', 'db7', 'db8', 'db9', 'db10'];
+//   // const collectionNames = ['collection1', 'collection2', 'collection3', 'collection4', 'collection5'];
+//   const dbNames = ['generalStudiesTM'];
+//   const collectionNames = ['Development Administration in TN','History, Culture, Heritage, and Socio-Political Movements of TN','IndianPolity','currentEvents','economics','generalStudies','geography','history','indianNationalMovement'];
+//   const newDbName = 'weeklyTest';
+//   const newCollectionName = 'allQuestionsTM';
 
-  try {
-    let allQuestions = [];
+//   try {
+//     let allQuestions = [];
 
-    for (const dbName of dbNames) {
-      const db = mongoose.connection.useDb(dbName);
+//     for (const dbName of dbNames) {
+//       const db = mongoose.connection.useDb(dbName);
 
-      for (const collectionName of collectionNames) {
-        const Question = db.model('Question', QuestionSchema, collectionName);
-        const questions = await Question.find({}).lean();
-        allQuestions = allQuestions.concat(questions);
-      }
-    }
+//       for (const collectionName of collectionNames) {
+//         const Question = db.model('Question', QuestionSchema, collectionName);
+//         const questions = await Question.find({}).lean();
+//         allQuestions = allQuestions.concat(questions);
+//       }
+//     }
 
-    const aggregatedDb = mongoose.connection.useDb(newDbName);
-    const AggregatedQuestion = aggregatedDb.model('AggregatedQuestion', QuestionSchema, newCollectionName);
+//     const aggregatedDb = mongoose.connection.useDb(newDbName);
+//     const AggregatedQuestion = aggregatedDb.model('AggregatedQuestion', QuestionSchema, newCollectionName);
 
-    await AggregatedQuestion.insertMany(allQuestions.map(q => ({ ...q, type: 'gs' })));
+//     await AggregatedQuestion.insertMany(allQuestions.map(q => ({ ...q, type: 'gs' })));
 
-    res.status(201).send('gs questions aggregated successfully');
-  } catch (error) {
-    console.error('Error aggregating aptitude questions:', error);
-    res.status(500).send({ message: 'Error aggregating aptitude questions' });
-  }
-});
+//     res.status(201).send('gs questions aggregated successfully');
+//   } catch (error) {
+//     console.error('Error aggregating aptitude questions:', error);
+//     res.status(500).send({ message: 'Error aggregating aptitude questions' });
+//   }
+// });
 
 // API USED TO CREATE NEW DB AND COLLECTION FROM OTHER DB AND COLLECTION
 // app.post('/copy-aptitude-questions', async (req, res) => {
@@ -367,7 +368,7 @@ app.post('/aggregate-aptitude-questions', async (req, res) => {
 //       return res.status(404).send({ message: 'No aptitude questions found' });
 //     }
 
-//     const targetDb = mongoose.connection.useDb("commonAptitudeTM");
+//     const targetDb = mongoose.connection.useDb("commonAptitudeEM");
 //     const TargetQuestion = targetDb.model('Question', QuestionSchema, "allAptitude");
 
 //     await TargetQuestion.insertMany(aptitudeQuestions);

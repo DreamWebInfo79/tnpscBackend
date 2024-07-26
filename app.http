@@ -25,7 +25,7 @@ Content-Type: application/json
     "userId": "b0b6555d-637f-45d4-9f96-3aad3bd54404",
     "selectedTopics":["simplification", "percentage", "rp"],
     "selectedOptions":5,
-    "selectedLanguage":"commonAptitudeTM"
+    "medium":"commonAptitudeEM"
 }
 
 
