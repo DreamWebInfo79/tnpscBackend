@@ -186,10 +186,10 @@ app.get('/helloworld', (req, res) => {
 });
 
 app.post('/questions', async (req, res) => {
-  const { user_id, standard, subject } = req.body;
+  const { userId, standard, subject } = req.body;
 
   try {
-    const user = await User.findOne({ uniqueId: user_id }); 
+    const user = await User.findOne({ uniqueId: userId }); 
     if (!user) {
       return res.status(404).send({ message: 'User not found' });
     }
@@ -215,16 +215,16 @@ app.post('/questions', async (req, res) => {
 
 
 app.post('/api/aptitude', async (req, res) => {
-  const { user_id, selectedTopics, selectedOptions, selectedLanguage } = req.body;
+  const { userId, selectedTopics, selectedOptions, selectedLanguage } = req.body;
+  console.log(userId, selectedTopics, selectedOptions, selectedLanguage)
   // const selectedLanguage = need to send from frontend databasename there is only two databse
   // commonAptitudeEM and commonAptitudeTM
   try {
-    const user = await User.findOne({ uniqueId: user_id }); 
+    const user = await User.findOne({ uniqueId: userId }); 
     if (!user) {
       return res.status(404).send({ message: 'User not found' });
     }
 
-    console.log(user);
 
     const isNotPremiumOrBasic = user.plan !== 'premium' && user.plan !== 'basic';
 
@@ -237,15 +237,19 @@ app.post('/api/aptitude', async (req, res) => {
     for (const topic of selectedTopics) {
       const database = mongoose.connection.useDb(selectedLanguage);
       const Question = database.model('Question', QuestionSchema, "allAptitude");
+      console.log(Question)
+
+      console.log(`Fetching questions from ${selectedLanguage}.allAptitude for topic: ${topic}`);
+
 
       const topicQuestions = await Question.aggregate([
         { $match: { topic: topic } },
-        { $sample: { size: selectedOptions } }
+        { $sample: { size: parseInt(selectedOptions, 10) }  }
       ]);
 
       questions = questions.concat(topicQuestions);
     }
-
+    console.log(questions);
     res.status(200).send({ questions });
   } catch (error) {
     console.error('Error fetching questions:', error);
@@ -273,13 +277,16 @@ app.get('/api/user', (req, res) => {
   }
 });
 
-app.get('/api/weekly-test-em', async (req, res) => {
+app.post('/api/weekly-test-em', async (req, res) => {
   const newDbName = 'weeklyTest';
-  const newCollectionName = 'allQuestionsEM';
-  const user_id = req.body.user_id; 
+  // const newCollectionName = 'allQuestionsEM';
+  const userId = req.body.userId; 
+  const selectedLanguage = req.body.selectedLanguage;
+  const newCollectionName = selectedLanguage === 'EM' ? 'allQuestionsEM' : 'allQuestionsTM';
+
 
   try {
-    const user = await User.findOne({ uniqueId: user_id }); 
+    const user = await User.findOne({ uniqueId: userId }); 
     if (!user) {
       return res.status(404).send({ message: 'User not found' });
     }
@@ -315,10 +322,10 @@ app.get('/api/weekly-test-em', async (req, res) => {
 app.post('/aggregate-aptitude-questions', async (req, res) => {
   // const dbNames = ['db1', 'db2', 'db3', 'db4', 'db5', 'db6', 'db7', 'db8', 'db9', 'db10'];
   // const collectionNames = ['collection1', 'collection2', 'collection3', 'collection4', 'collection5'];
-  const dbNames = ['aptitudeEM'];
-  const collectionNames = ['1-4thUnit', '8-12Unit','5-6thUnit','12-16Unit'];
-  const newDbName = 'commonAptitudeEM';
-  const newCollectionName = 'allAptitude';
+  const dbNames = ['generalStudiesTM'];
+  const collectionNames = ['Development Administration in TN','History, Culture, Heritage, and Socio-Political Movements of TN','IndianPolity','currentEvents','economics','generalStudies','geography','history','indianNationalMovement'];
+  const newDbName = 'weeklyTest';
+  const newCollectionName = 'allQuestionsTM';
 
   try {
     let allQuestions = [];
@@ -336,9 +343,9 @@ app.post('/aggregate-aptitude-questions', async (req, res) => {
     const aggregatedDb = mongoose.connection.useDb(newDbName);
     const AggregatedQuestion = aggregatedDb.model('AggregatedQuestion', QuestionSchema, newCollectionName);
 
-    await AggregatedQuestion.insertMany(allQuestions.map(q => ({ ...q, type: 'aptitude' })));
+    await AggregatedQuestion.insertMany(allQuestions.map(q => ({ ...q, type: 'gs' })));
 
-    res.status(201).send('Aptitude questions aggregated successfully');
+    res.status(201).send('gs questions aggregated successfully');
   } catch (error) {
     console.error('Error aggregating aptitude questions:', error);
     res.status(500).send({ message: 'Error aggregating aptitude questions' });
@@ -424,13 +431,13 @@ const PROD_URL = process.env.PHONEPE_URL;
 app.post('/api/pay', async (req, res) => {
   try {
       let merchantTransactionId = req.body.transactionId;
-      let user_id = req.body.userId;
+      let userId = req.body.userId;
       const data = {
           merchantId: MERCHANT_ID,
           merchantTransactionId: merchantTransactionId,
           merchantUserId: 'MUID' + `${req.body.name}12345`,
           amount: req.body.amount * 100,
-          redirectUrl: `https://2mn4dxxw3hj2yrhqzbsxdyirva0uksoy.lambda-url.ap-south-1.on.aws/status/${merchantTransactionId}/${user_id}`,
+          redirectUrl: `https://2mn4dxxw3hj2yrhqzbsxdyirva0uksoy.lambda-url.ap-south-1.on.aws/status/${merchantTransactionId}/${userId}`,
           redirectMode: 'POST',
           mobileNumber: req.body.number,
           paymentInstrument: {
@@ -476,9 +483,9 @@ app.post('/api/pay', async (req, res) => {
 });
 
 
-app.post('/status/:transactionId/:user_id', async (req, res) => {
+app.post('/status/:transactionId/:userId', async (req, res) => {
   const merchantTransactionId = req.params.transactionId; 
-  const user_id = req.params.user_id;
+  const userId = req.params.userId;
   const merchantId = MERCHANT_ID;
   const keyIndex = 1;
   const string = `/pg/v1/status/${merchantId}/${merchantTransactionId}` + SALT_KEY;
@@ -514,7 +521,7 @@ app.post('/status/:transactionId/:user_id', async (req, res) => {
                 plan = 'free';
               }
               if (plan) {
-                  await User.findOneAndUpdate({ uniqueId: user_id }, { $set: { plan } });
+                  await User.findOneAndUpdate({ uniqueId: userId }, { $set: { plan } });
               }
               clearInterval(interval);
               const successUrl = 'https://nizhaltnpsc.com/payment/success';

@@ -22,15 +22,23 @@ POST http://localhost:3000/api/aptitude
 Content-Type: application/json
 
 {
-    "user_id": "f359857a-1bac-4f37-9d73-27b19bf26eed",
+    "userId": "b0b6555d-637f-45d4-9f96-3aad3bd54404",
     "selectedTopics":["simplification", "percentage", "rp"],
     "selectedOptions":5,
-    "selectedLanguage":"commonAptitudeEM"
+    "selectedLanguage":"commonAptitudeTM"
 }
 
 
 ###
-GET http://localhost:3000/api/weekly-test-em
+POST http://localhost:3000/api/weekly-test-em
+Content-Type: application/json
+
+{
+    "userId": "b0b6555d-637f-45d4-9f96-3aad3bd54404",
+    "selectedLanguage": "EM"
+}
+
+
 
 ###
 POST http://localhost:3000/api/duplicate-questions 
