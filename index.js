@@ -237,10 +237,17 @@ app.post('/api/aptitude', async (req, res) => {
     const Question = database.model('Question', QuestionSchema, 'allAptitude');
 
     let questions = [];
-    for (const topic of selectedTopics) {
+    const totalQuestions = parseInt(selectedOptions, 10);
+    const questionsPerTopic = Math.floor(totalQuestions / selectedTopics.length);
+    const remainderQuestions = totalQuestions % selectedTopics.length;
+
+    for (let i = 0; i < selectedTopics.length; i++) {
+      const topic = selectedTopics[i];
+      const size = questionsPerTopic + (i < remainderQuestions ? 1 : 0); // Distribute remainder questions
+
       const topicQuestions = await Question.aggregate([
         { $match: { topic: topic } },
-        { $sample: { size: parseInt(selectedOptions) } }
+        { $sample: { size: size } }
       ]);
 
       questions = questions.concat(topicQuestions);
@@ -347,97 +354,97 @@ app.post('/aggregate-aptitude-questions', async (req, res) => {
 });
 
 // API USED TO CREATE NEW DB AND COLLECTION FROM OTHER DB AND COLLECTION
-app.post('/copy-aptitude-questions', async (req, res) => {
-  const { sourceDbName, sourceCollectionName, targetDbName, targetCollectionName } = req.body;
+// app.post('/copy-aptitude-questions', async (req, res) => {
+//   const { sourceDbName, sourceCollectionName, targetDbName, targetCollectionName } = req.body;
 
-  try {
-    const sourceDb = mongoose.connection.useDb("weeklyTest");
-    const SourceQuestion = sourceDb.model('Question', QuestionSchema, "allQuestionsEM");
+//   try {
+//     const sourceDb = mongoose.connection.useDb("weeklyTest");
+//     const SourceQuestion = sourceDb.model('Question', QuestionSchema, "allQuestionsEM");
 
-    const aptitudeQuestions = await SourceQuestion.find({ type : 'aptitude' }).lean();
+//     const aptitudeQuestions = await SourceQuestion.find({ type : 'aptitude' }).lean();
 
-    if (aptitudeQuestions.length === 0) {
-      return res.status(404).send({ message: 'No aptitude questions found' });
-    }
+//     if (aptitudeQuestions.length === 0) {
+//       return res.status(404).send({ message: 'No aptitude questions found' });
+//     }
 
-    const targetDb = mongoose.connection.useDb("commonAptitudeTM");
-    const TargetQuestion = targetDb.model('Question', QuestionSchema, "allAptitude");
+//     const targetDb = mongoose.connection.useDb("commonAptitudeTM");
+//     const TargetQuestion = targetDb.model('Question', QuestionSchema, "allAptitude");
 
-    await TargetQuestion.insertMany(aptitudeQuestions);
+//     await TargetQuestion.insertMany(aptitudeQuestions);
 
-    res.status(201).send({ message: 'Aptitude questions copied successfully', count: aptitudeQuestions.length });
-  } catch (error) {
-    console.error('Error copying aptitude questions:', error);
-    res.status(500).send({ message: 'Error copying aptitude questions' });
-  }
-});
+//     res.status(201).send({ message: 'Aptitude questions copied successfully', count: aptitudeQuestions.length });
+//   } catch (error) {
+//     console.error('Error copying aptitude questions:', error);
+//     res.status(500).send({ message: 'Error copying aptitude questions' });
+//   }
+// });
 
 
 
-app.post('/api/duplicate-questions', async (req, res) => {
-  const { databaseName, collectionName } = req.body;
+// app.post('/api/duplicate-questions', async (req, res) => {
+//   const { databaseName, collectionName } = req.body;
 
-  try {
-    const database = mongoose.connection.useDb(databaseName);
-    const Question = database.model('Question', QuestionSchema, collectionName);
+//   try {
+//     const database = mongoose.connection.useDb(databaseName);
+//     const Question = database.model('Question', QuestionSchema, collectionName);
 
-    const duplicateQuestions = await Question.aggregate([
-      {
-        $group: {
-          _id: "$question_text",
-          count: { $sum: 1 },
-          docs: { $push: "$$ROOT" }
-        }
-      },
-      {
-        $match: {
-          count: { $gt: 1 }
-        }
-      }
-    ]);
+//     const duplicateQuestions = await Question.aggregate([
+//       {
+//         $group: {
+//           _id: "$question_text",
+//           count: { $sum: 1 },
+//           docs: { $push: "$$ROOT" }
+//         }
+//       },
+//       {
+//         $match: {
+//           count: { $gt: 1 }
+//         }
+//       }
+//     ]);
 
-    const duplicateIdsToKeep = [];
-    const remainingIds = [];
+//     const duplicateIdsToKeep = [];
+//     const remainingIds = [];
 
-    duplicateQuestions.forEach(group => {
-      duplicateIdsToKeep.push(group.docs[0]._id);
+//     duplicateQuestions.forEach(group => {
+//       duplicateIdsToKeep.push(group.docs[0]._id);
       
-      for (let i = 1; i < group.docs.length; i++) {
-        remainingIds.push(group.docs[i]._id);
-      }
-    });
+//       for (let i = 1; i < group.docs.length; i++) {
+//         remainingIds.push(group.docs[i]._id);
+//       }
+//     });
 
-    res.status(200).json({duplicateQuestions,remainingIds});
-  } catch (error) {
-    console.error('Error fetching duplicate questions:', error);
-    res.status(500).send({ message: 'Error fetching duplicate questions' });
-  }
-});
+//     res.status(200).json({duplicateQuestions,remainingIds});
+//   } catch (error) {
+//     console.error('Error fetching duplicate questions:', error);
+//     res.status(500).send({ message: 'Error fetching duplicate questions' });
+//   }
+// });
 
-app.post('/api/delete-questions', async (req, res) => {
-  const { databaseName, collectionName, ids } = req.body;
+// app.post('/api/delete-questions', async (req, res) => {
+//   const { databaseName, collectionName, ids } = req.body;
 
-  if (!Array.isArray(ids) || ids.length === 0) {
-    return res.status(400).send({ message: 'Invalid or missing IDs array' });
-  }
+//   if (!Array.isArray(ids) || ids.length === 0) {
+//     return res.status(400).send({ message: 'Invalid or missing IDs array' });
+//   }
 
-  try {
-    const database = mongoose.connection.useDb(databaseName);
-    const Question = database.model('Question', QuestionSchema, collectionName);
+//   try {
+//     const database = mongoose.connection.useDb(databaseName);
+//     const Question = database.model('Question', QuestionSchema, collectionName);
 
-    const result = await Question.deleteMany({ _id: { $in: ids } });
+//     const result = await Question.deleteMany({ _id: { $in: ids } });
 
-    if (result.deletedCount === 0) {
-      return res.status(404).send({ message: 'No questions found to delete' });
-    }
-    console.log(res)
+//     if (result.deletedCount === 0) {
+//       return res.status(404).send({ message: 'No questions found to delete' });
+//     }
+//     console.log(res)
 
-    res.status(200).send({ message: 'Questions deleted successfully', deletedCount: result.deletedCount });
-  } catch (error) {
-    console.error('Error deleting questions:', error);
-    res.status(500).send({ message: 'Error deleting questions' });
-  }
-});
+//     res.status(200).send({ message: 'Questions deleted successfully', deletedCount: result.deletedCount });
+//   } catch (error) {
+//     console.error('Error deleting questions:', error);
+//     res.status(500).send({ message: 'Error deleting questions' });
+//   }
+// });
 
 
 
