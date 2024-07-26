@@ -102,3 +102,6 @@ POST http://localhost:3000/aggregate-aptitude-questions
 
 ###
 POST http://localhost:3001/copy-aptitude-questions
+
+###
+get http://localhost:3001/api/user/b0b6555d-637f-45d4-9f96-3aad3bd54404
