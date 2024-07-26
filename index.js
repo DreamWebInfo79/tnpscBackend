@@ -232,9 +232,9 @@ app.post('/api/aptitude', async (req, res) => {
       await user.save();
     }
 
-    // const databaseName = medium === 'commonAptitudeEM' ? 'commonAptitudeEM' : 'commonAptitudeTM';
+    const databaseName = medium === 'EM' ? 'commonAptitudeEM' : 'commonAptitudeTM';
     // console.log(databaseName);
-    const database = mongoose.connection.useDb(medium);
+    const database = mongoose.connection.useDb(databaseName);
     const Question = database.model('Question', QuestionSchema, 'allAptitude');
 
     let questions = [];
