@@ -216,45 +216,42 @@ app.post('/questions', async (req, res) => {
 
 app.post('/api/aptitude', async (req, res) => {
   const { userId, selectedTopics, selectedOptions, selectedLanguage } = req.body;
-  // const selectedLanguage = need to send from frontend databasename there is only two databse
-  // commonAptitudeEM and commonAptitudeTM
+
+  if (!userId || !selectedTopics || !selectedOptions || !selectedLanguage) {
+    return res.status(400).send({ message: 'Invalid request data' });
+  }
+
   try {
-    const user = await User.findOne({ uniqueId: userId }); 
+    const user = await User.findOne({ uniqueId: userId });
     if (!user) {
       return res.status(404).send({ message: 'User not found' });
     }
 
-
-    const isNotPremiumOrBasic = user.plan !== 'premium' && user.plan !== 'basic';
-
-    if (isNotPremiumOrBasic) {
+    if (user.plan !== 'premium' && user.plan !== 'basic') {
       user.count = (user.count || 0) + 1;
       await user.save();
     }
 
+    const databaseName = selectedLanguage === 'EM' ? 'commonAptitudeEM' : 'commonAptitudeTM';
+    const database = mongoose.connection.useDb(databaseName);
+    const Question = database.model('Question', QuestionSchema, 'allAptitude');
+
     let questions = [];
     for (const topic of selectedTopics) {
-      const database = mongoose.connection.useDb(selectedLanguage);
-      const Question = database.model('Question', QuestionSchema, "allAptitude");
-
-
-
       const topicQuestions = await Question.aggregate([
         { $match: { topic: topic } },
-        { $sample: { size: parseInt(selectedOptions, 10) }  }
+        { $sample: { size: parseInt(selectedOptions) } }
       ]);
 
       questions = questions.concat(topicQuestions);
     }
-    console.log(questions);
+
     res.status(200).send({ questions });
   } catch (error) {
     console.error('Error fetching questions:', error);
     res.status(500).send({ message: 'Error fetching questions' });
   }
 });
-
-
 
 // app.get('/', (req, res) => {
 //   if (req.user) {
@@ -537,9 +534,9 @@ app.post('/status/:transactionId/:userId', async (req, res) => {
               const paymentData = response.data;
               const amount = paymentData.data.amount;
               let plan;
-              if (amount === 99) {
+              if (amount === 9900) {
                   plan = 'basic';
-              } else if (amount === 199) {
+              } else if (amount === 19900) {
                   plan = 'premium';
               }else{
                 plan = 'free';
@@ -549,7 +546,7 @@ app.post('/status/:transactionId/:userId', async (req, res) => {
               }
               clearInterval(interval);
               const successUrl = 'https://nizhaltnpsc.com/payment/success';
-              return res.send({successUrl:successUrl,updatedUser:user});
+              return res.redirect(successUrl);
           } else if (attempts >= maxAttempts) {
               clearInterval(interval); 
               const failureUrl = 'https://nizhaltnpsc.com/payment/failure';
@@ -570,6 +567,57 @@ app.post('/status/:transactionId/:userId', async (req, res) => {
 
   await pollPaymentStatus();
 });
+
+// app.post('/statuss/:transactionId/:userId', async (req, res) => {
+//   const merchantTransactionId = req.params.transactionId; 
+//   const userId = req.params.userId;
+//   const merchantId = MERCHANT_ID;
+//   const keyIndex = 1;
+//   const string = `/pg/v1/status/${merchantId}/${merchantTransactionId}` + SALT_KEY;
+//   const sha256 = crypto.createHash('sha256').update(string).digest('hex');
+//   const checksum = sha256 + "###" + keyIndex;
+
+//   const options = {
+//       method: 'GET',
+//       url: `https://api.phonepe.com/apis/hermes/pg/v1/status/${merchantId}/${merchantTransactionId}`,
+//       headers: {
+//           accept: 'application/json',
+//           'Content-Type': 'application/json',
+//           'X-VERIFY': checksum,
+//           'X-MERCHANT-ID': `${merchantId}`
+//       }
+//   };
+
+//   try {
+//       const response = await axios.request(options);
+//       console.log(response);
+//       if (response.data.code === "PAYMENT_SUCCESS") {
+//           const paymentData = response.data;
+//           const amount = paymentData.data.amount;
+//           let plan;
+//           if (amount === 9900) {
+//               plan = 'basic';
+//           } else if (amount === 19900) {
+//               plan = 'premium';
+//           } else {
+//               plan = 'free';
+//           }
+//           if (plan) {
+//               await User.findOneAndUpdate({ uniqueId: userId }, { $set: { plan } });
+//           }
+//           const successUrl = 'https://nizhaltnpsc.com/payment/success';
+//           return res.redirect(successUrl);
+//       } else {
+//           const failureUrl = 'https://nizhaltnpsc.com/payment/failure';
+//           return res.redirect(failureUrl);
+//       }
+//   } catch (error) {
+//       console.error('Error verifying payment status:', error);
+//       const failureUrl = 'https://nizhaltnpsc.com/payment/failure';
+//       return res.redirect(failureUrl);
+//   }
+// });
+
 
 app.get('/api/user/:userId', async (req, res) => {
   try {
