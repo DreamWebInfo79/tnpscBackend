@@ -549,7 +549,7 @@ app.post('/status/:transactionId/:userId', async (req, res) => {
               }
               clearInterval(interval);
               const successUrl = 'https://nizhaltnpsc.com/payment/success';
-              return res.redirect(successUrl);
+              return res.send({successUrl:successUrl,updatedUser:user});
           } else if (attempts >= maxAttempts) {
               clearInterval(interval); 
               const failureUrl = 'https://nizhaltnpsc.com/payment/failure';
