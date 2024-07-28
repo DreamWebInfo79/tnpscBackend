@@ -24,8 +24,8 @@ Content-Type: application/json
 {
     "userId": "b0b6555d-637f-45d4-9f96-3aad3bd54404",
     "selectedTopics":["simplification", "percentage", "rp"],
-    "selectedOptions":5,
-    "medium":"EM"
+    "selectedOptions":10,
+    "medium":"TM"
 }
 
 
@@ -97,7 +97,7 @@ Content-Type: application/json
 
 
 ###
-POST http://localhost:3000/aggregate-aptitude-questions
+POST http://localhost:3001/aggregate-aptitude-questions
 
 
 ###

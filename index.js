@@ -214,6 +214,8 @@ app.post('/questions', async (req, res) => {
 });
 
 
+
+
 app.post('/api/aptitude', async (req, res) => {
   const { userId, selectedTopics, selectedOptions, medium } = req.body;
 
@@ -233,25 +235,32 @@ app.post('/api/aptitude', async (req, res) => {
     }
 
     const databaseName = medium === 'EM' ? 'commonAptitudeEM' : 'commonAptitudeTM';
-    // console.log(databaseName);
     const database = mongoose.connection.useDb(databaseName);
     const Question = database.model('Question', QuestionSchema, 'allAptitude');
 
     let questions = [];
     const totalQuestions = parseInt(selectedOptions, 10);
-    const questionsPerTopic = Math.floor(totalQuestions / selectedTopics.length);
-    const remainderQuestions = totalQuestions % selectedTopics.length;
 
-    for (let i = 0; i < selectedTopics.length; i++) {
-      const topic = selectedTopics[i];
-      const size = questionsPerTopic + (i < remainderQuestions ? 1 : 0); // Distribute remainder questions
+    if (medium === 'EM') {
+      const questionsPerTopic = Math.floor(totalQuestions / selectedTopics.length);
+      const remainderQuestions = totalQuestions % selectedTopics.length;
 
-      const topicQuestions = await Question.aggregate([
-        { $match: { topic: topic } },
-        { $sample: { size: size } }
+      for (let i = 0; i < selectedTopics.length; i++) {
+        const topic = selectedTopics[i];
+        const size = questionsPerTopic + (i < remainderQuestions ? 1 : 0); // Distribute remainder questions
+
+        const topicQuestions = await Question.aggregate([
+          { $match: { topic: topic } },
+          { $sample: { size: size } }
+        ]);
+
+        questions = questions.concat(topicQuestions);
+      }
+    } else {
+      // For Tamil medium, select random questions without topic filter
+      questions = await Question.aggregate([
+        { $sample: { size: totalQuestions } }
       ]);
-
-      questions = questions.concat(topicQuestions);
     }
 
     res.status(200).send({ questions });
@@ -260,6 +269,60 @@ app.post('/api/aptitude', async (req, res) => {
     res.status(500).send({ message: 'Error fetching questions' });
   }
 });
+
+
+
+
+
+
+
+
+// app.post('/api/aptitude', async (req, res) => {
+//   const { userId, selectedTopics, selectedOptions, medium } = req.body;
+
+//   if (!userId || !selectedTopics || !selectedOptions || !medium) {
+//     return res.status(400).send({ message: 'Invalid request data' });
+//   }
+
+//   try {
+//     const user = await User.findOne({ uniqueId: userId });
+//     if (!user) {
+//       return res.status(404).send({ message: 'User not found' });
+//     }
+
+//     if (user.plan !== 'premium' && user.plan !== 'basic') {
+//       user.count = (user.count || 0) + 1;
+//       await user.save();
+//     }
+
+//     const databaseName = medium === 'EM' ? 'commonAptitudeEM' : 'commonAptitudeTM';
+//     // console.log(databaseName);
+//     const database = mongoose.connection.useDb(databaseName);
+//     const Question = database.model('Question', QuestionSchema, 'allAptitude');
+
+//     let questions = [];
+//     const totalQuestions = parseInt(selectedOptions, 10);
+//     const questionsPerTopic = Math.floor(totalQuestions / selectedTopics.length);
+//     const remainderQuestions = totalQuestions % selectedTopics.length;
+
+//     for (let i = 0; i < selectedTopics.length; i++) {
+//       const topic = selectedTopics[i];
+//       const size = questionsPerTopic + (i < remainderQuestions ? 1 : 0); // Distribute remainder questions
+
+//       const topicQuestions = await Question.aggregate([
+//         { $match: { topic: topic } },
+//         { $sample: { size: size } }
+//       ]);
+
+//       questions = questions.concat(topicQuestions);
+//     }
+
+//     res.status(200).send({ questions });
+//   } catch (error) {
+//     console.error('Error fetching questions:', error);
+//     res.status(500).send({ message: 'Error fetching questions' });
+//   }
+// });
 
 // app.get('/', (req, res) => {
 //   if (req.user) {
@@ -320,14 +383,14 @@ app.post('/api/weekly-test-em', async (req, res) => {
 });
 
 
-//API USED TO MERGE COLLECTIONS
+// API USED TO MERGE COLLECTIONS
 // app.post('/aggregate-aptitude-questions', async (req, res) => {
 //   // const dbNames = ['db1', 'db2', 'db3', 'db4', 'db5', 'db6', 'db7', 'db8', 'db9', 'db10'];
 //   // const collectionNames = ['collection1', 'collection2', 'collection3', 'collection4', 'collection5'];
-//   const dbNames = ['generalStudiesTM'];
-//   const collectionNames = ['Development Administration in TN','History, Culture, Heritage, and Socio-Political Movements of TN','IndianPolity','currentEvents','economics','generalStudies','geography','history','indianNationalMovement'];
-//   const newDbName = 'weeklyTest';
-//   const newCollectionName = 'allQuestionsTM';
+//   const dbNames = ['aptitudeTM'];
+//   const collectionNames = ['1-4thUnit','9-12Unit','5-8Unit','13-16Unit'];
+//   const newDbName = 'commonAptitudeTM';
+//   const newCollectionName = 'allAptitude';
 
 //   try {
 //     let allQuestions = [];
@@ -345,7 +408,7 @@ app.post('/api/weekly-test-em', async (req, res) => {
 //     const aggregatedDb = mongoose.connection.useDb(newDbName);
 //     const AggregatedQuestion = aggregatedDb.model('AggregatedQuestion', QuestionSchema, newCollectionName);
 
-//     await AggregatedQuestion.insertMany(allQuestions.map(q => ({ ...q, type: 'gs' })));
+//     await AggregatedQuestion.insertMany(allQuestions.map(q => ({ ...q, type: 'aptitude' })));
 
 //     res.status(201).send('gs questions aggregated successfully');
 //   } catch (error) {
