@@ -216,67 +216,6 @@ app.post('/questions', async (req, res) => {
 
 
 
-app.post('/api/aptitude', async (req, res) => {
-  const { userId, selectedTopics, selectedOptions, medium } = req.body;
-
-  if (!userId || !selectedTopics || !selectedOptions || !medium) {
-    return res.status(400).send({ message: 'Invalid request data' });
-  }
-
-  try {
-    const user = await User.findOne({ uniqueId: userId });
-    if (!user) {
-      return res.status(404).send({ message: 'User not found' });
-    }
-
-    if (user.plan !== 'premium' && user.plan !== 'basic') {
-      user.count = (user.count || 0) + 1;
-      await user.save();
-    }
-
-    const databaseName = medium === 'EM' ? 'commonAptitudeEM' : 'commonAptitudeTM';
-    const database = mongoose.connection.useDb(databaseName);
-    const Question = database.model('Question', QuestionSchema, 'allAptitude');
-
-    let questions = [];
-    const totalQuestions = parseInt(selectedOptions, 10);
-
-    if (medium === 'EM') {
-      const questionsPerTopic = Math.floor(totalQuestions / selectedTopics.length);
-      const remainderQuestions = totalQuestions % selectedTopics.length;
-
-      for (let i = 0; i < selectedTopics.length; i++) {
-        const topic = selectedTopics[i];
-        const size = questionsPerTopic + (i < remainderQuestions ? 1 : 0); // Distribute remainder questions
-
-        const topicQuestions = await Question.aggregate([
-          { $match: { topic: topic } },
-          { $sample: { size: size } }
-        ]);
-
-        questions = questions.concat(topicQuestions);
-      }
-    } else {
-      // For Tamil medium, select random questions without topic filter
-      questions = await Question.aggregate([
-        { $sample: { size: totalQuestions } }
-      ]);
-    }
-
-    res.status(200).send({ questions });
-  } catch (error) {
-    console.error('Error fetching questions:', error);
-    res.status(500).send({ message: 'Error fetching questions' });
-  }
-});
-
-
-
-
-
-
-
-
 // app.post('/api/aptitude', async (req, res) => {
 //   const { userId, selectedTopics, selectedOptions, medium } = req.body;
 
@@ -296,25 +235,33 @@ app.post('/api/aptitude', async (req, res) => {
 //     }
 
 //     const databaseName = medium === 'EM' ? 'commonAptitudeEM' : 'commonAptitudeTM';
-//     // console.log(databaseName);
 //     const database = mongoose.connection.useDb(databaseName);
 //     const Question = database.model('Question', QuestionSchema, 'allAptitude');
+    
 
 //     let questions = [];
 //     const totalQuestions = parseInt(selectedOptions, 10);
-//     const questionsPerTopic = Math.floor(totalQuestions / selectedTopics.length);
-//     const remainderQuestions = totalQuestions % selectedTopics.length;
 
-//     for (let i = 0; i < selectedTopics.length; i++) {
-//       const topic = selectedTopics[i];
-//       const size = questionsPerTopic + (i < remainderQuestions ? 1 : 0); // Distribute remainder questions
+//     if (medium === 'EM') {
+//       const questionsPerTopic = Math.floor(totalQuestions / selectedTopics.length);
+//       const remainderQuestions = totalQuestions % selectedTopics.length;
 
-//       const topicQuestions = await Question.aggregate([
-//         { $match: { topic: topic } },
-//         { $sample: { size: size } }
+//       for (let i = 0; i < selectedTopics.length; i++) {
+//         const topic = selectedTopics[i];
+//         const size = questionsPerTopic + (i < remainderQuestions ? 1 : 0); // Distribute remainder questions
+
+//         const topicQuestions = await Question.aggregate([
+//           { $match: { topic: topic } },
+//           { $sample: { size: size } }
+//         ]);
+
+//         questions = questions.concat(topicQuestions);
+//       }
+//     } else {
+//       // For Tamil medium, select random questions without topic filter
+//       questions = await Question.aggregate([
+//         { $sample: { size: totalQuestions } }
 //       ]);
-
-//       questions = questions.concat(topicQuestions);
 //     }
 
 //     res.status(200).send({ questions });
@@ -323,6 +270,60 @@ app.post('/api/aptitude', async (req, res) => {
 //     res.status(500).send({ message: 'Error fetching questions' });
 //   }
 // });
+
+
+
+
+
+
+
+
+app.post('/api/aptitude', async (req, res) => {
+  const { userId, selectedTopics, selectedOptions, medium } = req.body;
+
+  if (!userId || !selectedTopics || !selectedOptions || !medium) {
+    return res.status(400).send({ message: 'Invalid request data' });
+  }
+
+  try {
+    const user = await User.findOne({ uniqueId: userId });
+    if (!user) {
+      return res.status(404).send({ message: 'User not found' });
+    }
+
+    if (user.plan !== 'premium' && user.plan !== 'basic') {
+      user.count = (user.count || 0) + 1;
+      await user.save();
+    }
+
+    const databaseName = medium === 'EM' ? 'commonApiEM' : 'commonApiTM';
+    // console.log(databaseName);
+    const database = mongoose.connection.useDb(databaseName);
+    const Question = database.model('Question', QuestionSchema, 'allAptitude');
+
+    let questions = [];
+    const totalQuestions = parseInt(selectedOptions, 10);
+    const questionsPerTopic = Math.floor(totalQuestions / selectedTopics.length);
+    const remainderQuestions = totalQuestions % selectedTopics.length;
+
+    for (let i = 0; i < selectedTopics.length; i++) {
+      const topic = selectedTopics[i];
+      const size = questionsPerTopic + (i < remainderQuestions ? 1 : 0); // Distribute remainder questions
+
+      const topicQuestions = await Question.aggregate([
+        { $match: { topic: topic } },
+        { $sample: { size: size } }
+      ]);
+
+      questions = questions.concat(topicQuestions);
+    }
+
+    res.status(200).send({ questions });
+  } catch (error) {
+    console.error('Error fetching questions:', error);
+    res.status(500).send({ message: 'Error fetching questions' });
+  }
+});
 
 // app.get('/', (req, res) => {
 //   if (req.user) {
@@ -381,6 +382,37 @@ app.post('/api/weekly-test-em', async (req, res) => {
     res.status(500).send({ message: 'Error fetching questions' });
   }
 });
+
+// To get all the data from the collection 
+
+// app.post('/get-all-questions', async (req, res) => {
+//   const { userId, standard, subject } = req.body;
+
+//   try {
+//     const user = await User.findOne({ uniqueId: userId }); 
+//     if (!user) {
+//       return res.status(404).send({ message: 'User not found' });
+//     }
+
+//     const isNotPremiumOrBasic = user.plan !== 'premium' && user.plan !== 'basic';
+    
+//     if (isNotPremiumOrBasic) {
+//       user.count = (user.count || 0) + 1;
+//       await user.save();
+//     }
+
+//     const database = mongoose.connection.useDb(standard);
+//     const Question = database.model('Question', QuestionSchema, subject);
+//     const questions = await Question.find({});
+
+//     res.json(questions);
+//     console.log(questions);
+//   } catch (error) {
+//     console.error('Error processing request:', error);
+//     res.status(500).send(error);
+//   }
+// });
+
 
 
 // API USED TO MERGE COLLECTIONS

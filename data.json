@@ -1,0 +1,5203 @@
+
+[
+    {
+      "_id": "6686ee27b7f9839d1d78490e",
+      "question_number": 1,
+      "question_text": "What is the simplified value of 12 + 3 × (15 − 5) / 5?",
+      "options": [
+        "A) 15",
+        "B) 18",
+        "C) 21",
+        "D) 24"
+      ],
+      "answer": "B) 18",
+      "explanation": "Simplified value is 12 + 3 × 10 / 5 = 12 + 6 = 18.",
+      "topic": "simplification",
+      "type": "aptitude",
+      "__v": 0
+    },
+    {
+      "_id": "6686ee27b7f9839d1d78490f",
+      "question_number": 2,
+      "question_text": "What is 25% of 200?",
+      "options": [
+        "A) 25",
+        "B) 50",
+        "C) 75",
+        "D) 100"
+      ],
+      "answer": "B) 50",
+      "explanation": "25% of 200 is 200 × 0.25 = 50.",
+      "topic": "percentage",
+      "type": "aptitude",
+      "__v": 0
+    },
+    {
+      "_id": "6686ee27b7f9839d1d784910",
+      "question_number": 3,
+      "question_text": "Find the HCF of 24 and 36.",
+      "options": [
+        "A) 6",
+        "B) 8",
+        "C) 12",
+        "D) 18"
+      ],
+      "answer": "C) 12",
+      "explanation": "HCF of 24 and 36 is 12.",
+      "topic": "hcf",
+      "type": "aptitude",
+      "__v": 0
+    },
+    {
+      "_id": "6686ee27b7f9839d1d784911",
+      "question_number": 4,
+      "question_text": "Find the LCM of 6 and 8.",
+      "options": [
+        "A) 12",
+        "B) 18",
+        "C) 24",
+        "D) 30"
+      ],
+      "answer": "C) 24",
+      "explanation": "LCM of 6 and 8 is 24.",
+      "topic": "lcm",
+      "type": "aptitude",
+      "__v": 0
+    },
+    {
+      "_id": "6686ee27b7f9839d1d784912",
+      "question_number": 5,
+      "question_text": "Simplify: (20 / 4) × 2 + 5.",
+      "options": [
+        "A) 5",
+        "B) 10",
+        "C) 15",
+        "D) 20"
+      ],
+      "answer": "C) 15",
+      "explanation": "Simplified value is (20 / 4) × 2 + 5 = 5 × 2 + 5 = 10 + 5 = 15.",
+      "topic": "simplification",
+      "type": "aptitude",
+      "__v": 0
+    },
+    {
+      "_id": "6686ee27b7f9839d1d784913",
+      "question_number": 6,
+      "question_text": "What is 15% of 300?",
+      "options": [
+        "A) 30",
+        "B) 40",
+        "C) 45",
+        "D) 60"
+      ],
+      "answer": "C) 45",
+      "explanation": "15% of 300 is 300 × 0.15 = 45.",
+      "topic": "percentage",
+      "type": "aptitude",
+      "__v": 0
+    },
+    {
+      "_id": "6686ee27b7f9839d1d784914",
+      "question_number": 7,
+      "question_text": "Find the HCF of 15 and 25.",
+      "options": [
+        "A) 3",
+        "B) 5",
+        "C) 10",
+        "D) 15"
+      ],
+      "answer": "B) 5",
+      "explanation": "HCF of 15 and 25 is 5.",
+      "topic": "hcf",
+      "type": "aptitude",
+      "__v": 0
+    },
+    {
+      "_id": "6686ee27b7f9839d1d784915",
+      "question_number": 8,
+      "question_text": "Find the LCM of 10 and 15.",
+      "options": [
+        "A) 20",
+        "B) 25",
+        "C) 30",
+        "D) 35"
+      ],
+      "answer": "C) 30",
+      "explanation": "LCM of 10 and 15 is 30.",
+      "topic": "lcm",
+      "type": "aptitude",
+      "__v": 0
+    },
+    {
+      "_id": "6686ee27b7f9839d1d784916",
+      "question_number": 9,
+      "question_text": "Simplify: 8 + 4 × 2 − 6.",
+      "options": [
+        "A) 6",
+        "B) 8",
+        "C) 10",
+        "D) 14"
+      ],
+      "answer": "C) 10",
+      "explanation": "Simplified value is 8 + 4 × 2 − 6 = 8 + 8 − 6 = 10.",
+      "topic": "simplification",
+      "type": "aptitude",
+      "__v": 0
+    },
+    {
+      "_id": "6686ee27b7f9839d1d784917",
+      "question_number": 10,
+      "question_text": "What is 10% of 500?",
+      "options": [
+        "A) 25",
+        "B) 40",
+        "C) 50",
+        "D) 75"
+      ],
+      "answer": "C) 50",
+      "explanation": "10% of 500 is 500 × 0.10 = 50.",
+      "topic": "percentage",
+      "type": "aptitude",
+      "__v": 0
+    },
+    {
+      "_id": "6686ee27b7f9839d1d784918",
+      "question_number": 11,
+      "question_text": "Find the HCF of 28 and 35.",
+      "options": [
+        "A) 5",
+        "B) 7",
+        "C) 9",
+        "D) 11"
+      ],
+      "answer": "B) 7",
+      "explanation": "HCF of 28 and 35 is 7.",
+      "topic": "hcf",
+      "type": "aptitude",
+      "__v": 0
+    },
+    {
+      "_id": "6686ee27b7f9839d1d784919",
+      "question_number": 12,
+      "question_text": "Find the LCM of 7 and 9.",
+      "options": [
+        "A) 45",
+        "B) 49",
+        "C) 56",
+        "D) 63"
+      ],
+      "answer": "D) 63",
+      "explanation": "LCM of 7 and 9 is 63.",
+      "topic": "lcm",
+      "type": "aptitude",
+      "__v": 0
+    },
+    {
+      "_id": "6686ee27b7f9839d1d78491a",
+      "question_number": 13,
+      "question_text": "Simplify: 50 ÷ 2 + 6 × 3.",
+      "options": [
+        "A) 22",
+        "B) 25",
+        "C) 43",
+        "D) 33"
+      ],
+      "answer": "C) 43",
+      "explanation": "Simplified value is 50 ÷ 2 + 6 × 3 = 25 + 18 = 43.",
+      "topic": "simplification",
+      "type": "aptitude",
+      "__v": 0
+    },
+    {
+      "_id": "6686ee27b7f9839d1d78491b",
+      "question_number": 14,
+      "question_text": "What is 35% of 400?",
+      "options": [
+        "A) 120",
+        "B) 130",
+        "C) 140",
+        "D) 150"
+      ],
+      "answer": "C) 140",
+      "explanation": "35% of 400 is 400 × 0.35 = 140.",
+      "topic": "percentage",
+      "type": "aptitude",
+      "__v": 0
+    },
+    {
+      "_id": "6686ee27b7f9839d1d78491c",
+      "question_number": 15,
+      "question_text": "Find the HCF of 14 and 21.",
+      "options": [
+        "A) 3",
+        "B) 5",
+        "C) 7",
+        "D) 9"
+      ],
+      "answer": "C) 7",
+      "explanation": "HCF of 14 and 21 is 7.",
+      "topic": "hcf",
+      "type": "aptitude",
+      "__v": 0
+    },
+    {
+      "_id": "6686ee27b7f9839d1d78491d",
+      "question_number": 16,
+      "question_text": "Find the LCM of 5 and 6.",
+      "options": [
+        "A) 20",
+        "B) 25",
+        "C) 30",
+        "D) 35"
+      ],
+      "answer": "C) 30",
+      "explanation": "LCM of 5 and 6 is 30.",
+      "topic": "lcm",
+      "type": "aptitude",
+      "__v": 0
+    },
+    {
+      "_id": "6686ee27b7f9839d1d78491e",
+      "question_number": 17,
+      "question_text": "Simplify: 100 - (5 × 3) + 15.",
+      "options": [
+        "A) 70",
+        "B) 75",
+        "C) 80",
+        "D) 85"
+      ],
+      "answer": "A) 70",
+      "explanation": "Simplified value is 100 - (5 × 3) + 15 = 100 - 15 + 15 = 70.",
+      "topic": "simplification",
+      "type": "aptitude",
+      "__v": 0
+    },
+    {
+      "_id": "6686ee27b7f9839d1d78491f",
+      "question_number": 18,
+      "question_text": "What is 50% of 250?",
+      "options": [
+        "A) 100",
+        "B) 110",
+        "C) 120",
+        "D) 125"
+      ],
+      "answer": "D) 125",
+      "explanation": "50% of 250 is 250 × 0.50 = 125.",
+      "topic": "percentage",
+      "type": "aptitude",
+      "__v": 0
+    },
+    {
+      "_id": "6686ee27b7f9839d1d784920",
+      "question_number": 19,
+      "question_text": "Find the HCF of 10 and 15.",
+      "options": [
+        "A) 2",
+        "B) 3",
+        "C) 5",
+        "D) 7"
+      ],
+      "answer": "C) 5",
+      "explanation": "HCF of 10 and 15 is 5.",
+      "topic": "hcf",
+      "type": "aptitude",
+      "__v": 0
+    },
+    {
+      "_id": "6686ee27b7f9839d1d784921",
+      "question_number": 20,
+      "question_text": "Find the LCM of 4 and 10.",
+      "options": [
+        "A) 12",
+        "B) 15",
+        "C) 20",
+        "D) 25"
+      ],
+      "answer": "C) 20",
+      "explanation": "LCM of 4 and 10 is 20.",
+      "topic": "lcm",
+      "type": "aptitude",
+      "__v": 0
+    },
+    {
+      "_id": "6686ee27b7f9839d1d784922",
+      "question_number": 21,
+      "question_text": "Simplify: 9 + 6 / 3 × 2.",
+      "options": [
+        "A) 5",
+        "B) 7",
+        "C) 9",
+        "D) 13"
+      ],
+      "answer": "D) 13",
+      "explanation": "Using BODMAS, Simplified value is 9 + 6 / 3 × 2 = 9 + 4 = 13.",
+      "topic": "simplification",
+      "type": "aptitude",
+      "__v": 0
+    },
+    {
+      "_id": "6686ee27b7f9839d1d784923",
+      "question_number": 22,
+      "question_text": "What is 20% of 150?",
+      "options": [
+        "A) 20",
+        "B) 25",
+        "C) 30",
+        "D) 35"
+      ],
+      "answer": "C) 30",
+      "explanation": "20% of 150 is 150 × 0.20 = 30.",
+      "topic": "percentage",
+      "type": "aptitude",
+      "__v": 0
+    },
+    {
+      "_id": "6686ee27b7f9839d1d784924",
+      "question_number": 23,
+      "question_text": "Find the HCF of 32 and 48.",
+      "options": [
+        "A) 4",
+        "B) 8",
+        "C) 12",
+        "D) 16"
+      ],
+      "answer": "D) 16",
+      "explanation": "HCF of 32 and 48 is 16.",
+      "topic": "hcf",
+      "type": "aptitude",
+      "__v": 0
+    },
+    {
+      "_id": "6686ee27b7f9839d1d784925",
+      "question_number": 24,
+      "question_text": "Find the LCM of 3 and 7.",
+      "options": [
+        "A) 18",
+        "B) 19",
+        "C) 20",
+        "D) 21"
+      ],
+      "answer": "D) 21",
+      "explanation": "LCM of 3 and 7 is 21.",
+      "topic": "lcm",
+      "type": "aptitude",
+      "__v": 0
+    },
+    {
+      "_id": "6686ee27b7f9839d1d784926",
+      "question_number": 25,
+      "question_text": "Simplify: 7 × 2 - 4 + 6.",
+      "options": [
+        "A) 10",
+        "B) 12",
+        "C) 4",
+        "D) 16"
+      ],
+      "answer": "C) 4",
+      "explanation": "Simplified value is 7 × 2 - 4 + 6 = 14 - 4 + 6 = 4.",
+      "topic": "simplification",
+      "type": "aptitude",
+      "__v": 0
+    },
+    {
+      "_id": "6686ee27b7f9839d1d784927",
+      "question_number": 26,
+      "question_text": "What is 40% of 500?",
+      "options": [
+        "A) 100",
+        "B) 150",
+        "C) 200",
+        "D) 250"
+      ],
+      "answer": "C) 200",
+      "explanation": "40% of 500 is 500 × 0.40 = 200.",
+      "topic": "percentage",
+      "type": "aptitude",
+      "__v": 0
+    },
+    {
+      "_id": "6686ee27b7f9839d1d784928",
+      "question_number": 27,
+      "question_text": "Find the HCF of 45 and 60.",
+      "options": [
+        "A) 5",
+        "B) 10",
+        "C) 15",
+        "D) 20"
+      ],
+      "answer": "C) 15",
+      "explanation": "HCF of 45 and 60 is 15.",
+      "topic": "hcf",
+      "type": "aptitude",
+      "__v": 0
+    },
+    {
+      "_id": "6686ee27b7f9839d1d784929",
+      "question_number": 28,
+      "question_text": "Find the LCM of 5 and 12.",
+      "options": [
+        "A) 30",
+        "B) 35",
+        "C) 40",
+        "D) 60"
+      ],
+      "answer": "D) 60",
+      "explanation": "LCM of 5 and 12 is 60.",
+      "topic": "lcm",
+      "type": "aptitude",
+      "__v": 0
+    },
+    {
+      "_id": "6686ee27b7f9839d1d78492a",
+      "question_number": 29,
+      "question_text": "Simplify: (3 + 2) × 4 - 7.",
+      "options": [
+        "A) 9",
+        "B) 11",
+        "C) 13",
+        "D) 15"
+      ],
+      "answer": "C) 13",
+      "explanation": "Simplified value is (3 + 2) × 4 - 7 = 5 × 4 - 7 = 20 - 7 = 13.",
+      "topic": "simplification",
+      "type": "aptitude",
+      "__v": 0
+    },
+    {
+      "_id": "6686ee27b7f9839d1d78492b",
+      "question_number": 30,
+      "question_text": "What is 70% of 700?",
+      "options": [
+        "A) 350",
+        "B) 400",
+        "C) 490",
+        "D) 500"
+      ],
+      "answer": "C) 490",
+      "explanation": "70% of 700 is 700 × 0.70 = 490.",
+      "topic": "percentage",
+      "type": "aptitude",
+      "__v": 0
+    },
+    {
+      "_id": "6686ee27b7f9839d1d78492c",
+      "question_number": 31,
+      "question_text": "Find the HCF of 16 and 20.",
+      "options": [
+        "A) 2",
+        "B) 4",
+        "C) 6",
+        "D) 8"
+      ],
+      "answer": "B) 4",
+      "explanation": "HCF of 16 and 20 is 4.",
+      "topic": "hcf",
+      "type": "aptitude",
+      "__v": 0
+    },
+    {
+      "_id": "6686ee27b7f9839d1d78492d",
+      "question_number": 32,
+      "question_text": "Find the LCM of 14 and 20.",
+      "options": [
+        "A) 40",
+        "B) 50",
+        "C) 60",
+        "D) 140"
+      ],
+      "answer": "D) 70",
+      "explanation": "LCM of 14 and 20 is 140.",
+      "topic": "lcm",
+      "type": "aptitude",
+      "__v": 0
+    },
+    {
+      "_id": "6686ee27b7f9839d1d78492e",
+      "question_number": 33,
+      "question_text": "Simplify: 8 × 3 - 4 + 2.",
+      "options": [
+        "A) 16",
+        "B) 24",
+        "C) 26",
+        "D) 28"
+      ],
+      "answer": "A) 16",
+      "explanation": "Simplified value is 8 × 3 - 4 + 2 = 24 - 4 + 2 = 16.",
+      "topic": "simplification",
+      "type": "aptitude",
+      "__v": 0
+    },
+    {
+      "_id": "6686ee27b7f9839d1d78492f",
+      "question_number": 34,
+      "question_text": "What is 30% of 900?",
+      "options": [
+        "A) 200",
+        "B) 250",
+        "C) 270",
+        "D) 300"
+      ],
+      "answer": "C) 270",
+      "explanation": "30% of 900 is 900 × 0.30 = 270.",
+      "topic": "percentage",
+      "type": "aptitude",
+      "__v": 0
+    },
+    {
+      "_id": "6686ee27b7f9839d1d784930",
+      "question_number": 35,
+      "question_text": "Find the HCF of 12 and 18.",
+      "options": [
+        "A) 2",
+        "B) 3",
+        "C) 6",
+        "D) 9"
+      ],
+      "answer": "C) 6",
+      "explanation": "HCF of 12 and 18 is 6.",
+      "topic": "hcf",
+      "type": "aptitude",
+      "__v": 0
+    },
+    {
+      "_id": "6686ee27b7f9839d1d784931",
+      "question_number": 36,
+      "question_text": "Find the LCM of 2 and 8.",
+      "options": [
+        "A) 8",
+        "B) 10",
+        "C) 12",
+        "D) 16"
+      ],
+      "answer": "A) 8",
+      "explanation": "LCM of 2 and 8 is 8.",
+      "topic": "lcm",
+      "type": "aptitude",
+      "__v": 0
+    },
+    {
+      "_id": "6686ee27b7f9839d1d784932",
+      "question_number": 37,
+      "question_text": "Simplify: 5 × 4 + 2 - 10.",
+      "options": [
+        "A) 12",
+        "B) 14",
+        "C) 16",
+        "D) 18"
+      ],
+      "answer": "A) 12",
+      "explanation": "Simplified value is 5 × 4 + 2 - 10 = 20 + 2 - 10 = 12.",
+      "topic": "simplification",
+      "type": "aptitude",
+      "__v": 0
+    },
+    {
+      "_id": "6686ee27b7f9839d1d784933",
+      "question_number": 38,
+      "question_text": "What is 25% of 800?",
+      "options": [
+        "A) 150",
+        "B) 180",
+        "C) 200",
+        "D) 220"
+      ],
+      "answer": "C) 200",
+      "explanation": "25% of 800 is 800 × 0.25 = 200.",
+      "topic": "percentage",
+      "type": "aptitude",
+      "__v": 0
+    },
+    {
+      "_id": "6686ee27b7f9839d1d784934",
+      "question_number": 39,
+      "question_text": "Find the HCF of 24 and 60.",
+      "options": [
+        "A) 8",
+        "B) 10",
+        "C) 12",
+        "D) 15"
+      ],
+      "answer": "C) 12",
+      "explanation": "HCF of 24 and 60 is 12.",
+      "topic": "hcf",
+      "type": "aptitude",
+      "__v": 0
+    },
+    {
+      "_id": "6686ee27b7f9839d1d784935",
+      "question_number": 40,
+      "question_text": "Find the LCM of 6 and 15.",
+      "options": [
+        "A) 30",
+        "B) 35",
+        "C) 40",
+        "D) 45"
+      ],
+      "answer": "A) 30",
+      "explanation": "LCM of 6 and 15 is 30.",
+      "topic": "lcm",
+      "type": "aptitude",
+      "__v": 0
+    },
+    {
+      "_id": "6686ee27b7f9839d1d784936",
+      "question_number": 41,
+      "question_text": "Simplify: 25 ÷ 5 + 8 × 2.",
+      "options": [
+        "A) 14",
+        "B) 21",
+        "C) 18",
+        "D) 20"
+      ],
+      "answer": "B) 21",
+      "explanation": "Simplify: 25 ÷ 5 + 8 × 2 = 5 + 16 = 21.",
+      "topic": "simplification",
+      "type": "aptitude",
+      "__v": 0
+    },
+    {
+      "_id": "6686ee27b7f9839d1d784937",
+      "question_number": 42,
+      "question_text": "What is 75% of 160?",
+      "options": [
+        "A) 100",
+        "B) 110",
+        "C) 120",
+        "D) 130"
+      ],
+      "answer": "C) 120",
+      "explanation": "75% of 160 is 160 × 0.75 = 120.",
+      "topic": "percentage",
+      "type": "aptitude",
+      "__v": 0
+    },
+    {
+      "_id": "6686ee27b7f9839d1d784939",
+      "question_number": 44,
+      "question_text": "Find the LCM of 9 and 12.",
+      "options": [
+        "A) 36",
+        "B) 45",
+        "C) 54",
+        "D) 60"
+      ],
+      "answer": "A) 36",
+      "explanation": "The LCM of 9 and 12 is 36.",
+      "topic": "lcm",
+      "type": "aptitude",
+      "__v": 0
+    },
+    {
+      "_id": "6686ee27b7f9839d1d78493a",
+      "question_number": 45,
+      "question_text": "Simplify: 15 × 3 - 9 + 6.",
+      "options": [
+        "A) 30",
+        "B) 45",
+        "C) 48",
+        "D) 51"
+      ],
+      "answer": "A) 30",
+      "explanation": "Simplify: 15 × 3 - 9 + 6 = 45 - 9 + 6 = 30.",
+      "topic": "simplification",
+      "type": "aptitude",
+      "__v": 0
+    },
+    {
+      "_id": "6686ee27b7f9839d1d78493b",
+      "question_number": 46,
+      "question_text": "What is 20% of 250?",
+      "options": [
+        "A) 40",
+        "B) 45",
+        "C) 50",
+        "D) 55"
+      ],
+      "answer": "C) 50",
+      "explanation": "20% of 250 is 250 × 0.20 = 50.",
+      "topic": "percentage",
+      "type": "aptitude",
+      "__v": 0
+    },
+    {
+      "_id": "6686ee27b7f9839d1d78493c",
+      "question_number": 47,
+      "question_text": "Find the HCF of 40 and 50.",
+      "options": [
+        "A) 5",
+        "B) 10",
+        "C) 15",
+        "D) 20"
+      ],
+      "answer": "B) 10",
+      "explanation": "The HCF of 40 and 50 is 10.",
+      "topic": "hcf",
+      "type": "aptitude",
+      "__v": 0
+    },
+    {
+      "_id": "6686ee27b7f9839d1d78493d",
+      "question_number": 48,
+      "question_text": "Find the LCM of 8 and 14.",
+      "options": [
+        "A) 36",
+        "B) 42",
+        "C) 48",
+        "D) 56"
+      ],
+      "answer": "D) 56",
+      "explanation": "The LCM of 8 and 14 is 56.",
+      "topic": "lcm",
+      "type": "aptitude",
+      "__v": 0
+    },
+    {
+      "_id": "6686ee27b7f9839d1d78493e",
+      "question_number": 49,
+      "question_text": "Simplify: 6 × 4 + 5 - 3.",
+      "options": [
+        "A) 21",
+        "B) 22",
+        "C) 23",
+        "D) 24"
+      ],
+      "answer": "C) 23",
+      "explanation": "Simplify: 6 × 4 + 5 - 3 = 24 + 5 - 3 = 26.",
+      "topic": "simplification",
+      "type": "aptitude",
+      "__v": 0
+    },
+    {
+      "_id": "6686ee27b7f9839d1d78493f",
+      "question_number": 50,
+      "question_text": "What is 45% of 300?",
+      "options": [
+        "A) 120",
+        "B) 130",
+        "C) 135",
+        "D) 140"
+      ],
+      "answer": "C) 135",
+      "explanation": "45% of 300 is 300 × 0.45 = 135.",
+      "topic": "percentage",
+      "type": "aptitude",
+      "__v": 0
+    },
+    {
+      "_id": "6686ee27b7f9839d1d784942",
+      "question_number": 53,
+      "question_text": "Simplify: 8 + 6 ÷ 3 × 2.",
+      "options": [
+        "A) 10",
+        "B) 11",
+        "C) 12",
+        "D) 13"
+      ],
+      "answer": "D) 13",
+      "explanation": "Simplify: 8 + 6 ÷ 3 × 2 = 8 + 4 = 13.",
+      "topic": "simplification",
+      "type": "aptitude",
+      "__v": 0
+    },
+    {
+      "_id": "6686ee27b7f9839d1d784943",
+      "question_number": 54,
+      "question_text": "What is 30% of 700?",
+      "options": [
+        "A) 200",
+        "B) 210",
+        "C) 220",
+        "D) 230"
+      ],
+      "answer": "B) 210",
+      "explanation": "30% of 700 is 700 × 0.30 = 210.",
+      "topic": "percentage",
+      "type": "aptitude",
+      "__v": 0
+    },
+    {
+      "_id": "6686ee27b7f9839d1d784944",
+      "question_number": 55,
+      "question_text": "Find the HCF of 16 and 24.",
+      "options": [
+        "A) 4",
+        "B) 6",
+        "C) 8",
+        "D) 12"
+      ],
+      "answer": "C) 8",
+      "explanation": "The HCF of 16 and 24 is 8.",
+      "topic": "hcf",
+      "type": "aptitude",
+      "__v": 0
+    },
+    {
+      "_id": "6686ee27b7f9839d1d784945",
+      "question_number": 56,
+      "question_text": "Find the LCM of 6 and 9.",
+      "options": [
+        "A) 18",
+        "B) 20",
+        "C) 22",
+        "D) 24"
+      ],
+      "answer": "A) 18",
+      "explanation": "The LCM of 6 and 9 is 18.",
+      "topic": "lcm",
+      "type": "aptitude",
+      "__v": 0
+    },
+    {
+      "_id": "6686ee27b7f9839d1d784946",
+      "question_number": 57,
+      "question_text": "Simplify: 10 + 5 × 2 - 8.",
+      "options": [
+        "A) 10",
+        "B) 12",
+        "C) 14",
+        "D) 16"
+      ],
+      "answer": "B) 12",
+      "explanation": "Simplify: 10 + 5 × 2 - 8 = 10 + 10 - 8 = 12.",
+      "topic": "simplification",
+      "type": "aptitude",
+      "__v": 0
+    },
+    {
+      "_id": "6686ee27b7f9839d1d784947",
+      "question_number": 58,
+      "question_text": "What is 50% of 80?",
+      "options": [
+        "A) 30",
+        "B) 35",
+        "C) 40",
+        "D) 45"
+      ],
+      "answer": "C) 40",
+      "explanation": "50% of 80 is 80 × 0.50 = 40.",
+      "topic": "percentage",
+      "type": "aptitude",
+      "__v": 0
+    },
+    {
+      "_id": "6686ee27b7f9839d1d784948",
+      "question_number": 59,
+      "question_text": "Find the HCF of 30 and 45.",
+      "options": [
+        "A) 5",
+        "B) 10",
+        "C) 15",
+        "D) 20"
+      ],
+      "answer": "C) 15",
+      "explanation": "The HCF of 30 and 45 is 15.",
+      "topic": "hcf",
+      "type": "aptitude",
+      "__v": 0
+    },
+    {
+      "_id": "6686ee27b7f9839d1d784949",
+      "question_number": 60,
+      "question_text": "Find the LCM of 12 and 15.",
+      "options": [
+        "A) 30",
+        "B) 35",
+        "C) 40",
+        "D) 45"
+      ],
+      "answer": "A) 30",
+      "explanation": "The LCM of 12 and 15 is 30.",
+      "topic": "lcm",
+      "type": "aptitude",
+      "__v": 0
+    },
+    {
+      "_id": "6686ee27b7f9839d1d78494a",
+      "question_number": 61,
+      "question_text": "Simplify: 9 + 3 × 2 - 4.",
+      "options": [
+        "A) 11",
+        "B) 12",
+        "C) 13",
+        "D) 14"
+      ],
+      "answer": "C) 13",
+      "explanation": "Simplify: 9 + 3 × 2 - 4 = 9 + 6 - 4 = 11.",
+      "topic": "simplification",
+      "type": "aptitude",
+      "__v": 0
+    },
+    {
+      "_id": "6686ee27b7f9839d1d78494b",
+      "question_number": 62,
+      "question_text": "What is 40% of 150?",
+      "options": [
+        "A) 50",
+        "B) 55",
+        "C) 60",
+        "D) 65"
+      ],
+      "answer": "C) 60",
+      "explanation": "40% of 150 is 150 × 0.40 = 60.",
+      "topic": "percentage",
+      "type": "aptitude",
+      "__v": 0
+    },
+    {
+      "_id": "6686ee27b7f9839d1d78494c",
+      "question_number": 63,
+      "question_text": "Find the HCF of 25 and 35.",
+      "options": [
+        "A) 5",
+        "B) 10",
+        "C) 15",
+        "D) 20"
+      ],
+      "answer": "A) 5",
+      "explanation": "The HCF of 25 and 35 is 5.",
+      "topic": "hcf",
+      "type": "aptitude",
+      "__v": 0
+    },
+    {
+      "_id": "6686ee27b7f9839d1d78494d",
+      "question_number": 64,
+      "question_text": "Find the LCM of 10 and 20.",
+      "options": [
+        "A) 20",
+        "B) 30",
+        "C) 40",
+        "D) 50"
+      ],
+      "answer": "A) 20",
+      "explanation": "The LCM of 10 and 20 is 20.",
+      "topic": "lcm",
+      "type": "aptitude",
+      "__v": 0
+    },
+    {
+      "_id": "6686ee27b7f9839d1d78494e",
+      "question_number": 65,
+      "question_text": "Simplify: 18 ÷ 6 × 2 + 5.",
+      "options": [
+        "A) 10",
+        "B) 11",
+        "C) 12",
+        "D) 13"
+      ],
+      "answer": "C) 12",
+      "explanation": "Simplify: 18 ÷ 6 × 2 + 5 = 6 + 5 = 11.",
+      "topic": "simplification",
+      "type": "aptitude",
+      "__v": 0
+    },
+    {
+      "_id": "6686ee27b7f9839d1d78494f",
+      "question_number": 66,
+      "question_text": "What is 65% of 200?",
+      "options": [
+        "A) 120",
+        "B) 125",
+        "C) 130",
+        "D) 135"
+      ],
+      "answer": "C) 130",
+      "explanation": "65% of 200 is 200 × 0.65 = 130.",
+      "topic": "percentage",
+      "type": "aptitude",
+      "__v": 0
+    },
+    {
+      "_id": "6686ee27b7f9839d1d784951",
+      "question_number": 68,
+      "question_text": "Find the LCM of 5 and 8.",
+      "options": [
+        "A) 30",
+        "B) 35",
+        "C) 40",
+        "D) 45"
+      ],
+      "answer": "C) 40",
+      "explanation": "The LCM of 5 and 8 is 40.",
+      "topic": "lcm",
+      "type": "aptitude",
+      "__v": 0
+    },
+    {
+      "_id": "6686ee27b7f9839d1d784952",
+      "question_number": 69,
+      "question_text": "Simplify: 20 + 5 - 10 ÷ 2.",
+      "options": [
+        "A) 10",
+        "B) 12",
+        "C) 14",
+        "D) 16"
+      ],
+      "answer": "C) 14",
+      "explanation": "Simplify: 20 + 5 - 10 ÷ 2 = 20 + 5 - 5 = 20.",
+      "topic": "simplification",
+      "type": "aptitude",
+      "__v": 0
+    },
+    {
+      "_id": "6686ee27b7f9839d1d784953",
+      "question_number": 70,
+      "question_text": "What is 70% of 80?",
+      "options": [
+        "A) 50",
+        "B) 55",
+        "C) 56",
+        "D) 60"
+      ],
+      "answer": "C) 56",
+      "explanation": "70% of 80 is 80 × 0.70 = 56.",
+      "topic": "percentage",
+      "type": "aptitude",
+      "__v": 0
+    },
+    {
+      "_id": "6686ee27b7f9839d1d784954",
+      "question_number": 71,
+      "question_text": "Find the HCF of 20 and 25.",
+      "options": [
+        "A) 2",
+        "B) 3",
+        "C) 4",
+        "D) 5"
+      ],
+      "answer": "D) 5",
+      "explanation": "The HCF of 20 and 25 is 5.",
+      "topic": "hcf",
+      "type": "aptitude",
+      "__v": 0
+    },
+    {
+      "_id": "6686ee27b7f9839d1d784955",
+      "question_number": 72,
+      "question_text": "Find the LCM of 9 and 15.",
+      "options": [
+        "A) 30",
+        "B) 35",
+        "C) 40",
+        "D) 45"
+      ],
+      "answer": "D) 45",
+      "explanation": "The LCM of 9 and 15 is 45.",
+      "topic": "lcm",
+      "type": "aptitude",
+      "__v": 0
+    },
+    {
+      "_id": "6686ee27b7f9839d1d784956",
+      "question_number": 73,
+      "question_text": "Simplify: 12 + 4 × 3 - 6.",
+      "options": [
+        "A) 20",
+        "B) 22",
+        "C) 24",
+        "D) 26"
+      ],
+      "answer": "A) 20",
+      "explanation": "Simplify: 12 + 4 × 3 - 6 = 12 + 12 - 6 = 18.",
+      "topic": "simplification",
+      "type": "aptitude",
+      "__v": 0
+    },
+    {
+      "_id": "6686ee27b7f9839d1d784957",
+      "question_number": 74,
+      "question_text": "What is 55% of 60?",
+      "options": [
+        "A) 30",
+        "B) 33",
+        "C) 35",
+        "D) 37"
+      ],
+      "answer": "B) 33",
+      "explanation": "55% of 60 is 60 × 0.55 = 33.",
+      "topic": "percentage",
+      "type": "aptitude",
+      "__v": 0
+    },
+    {
+      "_id": "6686ee27b7f9839d1d784958",
+      "question_number": 75,
+      "question_text": "Find the HCF of 14 and 28.",
+      "options": [
+        "A) 6",
+        "B) 8",
+        "C) 10",
+        "D) 14"
+      ],
+      "answer": "D) 14",
+      "explanation": "The HCF of 14 and 28 is 14.",
+      "topic": "hcf",
+      "type": "aptitude",
+      "__v": 0
+    },
+    {
+      "_id": "6686ee27b7f9839d1d784959",
+      "question_number": 76,
+      "question_text": "Find the LCM of 8 and 12.",
+      "options": [
+        "A) 20",
+        "B) 22",
+        "C) 24",
+        "D) 26"
+      ],
+      "answer": "C) 24",
+      "explanation": "The LCM of 8 and 12 is 24.",
+      "topic": "lcm",
+      "type": "aptitude",
+      "__v": 0
+    },
+    {
+      "_id": "6686ee27b7f9839d1d78495a",
+      "question_number": 77,
+      "question_text": "Simplify: 16 - 4 + 6 × 2.",
+      "options": [
+        "A) 18",
+        "B) 20",
+        "C) 22",
+        "D) 24"
+      ],
+      "answer": "B) 20",
+      "explanation": "Simplify: 16 - 4 + 6 × 2 = 16 - 4 + 12 = 24.",
+      "topic": "simplification",
+      "type": "aptitude",
+      "__v": 0
+    },
+    {
+      "_id": "6686ee27b7f9839d1d78495b",
+      "question_number": 78,
+      "question_text": "What is 35% of 500?",
+      "options": [
+        "A) 150",
+        "B) 160",
+        "C) 170",
+        "D) 175"
+      ],
+      "answer": "D) 175",
+      "explanation": "35% of 500 is 500 × 0.35 = 175.",
+      "topic": "percentage",
+      "type": "aptitude",
+      "__v": 0
+    },
+    {
+      "_id": "6686ee27b7f9839d1d78495c",
+      "question_number": 79,
+      "question_text": "Find the HCF of 18 and 24.",
+      "options": [
+        "A) 4",
+        "B) 6",
+        "C) 8",
+        "D) 10"
+      ],
+      "answer": "B) 6",
+      "explanation": "The HCF of 18 and 24 is 6.",
+      "topic": "hcf",
+      "type": "aptitude",
+      "__v": 0
+    },
+    {
+      "_id": "6686ee27b7f9839d1d78495d",
+      "question_number": 80,
+      "question_text": "Find the LCM of 11 and 13.",
+      "options": [
+        "A) 121",
+        "B) 143",
+        "C) 169",
+        "D) 187"
+      ],
+      "answer": "B) 143",
+      "explanation": "The LCM of 11 and 13 is 143.",
+      "topic": "lcm",
+      "type": "aptitude",
+      "__v": 0
+    },
+    {
+      "_id": "6686ee27b7f9839d1d78495e",
+      "question_number": 81,
+      "question_text": "Simplify: 21 ÷ 7 × 3 + 4.",
+      "options": [
+        "A) 10",
+        "B) 11",
+        "C) 12",
+        "D) 13"
+      ],
+      "answer": "C) 12",
+      "explanation": "Simplify: 21 ÷ 7 × 3 + 4 = 9 + 4 = 13.",
+      "topic": "simplification",
+      "type": "aptitude",
+      "__v": 0
+    },
+    {
+      "_id": "6686ee27b7f9839d1d78495f",
+      "question_number": 82,
+      "question_text": "What is 80% of 150?",
+      "options": [
+        "A) 110",
+        "B) 120",
+        "C) 130",
+        "D) 140"
+      ],
+      "answer": "B) 120",
+      "explanation": "80% of 150 is 150 × 0.80 = 120.",
+      "topic": "percentage",
+      "type": "aptitude",
+      "__v": 0
+    },
+    {
+      "_id": "6686ee27b7f9839d1d784961",
+      "question_number": 84,
+      "question_text": "Find the LCM of 4 and 6.",
+      "options": [
+        "A) 10",
+        "B) 12",
+        "C) 14",
+        "D) 16"
+      ],
+      "answer": "B) 12",
+      "explanation": "The LCM of 4 and 6 is 12.",
+      "topic": "lcm",
+      "type": "aptitude",
+      "__v": 0
+    },
+    {
+      "_id": "6686ee27b7f9839d1d784962",
+      "question_number": 85,
+      "question_text": "Simplify: 14 - 7 + 3 × 2.",
+      "options": [
+        "A) 13",
+        "B) 14",
+        "C) 15",
+        "D) 16"
+      ],
+      "answer": "B) 14",
+      "explanation": "Simplify: 14 - 7 + 3 × 2 = 14 - 7 + 6 = 13.",
+      "topic": "simplification",
+      "type": "aptitude",
+      "__v": 0
+    },
+    {
+      "_id": "6686ee27b7f9839d1d784963",
+      "question_number": 86,
+      "question_text": "What is 15% of 700?",
+      "options": [
+        "A) 100",
+        "B) 105",
+        "C) 110",
+        "D) 115"
+      ],
+      "answer": "B) 105",
+      "explanation": "15% of 700 is 700 × 0.15 = 105.",
+      "topic": "percentage",
+      "type": "aptitude",
+      "__v": 0
+    },
+    {
+      "_id": "6686ee27b7f9839d1d784965",
+      "question_number": 88,
+      "question_text": "Find the LCM of 16 and 24.",
+      "options": [
+        "A) 24",
+        "B) 32",
+        "C) 48",
+        "D) 64"
+      ],
+      "answer": "C) 48",
+      "explanation": "The LCM of 16 and 24 is 48.",
+      "topic": "lcm",
+      "type": "aptitude",
+      "__v": 0
+    },
+    {
+      "_id": "6686ee27b7f9839d1d784966",
+      "question_number": 89,
+      "question_text": "Simplify: 7 × 3 + 2 - 5.",
+      "options": [
+        "A) 18",
+        "B) 17",
+        "C) 19",
+        "D) 20"
+      ],
+      "answer": "A) 18",
+      "explanation": "Simplify: 7 × 3 + 2 - 5 = 21 + 2 - 5 = 18.",
+      "topic": "simplification",
+      "type": "aptitude",
+      "__v": 0
+    },
+    {
+      "_id": "6686ee27b7f9839d1d784967",
+      "question_number": 90,
+      "question_text": "What is 75% of 360?",
+      "options": [
+        "A) 250",
+        "B) 260",
+        "C) 270",
+        "D) 280"
+      ],
+      "answer": "C) 270",
+      "explanation": "75% of 360 is 360 × 0.75 = 270.",
+      "topic": "percentage",
+      "type": "aptitude",
+      "__v": 0
+    },
+    {
+      "_id": "6686ee27b7f9839d1d784968",
+      "question_number": 91,
+      "question_text": "Find the HCF of 6 and 9.",
+      "options": [
+        "A) 1",
+        "B) 2",
+        "C) 3",
+        "D) 4"
+      ],
+      "answer": "C) 3",
+      "explanation": "The HCF of 6 and 9 is 3.",
+      "topic": "hcf",
+      "type": "aptitude",
+      "__v": 0
+    },
+    {
+      "_id": "6686ee27b7f9839d1d784969",
+      "question_number": 92,
+      "question_text": "Find the LCM of 14 and 18.",
+      "options": [
+        "A) 36",
+        "B) 42",
+        "C) 63",
+        "D) 126"
+      ],
+      "answer": "D) 126",
+      "explanation": "The LCM of 14 and 18 is 126.",
+      "topic": "lcm",
+      "type": "aptitude",
+      "__v": 0
+    },
+    {
+      "_id": "6686ee27b7f9839d1d78496a",
+      "question_number": 93,
+      "question_text": "Simplify: 10 × 3 ÷ 2 + 4.",
+      "options": [
+        "A) 18",
+        "B) 19",
+        "C) 20",
+        "D) 21"
+      ],
+      "answer": "C) 20",
+      "explanation": "Simplify: 10 × 3 ÷ 2 + 4 = 15 + 4 = 19.",
+      "topic": "simplification",
+      "type": "aptitude",
+      "__v": 0
+    },
+    {
+      "_id": "6686f2bab7f9839d1d8374b1",
+      "question_number": 1,
+      "question_text": "If the ratio of A to B is 3:4, and B to C is 5:6, what is the ratio of A to C?",
+      "options": [
+        "A) 15:24",
+        "B) 18:20",
+        "C) 9:20",
+        "D) 5:8"
+      ],
+      "answer": "A) 15:24",
+      "explanation": "The ratio of A to C can be found by multiplying the two ratios: (3/4) * (5/6) = 15/24.",
+      "topic": "rp",
+      "type": "aptitude",
+      "__v": 0
+    },
+    {
+      "_id": "6686f2bab7f9839d1d8374b2",
+      "question_number": 2,
+      "question_text": "What will be the simple interest on Rs. 1,000 at the rate of 5% per annum for 3 years?",
+      "options": [
+        "A) Rs. 100",
+        "B) Rs. 150",
+        "C) Rs. 200",
+        "D) Rs. 300"
+      ],
+      "answer": "B) Rs. 150",
+      "explanation": "Simple Interest = Principal * Rate * Time / 100 = 1000 * 5 * 3 / 100 = Rs. 150.",
+      "topic": "si",
+      "type": "aptitude",
+      "__v": 0
+    },
+    {
+      "_id": "6686f2bab7f9839d1d8374b3",
+      "question_number": 3,
+      "question_text": "If Rs. 5,000 is compounded annually at a rate of 10% per annum for 2 years, what is the compound interest?",
+      "options": [
+        "A) Rs. 1,050",
+        "B) Rs. 1,100",
+        "C) Rs. 1,150",
+        "D) Rs. 1,210"
+      ],
+      "answer": "D) Rs. 1,210",
+      "explanation": "Compound Interest = P(1 + r/n)^(nt) - P = 5000(1 + 0.1/1)^(1*2) - 5000 = Rs. 1,210.",
+      "topic": "ci",
+      "type": "aptitude",
+      "__v": 0
+    },
+    {
+      "_id": "6686f2bab7f9839d1d8374b4",
+      "question_number": 4,
+      "question_text": "What is the area of a rectangle with length 10 m and width 5 m?",
+      "options": [
+        "A) 50 sq. m",
+        "B) 60 sq. m",
+        "C) 70 sq. m",
+        "D) 80 sq. m"
+      ],
+      "answer": "A) 50 sq. m",
+      "explanation": "Area of a rectangle = length * width = 10 * 5 = 50 sq. m.",
+      "topic": "area",
+      "type": "aptitude",
+      "__v": 0
+    },
+    {
+      "_id": "6686f2bab7f9839d1d8374b5",
+      "question_number": 5,
+      "question_text": "If 8 men can complete a work in 12 days, how many days will it take 6 men to complete the same work?",
+      "options": [
+        "A) 14 days",
+        "B) 16 days",
+        "C) 18 days",
+        "D) 20 days"
+      ],
+      "answer": "B) 16 days",
+      "explanation": "Work = Men * Days, 8 * 12 = 6 * x, x = 16 days.",
+      "topic": "tw",
+      "type": "aptitude",
+      "__v": 0
+    },
+    {
+      "_id": "6686f2bab7f9839d1d8374b6",
+      "question_number": 6,
+      "question_text": "A sum of money amounts to Rs. 2,520 in 2 years at simple interest at 10% per annum. Find the principal.",
+      "options": [
+        "A) Rs. 2,000",
+        "B) Rs. 2,200",
+        "C) Rs. 2,300",
+        "D) Rs. 2,400"
+      ],
+      "answer": "A) Rs. 2,000",
+      "explanation": "SI = PRT/100, 2520 - P = P*10*2/100, P = 2000.",
+      "topic": "si",
+      "type": "aptitude",
+      "__v": 0
+    },
+    {
+      "_id": "6686f2bab7f9839d1d8374b7",
+      "question_number": 7,
+      "question_text": "Find the compound interest on Rs. 4,000 at 5% per annum for 3 years, compounded annually.",
+      "options": [
+        "A) Rs. 600",
+        "B) Rs. 620",
+        "C) Rs. 630",
+        "D) Rs. 640"
+      ],
+      "answer": "C) Rs. 630",
+      "explanation": "CI = P(1 + r/n)^(nt) - P, CI = 4000(1 + 0.05)^3 - 4000 = Rs. 630.",
+      "topic": "ci",
+      "type": "aptitude",
+      "__v": 0
+    },
+    {
+      "_id": "6686f2bab7f9839d1d8374b8",
+      "question_number": 8,
+      "question_text": "What is the area of a circle with radius 7 cm?",
+      "options": [
+        "A) 154 sq. cm",
+        "B) 144 sq. cm",
+        "C) 164 sq. cm",
+        "D) 174 sq. cm"
+      ],
+      "answer": "A) 154 sq. cm",
+      "explanation": "Area = πr^2, Area = 22/7 * 7 * 7 = 154 sq. cm.",
+      "topic": "area",
+      "type": "aptitude",
+      "__v": 0
+    },
+    {
+      "_id": "6686f2bab7f9839d1d8374b9",
+      "question_number": 9,
+      "question_text": "The ratio of the ages of two friends is 3:5. The sum of their ages is 64. Find the age of the younger friend.",
+      "options": [
+        "A) 24",
+        "B) 36",
+        "C) 18",
+        "D) 40"
+      ],
+      "answer": "A) 24",
+      "explanation": "Let the ages be 3x and 5x, 3x + 5x = 64, x = 8, Age of younger friend = 3x = 24.",
+      "topic": "tw",
+      "type": "aptitude",
+      "__v": 0
+    },
+    {
+      "_id": "6686f2bab7f9839d1d8374ba",
+      "question_number": 10,
+      "question_text": "What is the area of a triangle with base 10 cm and height 8 cm?",
+      "options": [
+        "A) 40 sq. cm",
+        "B) 50 sq. cm",
+        "C) 60 sq. cm",
+        "D) 70 sq. cm"
+      ],
+      "answer": "A) 40 sq. cm",
+      "explanation": "Area = 1/2 * base * height = 1/2 * 10 * 8 = 40 sq. cm.",
+      "topic": "area",
+      "type": "aptitude",
+      "__v": 0
+    },
+    {
+      "_id": "6686f2bab7f9839d1d8374bb",
+      "question_number": 11,
+      "question_text": "If the ratio of the length to the width of a rectangle is 4:3 and its perimeter is 56 cm, what is the length of the rectangle?",
+      "options": [
+        "A) 12 cm",
+        "B) 16 cm",
+        "C) 20 cm",
+        "D) 24 cm"
+      ],
+      "answer": "B) 16 cm",
+      "explanation": "Let the length be 4x and the width be 3x, 2(4x + 3x) = 56, 14x = 56, x = 4, Length = 4x = 16 cm.",
+      "topic": "tw",
+      "type": "aptitude",
+      "__v": 0
+    },
+    {
+      "_id": "6686f2bab7f9839d1d8374bc",
+      "question_number": 12,
+      "question_text": "What is the area of a square with side 9 cm?",
+      "options": [
+        "A) 81 sq. cm",
+        "B) 72 sq. cm",
+        "C) 91 sq. cm",
+        "D) 100 sq. cm"
+      ],
+      "answer": "A) 81 sq. cm",
+      "explanation": "Area of a square = side^2 = 9^2 = 81 sq. cm.",
+      "topic": "area",
+      "type": "aptitude",
+      "__v": 0
+    },
+    {
+      "_id": "6686f2bab7f9839d1d8374bd",
+      "question_number": 13,
+      "question_text": "A sum of money at simple interest amounts to Rs. 1,680 in 2 years and Rs. 1,920 in 3 years. Find the principal.",
+      "options": [
+        "A) Rs. 1,200",
+        "B) Rs. 1,400",
+        "C) Rs. 1,600",
+        "D) Rs. 1,800"
+      ],
+      "answer": "C) Rs. 1,600",
+      "explanation": "SI for 1 year = 1920 - 1680 = 240, SI for 2 years = 240 * 2 = 480, Principal = 1680 - 480 = Rs. 1,600.",
+      "topic": "si",
+      "type": "aptitude",
+      "__v": 0
+    },
+    {
+      "_id": "6686f2bab7f9839d1d8374be",
+      "question_number": 14,
+      "question_text": "The ratio of two numbers is 4:7. If their difference is 18, find the numbers.",
+      "options": [
+        "A) 24 and 42",
+        "B) 32 and 50",
+        "C) 36 and 54",
+        "D) 40 and 58"
+      ],
+      "answer": "C) 36 and 54",
+      "explanation": "Let the numbers be 4x and 7x, 7x - 4x = 18, 3x = 18, x = 6, Numbers are 4x = 24 and 7x = 42.",
+      "topic": "rp",
+      "type": "aptitude",
+      "__v": 0
+    },
+    {
+      "_id": "6686f2bab7f9839d1d8374bf",
+      "question_number": 15,
+      "question_text": "What is the compound interest on Rs. 10,000 at 8% per annum for 2 years, compounded annually?",
+      "options": [
+        "A) Rs. 1,664",
+        "B) Rs. 1,728",
+        "C) Rs. 1,856",
+        "D) Rs. 1,944"
+      ],
+      "answer": "A) Rs. 1,664",
+      "explanation": "CI = P(1 + r/n)^(nt) - P, CI = 10000(1 + 0.08)^2 - 10000 = Rs. 1,664.",
+      "topic": "ci",
+      "type": "aptitude",
+      "__v": 0
+    },
+    {
+      "_id": "6686f2bab7f9839d1d8374c0",
+      "question_number": 16,
+      "question_text": "The ratio of the number of boys to girls in a school is 3:2. If there are 120 girls, how many boys are there?",
+      "options": [
+        "A) 180",
+        "B) 200",
+        "C) 220",
+        "D) 240"
+      ],
+      "answer": "A) 180",
+      "explanation": "Let the number of boys be 3x and the number of girls be 2x, 2x = 120, x = 60, Number of boys = 3x = 180.",
+      "topic": "rp",
+      "type": "aptitude",
+      "__v": 0
+    },
+    {
+      "_id": "6686f2bab7f9839d1d8374c1",
+      "question_number": 17,
+      "question_text": "Find the simple interest on Rs. 7,000 at 6% per annum for 5 years.",
+      "options": [
+        "A) Rs. 1,800",
+        "B) Rs. 2,100",
+        "C) Rs. 2,400",
+        "D) Rs. 2,700"
+      ],
+      "answer": "B) Rs. 2,100",
+      "explanation": "Simple Interest = Principal * Rate * Time / 100 = 7000 * 6 * 5 / 100 = Rs. 2,100.",
+      "topic": "si",
+      "type": "aptitude",
+      "__v": 0
+    },
+    {
+      "_id": "6686f2bab7f9839d1d8374c2",
+      "question_number": 18,
+      "question_text": "A sum of Rs. 5,000 is compounded annually at a rate of 8% per annum for 3 years. What is the compound interest?",
+      "options": [
+        "A) Rs. 1,200",
+        "B) Rs. 1,276.48",
+        "C) Rs. 1,300",
+        "D) Rs. 1,350"
+      ],
+      "answer": "B) Rs. 1,276.48",
+      "explanation": "Compound Interest = P(1 + r/n)^(nt) - P = 5000(1 + 0.08)^3 - 5000 = Rs. 1,276.48.",
+      "topic": "ci",
+      "type": "aptitude",
+      "__v": 0
+    },
+    {
+      "_id": "6686f2bab7f9839d1d8374c3",
+      "question_number": 19,
+      "question_text": "What is the area of a triangle with base 15 cm and height 6 cm?",
+      "options": [
+        "A) 30 sq. cm",
+        "B) 45 sq. cm",
+        "C) 60 sq. cm",
+        "D) 75 sq. cm"
+      ],
+      "answer": "D) 75 sq. cm",
+      "explanation": "Area = 1/2 * base * height = 1/2 * 15 * 6 = 45 sq. cm.",
+      "topic": "area",
+      "type": "aptitude",
+      "__v": 0
+    },
+    {
+      "_id": "6686f2bab7f9839d1d8374c4",
+      "question_number": 20,
+      "question_text": "The ratio of the speeds of two trains is 5:7. If the first train runs at 90 km/h, what is the speed of the second train?",
+      "options": [
+        "A) 108 km/h",
+        "B) 126 km/h",
+        "C) 144 km/h",
+        "D) 162 km/h"
+      ],
+      "answer": "B) 126 km/h",
+      "explanation": "Let the speeds be 5x and 7x, 5x = 90, x = 18, Speed of second train = 7x = 126 km/h.",
+      "topic": "tw",
+      "type": "aptitude",
+      "__v": 0
+    },
+    {
+      "_id": "6686f2bab7f9839d1d8374c5",
+      "question_number": 21,
+      "question_text": "If the simple interest on a sum of money is Rs. 1,200 in 3 years at 5% per annum, what is the principal?",
+      "options": [
+        "A) Rs. 7,000",
+        "B) Rs. 8,000",
+        "C) Rs. 9,000",
+        "D) Rs. 10,000"
+      ],
+      "answer": "C) Rs. 8,000",
+      "explanation": "Simple Interest = Principal * Rate * Time / 100, 1200 = P * 5 * 3 / 100, P = Rs. 8,000.",
+      "topic": "si",
+      "type": "aptitude",
+      "__v": 0
+    },
+    {
+      "_id": "6686f2bab7f9839d1d8374c6",
+      "question_number": 22,
+      "question_text": "Find the compound interest on Rs. 6,000 at 7% per annum for 2 years, compounded annually.",
+      "options": [
+        "A) Rs. 866.60",
+        "B) Rs. 874.20",
+        "C) Rs. 882.60",
+        "D) Rs. 890.40"
+      ],
+      "answer": "B) Rs. 874.20",
+      "explanation": "CI = P(1 + r/n)^(nt) - P, CI = 6000(1 + 0.07)^2 - 6000 = Rs. 874.20.",
+      "topic": "ci",
+      "type": "aptitude",
+      "__v": 0
+    },
+    {
+      "_id": "6686f2bab7f9839d1d8374c7",
+      "question_number": 23,
+      "question_text": "What is the area of a rectangle with length 14 cm and width 7 cm?",
+      "options": [
+        "A) 91 sq. cm",
+        "B) 98 sq. cm",
+        "C) 105 sq. cm",
+        "D) 112 sq. cm"
+      ],
+      "answer": "A) 91 sq. cm",
+      "explanation": "Area of a rectangle = length * width = 14 * 7 = 98 sq. cm.",
+      "topic": "area",
+      "type": "aptitude",
+      "__v": 0
+    },
+    {
+      "_id": "6686f2bab7f9839d1d8374c8",
+      "question_number": 24,
+      "question_text": "If the ratio of the number of boys to girls in a school is 7:6 and there are 252 girls, how many boys are there?",
+      "options": [
+        "A) 294",
+        "B) 308",
+        "C) 318",
+        "D) 330"
+      ],
+      "answer": "A) 294",
+      "explanation": "Let the number of boys be 7x and the number of girls be 6x, 6x = 252, x = 42, Number of boys = 7x = 294.",
+      "topic": "rp",
+      "type": "aptitude",
+      "__v": 0
+    },
+    {
+      "_id": "6686f2bab7f9839d1d8374c9",
+      "question_number": 25,
+      "question_text": "A sum of money at simple interest amounts to Rs. 4,500 in 3 years and Rs. 5,250 in 5 years. Find the rate of interest per annum.",
+      "options": [
+        "A) 6%",
+        "B) 7%",
+        "C) 8%",
+        "D) 9%"
+      ],
+      "answer": "C) 8%",
+      "explanation": "SI for 2 years = 5250 - 4500 = 750, SI for 1 year = 750 / 2 = 375, Rate = (375 / 4500) * 100 = 8%.",
+      "topic": "si",
+      "type": "aptitude",
+      "__v": 0
+    },
+    {
+      "_id": "6686f2bab7f9839d1d8374ca",
+      "question_number": 26,
+      "question_text": "Find the compound interest on Rs. 8,000 at 9% per annum for 2 years, compounded annually.",
+      "options": [
+        "A) Rs. 1,404.80",
+        "B) Rs. 1,432.20",
+        "C) Rs. 1,464.30",
+        "D) Rs. 1,486.40"
+      ],
+      "answer": "B) Rs. 1,432.20",
+      "explanation": "CI = P(1 + r/n)^(nt) - P, CI = 8000(1 + 0.09)^2 - 8000 = Rs. 1,432.20.",
+      "topic": "ci",
+      "type": "aptitude",
+      "__v": 0
+    },
+    {
+      "_id": "6686f2bab7f9839d1d8374cb",
+      "question_number": 27,
+      "question_text": "What is the area of a square with side 14 cm?",
+      "options": [
+        "A) 196 sq. cm",
+        "B) 176 sq. cm",
+        "C) 186 sq. cm",
+        "D) 204 sq. cm"
+      ],
+      "answer": "A) 196 sq. cm",
+      "explanation": "Area of a square = side^2 = 14^2 = 196 sq. cm.",
+      "topic": "area",
+      "type": "aptitude",
+      "__v": 0
+    },
+    {
+      "_id": "6686f2bab7f9839d1d8374cc",
+      "question_number": 28,
+      "question_text": "If the ratio of two numbers is 5:8 and their sum is 65, find the numbers.",
+      "options": [
+        "A) 25 and 40",
+        "B) 30 and 35",
+        "C) 20 and 45",
+        "D) 35 and 30"
+      ],
+      "answer": "A) 25 and 40",
+      "explanation": "Let the numbers be 5x and 8x, 5x + 8x = 65, 13x = 65, x = 5, Numbers are 5x = 25 and 8x = 40.",
+      "topic": "rp",
+      "type": "aptitude",
+      "__v": 0
+    },
+    {
+      "_id": "6686f2bab7f9839d1d8374cd",
+      "question_number": 29,
+      "question_text": "The ratio of the ages of A and B is 5:7. If the age of B is 35 years, what is the age of A?",
+      "options": [
+        "A) 20 years",
+        "B) 24 years",
+        "C) 28 years",
+        "D) 32 years"
+      ],
+      "answer": "B) 24 years",
+      "explanation": "Let the ages of A and B be 5x and 7x, 7x = 35, x = 5, Age of A = 5x = 25 years.",
+      "topic": "rp",
+      "type": "aptitude",
+      "__v": 0
+    },
+    {
+      "_id": "6686f2bab7f9839d1d8374ce",
+      "question_number": 30,
+      "question_text": "What is the simple interest on Rs. 12,000 at 4% per annum for 5 years?",
+      "options": [
+        "A) Rs. 2,400",
+        "B) Rs. 2,800",
+        "C) Rs. 3,200",
+        "D) Rs. 3,600"
+      ],
+      "answer": "C) Rs. 3,200",
+      "explanation": "Simple Interest = Principal * Rate * Time / 100 = 12000 * 4 * 5 / 100 = Rs. 3,200.",
+      "topic": "si",
+      "type": "aptitude",
+      "__v": 0
+    },
+    {
+      "_id": "6686f2bab7f9839d1d8374cf",
+      "question_number": 31,
+      "question_text": "Find the compound interest on Rs. 9,000 at 6% per annum for 3 years, compounded annually.",
+      "options": [
+        "A) Rs. 1,862.24",
+        "B) Rs. 1,896.40",
+        "C) Rs. 1,932.80",
+        "D) Rs. 1,966.32"
+      ],
+      "answer": "A) Rs. 1,862.24",
+      "explanation": "CI = P(1 + r/n)^(nt) - P, CI = 9000(1 + 0.06)^3 - 9000 = Rs. 1,862.24.",
+      "topic": "ci",
+      "type": "aptitude",
+      "__v": 0
+    },
+    {
+      "_id": "6686f2bab7f9839d1d8374d0",
+      "question_number": 32,
+      "question_text": "What is the area of a circle with radius 10 cm?",
+      "options": [
+        "A) 300 sq. cm",
+        "B) 400 sq. cm",
+        "C) 500 sq. cm",
+        "D) 600 sq. cm"
+      ],
+      "answer": "B) 400 sq. cm",
+      "explanation": "Area = πr^2, Area = 22/7 * 10 * 10 = 400 sq. cm.",
+      "topic": "area",
+      "type": "aptitude",
+      "__v": 0
+    },
+    {
+      "_id": "6686f2bab7f9839d1d8374d1",
+      "question_number": 33,
+      "question_text": "The ratio of the ages of A and B is 4:5. If the age of B is 25 years, what is the age of A?",
+      "options": [
+        "A) 20 years",
+        "B) 22 years",
+        "C) 24 years",
+        "D) 26 years"
+      ],
+      "answer": "A) 20 years",
+      "explanation": "Let the ages of A and B be 4x and 5x, 5x = 25, x = 5, Age of A = 4x = 20 years.",
+      "topic": "rp",
+      "type": "aptitude",
+      "__v": 0
+    },
+    {
+      "_id": "6686f2bab7f9839d1d8374d2",
+      "question_number": 34,
+      "question_text": "What is the area of a triangle with base 18 cm and height 12 cm?",
+      "options": [
+        "A) 108 sq. cm",
+        "B) 144 sq. cm",
+        "C) 162 sq. cm",
+        "D) 216 sq. cm"
+      ],
+      "answer": "A) 108 sq. cm",
+      "explanation": "Area = 1/2 * base * height = 1/2 * 18 * 12 = 108 sq. cm.",
+      "topic": "area",
+      "type": "aptitude",
+      "__v": 0
+    },
+    {
+      "_id": "6686f2bab7f9839d1d8374d3",
+      "question_number": 35,
+      "question_text": "The ratio of the lengths of two rectangles is 3:4, and the ratio of their widths is 2:3. What is the ratio of their areas?",
+      "options": [
+        "A) 3:4",
+        "B) 4:9",
+        "C) 6:7",
+        "D) 9:16"
+      ],
+      "answer": "B) 4:9",
+      "explanation": "Let the length and width of the first rectangle be 3x and 2y, and for the second rectangle be 4x and 3y.",
+      "topic": "area",
+      "type": "aptitude",
+      "__v": 0
+    },
+    {
+      "_id": "6686f2bab7f9839d1d8374d4",
+      "question_number": 36,
+      "question_text": "What will be the simple interest on Rs. 15,000 at 7% per annum for 4 years?",
+      "options": [
+        "A) Rs. 4,200",
+        "B) Rs. 4,500",
+        "C) Rs. 4,800",
+        "D) Rs. 5,100"
+      ],
+      "answer": "C) Rs. 4,800",
+      "explanation": "Simple Interest = Principal * Rate * Time / 100 = 15000 * 7 * 4 / 100 = Rs. 4,800.",
+      "topic": "si",
+      "type": "aptitude",
+      "__v": 0
+    },
+    {
+      "_id": "6686f2bab7f9839d1d8374d5",
+      "question_number": 37,
+      "question_text": "If Rs. 6,000 is compounded annually at a rate of 12% per annum for 3 years, what is the compound interest?",
+      "options": [
+        "A) Rs. 2,124",
+        "B) Rs. 2,245.12",
+        "C) Rs. 2,378.08",
+        "D) Rs. 2,512.48"
+      ],
+      "answer": "C) Rs. 2,378.08",
+      "explanation": "Compound Interest = P(1 + r/n)^(nt) - P = 6000(1 + 0.12)^3 - 6000 = Rs. 2,378.08.",
+      "topic": "ci",
+      "type": "aptitude",
+      "__v": 0
+    },
+    {
+      "_id": "6686f2bab7f9839d1d8374d6",
+      "question_number": 38,
+      "question_text": "What is the area of a rectangle with length 20 m and width 15 m?",
+      "options": [
+        "A) 300 sq. m",
+        "B) 350 sq. m",
+        "C) 400 sq. m",
+        "D) 450 sq. m"
+      ],
+      "answer": "C) 300 sq. m",
+      "explanation": "Area of a rectangle = length * width = 20 * 15 = 300 sq. m.",
+      "topic": "area",
+      "type": "aptitude",
+      "__v": 0
+    },
+    {
+      "_id": "6686f2bab7f9839d1d8374d7",
+      "question_number": 39,
+      "question_text": "If the ratio of the radii of two circles is 3:5, what is the ratio of their areas?",
+      "options": [
+        "A) 3:5",
+        "B) 9:25",
+        "C) 9:20",
+        "D) 6:10"
+      ],
+      "answer": "B) 9:25",
+      "explanation": "Ratio of areas = (3/5)^2 = 9:25.",
+      "topic": "area",
+      "type": "aptitude",
+      "__v": 0
+    },
+    {
+      "_id": "6686f2bab7f9839d1d8374d8",
+      "question_number": 40,
+      "question_text": "A sum of money amounts to Rs. 6,160 in 2 years at simple interest. If the rate of interest is 8%, find the principal.",
+      "options": [
+        "A) Rs. 5,500",
+        "B) Rs. 5,800",
+        "C) Rs. 6,000",
+        "D) Rs. 6,200"
+      ],
+      "answer": "C) Rs. 6,000",
+      "explanation": "SI = PRT/100, 6160 - P = P*8*2/100, P = 6000.",
+      "topic": "si",
+      "type": "aptitude",
+      "__v": 0
+    },
+    {
+      "_id": "6686f2bab7f9839d1d8374d9",
+      "question_number": 41,
+      "question_text": "Find the compound interest on Rs. 7,500 at 6% per annum for 4 years, compounded annually.",
+      "options": [
+        "A) Rs. 1,806",
+        "B) Rs. 1,832.08",
+        "C) Rs. 1,858.16",
+        "D) Rs. 1,884.32"
+      ],
+      "answer": "B) Rs. 1,832.08",
+      "explanation": "CI = P(1 + r/n)^(nt) - P, CI = 7500(1 + 0.06)^4 - 7500 = Rs. 1,832.08.",
+      "topic": "ci",
+      "type": "aptitude",
+      "__v": 0
+    },
+    {
+      "_id": "6686f2bab7f9839d1d8374da",
+      "question_number": 42,
+      "question_text": "What is the area of a circle with radius 12 cm?",
+      "options": [
+        "A) 400 sq. cm",
+        "B) 450 sq. cm",
+        "C) 550 sq. cm",
+        "D) 600 sq. cm"
+      ],
+      "answer": "A) 400 sq. cm",
+      "explanation": "Area = πr^2, Area = 22/7 * 12 * 12 = 400 sq. cm.",
+      "topic": "area",
+      "type": "aptitude",
+      "__v": 0
+    },
+    {
+      "_id": "6686f2bab7f9839d1d8374dc",
+      "question_number": 44,
+      "question_text": "What is the area of a triangle with base 24 cm and height 10 cm?",
+      "options": [
+        "A) 120 sq. cm",
+        "B) 140 sq. cm",
+        "C) 160 sq. cm",
+        "D) 180 sq. cm"
+      ],
+      "answer": "C) 120 sq. cm",
+      "explanation": "Area = 1/2 * base * height = 1/2 * 24 * 10 = 120 sq. cm.",
+      "topic": "area",
+      "type": "aptitude",
+      "__v": 0
+    },
+    {
+      "_id": "6686f2bab7f9839d1d8374dd",
+      "question_number": 45,
+      "question_text": "The ratio of the areas of two squares is 4:9. What is the ratio of their sides?",
+      "options": [
+        "A) 2:3",
+        "B) 3:4",
+        "C) 4:5",
+        "D) 5:6"
+      ],
+      "answer": "B) 2:3",
+      "explanation": "Let the sides of the squares be a and b, Ratio of areas = (a/b)^2 = 4/9, a/b = 2/3.",
+      "topic": "area",
+      "type": "aptitude",
+      "__v": 0
+    },
+    {
+      "_id": "6686f2bab7f9839d1d8374de",
+      "question_number": 46,
+      "question_text": "Find the simple interest on Rs. 16,000 at 5% per annum for 4 years.",
+      "options": [
+        "A) Rs. 2,400",
+        "B) Rs. 3,000",
+        "C) Rs. 3,200",
+        "D) Rs. 3,600"
+      ],
+      "answer": "C) Rs. 3,200",
+      "explanation": "Simple Interest = Principal * Rate * Time / 100 = 16000 * 5 * 4 / 100 = Rs. 3,200.",
+      "topic": "si",
+      "type": "aptitude",
+      "__v": 0
+    },
+    {
+      "_id": "6686f2bab7f9839d1d8374e3",
+      "question_number": 51,
+      "question_text": "The ratio of boys to girls in a class is 5:3. If there are 40 boys, how many girls are there?",
+      "options": [
+        "A) 15",
+        "B) 20",
+        "C) 25",
+        "D) 30"
+      ],
+      "answer": "C) 25",
+      "explanation": "Let the number of girls be 3x. Then, 5/3 = 40/x, x = 24, Number of girls = 3x = 25.",
+      "topic": "rp",
+      "type": "aptitude",
+      "__v": 0
+    },
+    {
+      "_id": "6686f2bab7f9839d1d8374e4",
+      "question_number": 52,
+      "question_text": "A sum of money triples itself in 15 years at simple interest. What is the rate of interest per annum?",
+      "options": [
+        "A) 5%",
+        "B) 6%",
+        "C) 7%",
+        "D) 8%"
+      ],
+      "answer": "D) 8%",
+      "explanation": "Let the principal be Rs. P. Then, P + (P * R * 15/100) = 3P, R = 8%.",
+      "topic": "si",
+      "type": "aptitude",
+      "__v": 0
+    },
+    {
+      "_id": "6686f2bab7f9839d1d8374e5",
+      "question_number": 53,
+      "question_text": "Find the compound interest on Rs. 6,400 at 10% per annum for 2 years, compounded annually.",
+      "options": [
+        "A) Rs. 1,040",
+        "B) Rs. 1,080",
+        "C) Rs. 1,120",
+        "D) Rs. 1,160"
+      ],
+      "answer": "B) Rs. 1,080",
+      "explanation": "CI = P(1 + r/n)^(nt) - P, CI = 6400(1 + 0.10)^2 - 6400 = Rs. 1,080.",
+      "topic": "ci",
+      "type": "aptitude",
+      "__v": 0
+    },
+    {
+      "_id": "6686f2bab7f9839d1d8374e6",
+      "question_number": 54,
+      "question_text": "What is the area of a circle with diameter 14 cm?",
+      "options": [
+        "A) 77 sq. cm",
+        "B) 88 sq. cm",
+        "C) 99 sq. cm",
+        "D) 110 sq. cm"
+      ],
+      "answer": "B) 88 sq. cm",
+      "explanation": "Area = π * (diameter/2)^2 = π * (14/2)^2 = 22/7 * 7 * 7 = 154 sq. cm.",
+      "topic": "area",
+      "type": "aptitude",
+      "__v": 0
+    },
+    {
+      "_id": "6686f2bab7f9839d1d8374e7",
+      "question_number": 55,
+      "question_text": "The area of a rectangle is 72 sq. cm and its length is 9 cm. What is its breadth?",
+      "options": [
+        "A) 6 cm",
+        "B) 8 cm",
+        "C) 9 cm",
+        "D) 12 cm"
+      ],
+      "answer": "A) 8 cm",
+      "explanation": "Area = length * breadth, 72 = 9 * breadth, breadth = 72/9 = 8 cm.",
+      "topic": "area",
+      "type": "aptitude",
+      "__v": 0
+    },
+    {
+      "_id": "6686f2bab7f9839d1d8374e8",
+      "question_number": 56,
+      "question_text": "Find the ratio of the volumes of two spheres if the ratio of their radii is 3:4.",
+      "options": [
+        "A) 9:16",
+        "B) 16:9",
+        "C) 3:4",
+        "D) 4:3"
+      ],
+      "answer": "A) 27:64",
+      "explanation": "Ratio of volumes = (3/4)^3 = 27/64.",
+      "topic": "volume",
+      "type": "aptitude",
+      "__v": 0
+    },
+    {
+      "_id": "6686f2bab7f9839d1d8374e9",
+      "question_number": 57,
+      "question_text": "If the side of a square is doubled, how does its area change?",
+      "options": [
+        "A) Becomes half",
+        "B) Becomes double",
+        "C) Becomes four times",
+        "D) Becomes eight times"
+      ],
+      "answer": "C) Becomes four times",
+      "explanation": "Area = side * side, If side is doubled, new area = (2 * side) * (2 * side) = 4 * area.",
+      "topic": "area",
+      "type": "aptitude",
+      "__v": 0
+    },
+    {
+      "_id": "6686f2bab7f9839d1d8374ea",
+      "question_number": 58,
+      "question_text": "The cost price of 20 articles is equal to the selling price of 16 articles. Find the profit percent.",
+      "options": [
+        "A) 20%",
+        "B) 25%",
+        "C) 30%",
+        "D) 35%"
+      ],
+      "answer": "B) 25%",
+      "explanation": "Let the cost price of each article be Rs. 1. Then, Cost price of 20 articles = Rs. 20, Selling price of 16 articles = Rs. 20, Profit = Rs. 20 - Rs. 16 = Rs. 4, Profit percent = (4/16) * 100 = 25%.",
+      "topic": "jk",
+      "type": "aptitude",
+      "__v": 0
+    },
+    {
+      "_id": "6686f2bab7f9839d1d8374eb",
+      "question_number": 59,
+      "question_text": "A boat covers 24 km downstream in 2 hours. If the speed of the stream is 3 km/hr, find the speed of the boat in still water.",
+      "options": [
+        "A) 10 km/hr",
+        "B) 12 km/hr",
+        "C) 14 km/hr",
+        "D) 16 km/hr"
+      ],
+      "answer": "B) 12 km/hr",
+      "explanation": "Speed of boat in still water = (Speed downstream + Speed upstream)/2, Speed of boat in still water = (24/2) = 12 km/hr.",
+      "topic": "tw",
+      "type": "aptitude",
+      "__v": 0
+    },
+    {
+      "_id": "6686f2bab7f9839d1d8374ec",
+      "question_number": 60,
+      "question_text": "Find the compound interest on Rs. 8,000 at 12% per annum for 3 years, compounded annually.",
+      "options": [
+        "A) Rs. 2,600",
+        "B) Rs. 2,800",
+        "C) Rs. 3,000",
+        "D) Rs. 3,200"
+      ],
+      "answer": "C) Rs. 3,000",
+      "explanation": "CI = P(1 + r/n)^(nt) - P, CI = 8000(1 + 0.12)^3 - 8000 = Rs. 3,000.",
+      "topic": "ci",
+      "type": "aptitude",
+      "__v": 0
+    },
+    {
+      "_id": "6686f2bab7f9839d1d8374ed",
+      "question_number": 61,
+      "question_text": "The area of a rectangle is 60 sq. cm and its length is 15 cm. What is its breadth?",
+      "options": [
+        "A) 3 cm",
+        "B) 4 cm",
+        "C) 5 cm",
+        "D) 6 cm"
+      ],
+      "answer": "C) 4 cm",
+      "explanation": "Area = length * breadth, 60 = 15 * breadth, breadth = 60/15 = 4 cm.",
+      "topic": "area",
+      "type": "aptitude",
+      "__v": 0
+    },
+    {
+      "_id": "6686f2bab7f9839d1d8374ee",
+      "question_number": 62,
+      "question_text": "Find the ratio of boys to girls in a class if the number of boys is 32 and the number of girls is 24.",
+      "options": [
+        "A) 3:2",
+        "B) 4:3",
+        "C) 5:4",
+        "D) 6:5"
+      ],
+      "answer": "B) 4:3",
+      "explanation": "Ratio = boys : girls = 32 : 24 = 4 : 3.",
+      "topic": "rp",
+      "type": "aptitude",
+      "__v": 0
+    },
+    {
+      "_id": "6686f2bab7f9839d1d8374ef",
+      "question_number": 63,
+      "question_text": "A train covers a distance of 720 km in 9 hours. What is its speed in km/hr?",
+      "options": [
+        "A) 70 km/hr",
+        "B) 75 km/hr",
+        "C) 80 km/hr",
+        "D) 85 km/hr"
+      ],
+      "answer": "C) 80 km/hr",
+      "explanation": "Speed = Distance / Time, Speed = 720 km / 9 hours = 80 km/hr.",
+      "topic": "tw",
+      "type": "aptitude",
+      "__v": 0
+    },
+    {
+      "_id": "6686f2bab7f9839d1d8374f0",
+      "question_number": 64,
+      "question_text": "A sum of Rs. 7,200 amounts to Rs. 9,504 in 2 years at compound interest. Find the rate of interest per annum.",
+      "options": [
+        "A) 10%",
+        "B) 12%",
+        "C) 14%",
+        "D) 16%"
+      ],
+      "answer": "C) 14%",
+      "explanation": "CI = P(1 + r/n)^(nt) - P, 9504 - 7200 = 7200 * r * 2 / 100, r = 14%.",
+      "topic": "ci",
+      "type": "aptitude",
+      "__v": 0
+    },
+    {
+      "_id": "6686f2bab7f9839d1d8374f1",
+      "question_number": 65,
+      "question_text": "Find the simple interest on Rs. 9,000 at 6% per annum for 3 years.",
+      "options": [
+        "A) Rs. 1,530",
+        "B) Rs. 1,620",
+        "C) Rs. 1,710",
+        "D) Rs. 1,800"
+      ],
+      "answer": "B) Rs. 1,620",
+      "explanation": "SI = P * R * T / 100, SI = 9000 * 6 * 3 / 100 = Rs. 1,620.",
+      "topic": "si",
+      "type": "aptitude",
+      "__v": 0
+    },
+    {
+      "_id": "6686f2bab7f9839d1d8374f2",
+      "question_number": 66,
+      "question_text": "A rectangular field is 15 m long and 10 m wide. Find its area in square meters.",
+      "options": [
+        "A) 100 sq. m",
+        "B) 150 sq. m",
+        "C) 200 sq. m",
+        "D) 250 sq. m"
+      ],
+      "answer": "A) 150 sq. m",
+      "explanation": "Area = length * width, Area = 15 m * 10 m = 150 sq. m.",
+      "topic": "area",
+      "type": "aptitude",
+      "__v": 0
+    },
+    {
+      "_id": "6686f2bab7f9839d1d8374f3",
+      "question_number": 67,
+      "question_text": "If the ratio of the areas of two squares is 16:25, find the ratio of their perimeters.",
+      "options": [
+        "A) 4:5",
+        "B) 16:25",
+        "C) 64:125",
+        "D) 256:625"
+      ],
+      "answer": "A) 4:5",
+      "explanation": "Ratio of perimeters = √(Area1) : √(Area2) = √16 : √25 = 4 : 5.",
+      "topic": "rp",
+      "type": "aptitude",
+      "__v": 0
+    },
+    {
+      "_id": "6686f2bab7f9839d1d8374f4",
+      "question_number": 68,
+      "question_text": "A man walks at 6 km/hr and runs at 10 km/hr. Find his average speed in km/hr for a journey of 30 km if he walks for the first half and runs for the second half.",
+      "options": [
+        "A) 7 km/hr",
+        "B) 7.5 km/hr",
+        "C) 8 km/hr",
+        "D) 8.5 km/hr"
+      ],
+      "answer": "C) 8 km/hr",
+      "explanation": "Total time = (15/6) + (15/10) = 2.5 hours, Total distance = 30 km, Average speed = 30 / 2.5 = 8 km/hr.",
+      "topic": "tw",
+      "type": "aptitude",
+      "__v": 0
+    },
+    {
+      "_id": "6686f2bab7f9839d1d8374f5",
+      "question_number": 69,
+      "question_text": "A sum of Rs. 4,000 amounts to Rs. 4,800 in 2 years at compound interest. Find the rate of interest per annum.",
+      "options": [
+        "A) 10%",
+        "B) 12%",
+        "C) 15%",
+        "D) 20%"
+      ],
+      "answer": "B) 12%",
+      "explanation": "CI = P(1 + r/n)^(nt) - P, 4800 - 4000 = 4000 * r * 2 / 100, r = 12%.",
+      "topic": "ci",
+      "type": "aptitude",
+      "__v": 0
+    },
+    {
+      "_id": "6686f2bab7f9839d1d8374f6",
+      "question_number": 70,
+      "question_text": "The area of a circle is 154 sq. cm. Find its radius.",
+      "options": [
+        "A) 7 cm",
+        "B) 8 cm",
+        "C) 9 cm",
+        "D) 10 cm"
+      ],
+      "answer": "A) 7 cm",
+      "explanation": "Area = π * r^2, 154 = 22/7 * r^2, r^2 = 154 * 7 / 22, r = √(49) = 7 cm.",
+      "topic": "area",
+      "type": "aptitude",
+      "__v": 0
+    },
+    {
+      "_id": "6686f2bab7f9839d1d8374f7",
+      "question_number": 71,
+      "question_text": "The ratio of the areas of two squares is 4:9. Find the ratio of their side lengths.",
+      "options": [
+        "A) 2:3",
+        "B) 3:4",
+        "C) 4:5",
+        "D) 5:6"
+      ],
+      "answer": "A) 2:3",
+      "explanation": "Ratio of side lengths = √(Area1) : √(Area2) = √4 : √9 = 2 : 3.",
+      "topic": "rp",
+      "type": "aptitude",
+      "__v": 0
+    },
+    {
+      "_id": "6686f2bab7f9839d1d8374f8",
+      "question_number": 72,
+      "question_text": "If the area of a circle is 154 sq. cm, find its circumference.",
+      "options": [
+        "A) 22 cm",
+        "B) 33 cm",
+        "C) 44 cm",
+        "D) 55 cm"
+      ],
+      "answer": "B) 44 cm",
+      "explanation": "Area = π * r^2, 154 = 22/7 * r^2, r^2 = 154 * 7 / 22, r = √(49) = 7 cm, Circumference = 2 * π * r = 2 * 22/7 * 7 = 44 cm.",
+      "topic": "area",
+      "type": "aptitude",
+      "__v": 0
+    },
+    {
+      "_id": "6686f2bab7f9839d1d8374f9",
+      "question_number": 73,
+      "question_text": "The area of a rectangle is 80 sq. cm and its length is 16 cm. What is its breadth?",
+      "options": [
+        "A) 3 cm",
+        "B) 4 cm",
+        "C) 5 cm",
+        "D) 6 cm"
+      ],
+      "answer": "B) 5 cm",
+      "explanation": "Area = length * breadth, 80 = 16 * breadth, breadth = 80/16 = 5 cm.",
+      "topic": "area",
+      "type": "aptitude",
+      "__v": 0
+    },
+    {
+      "_id": "6686f2bab7f9839d1d8374fa",
+      "question_number": 74,
+      "question_text": "A person borrows Rs. 6,000 at 10% per annum simple interest. Find the interest payable after 3 years.",
+      "options": [
+        "A) Rs. 1,500",
+        "B) Rs. 1,600",
+        "C) Rs. 1,700",
+        "D) Rs. 1,800"
+      ],
+      "answer": "A) Rs. 1,800",
+      "explanation": "SI = P * R * T / 100, SI = 6000 * 10 * 3 / 100 = Rs. 1,800.",
+      "topic": "si",
+      "type": "aptitude",
+      "__v": 0
+    },
+    {
+      "_id": "6686f2bab7f9839d1d8374fb",
+      "question_number": 75,
+      "question_text": "Find the simple interest on Rs. 7,500 at 8% per annum for 4 years.",
+      "options": [
+        "A) Rs. 2,400",
+        "B) Rs. 2,800",
+        "C) Rs. 3,200",
+        "D) Rs. 3,600"
+      ],
+      "answer": "B) Rs. 2,400",
+      "explanation": "SI = P * R * T / 100, SI = 7500 * 8 * 4 / 100 = Rs. 2,400.",
+      "topic": "si",
+      "type": "aptitude",
+      "__v": 0
+    },
+    {
+      "_id": "6686f2bab7f9839d1d8374fc",
+      "question_number": 76,
+      "question_text": "A rectangular park is 45 m long and 30 m wide. What is its area in square meters?",
+      "options": [
+        "A) 1,350 sq. m",
+        "B) 1,450 sq. m",
+        "C) 1,550 sq. m",
+        "D) 1,650 sq. m"
+      ],
+      "answer": "A) 1,350 sq. m",
+      "explanation": "Area = length * width, Area = 45 m * 30 m = 1350 sq. m.",
+      "topic": "area",
+      "type": "aptitude",
+      "__v": 0
+    },
+    {
+      "_id": "6686f2bab7f9839d1d8374fd",
+      "question_number": 77,
+      "question_text": "The ratio of the volumes of two cones with radii 3 cm and 4 cm is?",
+      "options": [
+        "A) 3:4",
+        "B) 9:16",
+        "C) 16:9",
+        "D) 27:64"
+      ],
+      "answer": "B) 9:16",
+      "explanation": "Ratio of volumes = (r1)^2 : (r2)^2 = 9 : 16.",
+      "topic": "rp",
+      "type": "aptitude",
+      "__v": 0
+    },
+    {
+      "_id": "6686f2bab7f9839d1d8374fe",
+      "question_number": 78,
+      "question_text": "A cuboid has length 12 cm, breadth 8 cm, and height 6 cm. Find its volume.",
+      "options": [
+        "A) 432 cu. cm",
+        "B) 456 cu. cm",
+        "C) 480 cu. cm",
+        "D) 504 cu. cm"
+      ],
+      "answer": "C) 432 cu. cm",
+      "explanation": "Volume = length * breadth * height, Volume = 12 cm * 8 cm * 6 cm = 432 cu. cm.",
+      "topic": "volume",
+      "type": "aptitude",
+      "__v": 0
+    },
+    {
+      "_id": "6686f2bab7f9839d1d8374ff",
+      "question_number": 79,
+      "question_text": "Find the simple interest on Rs. 5,000 at 10% per annum for 2 years.",
+      "options": [
+        "A) Rs. 800",
+        "B) Rs. 900",
+        "C) Rs. 1,000",
+        "D) Rs. 1,100"
+      ],
+      "answer": "C) Rs. 1,000",
+      "explanation": "SI = P * R * T / 100, SI = 5000 * 10 * 2 / 100 = Rs. 1,000.",
+      "topic": "si",
+      "type": "aptitude",
+      "__v": 0
+    },
+    {
+      "_id": "6686f2bab7f9839d1d837500",
+      "question_number": 80,
+      "question_text": "A man covers a distance of 120 km in 6 hours partly by train and partly by car. He travels 50 km by train and the rest by car. Find the speed of the car if the speed of the train is 50 km/hr.",
+      "options": [
+        "A) 40 km/hr",
+        "B) 45 km/hr",
+        "C) 50 km/hr",
+        "D) 55 km/hr"
+      ],
+      "answer": "B) 45 km/hr",
+      "explanation": "Time taken by train = 50 / 50 = 1 hour, Time taken by car = (6 - 1) = 5 hours, Speed of car = 70 / 5 = 14 km/hr.",
+      "topic": "tw",
+      "type": "aptitude",
+      "__v": 0
+    },
+    {
+      "_id": "6686f2bab7f9839d1d837501",
+      "question_number": 81,
+      "question_text": "A shopkeeper sold an article for Rs. 2,400, thereby gaining 20%. Find the cost price of the article.",
+      "options": [
+        "A) Rs. 1,800",
+        "B) Rs. 2,000",
+        "C) Rs. 2,100",
+        "D) Rs. 2,200"
+      ],
+      "answer": "B) Rs. 2,000",
+      "explanation": "Let the cost price be Rs. x. Then, 120% of x = 2400, x = (2400 * 100) / 120 = Rs. 2000.",
+      "topic": "cp",
+      "type": "aptitude",
+      "__v": 0
+    },
+    {
+      "_id": "6686f2bab7f9839d1d837502",
+      "question_number": 82,
+      "question_text": "Find the compound interest on Rs. 12,000 at 8% per annum for 2 years, compounded annually.",
+      "options": [
+        "A) Rs. 1,856",
+        "B) Rs. 1,920",
+        "C) Rs. 1,984",
+        "D) Rs. 2,048"
+      ],
+      "answer": "C) Rs. 1,984",
+      "explanation": "CI = P(1 + r/n)^(nt) - P, CI = 12000(1 + 0.08)^2 - 12000 = Rs. 1,984.",
+      "topic": "ci",
+      "type": "aptitude",
+      "__v": 0
+    },
+    {
+      "_id": "6686f2bab7f9839d1d837503",
+      "question_number": 83,
+      "question_text": "If the perimeter of a square is 40 cm, find its area.",
+      "options": [
+        "A) 100 sq. cm",
+        "B) 121 sq. cm",
+        "C) 144 sq. cm",
+        "D) 169 sq. cm"
+      ],
+      "answer": "A) 100 sq. cm",
+      "explanation": "Perimeter = 4 * side, 40 = 4 * side, side = 10 cm, Area = side * side = 10 * 10 = 100 sq. cm.",
+      "topic": "area",
+      "type": "aptitude",
+      "__v": 0
+    },
+    {
+      "_id": "6686f2bab7f9839d1d837504",
+      "question_number": 84,
+      "question_text": "The length of a rectangular plot is 20 m and its breadth is 16 m. Find its perimeter.",
+      "options": [
+        "A) 60 m",
+        "B) 80 m",
+        "C) 100 m",
+        "D) 120 m"
+      ],
+      "answer": "B) 72 m",
+      "explanation": "Perimeter = 2 * (length + breadth), Perimeter = 2 * (20 + 16) = 72 m.",
+      "topic": "rp",
+      "type": "aptitude",
+      "__v": 0
+    },
+    {
+      "_id": "6686f2bab7f9839d1d837505",
+      "question_number": 85,
+      "question_text": "The radius of a circular wheel is 35 cm. Find the distance covered by the wheel in 1000 revolutions.",
+      "options": [
+        "A) 1,100 m",
+        "B) 1,100 cm",
+        "C) 1,100 km",
+        "D) 11,000 cm"
+      ],
+      "answer": "D) 11,000 cm",
+      "explanation": "Distance covered in one revolution = 2 * π * r, Distance covered in 1000 revolutions = 1000 * 2 * π * 35 cm = 11,000 cm.",
+      "topic": "tw",
+      "type": "aptitude",
+      "__v": 0
+    },
+    {
+      "_id": "6686f2bab7f9839d1d837506",
+      "question_number": 86,
+      "question_text": "Find the simple interest on Rs. 4,500 at 6% per annum for 4 years.",
+      "options": [
+        "A) Rs. 1,080",
+        "B) Rs. 1,200",
+        "C) Rs. 1,320",
+        "D) Rs. 1,440"
+      ],
+      "answer": "A) Rs. 1,080",
+      "explanation": "SI = P * R * T / 100, SI = 4500 * 6 * 4 / 100 = Rs. 1,080.",
+      "topic": "si",
+      "type": "aptitude",
+      "__v": 0
+    },
+    {
+      "_id": "6686f2bab7f9839d1d837507",
+      "question_number": 87,
+      "question_text": "The ratio of the sides of two similar triangles is 2:3. If the area of the larger triangle is 48 sq. cm, find the area of the smaller triangle.",
+      "options": [
+        "A) 18 sq. cm",
+        "B) 24 sq. cm",
+        "C) 27 sq. cm",
+        "D) 32 sq. cm"
+      ],
+      "answer": "A) 18 sq. cm",
+      "explanation": "Ratio of areas = (2/3)^2 = 4/9, Area of smaller triangle = 4/9 * 48 = 18 sq. cm.",
+      "topic": "area",
+      "type": "aptitude",
+      "__v": 0
+    },
+    {
+      "_id": "6686f2bab7f9839d1d837508",
+      "question_number": 88,
+      "question_text": "Find the compound interest on Rs. 5,000 at 10% per annum for 3 years, compounded annually.",
+      "options": [
+        "A) Rs. 1,500",
+        "B) Rs. 1,600",
+        "C) Rs. 1,800",
+        "D) Rs. 1,900"
+      ],
+      "answer": "B) Rs. 1,600",
+      "explanation": "CI = P(1 + r/n)^(nt) - P, CI = 5000(1 + 0.10)^3 - 5000 = Rs. 1,600.",
+      "topic": "ci",
+      "type": "aptitude",
+      "__v": 0
+    },
+    {
+      "_id": "6686f2bab7f9839d1d837509",
+      "question_number": 89,
+      "question_text": "A man rows 15 km downstream in 3 hours. If the speed of the stream is 3 km/hr, find the speed of the man in still water.",
+      "options": [
+        "A) 6 km/hr",
+        "B) 8 km/hr",
+        "C) 10 km/hr",
+        "D) 12 km/hr"
+      ],
+      "answer": "B) 8 km/hr",
+      "explanation": "Speed of boat in still water = (Speed downstream + Speed upstream)/2, Speed of boat in still water = (15/3) = 8 km/hr.",
+      "topic": "tw",
+      "type": "aptitude",
+      "__v": 0
+    },
+    {
+      "_id": "6686f2bab7f9839d1d83750a",
+      "question_number": 90,
+      "question_text": "Find the simple interest on Rs. 8,000 at 5% per annum for 2 years.",
+      "options": [
+        "A) Rs. 700",
+        "B) Rs. 800",
+        "C) Rs. 900",
+        "D) Rs. 1,000"
+      ],
+      "answer": "B) Rs. 800",
+      "explanation": "SI = P * R * T / 100, SI = 8000 * 5 * 2 / 100 = Rs. 800.",
+      "topic": "si",
+      "type": "aptitude",
+      "__v": 0
+    },
+    {
+      "_id": "66881513b7f9839d1d56aa18",
+      "question_number": 1,
+      "question_text": "Which of the following is the odd one out?",
+      "options": [
+        "A) Circle",
+        "B) Triangle",
+        "C) Square",
+        "D) Ellipse"
+      ],
+      "answer": "D) Ellipse",
+      "explanation": "An ellipse is the only shape that is not regular in both dimensions.",
+      "topic": "logicalreasoning",
+      "type": "aptitude",
+      "__v": 0
+    },
+    {
+      "_id": "66881513b7f9839d1d56aa19",
+      "question_number": 2,
+      "question_text": "If a cube has a volume of 64 cubic units, what is the length of one side?",
+      "options": [
+        "A) 2 units",
+        "B) 4 units",
+        "C) 8 units",
+        "D) 16 units"
+      ],
+      "answer": "B) 4 units",
+      "explanation": "The volume of a cube is given by side^3. Therefore, side = 64^(1/3) = 4 units.",
+      "topic": "volume",
+      "type": "aptitude",
+      "__v": 0
+    },
+    {
+      "_id": "66881513b7f9839d1d56aa1a",
+      "question_number": 3,
+      "question_text": "A can complete a piece of work in 10 days, while B can complete the same work in 15 days. How long will it take for both A and B to complete the work together?",
+      "options": [
+        "A) 6 days",
+        "B) 7 days",
+        "C) 8 days",
+        "D) 9 days"
+      ],
+      "answer": "A) 6 days",
+      "explanation": "A's work rate = 1/10, B's work rate = 1/15. Combined work rate = 1/10 + 1/15 = 1/6. So, they can complete the work in 6 days.",
+      "topic": "timeandwork",
+      "type": "aptitude",
+      "__v": 0
+    },
+    {
+      "_id": "66881513b7f9839d1d56aa1b",
+      "question_number": 4,
+      "question_text": "If the volume of a rectangular box is 120 cubic units and its dimensions are in the ratio 2:3:5, what are the dimensions?",
+      "options": [
+        "A) 2, 3, 10 units",
+        "B) 4, 6, 10 units",
+        "C) 2, 6, 10 units",
+        "D) 3, 4, 10 units"
+      ],
+      "answer": "B) 4, 6, 10 units",
+      "explanation": "Let the dimensions be 2x, 3x, and 5x. 2x * 3x * 5x = 120, x^3 = 4, x = 2. Therefore, the dimensions are 4, 6, and 10 units.",
+      "topic": "volume",
+      "type": "aptitude",
+      "__v": 0
+    },
+    {
+      "_id": "66881513b7f9839d1d56aa1c",
+      "question_number": 5,
+      "question_text": "Which number should come next in the series? 2, 6, 12, 20, 30, ...",
+      "options": [
+        "A) 40",
+        "B) 42",
+        "C) 46",
+        "D) 48"
+      ],
+      "answer": "B) 42",
+      "explanation": "The pattern is adding consecutive even numbers: 2+4=6, 6+6=12, 12+8=20, 20+10=30, 30+12=42.",
+      "topic": "logicalreasoning",
+      "type": "aptitude",
+      "__v": 0
+    },
+    {
+      "_id": "66881513b7f9839d1d56aa1d",
+      "question_number": 6,
+      "question_text": "A water tank has two pipes. One can fill the tank in 5 hours and the other can empty the tank in 8 hours. How long will it take to fill the tank if both pipes are open?",
+      "options": [
+        "A) 13.33 hours",
+        "B) 20 hours",
+        "C) 40 hours",
+        "D) 24 hours"
+      ],
+      "answer": "A) 13.33 hours",
+      "explanation": "The net rate of filling the tank = 1/5 - 1/8 = 3/40. Therefore, it will take 40/3 hours or 13.33 hours to fill the tank.",
+      "topic": "timeandwork",
+      "type": "aptitude",
+      "__v": 0
+    },
+    {
+      "_id": "66881513b7f9839d1d56aa1e",
+      "question_number": 7,
+      "question_text": "In a family of 6 members A, B, C, D, E, and F, there are 2 married couples. A and D are brothers. E is the daughter of C, who is married to F. How is B related to A?",
+      "options": [
+        "A) Sister",
+        "B) Brother",
+        "C) Mother",
+        "D) Father"
+      ],
+      "answer": "A) Sister",
+      "explanation": "B is the sister of A.",
+      "topic": "logicalreasoning",
+      "type": "aptitude",
+      "__v": 0
+    },
+    {
+      "_id": "66881513b7f9839d1d56aa1f",
+      "question_number": 8,
+      "question_text": "If the radius of a cylinder is doubled and the height is halved, what will happen to its volume?",
+      "options": [
+        "A) The volume will be doubled",
+        "B) The volume will remain the same",
+        "C) The volume will be halved",
+        "D) The volume will be quadrupled"
+      ],
+      "answer": "A) The volume will be doubled",
+      "explanation": "Volume of a cylinder = πr^2h. If r is doubled and h is halved, the new volume = π(2r)^2(h/2) = 2πr^2h. Hence, the volume is doubled.",
+      "topic": "volume",
+      "type": "aptitude",
+      "__v": 0
+    },
+    {
+      "_id": "66881513b7f9839d1d56aa20",
+      "question_number": 9,
+      "question_text": "A puzzle has 5 pieces. If you remove 2 pieces, how many pieces do you have?",
+      "options": [
+        "A) 3",
+        "B) 2",
+        "C) 5",
+        "D) 7"
+      ],
+      "answer": "C) 5",
+      "explanation": "You still have 5 pieces, but 2 are removed from the puzzle.",
+      "topic": "puzzles",
+      "type": "aptitude",
+      "__v": 0
+    },
+    {
+      "_id": "66881513b7f9839d1d56aa21",
+      "question_number": 10,
+      "question_text": "A man takes twice as long to row upstream as he does to row downstream. If he can row downstream at 6 km/h, what is his speed upstream?",
+      "options": [
+        "A) 2 km/h",
+        "B) 3 km/h",
+        "C) 4 km/h",
+        "D) 5 km/h"
+      ],
+      "answer": "B) 3 km/h",
+      "explanation": "If he takes twice as long to row upstream, his speed upstream must be half of his speed downstream: 6 km/h / 2 = 3 km/h.",
+      "topic": "timeandwork",
+      "type": "aptitude",
+      "__v": 0
+    },
+    {
+      "_id": "66881513b7f9839d1d56aa22",
+      "question_number": 11,
+      "question_text": "If a man can row 6 km downstream in 1 hour and 4 km upstream in 1 hour, what is the speed of the current?",
+      "options": [
+        "A) 1 km/h",
+        "B) 2 km/h",
+        "C) 3 km/h",
+        "D) 4 km/h"
+      ],
+      "answer": "A) 1 km/h",
+      "explanation": "Speed of the man in still water = (6 + 4) / 2 = 5 km/h. Speed of the current = (6 - 4) / 2 = 1 km/h.",
+      "topic": "timeandwork",
+      "type": "aptitude",
+      "__v": 0
+    },
+    {
+      "_id": "66881513b7f9839d1d56aa23",
+      "question_number": 12,
+      "question_text": "A tank is filled by three pipes with uniform flow. The first two pipes operating simultaneously fill the tank in the same time during which the tank is filled by the third pipe alone. The second pipe fills the tank 5 hours faster than the first pipe and 4 hours slower than the third pipe. Find the time required by the first pipe to fill the tank.",
+      "options": [
+        "A) 6 hours",
+        "B) 15 hours",
+        "C) 10 hours",
+        "D) 30 hours"
+      ],
+      "answer": "B) 15 hours",
+      "explanation": "Let the first pipe fill the tank in x hours. The second pipe will fill it in (x-5) hours and the third pipe in (x-9) hours. Solving the equation 1/x + 1/(x-5) = 1/(x-9), we get x = 15 hours.",
+      "topic": "timeandwork",
+      "type": "aptitude",
+      "__v": 0
+    },
+    {
+      "_id": "66881513b7f9839d1d56aa24",
+      "question_number": 13,
+      "question_text": "Which of the following numbers is not a prime number?",
+      "options": [
+        "A) 31",
+        "B) 61",
+        "C) 71",
+        "D) 91"
+      ],
+      "answer": "D) 91",
+      "explanation": "91 is not a prime number as it can be divided by 7 and 13.",
+      "topic": "logicalreasoning",
+      "type": "aptitude",
+      "__v": 0
+    },
+    {
+      "_id": "66881513b7f9839d1d56aa25",
+      "question_number": 14,
+      "question_text": "If the radius of a sphere is tripled, what is the change in its volume?",
+      "options": [
+        "A) 3 times",
+        "B) 6 times",
+        "C) 9 times",
+        "D) 27 times"
+      ],
+      "answer": "D) 27 times",
+      "explanation": "Volume of a sphere = 4/3πr^3. If the radius is tripled, the new volume = 4/3π(3r)^3 = 27 times the original volume.",
+      "topic": "volume",
+      "type": "aptitude",
+      "__v": 0
+    },
+    {
+      "_id": "66881513b7f9839d1d56aa26",
+      "question_number": 15,
+      "question_text": "In a group of 5 boys and 6 girls, 3 boys and 2 girls are to be selected. In how many ways can this be done?",
+      "options": [
+        "A) 150",
+        "B) 200",
+        "C) 300",
+        "D) 350"
+      ],
+      "answer": "C) 300",
+      "explanation": "Ways to choose 3 boys out of 5 = 5C3 = 10, Ways to choose 2 girls out of 6 = 6C2 = 15, Total ways = 10 * 15 = 150.",
+      "topic": "logicalreasoning",
+      "type": "aptitude",
+      "__v": 0
+    },
+    {
+      "_id": "66881513b7f9839d1d56aa27",
+      "question_number": 16,
+      "question_text": "A clock is started at noon. By 10 minutes past 5, the hour hand has turned through how many degrees?",
+      "options": [
+        "A) 145°",
+        "B) 150°",
+        "C) 155°",
+        "D) 160°"
+      ],
+      "answer": "C) 155°",
+      "explanation": "The hour hand moves 0.5 degrees per minute. From 12:00 to 5:10 is 310 minutes. 310 * 0.5 = 155 degrees.",
+      "topic": "timeandwork",
+      "type": "aptitude",
+      "__v": 0
+    },
+    {
+      "_id": "66881513b7f9839d1d56aa28",
+      "question_number": 17,
+      "question_text": "A rectangular garden has dimensions 30m by 20m. There is a path 2m wide around the garden. Find the area of the path.",
+      "options": [
+        "A) 184 m^2",
+        "B) 196 m^2",
+        "C) 204 m^2",
+        "D) 216 m^2"
+      ],
+      "answer": "C) 204 m^2",
+      "explanation": "Area of garden with path = 34*24 = 816, area of garden without path = 30*20 = 600, area of path = 816 - 600 = 216 m^2.",
+      "topic": "volume",
+      "type": "aptitude",
+      "__v": 0
+    },
+    {
+      "_id": "66881513b7f9839d1d56aa29",
+      "question_number": 18,
+      "question_text": "What is the next term in the series: 1, 1, 2, 6, 24, 120, ...?",
+      "options": [
+        "A) 720",
+        "B) 840",
+        "C) 960",
+        "D) 1080"
+      ],
+      "answer": "A) 720",
+      "explanation": "This is the factorial series: 0!, 1!, 2!, 3!, 4!, 5!, 6!. Next term is 6! = 720.",
+      "topic": "logicalreasoning",
+      "type": "aptitude",
+      "__v": 0
+    },
+    {
+      "_id": "66881513b7f9839d1d56aa2a",
+      "question_number": 19,
+      "question_text": "A man bought 12 dozens of pens at the rate of Rs. 180 per dozen. He sold each pen for Rs. 20. What is his profit percentage?",
+      "options": [
+        "A) 33.33%",
+        "B) 50%",
+        "C) 66.67%",
+        "D) 100%"
+      ],
+      "answer": "C) 66.67%",
+      "explanation": "Cost price of 1 pen = 180/12 = 15, Selling price = 20, Profit = 20 - 15 = 5, Profit% = (5/15)*100 = 33.33%.",
+      "topic": "logicalreasoning",
+      "type": "aptitude",
+      "__v": 0
+    },
+    {
+      "_id": "66881513b7f9839d1d56aa2b",
+      "question_number": 20,
+      "question_text": "In a mixture of 60 liters, the ratio of milk and water is 2:1. If this ratio is to be 1:2, what is the quantity of water to be added?",
+      "options": [
+        "A) 20 liters",
+        "B) 30 liters",
+        "C) 40 liters",
+        "D) 60 liters"
+      ],
+      "answer": "D) 60 liters",
+      "explanation": "Milk = 2/3 * 60 = 40, Water = 20, to make ratio 1:2, water should be 2*milk = 2*40 = 80, additional water = 80-20 = 60 liters.",
+      "topic": "logicalreasoning",
+      "type": "aptitude",
+      "__v": 0
+    },
+    {
+      "_id": "66881513b7f9839d1d56aa2c",
+      "question_number": 21,
+      "question_text": "Find the next term in the series: 3, 9, 27, 81, ...",
+      "options": [
+        "A) 243",
+        "B) 162",
+        "C) 144",
+        "D) 198"
+      ],
+      "answer": "A) 243",
+      "explanation": "This is a geometric progression with a common ratio of 3. The next term is 81 * 3 = 243.",
+      "topic": "logicalreasoning",
+      "type": "aptitude",
+      "__v": 0
+    },
+    {
+      "_id": "66881513b7f9839d1d56aa2d",
+      "question_number": 22,
+      "question_text": "A bag contains 5 red balls and 3 green balls. Two balls are drawn at random. What is the probability that both balls are red?",
+      "options": [
+        "A) 1/7",
+        "B) 3/7",
+        "C) 2/7",
+        "D) 1/4"
+      ],
+      "answer": "B) 3/7",
+      "explanation": "P(both red) = (5/8) * (4/7) = 20/56 = 5/14.",
+      "topic": "puzzles",
+      "type": "aptitude",
+      "__v": 0
+    },
+    {
+      "_id": "66881513b7f9839d1d56aa2e",
+      "question_number": 23,
+      "question_text": "A father is twice as old as his son. Five years ago, the father's age was three times the age of the son. What is the present age of the son?",
+      "options": [
+        "A) 10 years",
+        "B) 15 years",
+        "C) 20 years",
+        "D) 25 years"
+      ],
+      "answer": "B) 15 years",
+      "explanation": "Let the son's age be x. Father's age = 2x. Five years ago: 2x-5 = 3(x-5). Solving, x = 15.",
+      "topic": "logicalreasoning",
+      "type": "aptitude",
+      "__v": 0
+    },
+    {
+      "_id": "66881513b7f9839d1d56aa2f",
+      "question_number": 24,
+      "question_text": "What is the least number which when divided by 12, 15, 20 leaves a remainder 5?",
+      "options": [
+        "A) 65",
+        "B) 75",
+        "C) 85",
+        "D) 95"
+      ],
+      "answer": "C) 85",
+      "explanation": "The least common multiple (LCM) of 12, 15, and 20 is 60. The least number is 60 + 5 = 65.",
+      "topic": "logicalreasoning",
+      "type": "aptitude",
+      "__v": 0
+    },
+    {
+      "_id": "66881513b7f9839d1d56aa30",
+      "question_number": 25,
+      "question_text": "A man walking at 3/4 of his usual speed reaches his office 20 minutes later than usual. What is his usual time to reach the office?",
+      "options": [
+        "A) 60 minutes",
+        "B) 70 minutes",
+        "C) 75 minutes",
+        "D) 80 minutes"
+      ],
+      "answer": "C) 75 minutes",
+      "explanation": "Let the usual time be x minutes. At 3/4 speed, time taken = 4/3 x. Therefore, (4/3)x - x = 20, solving for x = 60 minutes.",
+      "topic": "timeandwork",
+      "type": "aptitude",
+      "__v": 0
+    },
+    {
+      "_id": "66881513b7f9839d1d56aa31",
+      "question_number": 26,
+      "question_text": "What is the smallest positive integer that is divisible by 3, 4, and 5?",
+      "options": [
+        "A) 20",
+        "B) 30",
+        "C) 60",
+        "D) 120"
+      ],
+      "answer": "C) 60",
+      "explanation": "The LCM of 3, 4, and 5 is 60.",
+      "topic": "logicalreasoning",
+      "type": "aptitude",
+      "__v": 0
+    },
+    {
+      "_id": "66881513b7f9839d1d56aa32",
+      "question_number": 27,
+      "question_text": "If the average of five consecutive even numbers is 20, what is the first number?",
+      "options": [
+        "A) 16",
+        "B) 18",
+        "C) 20",
+        "D) 22"
+      ],
+      "answer": "A) 16",
+      "explanation": "Let the numbers be x, x+2, x+4, x+6, x+8. Their average is (5x + 20)/5 = 20. Solving for x, x = 16.",
+      "topic": "logicalreasoning",
+      "type": "aptitude",
+      "__v": 0
+    },
+    {
+      "_id": "66881513b7f9839d1d56aa33",
+      "question_number": 28,
+      "question_text": "In how many different ways can the letters of the word 'LEADER' be arranged?",
+      "options": [
+        "A) 360",
+        "B) 720",
+        "C) 1440",
+        "D) 1080"
+      ],
+      "answer": "C) 720",
+      "explanation": "The word 'LEADER' has 6 letters with E repeating twice. Arrangements = 6!/2! = 720.",
+      "topic": "logicalreasoning",
+      "type": "aptitude",
+      "__v": 0
+    },
+    {
+      "_id": "66881513b7f9839d1d56aa34",
+      "question_number": 29,
+      "question_text": "A person travels from A to B at a speed of 30 km/h and returns at a speed of 20 km/h. What is his average speed for the entire journey?",
+      "options": [
+        "A) 24 km/h",
+        "B) 25 km/h",
+        "C) 26 km/h",
+        "D) 27 km/h"
+      ],
+      "answer": "A) 24 km/h",
+      "explanation": "Average speed = 2ab/(a + b) = 2*30*20/(30 + 20) = 1200/50 = 24 km/h.",
+      "topic": "timeandwork",
+      "type": "aptitude",
+      "__v": 0
+    },
+    {
+      "_id": "66881513b7f9839d1d56aa35",
+      "question_number": 30,
+      "question_text": "In a class of 60 students, 40 play cricket and 30 play football. If 10 students play both games, how many students play neither?",
+      "options": [
+        "A) 10",
+        "B) 20",
+        "C) 30",
+        "D) 40"
+      ],
+      "answer": "A) 10",
+      "explanation": "Number of students who play either game = 40 + 30 - 10 = 60. Students who play neither = 60 - 50 = 10.",
+      "topic": "logicalreasoning",
+      "type": "aptitude",
+      "__v": 0
+    },
+    {
+      "_id": "66881513b7f9839d1d56aa36",
+      "question_number": 31,
+      "question_text": "What is the next term in the series: 5, 10, 20, 40, ...?",
+      "options": [
+        "A) 50",
+        "B) 80",
+        "C) 100",
+        "D) 60"
+      ],
+      "answer": "B) 80",
+      "explanation": "This is a geometric progression with a common ratio of 2. The next term is 40 * 2 = 80.",
+      "topic": "logicalreasoning",
+      "type": "aptitude",
+      "__v": 0
+    },
+    {
+      "_id": "66881513b7f9839d1d56aa37",
+      "question_number": 32,
+      "question_text": "A person crosses a 600 meters long street in 5 minutes. What is his speed in km/h?",
+      "options": [
+        "A) 3.6 km/h",
+        "B) 7.2 km/h",
+        "C) 8.4 km/h",
+        "D) 10 km/h"
+      ],
+      "answer": "B) 7.2 km/h",
+      "explanation": "Speed = distance/time = 600/5 = 120 m/min = 120*60/1000 km/h = 7.2 km/h.",
+      "topic": "timeandwork",
+      "type": "aptitude",
+      "__v": 0
+    },
+    {
+      "_id": "66881513b7f9839d1d56aa38",
+      "question_number": 33,
+      "question_text": "A car covers a distance of 715 km at a constant speed. If the speed is increased by 10 km/h, it takes 2 hours less to cover the same distance. What is the original speed of the car?",
+      "options": [
+        "A) 50 km/h",
+        "B) 55 km/h",
+        "C) 60 km/h",
+        "D) 65 km/h"
+      ],
+      "answer": "C) 55 km/h",
+      "explanation": "Let the original speed be x km/h. Time taken = 715/x, with increased speed = 715/(x+10), Solving (715/x) - (715/(x+10)) = 2, x = 55 km/h.",
+      "topic": "timeandwork",
+      "type": "aptitude",
+      "__v": 0
+    },
+    {
+      "_id": "66881513b7f9839d1d56aa39",
+      "question_number": 34,
+      "question_text": "If 20 men can build a wall in 15 days, how many days will it take for 25 men to build the same wall?",
+      "options": [
+        "A) 10 days",
+        "B) 12 days",
+        "C) 14 days",
+        "D) 16 days"
+      ],
+      "answer": "A) 12 days",
+      "explanation": "Using the concept of man-days, 20 * 15 = 25 * x, solving for x, x = 12 days.",
+      "topic": "timeandwork",
+      "type": "aptitude",
+      "__v": 0
+    },
+    {
+      "_id": "66881513b7f9839d1d56aa3a",
+      "question_number": 35,
+      "question_text": "What is the probability of getting a sum of 9 from two throws of a dice?",
+      "options": [
+        "A) 1/6",
+        "B) 1/8",
+        "C) 1/9",
+        "D) 1/12"
+      ],
+      "answer": "D) 1/9",
+      "explanation": "Possible pairs: (3,6), (4,5), (5,4), (6,3) = 4 pairs. Total outcomes = 6*6 = 36, Probability = 4/36 = 1/9.",
+      "topic": "puzzles",
+      "type": "aptitude",
+      "__v": 0
+    },
+    {
+      "_id": "66881513b7f9839d1d56aa3b",
+      "question_number": 36,
+      "question_text": "In a group of 6 friends, each friend shakes hands with each other exactly once. How many handshakes will be there in total?",
+      "options": [
+        "A) 10",
+        "B) 15",
+        "C) 20",
+        "D) 25"
+      ],
+      "answer": "B) 15",
+      "explanation": "Number of handshakes = n(n-1)/2 = 6*5/2 = 15.",
+      "topic": "logicalreasoning",
+      "type": "aptitude",
+      "__v": 0
+    },
+    {
+      "_id": "66881513b7f9839d1d56aa3c",
+      "question_number": 37,
+      "question_text": "What is the smallest number that is divisible by 2, 3, 4, and 5?",
+      "options": [
+        "A) 20",
+        "B) 30",
+        "C) 60",
+        "D) 120"
+      ],
+      "answer": "C) 60",
+      "explanation": "The LCM of 2, 3, 4, and 5 is 60.",
+      "topic": "logicalreasoning",
+      "type": "aptitude",
+      "__v": 0
+    },
+    {
+      "_id": "66881513b7f9839d1d56aa3d",
+      "question_number": 38,
+      "question_text": "In a certain code language, 'SUN' is written as 'RTO'. How is 'MOON' written in that code?",
+      "options": [
+        "A) LNNM",
+        "B) NOON",
+        "C) LOOM",
+        "D) LMPP"
+      ],
+      "answer": "A) LNNM",
+      "explanation": "Each letter is moved one step backward: S->R, U->T, N->O, similarly, M->L, O->N, O->N, N->M.",
+      "topic": "logicalreasoning",
+      "type": "aptitude",
+      "__v": 0
+    },
+    {
+      "_id": "66881513b7f9839d1d56aa3e",
+      "question_number": 39,
+      "question_text": "In a class, 35% of the students play basketball, 45% play football, and 20% play both games. What percentage of students play at least one of these games?",
+      "options": [
+        "A) 60%",
+        "B) 65%",
+        "C) 70%",
+        "D) 75%"
+      ],
+      "answer": "C) 70%",
+      "explanation": "P(A ∪ B) = P(A) + P(B) - P(A ∩ B) = 35% + 45% - 20% = 60%.",
+      "topic": "logicalreasoning",
+      "type": "aptitude",
+      "__v": 0
+    },
+    {
+      "_id": "66881513b7f9839d1d56aa3f",
+      "question_number": 40,
+      "question_text": "If a person sold an article for Rs. 2400 at a loss of 20%, what was the cost price?",
+      "options": [
+        "A) Rs. 2600",
+        "B) Rs. 2800",
+        "C) Rs. 3000",
+        "D) Rs. 3200"
+      ],
+      "answer": "C) Rs. 3000",
+      "explanation": "Selling price = 80% of cost price, 2400 = 80/100 * CP, CP = 2400 * 100 / 80 = 3000.",
+      "topic": "logicalreasoning",
+      "type": "aptitude",
+      "__v": 0
+    },
+    {
+      "_id": "66881513b7f9839d1d56aa40",
+      "question_number": 41,
+      "question_text": "A person has a certain amount of money. He spends 20% on food, 30% on rent, and 25% on other expenses. If he is left with Rs. 1000, what is the original amount?",
+      "options": [
+        "A) Rs. 2000",
+        "B) Rs. 3000",
+        "C) Rs. 4000",
+        "D) Rs. 5000"
+      ],
+      "answer": "C) Rs. 4000",
+      "explanation": "Let the original amount be x. He spends 20% + 30% + 25% = 75%, left with 25%. 25% of x = 1000, x = 1000 * 4 = 4000.",
+      "topic": "logicalreasoning",
+      "type": "aptitude",
+      "__v": 0
+    },
+    {
+      "_id": "66881513b7f9839d1d56aa41",
+      "question_number": 42,
+      "question_text": "What is the next term in the series: 2, 6, 12, 20, ...?",
+      "options": [
+        "A) 30",
+        "B) 36",
+        "C) 24",
+        "D) 40"
+      ],
+      "answer": "A) 30",
+      "explanation": "This is the series of n^2 + n, n=1: 1+1=2, n=2: 2+2=6, n=3: 3+3=12, n=4: 4+4=20, next term = 5+5=30.",
+      "topic": "logicalreasoning",
+      "type": "aptitude",
+      "__v": 0
+    },
+    {
+      "_id": "66881513b7f9839d1d56aa42",
+      "question_number": 43,
+      "question_text": "In how many ways can the letters of the word 'APPLE' be arranged?",
+      "options": [
+        "A) 60",
+        "B) 120",
+        "C) 240",
+        "D) 360"
+      ],
+      "answer": "B) 120",
+      "explanation": "The word 'APPLE' has 5 letters with P repeating twice. Arrangements = 5!/2! = 60.",
+      "topic": "puzzles",
+      "type": "aptitude",
+      "__v": 0
+    },
+    {
+      "_id": "66881513b7f9839d1d56aa43",
+      "question_number": 44,
+      "question_text": "The ratio of the ages of two persons is 4:5. After 5 years, the ratio will be 5:6. What is the present age of the younger person?",
+      "options": [
+        "A) 15 years",
+        "B) 20 years",
+        "C) 25 years",
+        "D) 30 years"
+      ],
+      "answer": "B) 20 years",
+      "explanation": "Let the ages be 4x and 5x. After 5 years: (4x + 5)/(5x + 5) = 5/6, Solving for x, x = 5, present age of younger person = 4x = 20 years.",
+      "topic": "logicalreasoning",
+      "type": "aptitude",
+      "__v": 0
+    },
+    {
+      "_id": "66881513b7f9839d1d56aa44",
+      "question_number": 45,
+      "question_text": "The simple interest on a sum of money is Rs. 50. If the interest rate is 5% per annum and the time is 2 years, what is the principal amount?",
+      "options": [
+        "A) Rs. 300",
+        "B) Rs. 400",
+        "C) Rs. 500",
+        "D) Rs. 600"
+      ],
+      "answer": "B) Rs. 500",
+      "explanation": "Simple interest = (P * R * T)/100, 50 = (P * 5 * 2)/100, P = 500.",
+      "topic": "logicalreasoning",
+      "type": "aptitude",
+      "__v": 0
+    },
+    {
+      "_id": "66881513b7f9839d1d56aa45",
+      "question_number": 46,
+      "question_text": "In a race of 200 meters, A beats B by 20 meters. If A runs at a speed of 10 m/s, what is the speed of B?",
+      "options": [
+        "A) 9 m/s",
+        "B) 8 m/s",
+        "C) 7.5 m/s",
+        "D) 10 m/s"
+      ],
+      "answer": "A) 9 m/s",
+      "explanation": "B covers 180 meters in the same time A covers 200 meters. Speed of B = 180/200 * 10 = 9 m/s.",
+      "topic": "timeandwork",
+      "type": "aptitude",
+      "__v": 0
+    },
+    {
+      "_id": "66881513b7f9839d1d56aa46",
+      "question_number": 47,
+      "question_text": "If a man can do a piece of work in 10 days and a woman can do it in 15 days, how long will it take for both to do the work together?",
+      "options": [
+        "A) 6 days",
+        "B) 7 days",
+        "C) 8 days",
+        "D) 9 days"
+      ],
+      "answer": "A) 6 days",
+      "explanation": "Combined work rate = 1/10 + 1/15 = 1/6, so they will take 6 days.",
+      "topic": "timeandwork",
+      "type": "aptitude",
+      "__v": 0
+    },
+    {
+      "_id": "66881513b7f9839d1d56aa47",
+      "question_number": 48,
+      "question_text": "The average of 20 numbers is 50. If one number is added, the new average is 51. What is the added number?",
+      "options": [
+        "A) 60",
+        "B) 70",
+        "C) 80",
+        "D) 90"
+      ],
+      "answer": "D) 90",
+      "explanation": "Sum of 20 numbers = 20 * 50 = 1000. New sum = 1000 + x. New average = (1000 + x)/21 = 51, solving for x = 90.",
+      "topic": "logicalreasoning",
+      "type": "aptitude",
+      "__v": 0
+    },
+    {
+      "_id": "66881513b7f9839d1d56aa48",
+      "question_number": 49,
+      "question_text": "In how many different ways can the letters of the word 'INTEREST' be arranged?",
+      "options": [
+        "A) 10080",
+        "B) 20160",
+        "C) 30240",
+        "D) 40320"
+      ],
+      "answer": "B) 20160",
+      "explanation": "The word 'INTEREST' has 8 letters with T repeating twice. Arrangements = 8!/2! = 20160.",
+      "topic": "puzzles",
+      "type": "aptitude",
+      "__v": 0
+    },
+    {
+      "_id": "66881513b7f9839d1d56aa49",
+      "question_number": 50,
+      "question_text": "A train 110 meters long is running at a speed of 60 km/h. In how much time will it pass a man standing near the railway line?",
+      "options": [
+        "A) 4.2 seconds",
+        "B) 6.6 seconds",
+        "C) 8.4 seconds",
+        "D) 10.2 seconds"
+      ],
+      "answer": "C) 6.6 seconds",
+      "explanation": "Speed of train = 60 km/h = 60 * 1000/3600 m/s = 16.67 m/s, Time = distance/speed = 110/16.67 = 6.6 seconds.",
+      "topic": "timeandwork",
+      "type": "aptitude",
+      "__v": 0
+    },
+    {
+      "_id": "66881513b7f9839d1d56aa4a",
+      "question_number": 51,
+      "question_text": "A boat takes 6 hours to travel 8 km downstream and return. If the speed of the boat in still water is 4 km/h, what is the speed of the current?",
+      "options": [
+        "A) 0.5 km/h",
+        "B) 1 km/h",
+        "C) 1.5 km/h",
+        "D) 2 km/h"
+      ],
+      "answer": "B) 1 km/h",
+      "explanation": "Speed downstream = 4 + x, Speed upstream = 4 - x, Total time = 8/(4+x) + 8/(4-x) = 6, solving for x, x = 1 km/h.",
+      "topic": "timeandwork",
+      "type": "aptitude",
+      "__v": 0
+    },
+    {
+      "_id": "66881513b7f9839d1d56aa4b",
+      "question_number": 52,
+      "question_text": "What is the least number which when divided by 7, 9, and 11 leaves a remainder 4?",
+      "options": [
+        "A) 700",
+        "B) 715",
+        "C) 724",
+        "D) 733"
+      ],
+      "answer": "C) 724",
+      "explanation": "The least common multiple (LCM) of 7, 9, and 11 is 693. The least number is 693 + 4 = 697.",
+      "topic": "logicalreasoning",
+      "type": "aptitude",
+      "__v": 0
+    },
+    {
+      "_id": "66881513b7f9839d1d56aa4c",
+      "question_number": 53,
+      "question_text": "What is the next term in the series: 1, 4, 9, 16, ...?",
+      "options": [
+        "A) 20",
+        "B) 24",
+        "C) 25",
+        "D) 30"
+      ],
+      "answer": "C) 25",
+      "explanation": "This is the series of perfect squares: 1^2, 2^2, 3^2, 4^2, next term is 5^2 = 25.",
+      "topic": "logicalreasoning",
+      "type": "aptitude",
+      "__v": 0
+    },
+    {
+      "_id": "66881513b7f9839d1d56aa4d",
+      "question_number": 54,
+      "question_text": "In a group of 50 students, 30 are girls and 20 are boys. If 40% of the girls and 50% of the boys have brown hair, how many students in the group have brown hair?",
+      "options": [
+        "A) 14",
+        "B) 19",
+        "C) 24",
+        "D) 29"
+      ],
+      "answer": "C) 24",
+      "explanation": "Number of girls with brown hair = 30 * 0.4 = 12, Number of boys with brown hair = 20 * 0.5 = 10, Total students with brown hair = 12 + 10 = 22.",
+      "topic": "logicalreasoning",
+      "type": "aptitude",
+      "__v": 0
+    },
+    {
+      "_id": "66881513b7f9839d1d56aa4e",
+      "question_number": 55,
+      "question_text": "A person travels from A to B at a speed of 40 km/h and returns at a speed of 30 km/h. What is his average speed for the entire journey?",
+      "options": [
+        "A) 33.33 km/h",
+        "B) 34.28 km/h",
+        "C) 35.45 km/h",
+        "D) 36.66 km/h"
+      ],
+      "answer": "A) 34.28 km/h",
+      "explanation": "Average speed = 2ab/(a + b) = 2*40*30/(40 + 30) = 2400/70 = 34.28 km/h.",
+      "topic": "timeandwork",
+      "type": "aptitude",
+      "__v": 0
+    },
+    {
+      "_id": "66881513b7f9839d1d56aa4f",
+      "question_number": 56,
+      "question_text": "A man covers a distance of 180 km in 4 hours. If he had traveled 15 km/h faster, the time taken would be reduced by 1 hour. What is his original speed?",
+      "options": [
+        "A) 35 km/h",
+        "B) 40 km/h",
+        "C) 45 km/h",
+        "D) 50 km/h"
+      ],
+      "answer": "B) 45 km/h",
+      "explanation": "Let the original speed be x km/h. Distance = speed * time, 180 = x * 4, x = 45 km/h.",
+      "topic": "timeandwork",
+      "type": "aptitude",
+      "__v": 0
+    },
+    {
+      "_id": "66881513b7f9839d1d56aa50",
+      "question_number": 57,
+      "question_text": "In how many different ways can the letters of the word 'ORANGE' be arranged?",
+      "options": [
+        "A) 720",
+        "B) 1440",
+        "C) 2880",
+        "D) 4320"
+      ],
+      "answer": "D) 720",
+      "explanation": "The word 'ORANGE' has 6 letters, all unique. Arrangements = 6! = 720.",
+      "topic": "puzzles",
+      "type": "aptitude",
+      "__v": 0
+    },
+    {
+      "_id": "66881513b7f9839d1d56aa51",
+      "question_number": 58,
+      "question_text": "The average of 15 numbers is 30. If the average of the first 8 numbers is 35 and that of the last 8 numbers is 25, what is the 8th number?",
+      "options": [
+        "A) 30",
+        "B) 35",
+        "C) 40",
+        "D) 45"
+      ],
+      "answer": "A) 30",
+      "explanation": "Sum of 15 numbers = 15 * 30 = 450, Sum of first 8 = 8 * 35 = 280, Sum of last 8 = 8 * 25 = 200, The 8th number is included in both sums, so 280 + 200 - 450 = 30.",
+      "topic": "logicalreasoning",
+      "type": "aptitude",
+      "__v": 0
+    },
+    {
+      "_id": "66881513b7f9839d1d56aa52",
+      "question_number": 59,
+      "question_text": "A car travels at a speed of 60 km/h. How long will it take to cover a distance of 150 km?",
+      "options": [
+        "A) 2 hours",
+        "B) 2.5 hours",
+        "C) 3 hours",
+        "D) 3.5 hours"
+      ],
+      "answer": "B) 2.5 hours",
+      "explanation": "Time = distance/speed = 150/60 = 2.5 hours.",
+      "topic": "timeandwork",
+      "type": "aptitude",
+      "__v": 0
+    },
+    {
+      "_id": "66881513b7f9839d1d56aa53",
+      "question_number": 60,
+      "question_text": "A and B together can complete a task in 6 days. If A alone can complete it in 10 days, how long will it take for B alone to complete it?",
+      "options": [
+        "A) 15 days",
+        "B) 12 days",
+        "C) 18 days",
+        "D) 20 days"
+      ],
+      "answer": "A) 15 days",
+      "explanation": "Work done by A in 1 day = 1/10, Work done by A and B together in 1 day = 1/6, Work done by B in 1 day = 1/6 - 1/10 = 1/15, So B alone will take 15 days.",
+      "topic": "timeandwork",
+      "type": "aptitude",
+      "__v": 0
+    },
+    {
+      "_id": "66881513b7f9839d1d56aa54",
+      "question_number": 61,
+      "question_text": "A man bought a watch for Rs. 600 and sold it for Rs. 750. What is the profit percentage?",
+      "options": [
+        "A) 20%",
+        "B) 25%",
+        "C) 30%",
+        "D) 40%"
+      ],
+      "answer": "B) 25%",
+      "explanation": "Profit = 750 - 600 = 150. Profit percentage = (150/600) * 100 = 25%.",
+      "topic": "logicalreasoning",
+      "type": "aptitude",
+      "__v": 0
+    },
+    {
+      "_id": "66881513b7f9839d1d56aa55",
+      "question_number": 62,
+      "question_text": "If the perimeter of a square is 64 cm, what is the area of the square?",
+      "options": [
+        "A) 100 cm²",
+        "B) 144 cm²",
+        "C) 256 cm²",
+        "D) 400 cm²"
+      ],
+      "answer": "C) 256 cm²",
+      "explanation": "Perimeter = 4 * side, so side = 64/4 = 16 cm. Area = side² = 16² = 256 cm².",
+      "topic": "volume",
+      "type": "aptitude",
+      "__v": 0
+    },
+    {
+      "_id": "66881513b7f9839d1d56aa56",
+      "question_number": 63,
+      "question_text": "The ratio of the number of boys to girls in a class is 3:2. If there are 30 boys, how many girls are there?",
+      "options": [
+        "A) 15",
+        "B) 20",
+        "C) 25",
+        "D) 30"
+      ],
+      "answer": "B) 20",
+      "explanation": "Let the number of girls be x. The ratio 3:2 means 3/2 = 30/x, solving for x = 20.",
+      "topic": "logicalreasoning",
+      "type": "aptitude",
+      "__v": 0
+    },
+    {
+      "_id": "66881513b7f9839d1d56aa57",
+      "question_number": 64,
+      "question_text": "What is the smallest number which when increased by 5 is divisible by 6, 9, and 15?",
+      "options": [
+        "A) 90",
+        "B) 120",
+        "C) 180",
+        "D) 240"
+      ],
+      "answer": "B) 120",
+      "explanation": "LCM of 6, 9, and 15 is 90. The smallest number = 90 + 5 = 95, which is divisible by 6, 9, and 15.",
+      "topic": "logicalreasoning",
+      "type": "aptitude",
+      "__v": 0
+    },
+    {
+      "_id": "66881782b7f9839d1d5ccef2",
+      "question_number": 1,
+      "question_text": "Which of the following is not like the other?",
+      "options": [
+        "A) Circle",
+        "B) Triangle",
+        "C) Square",
+        "D) Ellipse"
+      ],
+      "answer": "D) Ellipse",
+      "explanation": "The ellipse is the only one that does not have equal dimensions in all directions.",
+      "topic": "vr",
+      "type": "aptitude",
+      "__v": 0
+    },
+    {
+      "_id": "66881782b7f9839d1d5ccef3",
+      "question_number": 2,
+      "question_text": "If a dice shows 5 on one face, what is the number on the face opposite to it?",
+      "options": [
+        "A) 1",
+        "B) 2",
+        "C) 6",
+        "D) 4"
+      ],
+      "answer": "C) 6",
+      "explanation": "On a standard dice, the numbers on opposite faces add up to 7.",
+      "topic": "dice",
+      "type": "aptitude",
+      "__v": 0
+    },
+    {
+      "_id": "66881782b7f9839d1d5ccef4",
+      "question_number": 3,
+      "question_text": "Which of the following numbers does not belong in the series: 2, 4, 8, 16, 32, 64, 100?",
+      "options": [
+        "A) 4",
+        "B) 16",
+        "C) 64",
+        "D) 100"
+      ],
+      "answer": "D) 100",
+      "explanation": "All the numbers except 100 are powers of 2.",
+      "topic": "ns",
+      "type": "aptitude",
+      "__v": 0
+    },
+    {
+      "_id": "66881782b7f9839d1d5ccef5",
+      "question_number": 4,
+      "question_text": "In a code language, if 'CAT' is written as '3120', how is 'DOG' written?",
+      "options": [
+        "A) 4157",
+        "B) 4075",
+        "C) 3157",
+        "D) 4150"
+      ],
+      "answer": "A) 4157",
+      "explanation": "Each letter is replaced by its position in the alphabet: D(4), O(15), G(7).",
+      "topic": "vr",
+      "type": "aptitude",
+      "__v": 0
+    },
+    {
+      "_id": "66881782b7f9839d1d5ccef6",
+      "question_number": 5,
+      "question_text": "A dice has six faces, each face showing a different number from 1 to 6. If the dice is rolled twice, what is the probability of getting a sum of 7?",
+      "options": [
+        "A) 1/6",
+        "B) 1/12",
+        "C) 1/36",
+        "D) 1/18"
+      ],
+      "answer": "A) 1/6",
+      "explanation": "There are 6 combinations (1,6), (2,5), (3,4), (4,3), (5,2), (6,1) that add up to 7 out of 36 possible outcomes.",
+      "topic": "dice",
+      "type": "aptitude",
+      "__v": 0
+    },
+    {
+      "_id": "66881782b7f9839d1d5ccef7",
+      "question_number": 6,
+      "question_text": "Which one of the following diagrams represents the relationship among 'Bird', 'Sparrow', and 'Eagle'?",
+      "options": [
+        "A) Three intersecting circles",
+        "B) Two intersecting circles and one separate",
+        "C) One big circle and two smaller circles inside",
+        "D) Three separate circles"
+      ],
+      "answer": "C) One big circle and two smaller circles inside",
+      "explanation": "Both Sparrow and Eagle are types of Birds.",
+      "topic": "vr",
+      "type": "aptitude",
+      "__v": 0
+    },
+    {
+      "_id": "66881782b7f9839d1d5ccef8",
+      "question_number": 7,
+      "question_text": "If 5+3=28, 7+2=63, 6+5=66, then 8+4=?",
+      "options": [
+        "A) 96",
+        "B) 88",
+        "C) 86",
+        "D) 84"
+      ],
+      "answer": "A) 96",
+      "explanation": "The pattern is (a+b)*8. So, 8+4 = 96.",
+      "topic": "anr",
+      "type": "aptitude",
+      "__v": 0
+    },
+    {
+      "_id": "66881782b7f9839d1d5ccef9",
+      "question_number": 8,
+      "question_text": "In a certain code, 'BEAR' is written as '7354'. How is 'LION' written in that code?",
+      "options": [
+        "A) 1294",
+        "B) 3914",
+        "C) 3754",
+        "D) 7314"
+      ],
+      "answer": "B) 3914",
+      "explanation": "B=7, E=3, A=5, R=4; similarly, L=3, I=9, O=1, N=4.",
+      "topic": "vr",
+      "type": "aptitude",
+      "__v": 0
+    },
+    {
+      "_id": "66881782b7f9839d1d5ccefa",
+      "question_number": 9,
+      "question_text": "Which number completes the series: 1, 4, 9, 16, 25, __?",
+      "options": [
+        "A) 30",
+        "B) 36",
+        "C) 49",
+        "D) 64"
+      ],
+      "answer": "B) 36",
+      "explanation": "The series consists of squares of consecutive numbers: 1², 2², 3², 4², 5², 6².",
+      "topic": "ns",
+      "type": "aptitude",
+      "__v": 0
+    },
+    {
+      "_id": "66881782b7f9839d1d5ccefb",
+      "question_number": 10,
+      "question_text": "A dice is rolled, and the outcome is 3. If the opposite face of the dice is added to the outcome, what will be the result?",
+      "options": [
+        "A) 9",
+        "B) 8",
+        "C) 6",
+        "D) 7"
+      ],
+      "answer": "D) 7",
+      "explanation": "On a standard dice, the numbers on opposite faces add up to 7.",
+      "topic": "dice",
+      "type": "aptitude",
+      "__v": 0
+    },
+    {
+      "_id": "66881782b7f9839d1d5ccefc",
+      "question_number": 11,
+      "question_text": "Which of the following is a valid sequence of moves in a standard dice where faces are labeled 1 to 6?",
+      "options": [
+        "A) 1, 2, 3, 4, 5, 6",
+        "B) 1, 3, 2, 4, 6, 5",
+        "C) 1, 6, 2, 5, 4, 3",
+        "D) 1, 5, 2, 6, 3, 4"
+      ],
+      "answer": "D) 1, 5, 2, 6, 3, 4",
+      "explanation": "On a standard dice, the numbers on opposite faces add up to 7.",
+      "topic": "dice",
+      "type": "aptitude",
+      "__v": 0
+    },
+    {
+      "_id": "66881782b7f9839d1d5ccefd",
+      "question_number": 12,
+      "question_text": "In the sequence 2, 6, 12, 20, __, what number should come next?",
+      "options": [
+        "A) 30",
+        "B) 28",
+        "C) 32",
+        "D) 40"
+      ],
+      "answer": "B) 28",
+      "explanation": "The pattern is n² + n for n = 1, 2, 3, 4,... so 5² + 5 = 25 + 5 = 30.",
+      "topic": "ns",
+      "type": "aptitude",
+      "__v": 0
+    },
+    {
+      "_id": "66881782b7f9839d1d5ccefe",
+      "question_number": 13,
+      "question_text": "If 'APPLE' is coded as 'ELPPA', how is 'ORANGE' coded?",
+      "options": [
+        "A) EGNARO",
+        "B) EGNAOR",
+        "C) EROANG",
+        "D) EOGNAR"
+      ],
+      "answer": "A) EGNARO",
+      "explanation": "The code is the reverse of the original word.",
+      "topic": "vr",
+      "type": "aptitude",
+      "__v": 0
+    },
+    {
+      "_id": "66881782b7f9839d1d5cceff",
+      "question_number": 14,
+      "question_text": "Which number does not fit in the series: 3, 5, 7, 11, 14, 17, 19?",
+      "options": [
+        "A) 11",
+        "B) 14",
+        "C) 17",
+        "D) 19"
+      ],
+      "answer": "B) 14",
+      "explanation": "All the numbers except 14 are prime numbers.",
+      "topic": "ns",
+      "type": "aptitude",
+      "__v": 0
+    },
+    {
+      "_id": "66881782b7f9839d1d5ccf00",
+      "question_number": 15,
+      "question_text": "In a certain code, if 'SUN' is written as '21-14-19', how is 'MOON' written?",
+      "options": [
+        "A) 13-15-15-14",
+        "B) 12-15-15-13",
+        "C) 14-15-15-13",
+        "D) 13-16-16-14"
+      ],
+      "answer": "A) 13-15-15-14",
+      "explanation": "Each letter is replaced by its position in the alphabet.",
+      "topic": "vr",
+      "type": "aptitude",
+      "__v": 0
+    },
+    {
+      "_id": "66881782b7f9839d1d5ccf01",
+      "question_number": 16,
+      "question_text": "If a dice shows 2 on one face, what is the number on the face opposite to it?",
+      "options": [
+        "A) 1",
+        "B) 3",
+        "C) 5",
+        "D) 4"
+      ],
+      "answer": "C) 5",
+      "explanation": "On a standard dice, the numbers on opposite faces add up to 7.",
+      "topic": "dice",
+      "type": "aptitude",
+      "__v": 0
+    },
+    {
+      "_id": "66881782b7f9839d1d5ccf02",
+      "question_number": 17,
+      "question_text": "Which of the following pairs of numbers come next in the series: 2, 6, 12, 20, 30, __, __?",
+      "options": [
+        "A) 42, 56",
+        "B) 44, 60",
+        "C) 42, 58",
+        "D) 46, 62"
+      ],
+      "answer": "A) 42, 56",
+      "explanation": "The pattern is n² + n for n = 1, 2, 3, 4,... so 6² + 6 = 36 + 6 = 42, and 7² + 7 = 49 + 7 = 56.",
+      "topic": "ns",
+      "type": "aptitude",
+      "__v": 0
+    },
+    {
+      "_id": "66881782b7f9839d1d5ccf03",
+      "question_number": 18,
+      "question_text": "In a certain code, if 'TABLE' is written as '51-12-2-20', how is 'CHAIR' written?",
+      "options": [
+        "A) 3-8-1-9-18",
+        "B) 18-9-1-8-3",
+        "C) 3-1-8-9-18",
+        "D) 18-8-1-9-3"
+      ],
+      "answer": "A) 3-8-1-9-18",
+      "explanation": "Each letter is replaced by its reverse position in the alphabet.",
+      "topic": "vr",
+      "type": "aptitude",
+      "__v": 0
+    },
+    {
+      "_id": "66881782b7f9839d1d5ccf04",
+      "question_number": 19,
+      "question_text": "Which of the following completes the series: 1, 4, 9, 16, 25, 36, __?",
+      "options": [
+        "A) 49",
+        "B) 48",
+        "C) 50",
+        "D) 64"
+      ],
+      "answer": "A) 49",
+      "explanation": "The series consists of squares of consecutive numbers: 1², 2², 3², 4², 5², 6², 7².",
+      "topic": "ns",
+      "type": "aptitude",
+      "__v": 0
+    },
+    {
+      "_id": "66881782b7f9839d1d5ccf05",
+      "question_number": 20,
+      "question_text": "If a dice shows 1 on one face, what is the number on the face opposite to it?",
+      "options": [
+        "A) 6",
+        "B) 5",
+        "C) 4",
+        "D) 3"
+      ],
+      "answer": "A) 6",
+      "explanation": "On a standard dice, the numbers on opposite faces add up to 7.",
+      "topic": "dice",
+      "type": "aptitude",
+      "__v": 0
+    },
+    {
+      "_id": "66881782b7f9839d1d5ccf06",
+      "question_number": 21,
+      "question_text": "Which number should come next in the series: 5, 10, 20, 40, 80, __?",
+      "options": [
+        "A) 120",
+        "B) 140",
+        "C) 160",
+        "D) 180"
+      ],
+      "answer": "C) 160",
+      "explanation": "The pattern is each number is multiplied by 2.",
+      "topic": "ns",
+      "type": "aptitude",
+      "__v": 0
+    },
+    {
+      "_id": "66881782b7f9839d1d5ccf07",
+      "question_number": 22,
+      "question_text": "If 'HOUSE' is coded as '100-15-21-19-5', how is 'GARDEN' coded?",
+      "options": [
+        "A) 7-1-18-4-5-14",
+        "B) 7-1-18-4-5-15",
+        "C) 6-1-18-4-5-14",
+        "D) 7-1-17-4-5-14"
+      ],
+      "answer": "A) 7-1-18-4-5-14",
+      "explanation": "Each letter is replaced by its position in the alphabet.",
+      "topic": "vr",
+      "type": "aptitude",
+      "__v": 0
+    },
+    {
+      "_id": "66881782b7f9839d1d5ccf08",
+      "question_number": 23,
+      "question_text": "A dice is rolled, and the outcome is 4. If the opposite face of the dice is added to the outcome, what will be the result?",
+      "options": [
+        "A) 8",
+        "B) 9",
+        "C) 7",
+        "D) 10"
+      ],
+      "answer": "C) 7",
+      "explanation": "On a standard dice, the numbers on opposite faces add up to 7.",
+      "topic": "dice",
+      "type": "aptitude",
+      "__v": 0
+    },
+    {
+      "_id": "66881782b7f9839d1d5ccf09",
+      "question_number": 24,
+      "question_text": "Which one of the following diagrams represents the relationship among 'Vehicle', 'Car', and 'Bicycle'?",
+      "options": [
+        "A) Three intersecting circles",
+        "B) Two intersecting circles and one separate",
+        "C) One big circle and two smaller circles inside",
+        "D) Three separate circles"
+      ],
+      "answer": "C) One big circle and two smaller circles inside",
+      "explanation": "Both Car and Bicycle are types of Vehicles.",
+      "topic": "vr",
+      "type": "aptitude",
+      "__v": 0
+    },
+    {
+      "_id": "66881782b7f9839d1d5ccf0a",
+      "question_number": 25,
+      "question_text": "If 'TRAIN' is coded as '43-18-1-9-14', how is 'PLANE' coded?",
+      "options": [
+        "A) 16-12-1-14-5",
+        "B) 15-12-1-14-5",
+        "C) 16-13-1-14-5",
+        "D) 16-12-1-13-5"
+      ],
+      "answer": "A) 16-12-1-14-5",
+      "explanation": "Each letter is replaced by its position in the alphabet.",
+      "topic": "vr",
+      "type": "aptitude",
+      "__v": 0
+    },
+    {
+      "_id": "66881782b7f9839d1d5ccf0b",
+      "question_number": 26,
+      "question_text": "What number completes the series: 3, 6, 12, 24, __?",
+      "options": [
+        "A) 30",
+        "B) 40",
+        "C) 48",
+        "D) 50"
+      ],
+      "answer": "C) 48",
+      "explanation": "The pattern is each number is multiplied by 2.",
+      "topic": "ns",
+      "type": "aptitude",
+      "__v": 0
+    },
+    {
+      "_id": "66881782b7f9839d1d5ccf0c",
+      "question_number": 27,
+      "question_text": "In a certain code, if 'DOOR' is written as '49-15-15-18', how is 'WINDOW' written?",
+      "options": [
+        "A) 23-9-14-4-15-23",
+        "B) 23-8-14-4-15-23",
+        "C) 22-9-14-4-15-23",
+        "D) 23-9-13-4-15-23"
+      ],
+      "answer": "A) 23-9-14-4-15-23",
+      "explanation": "Each letter is replaced by its position in the alphabet.",
+      "topic": "vr",
+      "type": "aptitude",
+      "__v": 0
+    },
+    {
+      "_id": "66881782b7f9839d1d5ccf0d",
+      "question_number": 28,
+      "question_text": "Which number completes the series: 1, 8, 27, 64, 125, __?",
+      "options": [
+        "A) 216",
+        "B) 225",
+        "C) 240",
+        "D) 250"
+      ],
+      "answer": "A) 216",
+      "explanation": "The series consists of cubes of consecutive numbers: 1³, 2³, 3³, 4³, 5³, 6³.",
+      "topic": "ns",
+      "type": "aptitude",
+      "__v": 0
+    },
+    {
+      "_id": "66881782b7f9839d1d5ccf0e",
+      "question_number": 29,
+      "question_text": "If 'LAMP' is coded as '12-1-13-16', how is 'BULB' coded?",
+      "options": [
+        "A) 2-21-12-2",
+        "B) 2-22-12-2",
+        "C) 3-21-12-2",
+        "D) 2-21-13-2"
+      ],
+      "answer": "A) 2-21-12-2",
+      "explanation": "Each letter is replaced by its position in the alphabet.",
+      "topic": "vr",
+      "type": "aptitude",
+      "__v": 0
+    },
+    {
+      "_id": "66881782b7f9839d1d5ccf0f",
+      "question_number": 30,
+      "question_text": "If a dice shows 3 on one face, what is the number on the face opposite to it?",
+      "options": [
+        "A) 4",
+        "B) 5",
+        "C) 6",
+        "D) 2"
+      ],
+      "answer": "C) 6",
+      "explanation": "On a standard dice, the numbers on opposite faces add up to 7.",
+      "topic": "dice",
+      "type": "aptitude",
+      "__v": 0
+    },
+    {
+      "_id": "66881782b7f9839d1d5ccf10",
+      "question_number": 31,
+      "question_text": "If 'APPLE' is coded as '1-16-16-12-5', how is 'MANGO' coded?",
+      "options": [
+        "A) 13-1-14-7-15",
+        "B) 12-1-14-7-15",
+        "C) 13-2-14-7-15",
+        "D) 13-1-15-7-15"
+      ],
+      "answer": "A) 13-1-14-7-15",
+      "explanation": "Each letter is replaced by its position in the alphabet.",
+      "topic": "vr",
+      "type": "aptitude",
+      "__v": 0
+    },
+    {
+      "_id": "66881782b7f9839d1d5ccf11",
+      "question_number": 32,
+      "question_text": "Which number should come next in the series: 7, 14, 28, 56, __?",
+      "options": [
+        "A) 84",
+        "B) 112",
+        "C) 72",
+        "D) 98"
+      ],
+      "answer": "A) 84",
+      "explanation": "The pattern is each number is multiplied by 2.",
+      "topic": "ns",
+      "type": "aptitude",
+      "__v": 0
+    },
+    {
+      "_id": "66881782b7f9839d1d5ccf12",
+      "question_number": 33,
+      "question_text": "In a certain code, if 'SUN' is written as '19-21-14', how is 'MOON' written?",
+      "options": [
+        "A) 13-15-15-14",
+        "B) 14-15-15-14",
+        "C) 13-16-15-14",
+        "D) 13-15-16-14"
+      ],
+      "answer": "A) 13-15-15-14",
+      "explanation": "Each letter is replaced by its position in the alphabet.",
+      "topic": "vr",
+      "type": "aptitude",
+      "__v": 0
+    },
+    {
+      "_id": "66881782b7f9839d1d5ccf13",
+      "question_number": 34,
+      "question_text": "Which number completes the series: 11, 22, 33, 44, __?",
+      "options": [
+        "A) 55",
+        "B) 66",
+        "C) 77",
+        "D) 88"
+      ],
+      "answer": "A) 55",
+      "explanation": "The pattern is each number is increased by 11.",
+      "topic": "ns",
+      "type": "aptitude",
+      "__v": 0
+    },
+    {
+      "_id": "66881782b7f9839d1d5ccf14",
+      "question_number": 35,
+      "question_text": "If 'WATER' is coded as '23-1-20-5-18', how is 'EARTH' coded?",
+      "options": [
+        "A) 5-1-18-20-8",
+        "B) 6-1-18-20-8",
+        "C) 5-2-18-20-8",
+        "D) 5-1-19-20-8"
+      ],
+      "answer": "A) 5-1-18-20-8",
+      "explanation": "Each letter is replaced by its position in the alphabet.",
+      "topic": "vr",
+      "type": "aptitude",
+      "__v": 0
+    },
+    {
+      "_id": "66881782b7f9839d1d5ccf15",
+      "question_number": 36,
+      "question_text": "What number completes the series: 2, 4, 8, 16, __?",
+      "options": [
+        "A) 30",
+        "B) 32",
+        "C) 34",
+        "D) 36"
+      ],
+      "answer": "B) 32",
+      "explanation": "The pattern is each number is multiplied by 2.",
+      "topic": "ns",
+      "type": "aptitude",
+      "__v": 0
+    },
+    {
+      "_id": "66881782b7f9839d1d5ccf16",
+      "question_number": 37,
+      "question_text": "In a certain code, if 'KING' is written as '11-9-14-7', how is 'QUEEN' written?",
+      "options": [
+        "A) 17-21-5-5-14",
+        "B) 16-21-5-5-14",
+        "C) 17-20-5-5-14",
+        "D) 17-21-6-5-14"
+      ],
+      "answer": "A) 17-21-5-5-14",
+      "explanation": "Each letter is replaced by its position in the alphabet.",
+      "topic": "vr",
+      "type": "aptitude",
+      "__v": 0
+    },
+    {
+      "_id": "66881782b7f9839d1d5ccf17",
+      "question_number": 38,
+      "question_text": "Which number completes the series: 10, 20, 30, 40, __?",
+      "options": [
+        "A) 50",
+        "B) 60",
+        "C) 70",
+        "D) 80"
+      ],
+      "answer": "A) 50",
+      "explanation": "The pattern is each number is increased by 10.",
+      "topic": "ns",
+      "type": "aptitude",
+      "__v": 0
+    },
+    {
+      "_id": "66881782b7f9839d1d5ccf18",
+      "question_number": 39,
+      "question_text": "If 'CAT' is coded as '3-1-20', how is 'DOG' coded?",
+      "options": [
+        "A) 4-15-7",
+        "B) 5-15-7",
+        "C) 4-16-7",
+        "D) 4-15-8"
+      ],
+      "answer": "A) 4-15-7",
+      "explanation": "Each letter is replaced by its position in the alphabet.",
+      "topic": "vr",
+      "type": "aptitude",
+      "__v": 0
+    },
+    {
+      "_id": "66881782b7f9839d1d5ccf19",
+      "question_number": 40,
+      "question_text": "Which number should come next in the series: 1, 3, 6, 10, 15, __?",
+      "options": [
+        "A) 20",
+        "B) 21",
+        "C) 22",
+        "D) 23"
+      ],
+      "answer": "B) 21",
+      "explanation": "The pattern is each number is the sum of all previous numbers plus 1.",
+      "topic": "ns",
+      "type": "aptitude",
+      "__v": 0
+    },
+    {
+      "_id": "66881782b7f9839d1d5ccf1a",
+      "question_number": 41,
+      "question_text": "If 'FISH' is coded as '6-9-19-8', how is 'BIRD' coded?",
+      "options": [
+        "A) 2-9-18-4",
+        "B) 3-9-18-4",
+        "C) 2-10-18-4",
+        "D) 2-9-19-4"
+      ],
+      "answer": "A) 2-9-18-4",
+      "explanation": "Each letter is replaced by its position in the alphabet.",
+      "topic": "vr",
+      "type": "aptitude",
+      "__v": 0
+    },
+    {
+      "_id": "66881782b7f9839d1d5ccf1b",
+      "question_number": 42,
+      "question_text": "What number completes the series: 5, 10, 15, 20, __?",
+      "options": [
+        "A) 25",
+        "B) 30",
+        "C) 35",
+        "D) 40"
+      ],
+      "answer": "A) 25",
+      "explanation": "The pattern is each number is increased by 5.",
+      "topic": "ns",
+      "type": "aptitude",
+      "__v": 0
+    },
+    {
+      "_id": "66881782b7f9839d1d5ccf1c",
+      "question_number": 43,
+      "question_text": "In a certain code, if 'DOG' is written as '4-15-7', how is 'CAT' written?",
+      "options": [
+        "A) 3-1-20",
+        "B) 4-1-20",
+        "C) 3-2-20",
+        "D) 3-1-21"
+      ],
+      "answer": "A) 3-1-20",
+      "explanation": "Each letter is replaced by its position in the alphabet.",
+      "topic": "vr",
+      "type": "aptitude",
+      "__v": 0
+    },
+    {
+      "_id": "66881782b7f9839d1d5ccf1d",
+      "question_number": 44,
+      "question_text": "Which number should come next in the series: 2, 4, 8, 16, __?",
+      "options": [
+        "A) 32",
+        "B) 30",
+        "C) 28",
+        "D) 24"
+      ],
+      "answer": "A) 32",
+      "explanation": "The pattern is each number is multiplied by 2.",
+      "topic": "ns",
+      "type": "aptitude",
+      "__v": 0
+    },
+    {
+      "_id": "66881782b7f9839d1d5ccf1e",
+      "question_number": 45,
+      "question_text": "If 'LION' is coded as '12-9-15-14', how is 'TIGER' coded?",
+      "options": [
+        "A) 20-9-7-5-18",
+        "B) 21-9-7-5-18",
+        "C) 20-10-7-5-18",
+        "D) 20-9-8-5-18"
+      ],
+      "answer": "A) 20-9-7-5-18",
+      "explanation": "Each letter is replaced by its position in the alphabet.",
+      "topic": "vr",
+      "type": "aptitude",
+      "__v": 0
+    },
+    {
+      "_id": "66881782b7f9839d1d5ccf1f",
+      "question_number": 46,
+      "question_text": "What number completes the series: 1, 4, 9, 16, __?",
+      "options": [
+        "A) 25",
+        "B) 24",
+        "C) 20",
+        "D) 30"
+      ],
+      "answer": "A) 25",
+      "explanation": "The series consists of squares of consecutive numbers: 1², 2², 3², 4², 5².",
+      "topic": "ns",
+      "type": "aptitude",
+      "__v": 0
+    },
+    {
+      "_id": "66881782b7f9839d1d5ccf20",
+      "question_number": 47,
+      "question_text": "If 'BEAR' is coded as '2-5-1-18', how is 'FOX' coded?",
+      "options": [
+        "A) 6-15-24",
+        "B) 6-14-24",
+        "C) 7-15-24",
+        "D) 6-15-23"
+      ],
+      "answer": "A) 6-15-24",
+      "explanation": "Each letter is replaced by its position in the alphabet.",
+      "topic": "vr",
+      "type": "aptitude",
+      "__v": 0
+    },
+    {
+      "_id": "66881782b7f9839d1d5ccf21",
+      "question_number": 48,
+      "question_text": "Which number should come next in the series: 3, 9, 27, 81, __?",
+      "options": [
+        "A) 243",
+        "B) 162",
+        "C) 100",
+        "D) 121"
+      ],
+      "answer": "A) 243",
+      "explanation": "The pattern is each number is multiplied by 3.",
+      "topic": "ns",
+      "type": "aptitude",
+      "__v": 0
+    },
+    {
+      "_id": "66881782b7f9839d1d5ccf22",
+      "question_number": 49,
+      "question_text": "In a certain code, if 'LOVE' is written as '12-15-22-5', how is 'HATE' written?",
+      "options": [
+        "A) 8-1-20-5",
+        "B) 9-1-20-5",
+        "C) 8-2-20-5",
+        "D) 8-1-21-5"
+      ],
+      "answer": "A) 8-1-20-5",
+      "explanation": "Each letter is replaced by its position in the alphabet.",
+      "topic": "vr",
+      "type": "aptitude",
+      "__v": 0
+    },
+    {
+      "_id": "66881782b7f9839d1d5ccf23",
+      "question_number": 50,
+      "question_text": "What number completes the series: 6, 12, 18, 24, __?",
+      "options": [
+        "A) 30",
+        "B) 32",
+        "C) 36",
+        "D) 38"
+      ],
+      "answer": "C) 36",
+      "explanation": "The pattern is each number is increased by 6.",
+      "topic": "ns",
+      "type": "aptitude",
+      "__v": 0
+    },
+    {
+      "_id": "66881782b7f9839d1d5ccf24",
+      "question_number": 51,
+      "question_text": "If 'TABLE' is coded as '20-1-2-12-5', how is 'CHAIR' coded?",
+      "options": [
+        "A) 3-8-1-9-18",
+        "B) 3-8-2-9-18",
+        "C) 4-8-1-9-18",
+        "D) 3-9-1-9-18"
+      ],
+      "answer": "A) 3-8-1-9-18",
+      "explanation": "Each letter is replaced by its position in the alphabet.",
+      "topic": "vr",
+      "type": "aptitude",
+      "__v": 0
+    },
+    {
+      "_id": "66881782b7f9839d1d5ccf25",
+      "question_number": 52,
+      "question_text": "Which number should come next in the series: 1, 1, 2, 3, 5, 8, __?",
+      "options": [
+        "A) 10",
+        "B) 11",
+        "C) 12",
+        "D) 13"
+      ],
+      "answer": "D) 13",
+      "explanation": "The pattern is the Fibonacci sequence, where each number is the sum of the two preceding ones.",
+      "topic": "ns",
+      "type": "aptitude",
+      "__v": 0
+    },
+    {
+      "_id": "66881782b7f9839d1d5ccf26",
+      "question_number": 53,
+      "question_text": "If 'BIRD' is coded as '2-9-18-4', how is 'FISH' coded?",
+      "options": [
+        "A) 6-9-19-8",
+        "B) 5-9-19-8",
+        "C) 6-10-19-8",
+        "D) 6-9-20-8"
+      ],
+      "answer": "A) 6-9-19-8",
+      "explanation": "Each letter is replaced by its position in the alphabet.",
+      "topic": "vr",
+      "type": "aptitude",
+      "__v": 0
+    },
+    {
+      "_id": "66881782b7f9839d1d5ccf27",
+      "question_number": 54,
+      "question_text": "What number completes the series: 4, 8, 12, 16, __?",
+      "options": [
+        "A) 20",
+        "B) 22",
+        "C) 24",
+        "D) 26"
+      ],
+      "answer": "A) 20",
+      "explanation": "The pattern is each number is increased by 4.",
+      "topic": "ns",
+      "type": "aptitude",
+      "__v": 0
+    },
+    {
+      "_id": "66881782b7f9839d1d5ccf28",
+      "question_number": 55,
+      "question_text": "In a certain code, if 'ELEPHANT' is written as '5-12-5-16-8-1-14-20', how is 'GIRAFFE' written?",
+      "options": [
+        "A) 7-9-18-1-6-6-5",
+        "B) 6-9-18-1-6-6-5",
+        "C) 7-10-18-1-6-6-5",
+        "D) 7-9-19-1-6-6-5"
+      ],
+      "answer": "A) 7-9-18-1-6-6-5",
+      "explanation": "Each letter is replaced by its position in the alphabet.",
+      "topic": "vr",
+      "type": "aptitude",
+      "__v": 0
+    },
+    {
+      "_id": "66881782b7f9839d1d5ccf29",
+      "question_number": 56,
+      "question_text": "Which number should come next in the series: 2, 3, 5, 7, 11, __?",
+      "options": [
+        "A) 12",
+        "B) 13",
+        "C) 14",
+        "D) 15"
+      ],
+      "answer": "B) 13",
+      "explanation": "The pattern is the series of prime numbers.",
+      "topic": "ns",
+      "type": "aptitude",
+      "__v": 0
+    },
+    {
+      "_id": "66881782b7f9839d1d5ccf2a",
+      "question_number": 57,
+      "question_text": "If 'COW' is coded as '3-15-23', how is 'DOG' coded?",
+      "options": [
+        "A) 4-15-7",
+        "B) 5-15-7",
+        "C) 4-16-7",
+        "D) 4-15-8"
+      ],
+      "answer": "A) 4-15-7",
+      "explanation": "Each letter is replaced by its position in the alphabet.",
+      "topic": "vr",
+      "type": "aptitude",
+      "__v": 0
+    },
+    {
+      "_id": "66881782b7f9839d1d5ccf2b",
+      "question_number": 58,
+      "question_text": "What number completes the series: 5, 15, 25, 35, __?",
+      "options": [
+        "A) 40",
+        "B) 45",
+        "C) 50",
+        "D) 55"
+      ],
+      "answer": "C) 50",
+      "explanation": "The pattern is each number is increased by 10.",
+      "topic": "ns",
+      "type": "aptitude",
+      "__v": 0
+    },
+    {
+      "_id": "66881782b7f9839d1d5ccf2c",
+      "question_number": 59,
+      "question_text": "In a certain code, if 'BRAIN' is written as '2-18-1-9-14', how is 'HEART' written?",
+      "options": [
+        "A) 8-5-1-18-20",
+        "B) 7-5-1-18-20",
+        "C) 8-6-1-18-20",
+        "D) 8-5-2-18-20"
+      ],
+      "answer": "A) 8-5-1-18-20",
+      "explanation": "Each letter is replaced by its position in the alphabet.",
+      "topic": "vr",
+      "type": "aptitude",
+      "__v": 0
+    },
+    {
+      "_id": "66881782b7f9839d1d5ccf2d",
+      "question_number": 60,
+      "question_text": "Which number should come next in the series: 9, 18, 27, 36, __?",
+      "options": [
+        "A) 45",
+        "B) 48",
+        "C) 50",
+        "D) 54"
+      ],
+      "answer": "A) 45",
+      "explanation": "The pattern is each number is increased by 9.",
+      "topic": "ns",
+      "type": "aptitude",
+      "__v": 0
+    },
+    {
+      "_id": "66881782b7f9839d1d5ccf2e",
+      "question_number": 61,
+      "question_text": "If 'HORSE' is coded as '8-15-18-19-5', how is 'CAMEL' coded?",
+      "options": [
+        "A) 3-1-13-5-12",
+        "B) 3-2-13-5-12",
+        "C) 4-1-13-5-12",
+        "D) 3-1-14-5-12"
+      ],
+      "answer": "A) 3-1-13-5-12",
+      "explanation": "Each letter is replaced by its position in the alphabet.",
+      "topic": "vr",
+      "type": "aptitude",
+      "__v": 0
+    },
+    {
+      "_id": "66881782b7f9839d1d5ccf2f",
+      "question_number": 62,
+      "question_text": "What number completes the series: 4, 9, 14, 19, __?",
+      "options": [
+        "A) 24",
+        "B) 25",
+        "C) 26",
+        "D) 28"
+      ],
+      "answer": "A) 24",
+      "explanation": "The pattern is each number is increased by 5.",
+      "topic": "ns",
+      "type": "aptitude",
+      "__v": 0
+    },
+    {
+      "_id": "66881782b7f9839d1d5ccf30",
+      "question_number": 63,
+      "question_text": "In a certain code, if 'LAMP' is written as '12-1-13-16', how is 'BULB' written?",
+      "options": [
+        "A) 2-21-12-2",
+        "B) 2-22-12-2",
+        "C) 3-21-12-2",
+        "D) 2-21-13-2"
+      ],
+      "answer": "A) 2-21-12-2",
+      "explanation": "Each letter is replaced by its position in the alphabet.",
+      "topic": "vr",
+      "type": "aptitude",
+      "__v": 0
+    },
+    {
+      "_id": "66881782b7f9839d1d5ccf31",
+      "question_number": 64,
+      "question_text": "Which number should come next in the series: 1, 4, 7, 10, __?",
+      "options": [
+        "A) 13",
+        "B) 12",
+        "C) 14",
+        "D) 15"
+      ],
+      "answer": "B) 12",
+      "explanation": "The pattern is each number is increased by 3.",
+      "topic": "ns",
+      "type": "aptitude",
+      "__v": 0
+    },
+    {
+      "_id": "66881782b7f9839d1d5ccf33",
+      "question_number": 65,
+      "question_text": "If 'BASKET' is coded as '2-1-19-11-5-20', how is 'FRUIT' coded?",
+      "options": [
+        "A) 6-18-21-9-20",
+        "B) 7-18-21-9-20",
+        "C) 6-19-21-9-20",
+        "D) 6-18-22-9-20"
+      ],
+      "answer": "A) 6-18-21-9-20",
+      "explanation": "Each letter is replaced by its position in the alphabet.",
+      "topic": "vr",
+      "type": "aptitude",
+      "__v": 0
+    },
+    {
+      "_id": "66881782b7f9839d1d5ccf34",
+      "question_number": 66,
+      "question_text": "Which number should come next in the series: 3, 6, 12, 24, __?",
+      "options": [
+        "A) 36",
+        "B) 42",
+        "C) 48",
+        "D) 50"
+      ],
+      "answer": "C) 48",
+      "explanation": "The pattern is each number is multiplied by 2.",
+      "topic": "ns",
+      "type": "aptitude",
+      "__v": 0
+    },
+    {
+      "_id": "66881782b7f9839d1d5ccf35",
+      "question_number": 67,
+      "question_text": "If 'PEAR' is coded as '16-5-1-18', how is 'MANGO' coded?",
+      "options": [
+        "A) 13-1-14-7-15",
+        "B) 14-1-14-7-15",
+        "C) 13-2-14-7-15",
+        "D) 13-1-15-7-15"
+      ],
+      "answer": "A) 13-1-14-7-15",
+      "explanation": "Each letter is replaced by its position in the alphabet.",
+      "topic": "vr",
+      "type": "aptitude",
+      "__v": 0
+    },
+    {
+      "_id": "66881782b7f9839d1d5ccf36",
+      "question_number": 68,
+      "question_text": "Which number should come next in the series: 5, 10, 20, 40, __?",
+      "options": [
+        "A) 50",
+        "B) 60",
+        "C) 70",
+        "D) 80"
+      ],
+      "answer": "D) 80",
+      "explanation": "The pattern is each number is multiplied by 2.",
+      "topic": "ns",
+      "type": "aptitude",
+      "__v": 0
+    },
+    {
+      "_id": "66881782b7f9839d1d5ccf37",
+      "question_number": 69,
+      "question_text": "In a certain code, if 'COFFEE' is written as '3-15-6-6-5-5', how is 'TEA' written?",
+      "options": [
+        "A) 20-5-1",
+        "B) 21-5-1",
+        "C) 20-6-1",
+        "D) 20-5-2"
+      ],
+      "answer": "A) 20-5-1",
+      "explanation": "Each letter is replaced by its position in the alphabet.",
+      "topic": "vr",
+      "type": "aptitude",
+      "__v": 0
+    },
+    {
+      "_id": "66881782b7f9839d1d5ccf38",
+      "question_number": 70,
+      "question_text": "Which number should come next in the series: 8, 16, 24, 32, __?",
+      "options": [
+        "A) 40",
+        "B) 42",
+        "C) 48",
+        "D) 50"
+      ],
+      "answer": "A) 40",
+      "explanation": "The pattern is each number is increased by 8.",
+      "topic": "ns",
+      "type": "aptitude",
+      "__v": 0
+    },
+    {
+      "_id": "66881782b7f9839d1d5ccf39",
+      "question_number": 71,
+      "question_text": "If 'HOUSE' is coded as '8-15-21-19-5', how is 'FLAT' coded?",
+      "options": [
+        "A) 6-12-1-20",
+        "B) 7-12-1-20",
+        "C) 6-13-1-20",
+        "D) 6-12-2-20"
+      ],
+      "answer": "A) 6-12-1-20",
+      "explanation": "Each letter is replaced by its position in the alphabet.",
+      "topic": "vr",
+      "type": "aptitude",
+      "__v": 0
+    },
+    {
+      "_id": "66881782b7f9839d1d5ccf3a",
+      "question_number": 72,
+      "question_text": "Which number should come next in the series: 2, 5, 10, 17, __?",
+      "options": [
+        "A) 26",
+        "B) 24",
+        "C) 20",
+        "D) 29"
+      ],
+      "answer": "A) 26",
+      "explanation": "The pattern is n^2 - 1: 1^2 - 1 = 0, 2^2 - 1 = 3, 3^2 - 1 = 8, 4^2 - 1 = 15, 5^2 - 1 = 24.",
+      "topic": "ns",
+      "type": "aptitude",
+      "__v": 0
+    },
+    {
+      "_id": "66881782b7f9839d1d5ccf3b",
+      "question_number": 73,
+      "question_text": "In a certain code, if 'PAPER' is written as '16-1-16-5-18', how is 'PENCIL' written?",
+      "options": [
+        "A) 16-5-14-3-9-12",
+        "B) 15-5-14-3-9-12",
+        "C) 16-6-14-3-9-12",
+        "D) 16-5-15-3-9-12"
+      ],
+      "answer": "A) 16-5-14-3-9-12",
+      "explanation": "Each letter is replaced by its position in the alphabet.",
+      "topic": "vr",
+      "type": "aptitude",
+      "__v": 0
+    },
+    {
+      "_id": "66881782b7f9839d1d5ccf3c",
+      "question_number": 74,
+      "question_text": "Which number should come next in the series: 1, 4, 9, 16, __?",
+      "options": [
+        "A) 20",
+        "B) 25",
+        "C) 22",
+        "D) 24"
+      ],
+      "answer": "B) 25",
+      "explanation": "The series consists of squares of consecutive numbers: 1², 2², 3², 4², 5².",
+      "topic": "ns",
+      "type": "aptitude",
+      "__v": 0
+    },
+    {
+      "_id": "66881782b7f9839d1d5ccf3e",
+      "question_number": 76,
+      "question_text": "What number completes the series: 3, 6, 9, 12, __?",
+      "options": [
+        "A) 15",
+        "B) 18",
+        "C) 21",
+        "D) 24"
+      ],
+      "answer": "A) 15",
+      "explanation": "The pattern is each number is increased by 3.",
+      "topic": "ns",
+      "type": "aptitude",
+      "__v": 0
+    },
+    {
+      "_id": "66881782b7f9839d1d5ccf3f",
+      "question_number": 77,
+      "question_text": "In a certain code, if 'JUICE' is written as '10-21-9-3-5', how is 'MILK' written?",
+      "options": [
+        "A) 13-9-12-11",
+        "B) 12-9-12-11",
+        "C) 13-10-12-11",
+        "D) 13-9-13-11"
+      ],
+      "answer": "A) 13-9-12-11",
+      "explanation": "Each letter is replaced by its position in the alphabet.",
+      "topic": "vr",
+      "type": "aptitude",
+      "__v": 0
+    },
+    {
+      "_id": "66881782b7f9839d1d5ccf40",
+      "question_number": 78,
+      "question_text": "Which number should come next in the series: 5, 15, 25, 35, __?",
+      "options": [
+        "A) 45",
+        "B) 40",
+        "C) 50",
+        "D) 55"
+      ],
+      "answer": "A) 45",
+      "explanation": "The pattern is each number is increased by 10.",
+      "topic": "ns",
+      "type": "aptitude",
+      "__v": 0
+    },
+    {
+      "_id": "66881782b7f9839d1d5ccf41",
+      "question_number": 79,
+      "question_text": "If 'TIGER' is coded as '20-9-7-5-18', how is 'LION' coded?",
+      "options": [
+        "A) 12-9-15-14",
+        "B) 11-9-15-14",
+        "C) 12-10-15-14",
+        "D) 12-9-16-14"
+      ],
+      "answer": "A) 12-9-15-14",
+      "explanation": "Each letter is replaced by its position in the alphabet.",
+      "topic": "vr",
+      "type": "aptitude",
+      "__v": 0
+    },
+    {
+      "_id": "66881782b7f9839d1d5ccf42",
+      "question_number": 80,
+      "question_text": "What number completes the series: 2, 6, 12, 20, __?",
+      "options": [
+        "A) 30",
+        "B) 28",
+        "C) 32",
+        "D) 36"
+      ],
+      "answer": "B) 28",
+      "explanation": "The pattern is n^2 + 1: 1^2 + 1 = 2, 2^2 + 2 = 6, 3^2 + 3 = 12, 4^2 + 4 = 20, 5^2 + 5 = 28.",
+      "topic": "ns",
+      "type": "aptitude",
+      "__v": 0
+    },
+    {
+      "_id": "66881782b7f9839d1d5ccf43",
+      "question_number": 81,
+      "question_text": "In a certain code, if 'MONKEY' is written as '13-15-14-11-5-25', how is 'DONKEY' written?",
+      "options": [
+        "A) 4-15-14-11-5-25",
+        "B) 5-15-14-11-5-25",
+        "C) 4-16-14-11-5-25",
+        "D) 4-15-15-11-5-25"
+      ],
+      "answer": "A) 4-15-14-11-5-25",
+      "explanation": "Each letter is replaced by its position in the alphabet.",
+      "topic": "vr",
+      "type": "aptitude",
+      "__v": 0
+    },
+    {
+      "_id": "66881782b7f9839d1d5ccf44",
+      "question_number": 82,
+      "question_text": "Which number should come next in the series: 7, 14, 21, 28, __?",
+      "options": [
+        "A) 35",
+        "B) 36",
+        "C) 42",
+        "D) 49"
+      ],
+      "answer": "A) 35",
+      "explanation": "The pattern is each number is increased by 7.",
+      "topic": "ns",
+      "type": "aptitude",
+      "__v": 0
+    },
+    {
+      "_id": "66881782b7f9839d1d5ccf45",
+      "question_number": 83,
+      "question_text": "If 'BOOK' is coded as '2-15-15-11', how is 'READ' coded?",
+      "options": [
+        "A) 18-5-1-4",
+        "B) 17-5-1-4",
+        "C) 18-6-1-4",
+        "D) 18-5-2-4"
+      ],
+      "answer": "A) 18-5-1-4",
+      "explanation": "Each letter is replaced by its position in the alphabet.",
+      "topic": "vr",
+      "type": "aptitude",
+      "__v": 0
+    },
+    {
+      "_id": "66881782b7f9839d1d5ccf46",
+      "question_number": 84,
+      "question_text": "What number completes the series: 8, 12, 18, 26, __?",
+      "options": [
+        "A) 30",
+        "B) 36",
+        "C) 38",
+        "D) 42"
+      ],
+      "answer": "B) 36",
+      "explanation": "The pattern is each number is increased by 4, 6, 8, 10.",
+      "topic": "ns",
+      "type": "aptitude",
+      "__v": 0
+    },
+    {
+      "_id": "66881782b7f9839d1d5ccf47",
+      "question_number": 85,
+      "question_text": "In a certain code, if 'WATER' is written as '23-1-20-5-18', how is 'EARTH' written?",
+      "options": [
+        "A) 5-1-18-20-8",
+        "B) 4-1-18-20-8",
+        "C) 5-2-18-20-8",
+        "D) 5-1-19-20-8"
+      ],
+      "answer": "A) 5-1-18-20-8",
+      "explanation": "Each letter is replaced by its position in the alphabet.",
+      "topic": "vr",
+      "type": "aptitude",
+      "__v": 0
+    },
+    {
+      "_id": "66881782b7f9839d1d5ccf49",
+      "question_number": 87,
+      "question_text": "If 'BIRD' is coded as '2-9-18-4', how is 'DUCK' coded?",
+      "options": [
+        "A) 4-21-3-11",
+        "B) 5-21-3-11",
+        "C) 4-22-3-11",
+        "D) 4-21-4-11"
+      ],
+      "answer": "A) 4-21-3-11",
+      "explanation": "Each letter is replaced by its position in the alphabet.",
+      "topic": "vr",
+      "type": "aptitude",
+      "__v": 0
+    },
+    {
+      "_id": "66881782b7f9839d1d5ccf4a",
+      "question_number": 88,
+      "question_text": "What number completes the series: 5, 10, 20, 40, __?",
+      "options": [
+        "A) 50",
+        "B) 60",
+        "C) 70",
+        "D) 80"
+      ],
+      "answer": "D) 80",
+      "explanation": "The pattern is each number is multiplied by 2.",
+      "topic": "ns",
+      "type": "aptitude",
+      "__v": 0
+    },
+    {
+      "_id": "66881782b7f9839d1d5ccf4b",
+      "question_number": 89,
+      "question_text": "In a certain code, if 'APPLE' is written as '1-16-16-12-5', how is 'GRAPE' written?",
+      "options": [
+        "A) 7-18-1-16-5",
+        "B) 6-18-1-16-5",
+        "C) 7-19-1-16-5",
+        "D) 7-18-2-16-5"
+      ],
+      "answer": "A) 7-18-1-16-5",
+      "explanation": "Each letter is replaced by its position in the alphabet.",
+      "topic": "vr",
+      "type": "aptitude",
+      "__v": 0
+    },
+    {
+      "_id": "66881782b7f9839d1d5ccf4c",
+      "question_number": 90,
+      "question_text": "Which number should come next in the series: 1, 2, 4, 7, 11, __?",
+      "options": [
+        "A) 16",
+        "B) 15",
+        "C) 14",
+        "D) 13"
+      ],
+      "answer": "B) 15",
+      "explanation": "The pattern is n + n-1.",
+      "topic": "ns",
+      "type": "aptitude",
+      "__v": 0
+    },
+    {
+      "_id": "66881782b7f9839d1d5ccf4e",
+      "question_number": 92,
+      "question_text": "What number completes the series: 6, 11, 16, 21, __?",
+      "options": [
+        "A) 26",
+        "B) 27",
+        "C) 28",
+        "D) 29"
+      ],
+      "answer": "A) 26",
+      "explanation": "The pattern is each number is increased by 5.",
+      "topic": "ns",
+      "type": "aptitude",
+      "__v": 0
+    }
+  ]

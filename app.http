@@ -9,12 +9,13 @@ Content-Type: application/json
 
 
 ###
-POST http://localhost:3000/aptitude
+POST http://localhost:3001/get-all-questions
 Content-Type: application/json
 
 {
-    "standard":"aptitudeEM",
-    "subject":"12-16Unit"
+    "userId": "b0b6555d-637f-45d4-9f96-3aad3bd54404",
+    "standard":"commonApiEM",
+    "subject":"allAptitude"
 }
 
 ###
@@ -23,7 +24,7 @@ Content-Type: application/json
 
 {
     "userId": "b0b6555d-637f-45d4-9f96-3aad3bd54404",
-    "selectedTopics":["simplification", "percentage", "rp"],
+    "selectedTopics":["probability", "geometry", "arithmetic progression"],
     "selectedOptions":10,
     "medium":"TM"
 }
@@ -41,42 +42,33 @@ Content-Type: application/json
 
 
 ###
-# POST http://localhost:3000/api/duplicate-questions 
-# Content-Type: application/json
-
-# {
-#     "databaseName":"commonAptitudeEM",
-#     "collectionName":"allAptitude"
-# }
-
-###
-POST http://localhost:3000/api/delete-questions
+POST http://localhost:3001/api/duplicate-questions 
 Content-Type: application/json
 
 {
-    "databaseName":"commonAptitudeEM",
+    "databaseName":"commonApiEM",
+    "collectionName":"allAptitude"
+}
+
+###
+POST http://localhost:3001/api/delete-questions
+Content-Type: application/json
+
+{
+    "databaseName":"commonApiEM",
     "collectionName":"allAptitude",
     "ids":[
-    "6686f2bab7f9839d1d8374df",
-    "66881513b7f9839d1d56aa5a",
-    "66881513b7f9839d1d56aa5c",
-    "66881513b7f9839d1d56aa59",
-    "6686ee27b7f9839d1d784940",
-    "66881513b7f9839d1d56aa5b",
-    "6686ee27b7f9839d1d784960",
-    "66881782b7f9839d1d5ccf48",
-    "66881513b7f9839d1d56aa5d",
-    "6686f2bab7f9839d1d8374e0",
-    "6686ee27b7f9839d1d784938",
-    "6686ee27b7f9839d1d784964",
-    "6686f2bab7f9839d1d8374e1",
-    "66881513b7f9839d1d56aa58",
-    "6686ee27b7f9839d1d784941",
-    "6686f2bab7f9839d1d8374db",
-    "6686f2bab7f9839d1d8374e2",
-    "6686ee27b7f9839d1d784950",
-    "66881782b7f9839d1d5ccf3d",
-    "66881782b7f9839d1d5ccf4d"  ]
+    "66a75e4f2091d16f4e3fd873",
+    "66a75e4f2091d16f4e3fd874",
+    "66a75e4f2091d16f4e3fd872",
+    "66a75e4f2091d16f4e3fd86f",
+    "66a75e4f2091d16f4e3fd877",
+    "66a75e4f2091d16f4e3fd86e",
+    "66a75e4f2091d16f4e3fd876",
+    "66a75e4f2091d16f4e3fd870",
+    "66a75e4f2091d16f4e3fd871",
+    "66a75e4f2091d16f4e3fd86d",
+    "66a75e4f2091d16f4e3fd875"]
     }
 
 
