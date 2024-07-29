@@ -1,0 +1,4099 @@
+
+[
+    {
+      "_id": "6686f03bb7f9839d1d7d7895",
+      "question_number": 1,
+      "question_text": "12 + 3 × (15 − 5) / 5 என்பதன் எளிய மதிப்பு என்ன?",
+      "options": [
+        "A) 15",
+        "B) 18",
+        "C) 21",
+        "D) 24"
+      ],
+      "answer": "B) 18",
+      "explanation": "எளிய மதிப்பு 12 + 3 × 10 / 5 = 12 + 6 = 18.",
+      "type": "aptitude",
+      "__v": 0
+    },
+    {
+      "_id": "6686f03bb7f9839d1d7d7896",
+      "question_number": 2,
+      "question_text": "200-ன் 25% என்ன?",
+      "options": [
+        "A) 25",
+        "B) 50",
+        "C) 75",
+        "D) 100"
+      ],
+      "answer": "B) 50",
+      "explanation": "200-ன் 25% என்பது 200 × 0.25 = 50.",
+      "type": "aptitude",
+      "__v": 0
+    },
+    {
+      "_id": "6686f03bb7f9839d1d7d7897",
+      "question_number": 3,
+      "question_text": "24 மற்றும் 36-ன் மிகுந்த பொது கோட்டைக் கண்டறியுங்கள்.",
+      "options": [
+        "A) 6",
+        "B) 8",
+        "C) 12",
+        "D) 18"
+      ],
+      "answer": "C) 12",
+      "explanation": "24 மற்றும் 36-ன் மிகுந்த பொது கோட்டை 12.",
+      "type": "aptitude",
+      "__v": 0
+    },
+    {
+      "_id": "6686f03bb7f9839d1d7d7898",
+      "question_number": 4,
+      "question_text": "6 மற்றும் 8-ன் மிகச்சிறந்த பொதுக் கோட்டைக் கண்டறியுங்கள்.",
+      "options": [
+        "A) 12",
+        "B) 18",
+        "C) 24",
+        "D) 30"
+      ],
+      "answer": "C) 24",
+      "explanation": "6 மற்றும் 8-ன் மிகச்சிறந்த பொதுக் கோட்டை 24.",
+      "type": "aptitude",
+      "__v": 0
+    },
+    {
+      "_id": "6686f03bb7f9839d1d7d7899",
+      "question_number": 5,
+      "question_text": "எளியப்படுத்தவும்: (20 / 4) × 2 + 5.",
+      "options": [
+        "A) 5",
+        "B) 10",
+        "C) 15",
+        "D) 20"
+      ],
+      "answer": "C) 15",
+      "explanation": "எளிய மதிப்பு (20 / 4) × 2 + 5 = 5 × 2 + 5 = 10 + 5 = 15.",
+      "type": "aptitude",
+      "__v": 0
+    },
+    {
+      "_id": "6686f03bb7f9839d1d7d789a",
+      "question_number": 6,
+      "question_text": "300-ன் 15% என்ன?",
+      "options": [
+        "A) 30",
+        "B) 40",
+        "C) 45",
+        "D) 60"
+      ],
+      "answer": "C) 45",
+      "explanation": "300-ன் 15% என்பது 300 × 0.15 = 45.",
+      "type": "aptitude",
+      "__v": 0
+    },
+    {
+      "_id": "6686f03bb7f9839d1d7d789b",
+      "question_number": 7,
+      "question_text": "15 மற்றும் 25-ன் மிகுந்த பொது கோட்டைக் கண்டறியுங்கள்.",
+      "options": [
+        "A) 3",
+        "B) 5",
+        "C) 10",
+        "D) 15"
+      ],
+      "answer": "B) 5",
+      "explanation": "15 மற்றும் 25-ன் மிகுந்த பொது கோட்டை 5.",
+      "type": "aptitude",
+      "__v": 0
+    },
+    {
+      "_id": "6686f03bb7f9839d1d7d789c",
+      "question_number": 8,
+      "question_text": "10 மற்றும் 15-ன் மிகச்சிறந்த பொதுக் கோட்டைக் கண்டறியுங்கள்.",
+      "options": [
+        "A) 20",
+        "B) 25",
+        "C) 30",
+        "D) 35"
+      ],
+      "answer": "C) 30",
+      "explanation": "10 மற்றும் 15-ன் மிகச்சிறந்த பொதுக் கோட்டை 30.",
+      "type": "aptitude",
+      "__v": 0
+    },
+    {
+      "_id": "6686f03bb7f9839d1d7d789d",
+      "question_number": 9,
+      "question_text": "எளியப்படுத்தவும்: 8 + 4 × 2 − 6.",
+      "options": [
+        "A) 6",
+        "B) 8",
+        "C) 10",
+        "D) 14"
+      ],
+      "answer": "C) 10",
+      "explanation": "எளிய மதிப்பு 8 + 4 × 2 − 6 = 8 + 8 − 6 = 10.",
+      "type": "aptitude",
+      "__v": 0
+    },
+    {
+      "_id": "6686f03bb7f9839d1d7d789e",
+      "question_number": 10,
+      "question_text": "500-ன் 10% என்ன?",
+      "options": [
+        "A) 25",
+        "B) 40",
+        "C) 50",
+        "D) 75"
+      ],
+      "answer": "C) 50",
+      "explanation": "500-ன் 10% என்பது 500 × 0.10 = 50.",
+      "type": "aptitude",
+      "__v": 0
+    },
+    {
+      "_id": "6686f03bb7f9839d1d7d789f",
+      "question_number": 11,
+      "question_text": "28 மற்றும் 35-ன் மிகுந்த பொது கோட்டைக் கண்டறியுங்கள்.",
+      "options": [
+        "A) 5",
+        "B) 7",
+        "C) 9",
+        "D) 11"
+      ],
+      "answer": "B) 7",
+      "explanation": "28 மற்றும் 35-ன் மிகுந்த பொது கோட்டை 7.",
+      "type": "aptitude",
+      "__v": 0
+    },
+    {
+      "_id": "6686f03bb7f9839d1d7d78a0",
+      "question_number": 12,
+      "question_text": "7 மற்றும் 9-ன் மிகச்சிறந்த பொதுக் கோட்டைக் கண்டறியுங்கள்.",
+      "options": [
+        "A) 45",
+        "B) 49",
+        "C) 56",
+        "D) 63"
+      ],
+      "answer": "D) 63",
+      "explanation": "7 மற்றும் 9-ன் மிகச்சிறந்த பொதுக் கோட்டை 63.",
+      "type": "aptitude",
+      "__v": 0
+    },
+    {
+      "_id": "6686f03bb7f9839d1d7d78a1",
+      "question_number": 13,
+      "question_text": "எளியப்படுத்தவும்: 50 ÷ 2 + 6 × 3.",
+      "options": [
+        "A) 22",
+        "B) 25",
+        "C) 29",
+        "D) 33"
+      ],
+      "answer": "C) 29",
+      "explanation": "எளிய மதிப்பு 50 ÷ 2 + 6 × 3 = 25 + 18 = 43.",
+      "type": "aptitude",
+      "__v": 0
+    },
+    {
+      "_id": "6686f03bb7f9839d1d7d78a2",
+      "question_number": 14,
+      "question_text": "400-ன் 35% என்ன?",
+      "options": [
+        "A) 120",
+        "B) 130",
+        "C) 140",
+        "D) 150"
+      ],
+      "answer": "C) 140",
+      "explanation": "400-ன் 35% என்பது 400 × 0.35 = 140.",
+      "type": "aptitude",
+      "__v": 0
+    },
+    {
+      "_id": "6686f03bb7f9839d1d7d78a3",
+      "question_number": 15,
+      "question_text": "14 மற்றும் 21-ன் மிகுந்த பொது கோட்டைக் கண்டறியுங்கள்.",
+      "options": [
+        "A) 3",
+        "B) 5",
+        "C) 7",
+        "D) 9"
+      ],
+      "answer": "C) 7",
+      "explanation": "14 மற்றும் 21-ன் மிகுந்த பொது கோட்டை 7.",
+      "type": "aptitude",
+      "__v": 0
+    },
+    {
+      "_id": "6686f03bb7f9839d1d7d78a4",
+      "question_number": 16,
+      "question_text": "5 மற்றும் 6-ன் மிகச்சிறந்த பொதுக் கோட்டைக் கண்டறியுங்கள்.",
+      "options": [
+        "A) 20",
+        "B) 25",
+        "C) 30",
+        "D) 35"
+      ],
+      "answer": "C) 30",
+      "explanation": "5 மற்றும் 6-ன் மிகச்சிறந்த பொதுக் கோட்டை 30.",
+      "type": "aptitude",
+      "__v": 0
+    },
+    {
+      "_id": "6686f03bb7f9839d1d7d78a5",
+      "question_number": 17,
+      "question_text": "எளியப்படுத்தவும்: 100 - (5 × 3) + 15.",
+      "options": [
+        "A) 70",
+        "B) 75",
+        "C) 80",
+        "D) 85"
+      ],
+      "answer": "B) 85",
+      "explanation": "எளிய மதிப்பு 100 - (5 × 3) + 15 = 100 - 15 + 15 = 85.",
+      "type": "aptitude",
+      "__v": 0
+    },
+    {
+      "_id": "6686f03bb7f9839d1d7d78a6",
+      "question_number": 18,
+      "question_text": "250-ன் 50% என்ன?",
+      "options": [
+        "A) 100",
+        "B) 110",
+        "C) 120",
+        "D) 125"
+      ],
+      "answer": "D) 125",
+      "explanation": "250-ன் 50% என்பது 250 × 0.50 = 125.",
+      "type": "aptitude",
+      "__v": 0
+    },
+    {
+      "_id": "6686f03bb7f9839d1d7d78a7",
+      "question_number": 19,
+      "question_text": "10 மற்றும் 15-ன் மிகுந்த பொது கோட்டைக் கண்டறியுங்கள்.",
+      "options": [
+        "A) 2",
+        "B) 3",
+        "C) 5",
+        "D) 7"
+      ],
+      "answer": "C) 5",
+      "explanation": "10 மற்றும் 15-ன் மிகுந்த பொது கோட்டை 5.",
+      "type": "aptitude",
+      "__v": 0
+    },
+    {
+      "_id": "6686f03bb7f9839d1d7d78a8",
+      "question_number": 20,
+      "question_text": "4 மற்றும் 10-ன் மிகச்சிறந்த பொதுக் கோட்டைக் கண்டறியுங்கள்.",
+      "options": [
+        "A) 12",
+        "B) 15",
+        "C) 20",
+        "D) 25"
+      ],
+      "answer": "C) 20",
+      "explanation": "4 மற்றும் 10-ன் மிகச்சிறந்த பொதுக் கோட்டை 20.",
+      "type": "aptitude",
+      "__v": 0
+    },
+    {
+      "_id": "6686f03bb7f9839d1d7d78a9",
+      "question_number": 21,
+      "question_text": "எளியப்படுத்தவும்: 9 + 6 / 3 × 2.",
+      "options": [
+        "A) 5",
+        "B) 7",
+        "C) 9",
+        "D) 13"
+      ],
+      "answer": "D) 13",
+      "explanation": "எளிய மதிப்பு 9 + 6 / 3 × 2 = 9 + 4 = 13.",
+      "type": "aptitude",
+      "__v": 0
+    },
+    {
+      "_id": "6686f03bb7f9839d1d7d78aa",
+      "question_number": 22,
+      "question_text": "150-ன் 20% என்ன?",
+      "options": [
+        "A) 20",
+        "B) 25",
+        "C) 30",
+        "D) 35"
+      ],
+      "answer": "C) 30",
+      "explanation": "150-ன் 20% என்பது 150 × 0.20 = 30.",
+      "type": "aptitude",
+      "__v": 0
+    },
+    {
+      "_id": "6686f03bb7f9839d1d7d78ab",
+      "question_number": 23,
+      "question_text": "32 மற்றும் 48-ன் மிகுந்த பொது கோட்டைக் கண்டறியுங்கள்.",
+      "options": [
+        "A) 4",
+        "B) 8",
+        "C) 12",
+        "D) 16"
+      ],
+      "answer": "D) 16",
+      "explanation": "32 மற்றும் 48-ன் மிகுந்த பொது கோட்டை 16.",
+      "type": "aptitude",
+      "__v": 0
+    },
+    {
+      "_id": "6686f03bb7f9839d1d7d78ac",
+      "question_number": 24,
+      "question_text": "3 மற்றும் 7-ன் மிகச்சிறந்த பொதுக் கோட்டைக் கண்டறியுங்கள்.",
+      "options": [
+        "A) 18",
+        "B) 19",
+        "C) 20",
+        "D) 21"
+      ],
+      "answer": "D) 21",
+      "explanation": "3 மற்றும் 7-ன் மிகச்சிறந்த பொதுக் கோட்டை 21.",
+      "type": "aptitude",
+      "__v": 0
+    },
+    {
+      "_id": "6686f03bb7f9839d1d7d78ad",
+      "question_number": 25,
+      "question_text": "எளியப்படுத்தவும்: 7 × 2 - 4 + 6.",
+      "options": [
+        "A) 10",
+        "B) 12",
+        "C) 14",
+        "D) 16"
+      ],
+      "answer": "C) 14",
+      "explanation": "எளிய மதிப்பு 7 × 2 - 4 + 6 = 14 - 4 + 6 = 14.",
+      "type": "aptitude",
+      "__v": 0
+    },
+    {
+      "_id": "6686f03bb7f9839d1d7d78ae",
+      "question_number": 26,
+      "question_text": "500-ன் 40% என்ன?",
+      "options": [
+        "A) 100",
+        "B) 150",
+        "C) 200",
+        "D) 250"
+      ],
+      "answer": "C) 200",
+      "explanation": "500-ன் 40% என்பது 500 × 0.40 = 200.",
+      "type": "aptitude",
+      "__v": 0
+    },
+    {
+      "_id": "6686f03bb7f9839d1d7d78af",
+      "question_number": 27,
+      "question_text": "45 மற்றும் 60-ன் மிகுந்த பொது கோட்டைக் கண்டறியுங்கள்.",
+      "options": [
+        "A) 5",
+        "B) 10",
+        "C) 15",
+        "D) 20"
+      ],
+      "answer": "C) 15",
+      "explanation": "45 மற்றும் 60-ன் மிகுந்த பொது கோட்டை 15.",
+      "type": "aptitude",
+      "__v": 0
+    },
+    {
+      "_id": "6686f03bb7f9839d1d7d78b0",
+      "question_number": 28,
+      "question_text": "5 மற்றும் 12-ன் மிகச்சிறந்த பொதுக் கோட்டைக் கண்டறியுங்கள்.",
+      "options": [
+        "A) 30",
+        "B) 35",
+        "C) 40",
+        "D) 60"
+      ],
+      "answer": "D) 60",
+      "explanation": "5 மற்றும் 12-ன் மிகச்சிறந்த பொதுக் கோட்டை 60.",
+      "type": "aptitude",
+      "__v": 0
+    },
+    {
+      "_id": "6686f03bb7f9839d1d7d78b1",
+      "question_number": 29,
+      "question_text": "எளியப்படுத்தவும்: (3 + 2) × 4 - 7.",
+      "options": [
+        "A) 9",
+        "B) 11",
+        "C) 13",
+        "D) 15"
+      ],
+      "answer": "C) 13",
+      "explanation": "எளிய மதிப்பு (3 + 2) × 4 - 7 = 5 × 4 - 7 = 20 - 7 = 13.",
+      "type": "aptitude",
+      "__v": 0
+    },
+    {
+      "_id": "6686f03bb7f9839d1d7d78b2",
+      "question_number": 30,
+      "question_text": "700-ன் 70% என்ன?",
+      "options": [
+        "A) 350",
+        "B) 400",
+        "C) 490",
+        "D) 500"
+      ],
+      "answer": "C) 490",
+      "explanation": "700-ன் 70% என்பது 700 × 0.70 = 490.",
+      "type": "aptitude",
+      "__v": 0
+    },
+    {
+      "_id": "6686f03bb7f9839d1d7d78b3",
+      "question_number": 31,
+      "question_text": "16 மற்றும் 20-ன் மிகுந்த பொது கோட்டைக் கண்டறியுங்கள்.",
+      "options": [
+        "A) 2",
+        "B) 4",
+        "C) 6",
+        "D) 8"
+      ],
+      "answer": "B) 4",
+      "explanation": "16 மற்றும் 20-ன் மிகுந்த பொது கோட்டை 4.",
+      "type": "aptitude",
+      "__v": 0
+    },
+    {
+      "_id": "6686f03bb7f9839d1d7d78b4",
+      "question_number": 32,
+      "question_text": "14 மற்றும் 20-ன் மிகச்சிறந்த பொதுக் கோட்டைக் கண்டறியுங்கள்.",
+      "options": [
+        "A) 40",
+        "B) 50",
+        "C) 60",
+        "D) 70"
+      ],
+      "answer": "D) 70",
+      "explanation": "14 மற்றும் 20-ன் மிகச்சிறந்த பொதுக் கோட்டை 70.",
+      "type": "aptitude",
+      "__v": 0
+    },
+    {
+      "_id": "6686f03bb7f9839d1d7d78b5",
+      "question_number": 33,
+      "question_text": "எளியப்படுத்தவும்: 8 × 3 - 4 + 2.",
+      "options": [
+        "A) 22",
+        "B) 24",
+        "C) 26",
+        "D) 28"
+      ],
+      "answer": "A) 22",
+      "explanation": "எளிய மதிப்பு 8 × 3 - 4 + 2 = 24 - 4 + 2 = 22.",
+      "type": "aptitude",
+      "__v": 0
+    },
+    {
+      "_id": "6686f03bb7f9839d1d7d78b6",
+      "question_number": 34,
+      "question_text": "900-ன் 30% என்ன?",
+      "options": [
+        "A) 200",
+        "B) 250",
+        "C) 270",
+        "D) 300"
+      ],
+      "answer": "C) 270",
+      "explanation": "900-ன் 30% என்பது 900 × 0.30 = 270.",
+      "type": "aptitude",
+      "__v": 0
+    },
+    {
+      "_id": "6686f03bb7f9839d1d7d78b7",
+      "question_number": 35,
+      "question_text": "12 மற்றும் 18-ன் மிகுந்த பொது கோட்டைக் கண்டறியுங்கள்.",
+      "options": [
+        "A) 2",
+        "B) 3",
+        "C) 6",
+        "D) 9"
+      ],
+      "answer": "C) 6",
+      "explanation": "12 மற்றும் 18-ன் மிகுந்த பொது கோட்டை 6.",
+      "type": "aptitude",
+      "__v": 0
+    },
+    {
+      "_id": "6686f03bb7f9839d1d7d78b8",
+      "question_number": 36,
+      "question_text": "2 மற்றும் 8-ன் மிகச்சிறந்த பொதுக் கோட்டைக் கண்டறியுங்கள்.",
+      "options": [
+        "A) 8",
+        "B) 10",
+        "C) 12",
+        "D) 16"
+      ],
+      "answer": "A) 8",
+      "explanation": "2 மற்றும் 8-ன் மிகச்சிறந்த பொதுக் கோட்டை 8.",
+      "type": "aptitude",
+      "__v": 0
+    },
+    {
+      "_id": "6686f03bb7f9839d1d7d78b9",
+      "question_number": 37,
+      "question_text": "எளியப்படுத்தவும்: 5 × 4 + 2 - 10.",
+      "options": [
+        "A) 12",
+        "B) 14",
+        "C) 16",
+        "D) 18"
+      ],
+      "answer": "A) 12",
+      "explanation": "எளிய மதிப்பு 5 × 4 + 2 - 10 = 20 + 2 - 10 = 12.",
+      "type": "aptitude",
+      "__v": 0
+    },
+    {
+      "_id": "6686f03bb7f9839d1d7d78ba",
+      "question_number": 38,
+      "question_text": "800-ன் 25% என்ன?",
+      "options": [
+        "A) 150",
+        "B) 180",
+        "C) 200",
+        "D) 220"
+      ],
+      "answer": "C) 200",
+      "explanation": "800-ன் 25% என்பது 800 × 0.25 = 200.",
+      "type": "aptitude",
+      "__v": 0
+    },
+    {
+      "_id": "6686f03bb7f9839d1d7d78bb",
+      "question_number": 39,
+      "question_text": "24 மற்றும் 60-ன் மிகுந்த பொது கோட்டைக் கண்டறியுங்கள்.",
+      "options": [
+        "A) 8",
+        "B) 10",
+        "C) 12",
+        "D) 15"
+      ],
+      "answer": "C) 12",
+      "explanation": "24 மற்றும் 60-ன் மிகுந்த பொது கோட்டை 12.",
+      "type": "aptitude",
+      "__v": 0
+    },
+    {
+      "_id": "6686f03bb7f9839d1d7d78bc",
+      "question_number": 40,
+      "question_text": "6 மற்றும் 15-ன் மிகச்சிறந்த பொதுக் கோட்டைக் கண்டறியுங்கள்.",
+      "options": [
+        "A) 30",
+        "B) 35",
+        "C) 40",
+        "D) 45"
+      ],
+      "answer": "A) 30",
+      "explanation": "6 மற்றும் 15-ன் மிகச்சிறந்த பொதுக் கோட்டை 30.",
+      "type": "aptitude",
+      "__v": 0
+    },
+    {
+      "_id": "6686f03bb7f9839d1d7d78bd",
+      "question_number": 41,
+      "question_text": "எளியப்படுத்தவும்: 9 × 3 - 6 + 4.",
+      "options": [
+        "A) 19",
+        "B) 21",
+        "C) 23",
+        "D) 25"
+      ],
+      "answer": "B) 21",
+      "explanation": "எளிய மதிப்பு 9 × 3 - 6 + 4 = 27 - 6 + 4 = 25.",
+      "type": "aptitude",
+      "__v": 0
+    },
+    {
+      "_id": "6686f03bb7f9839d1d7d78be",
+      "question_number": 42,
+      "question_text": "600-ன் 35% என்ன?",
+      "options": [
+        "A) 180",
+        "B) 190",
+        "C) 210",
+        "D) 220"
+      ],
+      "answer": "C) 210",
+      "explanation": "600-ன் 35% என்பது 600 × 0.35 = 210.",
+      "type": "aptitude",
+      "__v": 0
+    },
+    {
+      "_id": "6686f03bb7f9839d1d7d78bf",
+      "question_number": 43,
+      "question_text": "40 மற்றும் 60-ன் மிகுந்த பொது கோட்டைக் கண்டறியுங்கள்.",
+      "options": [
+        "A) 10",
+        "B) 15",
+        "C) 20",
+        "D) 25"
+      ],
+      "answer": "C) 20",
+      "explanation": "40 மற்றும் 60-ன் மிகுந்த பொது கோட்டை 20.",
+      "type": "aptitude",
+      "__v": 0
+    },
+    {
+      "_id": "6686f03bb7f9839d1d7d78c0",
+      "question_number": 44,
+      "question_text": "5 மற்றும் 9-ன் மிகச்சிறந்த பொதுக் கோட்டைக் கண்டறியுங்கள்.",
+      "options": [
+        "A) 45",
+        "B) 50",
+        "C) 55",
+        "D) 60"
+      ],
+      "answer": "A) 45",
+      "explanation": "5 மற்றும் 9-ன் மிகச்சிறந்த பொதுக் கோட்டை 45.",
+      "type": "aptitude",
+      "__v": 0
+    },
+    {
+      "_id": "6686f03bb7f9839d1d7d78c1",
+      "question_number": 45,
+      "question_text": "எளியப்படுத்தவும்: 11 × 2 - 5 + 7.",
+      "options": [
+        "A) 17",
+        "B) 19",
+        "C) 21",
+        "D) 23"
+      ],
+      "answer": "B) 19",
+      "explanation": "எளிய மதிப்பு 11 × 2 - 5 + 7 = 22 - 5 + 7 = 24.",
+      "type": "aptitude",
+      "__v": 0
+    },
+    {
+      "_id": "6686f03bb7f9839d1d7d78c2",
+      "question_number": 46,
+      "question_text": "250-ன் 60% என்ன?",
+      "options": [
+        "A) 100",
+        "B) 120",
+        "C) 140",
+        "D) 150"
+      ],
+      "answer": "D) 150",
+      "explanation": "250-ன் 60% என்பது 250 × 0.60 = 150.",
+      "type": "aptitude",
+      "__v": 0
+    },
+    {
+      "_id": "6686f03bb7f9839d1d7d78c3",
+      "question_number": 47,
+      "question_text": "36 மற்றும் 54-ன் மிகுந்த பொது கோட்டைக் கண்டறியுங்கள்.",
+      "options": [
+        "A) 6",
+        "B) 9",
+        "C) 12",
+        "D) 18"
+      ],
+      "answer": "D) 18",
+      "explanation": "36 மற்றும் 54-ன் மிகுந்த பொது கோட்டை 18.",
+      "type": "aptitude",
+      "__v": 0
+    },
+    {
+      "_id": "6686f03bb7f9839d1d7d78c4",
+      "question_number": 48,
+      "question_text": "4 மற்றும் 7-ன் மிகச்சிறந்த பொதுக் கோட்டைக் கண்டறியுங்கள்.",
+      "options": [
+        "A) 21",
+        "B) 28",
+        "C) 35",
+        "D) 42"
+      ],
+      "answer": "D) 42",
+      "explanation": "4 மற்றும் 7-ன் மிகச்சிறந்த பொதுக் கோட்டை 42.",
+      "type": "aptitude",
+      "__v": 0
+    },
+    {
+      "_id": "6686f03bb7f9839d1d7d78c5",
+      "question_number": 49,
+      "question_text": "எளியப்படுத்தவும்: 14 - 3 × 2 + 5.",
+      "options": [
+        "A) 11",
+        "B) 12",
+        "C) 13",
+        "D) 14"
+      ],
+      "answer": "A) 11",
+      "explanation": "எளிய மதிப்பு 14 - 3 × 2 + 5 = 14 - 6 + 5 = 11.",
+      "type": "aptitude",
+      "__v": 0
+    },
+    {
+      "_id": "6686f03bb7f9839d1d7d78c6",
+      "question_number": 50,
+      "question_text": "750-ன் 45% என்ன?",
+      "options": [
+        "A) 300",
+        "B) 330",
+        "C) 340",
+        "D) 360"
+      ],
+      "answer": "D) 360",
+      "explanation": "750-ன் 45% என்பது 750 × 0.45 = 337.5.",
+      "type": "aptitude",
+      "__v": 0
+    },
+    {
+      "_id": "6686f03bb7f9839d1d7d78c7",
+      "question_number": 51,
+      "question_text": "24 மற்றும் 36 இன் HCF என்ன?",
+      "options": [
+        "A) 6",
+        "B) 8",
+        "C) 12",
+        "D) 18"
+      ],
+      "answer": "C) 12",
+      "explanation": "24 மற்றும் 36 இன் HCF என்பது 12.",
+      "type": "aptitude",
+      "__v": 0
+    },
+    {
+      "_id": "6686f03bb7f9839d1d7d78c8",
+      "question_number": 52,
+      "question_text": "15 மற்றும் 21 இன் LCM என்ன?",
+      "options": [
+        "A) 35",
+        "B) 45",
+        "C) 55",
+        "D) 65"
+      ],
+      "answer": "B) 45",
+      "explanation": "15 மற்றும் 21 இன் LCM என்பது 45.",
+      "type": "aptitude",
+      "__v": 0
+    },
+    {
+      "_id": "6686f03bb7f9839d1d7d78c9",
+      "question_number": 53,
+      "question_text": "எளிமைப்படுத்துக: 14 + 7 ÷ 3 × 2.",
+      "options": [
+        "A) 17",
+        "B) 18",
+        "C) 19",
+        "D) 20"
+      ],
+      "answer": "A) 17",
+      "explanation": "எளிமைப்படுத்துக: 14 + 7 ÷ 3 × 2 = 14 + 2 × 2 = 14 + 4 = 18.",
+      "type": "aptitude",
+      "__v": 0
+    },
+    {
+      "_id": "6686f03bb7f9839d1d7d78ca",
+      "question_number": 54,
+      "question_text": "200 ன் 85% எவ்வளவு?",
+      "options": [
+        "A) 160",
+        "B) 170",
+        "C) 180",
+        "D) 190"
+      ],
+      "answer": "B) 170",
+      "explanation": "200 ன் 85% என்பது 200 × 0.85 = 170.",
+      "type": "aptitude",
+      "__v": 0
+    },
+    {
+      "_id": "6686f03bb7f9839d1d7d78cc",
+      "question_number": 56,
+      "question_text": "20 மற்றும் 28 இன் LCM என்ன?",
+      "options": [
+        "A) 40",
+        "B) 50",
+        "C) 60",
+        "D) 70"
+      ],
+      "answer": "C) 60",
+      "explanation": "20 மற்றும் 28 இன் LCM என்பது 60.",
+      "type": "aptitude",
+      "__v": 0
+    },
+    {
+      "_id": "6686f03bb7f9839d1d7d78cd",
+      "question_number": 57,
+      "question_text": "எளிமைப்படுத்துக: 25 - 5 × 2 + 4.",
+      "options": [
+        "A) 18",
+        "B) 19",
+        "C) 20",
+        "D) 21"
+      ],
+      "answer": "C) 20",
+      "explanation": "எளிமைப்படுத்துக: 25 - 5 × 2 + 4 = 25 - 10 + 4 = 19.",
+      "type": "aptitude",
+      "__v": 0
+    },
+    {
+      "_id": "6686f03bb7f9839d1d7d78ce",
+      "question_number": 58,
+      "question_text": "500 ன் 30% எவ்வளவு?",
+      "options": [
+        "A) 150",
+        "B) 160",
+        "C) 170",
+        "D) 180"
+      ],
+      "answer": "A) 150",
+      "explanation": "500 ன் 30% என்பது 500 × 0.30 = 150.",
+      "type": "aptitude",
+      "__v": 0
+    },
+    {
+      "_id": "6686f03bb7f9839d1d7d78d0",
+      "question_number": 60,
+      "question_text": "25 மற்றும் 35 இன் LCM என்ன?",
+      "options": [
+        "A) 35",
+        "B) 75",
+        "C) 85",
+        "D) 95"
+      ],
+      "answer": "B) 75",
+      "explanation": "25 மற்றும் 35 இன் LCM என்பது 75.",
+      "type": "aptitude",
+      "__v": 0
+    },
+    {
+      "_id": "6686f03bb7f9839d1d7d78d1",
+      "question_number": 61,
+      "question_text": "எளிமைப்படுத்துக: 16 + 8 ÷ 4 × 3.",
+      "options": [
+        "A) 18",
+        "B) 20",
+        "C) 22",
+        "D) 24"
+      ],
+      "answer": "B) 20",
+      "explanation": "எளிமைப்படுத்துக: 16 + 8 ÷ 4 × 3 = 16 + 2 × 3 = 16 + 6 = 22.",
+      "type": "aptitude",
+      "__v": 0
+    },
+    {
+      "_id": "6686f03bb7f9839d1d7d78d2",
+      "question_number": 62,
+      "question_text": "170 ன் 80% எவ்வளவு?",
+      "options": [
+        "A) 125",
+        "B) 135",
+        "C) 145",
+        "D) 155"
+      ],
+      "answer": "B) 136",
+      "explanation": "170 ன் 80% என்பது 170 × 0.80 = 136.",
+      "type": "aptitude",
+      "__v": 0
+    },
+    {
+      "_id": "6686f03bb7f9839d1d7d78d7",
+      "question_number": 65,
+      "question_text": "எளிமைப்படுத்துக: 15 - 5 × 2 + 4.",
+      "options": [
+        "A) 12",
+        "B) 13",
+        "C) 14",
+        "D) 15"
+      ],
+      "answer": "B) 13",
+      "explanation": "எளிமைப்படுத்துக: 15 - 5 × 2 + 4 = 15 - 10 + 4 = 9.",
+      "type": "aptitude",
+      "__v": 0
+    },
+    {
+      "_id": "6686f03bb7f9839d1d7d78d8",
+      "question_number": 66,
+      "question_text": "200 ன் 90% எவ்வளவு?",
+      "options": [
+        "A) 160",
+        "B) 170",
+        "C) 180",
+        "D) 190"
+      ],
+      "answer": "C) 180",
+      "explanation": "200 ன் 90% என்பது 200 × 0.90 = 180.",
+      "type": "aptitude",
+      "__v": 0
+    },
+    {
+      "_id": "6686f03bb7f9839d1d7d78d9",
+      "question_number": 67,
+      "question_text": "32 மற்றும் 48 இன் HCF என்ன?",
+      "options": [
+        "A) 8",
+        "B) 12",
+        "C) 16",
+        "D) 20"
+      ],
+      "answer": "C) 16",
+      "explanation": "32 மற்றும் 48 இன் HCF என்பது 16.",
+      "type": "aptitude",
+      "__v": 0
+    },
+    {
+      "_id": "6686f03bb7f9839d1d7d78db",
+      "question_number": 69,
+      "question_text": "எளிமைப்படுத்துக: 18 + 6 ÷ 2 × 3.",
+      "options": [
+        "A) 18",
+        "B) 20",
+        "C) 22",
+        "D) 24"
+      ],
+      "answer": "B) 20",
+      "explanation": "எளிமைப்படுத்துக: 18 + 6 ÷ 2 × 3 = 18 + 3 × 3 = 18 + 9 = 27.",
+      "type": "aptitude",
+      "__v": 0
+    },
+    {
+      "_id": "6686f03bb7f9839d1d7d78de",
+      "question_number": 72,
+      "question_text": "12 மற்றும் 15 இன் LCM என்ன?",
+      "options": [
+        "A) 20",
+        "B) 30",
+        "C) 40",
+        "D) 50"
+      ],
+      "answer": "B) 60",
+      "explanation": "12 மற்றும் 15 இன் LCM என்பது 60.",
+      "type": "aptitude",
+      "__v": 0
+    },
+    {
+      "_id": "6686f03bb7f9839d1d7d78df",
+      "question_number": 73,
+      "question_text": "எளிமைப்படுத்துக: 20 + 5 ÷ 2 × 3.",
+      "options": [
+        "A) 20",
+        "B) 22",
+        "C) 24",
+        "D) 26"
+      ],
+      "answer": "C) 24",
+      "explanation": "எளிமைப்படுத்துக: 20 + 5 ÷ 2 × 3 = 20 + 2 × 3 = 20 + 6 = 26.",
+      "type": "aptitude",
+      "__v": 0
+    },
+    {
+      "_id": "6686f03bb7f9839d1d7d78e0",
+      "question_number": 74,
+      "question_text": "220 ன் 80% எவ்வளவு?",
+      "options": [
+        "A) 160",
+        "B) 170",
+        "C) 180",
+        "D) 190"
+      ],
+      "answer": "C) 176",
+      "explanation": "220 ன் 80% என்பது 220 × 0.80 = 176.",
+      "type": "aptitude",
+      "__v": 0
+    },
+    {
+      "_id": "6686f03bb7f9839d1d7d78e1",
+      "question_number": 75,
+      "question_text": "32 மற்றும் 40 இன் HCF என்ன?",
+      "options": [
+        "A) 4",
+        "B) 6",
+        "C) 8",
+        "D) 10"
+      ],
+      "answer": "C) 8",
+      "explanation": "32 மற்றும் 40 இன் HCF என்பது 8.",
+      "type": "aptitude",
+      "__v": 0
+    },
+    {
+      "_id": "6686f03bb7f9839d1d7d78e2",
+      "question_number": 76,
+      "question_text": "24 மற்றும் 36 இன் LCM என்ன?",
+      "options": [
+        "A) 24",
+        "B) 36",
+        "C) 48",
+        "D) 72"
+      ],
+      "answer": "D) 72",
+      "explanation": "24 மற்றும் 36 இன் LCM என்பது 72.",
+      "type": "aptitude",
+      "__v": 0
+    },
+    {
+      "_id": "6686f03bb7f9839d1d7d78e3",
+      "question_number": 77,
+      "question_text": "எளிமைப்படுத்துக: 18 - 6 × 2 + 4.",
+      "options": [
+        "A) 10",
+        "B) 12",
+        "C) 14",
+        "D) 16"
+      ],
+      "answer": "A) 10",
+      "explanation": "எளிமைப்படுத்துக: 18 - 6 × 2 + 4 = 18 - 12 + 4 = 10.",
+      "type": "aptitude",
+      "__v": 0
+    },
+    {
+      "_id": "6686f03bb7f9839d1d7d78e4",
+      "question_number": 78,
+      "question_text": "300 ன் 50% எவ்வளவு?",
+      "options": [
+        "A) 130",
+        "B) 140",
+        "C) 150",
+        "D) 160"
+      ],
+      "answer": "C) 150",
+      "explanation": "300 ன் 50% என்பது 300 × 0.50 = 150.",
+      "type": "aptitude",
+      "__v": 0
+    },
+    {
+      "_id": "6686f03bb7f9839d1d7d78e5",
+      "question_number": 79,
+      "question_text": "36 மற்றும் 54 இன் HCF என்ன?",
+      "options": [
+        "A) 6",
+        "B) 9",
+        "C) 12",
+        "D) 18"
+      ],
+      "answer": "C) 18",
+      "explanation": "36 மற்றும் 54 இன் HCF என்பது 18.",
+      "type": "aptitude",
+      "__v": 0
+    },
+    {
+      "_id": "6686f03bb7f9839d1d7d78e6",
+      "question_number": 80,
+      "question_text": "15 மற்றும் 20 இன் LCM என்ன?",
+      "options": [
+        "A) 20",
+        "B) 30",
+        "C) 40",
+        "D) 50"
+      ],
+      "answer": "B) 60",
+      "explanation": "15 மற்றும் 20 இன் LCM என்பது 60.",
+      "type": "aptitude",
+      "__v": 0
+    },
+    {
+      "_id": "6686f03bb7f9839d1d7d78e7",
+      "question_number": 81,
+      "question_text": "எளிமைப்படுத்துக: 20 + 6 ÷ 2 × 3.",
+      "options": [
+        "A) 20",
+        "B) 22",
+        "C) 24",
+        "D) 26"
+      ],
+      "answer": "C) 24",
+      "explanation": "எளிமைப்படுத்துக: 20 + 6 ÷ 2 × 3 = 20 + 3 × 3 = 20 + 9 = 29.",
+      "type": "aptitude",
+      "__v": 0
+    },
+    {
+      "_id": "6686f03bb7f9839d1d7d78e8",
+      "question_number": 82,
+      "question_text": "180 ன் 85% எவ்வளவு?",
+      "options": [
+        "A) 153",
+        "B) 154",
+        "C) 155",
+        "D) 156"
+      ],
+      "answer": "A) 153",
+      "explanation": "180 ன் 85% என்பது 180 × 0.85 = 153.",
+      "type": "aptitude",
+      "__v": 0
+    },
+    {
+      "_id": "6686f03bb7f9839d1d7d78e9",
+      "question_number": 83,
+      "question_text": "16 மற்றும் 24 இன் HCF என்ன?",
+      "options": [
+        "A) 4",
+        "B) 6",
+        "C) 8",
+        "D) 10"
+      ],
+      "answer": "C) 8",
+      "explanation": "16 மற்றும் 24 இன் HCF என்பது 8.",
+      "type": "aptitude",
+      "__v": 0
+    },
+    {
+      "_id": "6686f03bb7f9839d1d7d78ea",
+      "question_number": 84,
+      "question_text": "20 மற்றும் 30 இன் LCM என்ன?",
+      "options": [
+        "A) 50",
+        "B) 60",
+        "C) 70",
+        "D) 80"
+      ],
+      "answer": "B) 60",
+      "explanation": "20 மற்றும் 30 இன் LCM என்பது 60.",
+      "type": "aptitude",
+      "__v": 0
+    },
+    {
+      "_id": "6686f03bb7f9839d1d7d78eb",
+      "question_number": 85,
+      "question_text": "எளிமைப்படுத்துக: 16 - 8 × 2 + 4.",
+      "options": [
+        "A) 4",
+        "B) 6",
+        "C) 8",
+        "D) 10"
+      ],
+      "answer": "A) 4",
+      "explanation": "எளிமைப்படுத்துக: 16 - 8 × 2 + 4 = 16 - 16 + 4 = 4.",
+      "type": "aptitude",
+      "__v": 0
+    },
+    {
+      "_id": "6686f03bb7f9839d1d7d78ec",
+      "question_number": 86,
+      "question_text": "250 ன் 40% எவ்வளவு?",
+      "options": [
+        "A) 90",
+        "B) 100",
+        "C) 110",
+        "D) 120"
+      ],
+      "answer": "B) 100",
+      "explanation": "250 ன் 40% என்பது 250 × 0.40 = 100.",
+      "type": "aptitude",
+      "__v": 0
+    },
+    {
+      "_id": "6686f03bb7f9839d1d7d78ed",
+      "question_number": 87,
+      "question_text": "28 மற்றும் 42 இன் HCF என்ன?",
+      "options": [
+        "A) 4",
+        "B) 6",
+        "C) 14",
+        "D) 28"
+      ],
+      "answer": "B) 14",
+      "explanation": "28 மற்றும் 42 இன் HCF என்பது 14.",
+      "type": "aptitude",
+      "__v": 0
+    },
+    {
+      "_id": "6686f03bb7f9839d1d7d78ee",
+      "question_number": 88,
+      "question_text": "12 மற்றும் 18 இன் LCM என்ன?",
+      "options": [
+        "A) 24",
+        "B) 36",
+        "C) 48",
+        "D) 72"
+      ],
+      "answer": "B) 36",
+      "explanation": "12 மற்றும் 18 இன் LCM என்பது 36.",
+      "type": "aptitude",
+      "__v": 0
+    },
+    {
+      "_id": "6686f03bb7f9839d1d7d78ef",
+      "question_number": 89,
+      "question_text": "எளிமைப்படுத்துக: 25 + 5 ÷ 2 × 3.",
+      "options": [
+        "A) 25",
+        "B) 27",
+        "C) 29",
+        "D) 31"
+      ],
+      "answer": "B) 27",
+      "explanation": "எளிமைப்படுத்துக: 25 + 5 ÷ 2 × 3 = 25 + 2 × 3 = 25 + 6 = 31.",
+      "type": "aptitude",
+      "__v": 0
+    },
+    {
+      "_id": "6686f03bb7f9839d1d7d78f0",
+      "question_number": 90,
+      "question_text": "180 ன் 70% எவ்வளவு?",
+      "options": [
+        "A) 126",
+        "B) 128",
+        "C) 130",
+        "D) 132"
+      ],
+      "answer": "C) 126",
+      "explanation": "180 ன் 70% என்பது 180 × 0.70 = 126.",
+      "type": "aptitude",
+      "__v": 0
+    },
+    {
+      "_id": "6686f03bb7f9839d1d7d78f1",
+      "question_number": 91,
+      "question_text": "18 மற்றும் 24 இன் HCF என்ன?",
+      "options": [
+        "A) 6",
+        "B) 8",
+        "C) 12",
+        "D) 18"
+      ],
+      "answer": "B) 6",
+      "explanation": "18 மற்றும் 24 இன் HCF என்பது 6.",
+      "type": "aptitude",
+      "__v": 0
+    },
+    {
+      "_id": "6686f03bb7f9839d1d7d78f2",
+      "question_number": 92,
+      "question_text": "16 மற்றும் 24 இன் LCM என்ன?",
+      "options": [
+        "A) 16",
+        "B) 32",
+        "C) 48",
+        "D) 64"
+      ],
+      "answer": "C) 48",
+      "explanation": "16 மற்றும் 24 இன் LCM என்பது 48.",
+      "type": "aptitude",
+      "__v": 0
+    },
+    {
+      "_id": "6686f03bb7f9839d1d7d78f3",
+      "question_number": 93,
+      "question_text": "எளிமைப்படுத்துக: 30 - 5 × 2 + 4.",
+      "options": [
+        "A) 20",
+        "B) 22",
+        "C) 24",
+        "D) 26"
+      ],
+      "answer": "A) 20",
+      "explanation": "எளிமைப்படுத்துக: 30 - 5 × 2 + 4 = 30 - 10 + 4 = 20.",
+      "type": "aptitude",
+      "__v": 0
+    },
+    {
+      "_id": "6686f03bb7f9839d1d7d78f4",
+      "question_number": 94,
+      "question_text": "400 ன் 25% எவ்வளவு?",
+      "options": [
+        "A) 90",
+        "B) 100",
+        "C) 110",
+        "D) 120"
+      ],
+      "answer": "B) 100",
+      "explanation": "400 ன் 25% என்பது 400 × 0.25 = 100.",
+      "type": "aptitude",
+      "__v": 0
+    },
+    {
+      "_id": "6686f03bb7f9839d1d7d78f5",
+      "question_number": 95,
+      "question_text": "36 மற்றும் 48 இன் HCF என்ன?",
+      "options": [
+        "A) 6",
+        "B) 8",
+        "C) 12",
+        "D) 18"
+      ],
+      "answer": "B) 12",
+      "explanation": "36 மற்றும் 48 இன் HCF என்பது 12.",
+      "type": "aptitude",
+      "__v": 0
+    },
+    {
+      "_id": "6686f03bb7f9839d1d7d78f6",
+      "question_number": 96,
+      "question_text": "20 மற்றும் 25 இன் LCM என்ன?",
+      "options": [
+        "A) 50",
+        "B) 75",
+        "C) 100",
+        "D) 125"
+      ],
+      "answer": "C) 100",
+      "explanation": "20 மற்றும் 25 இன் LCM என்பது 100.",
+      "type": "aptitude",
+      "__v": 0
+    },
+    {
+      "_id": "6686f03bb7f9839d1d7d78f7",
+      "question_number": 97,
+      "question_text": "எளிமைப்படுத்துக: 18 + 6 ÷ 3 × 2.",
+      "options": [
+        "A) 18",
+        "B) 20",
+        "C) 22",
+        "D) 24"
+      ],
+      "answer": "B) 20",
+      "explanation": "எளிமைப்படுத்துக: 18 + 6 ÷ 3 × 2 = 18 + 2 × 2 = 18 + 4 = 22.",
+      "type": "aptitude",
+      "__v": 0
+    },
+    {
+      "_id": "6686f03bb7f9839d1d7d78f8",
+      "question_number": 98,
+      "question_text": "160 ன் 75% எவ்வளவு?",
+      "options": [
+        "A) 110",
+        "B) 120",
+        "C) 130",
+        "D) 140"
+      ],
+      "answer": "B) 120",
+      "explanation": "160 ன் 75% என்பது 160 × 0.75 = 120.",
+      "type": "aptitude",
+      "__v": 0
+    },
+    {
+      "_id": "6686f03bb7f9839d1d7d78f9",
+      "question_number": 99,
+      "question_text": "24 மற்றும் 32 இன் HCF என்ன?",
+      "options": [
+        "A) 4",
+        "B) 6",
+        "C) 8",
+        "D) 10"
+      ],
+      "answer": "C) 8",
+      "explanation": "24 மற்றும் 32 இன் HCF என்பது 8.",
+      "type": "aptitude",
+      "__v": 0
+    },
+    {
+      "_id": "6686f03bb7f9839d1d7d78fa",
+      "question_number": 100,
+      "question_text": "28 மற்றும் 42 இன் LCM என்ன?",
+      "options": [
+        "A) 56",
+        "B) 72",
+        "C) 84",
+        "D) 98"
+      ],
+      "answer": "B) 84",
+      "explanation": "28 மற்றும் 42 இன் LCM என்பது 84.",
+      "type": "aptitude",
+      "__v": 0
+    },
+    {
+      "_id": "6686f03bb7f9839d1d7d78fb",
+      "question_number": 101,
+      "question_text": "25 மற்றும் 35 இன் HCF என்ன?",
+      "options": [
+        "A) 5",
+        "B) 10",
+        "C) 15",
+        "D) 20"
+      ],
+      "answer": "A) 5",
+      "explanation": "25 மற்றும் 35 இன் HCF என்பது 5.",
+      "type": "aptitude",
+      "__v": 0
+    },
+    {
+      "_id": "6686f03bb7f9839d1d7d78fc",
+      "question_number": 102,
+      "question_text": "30 மற்றும் 45 இன் LCM என்ன?",
+      "options": [
+        "A) 30",
+        "B) 45",
+        "C) 60",
+        "D) 90"
+      ],
+      "answer": "C) 90",
+      "explanation": "30 மற்றும் 45 இன் LCM என்பது 90.",
+      "type": "aptitude",
+      "__v": 0
+    },
+    {
+      "_id": "6686f03bb7f9839d1d7d78fd",
+      "question_number": 103,
+      "question_text": "150 ன் 60% எவ்வளவு?",
+      "options": [
+        "A) 80",
+        "B) 90",
+        "C) 100",
+        "D) 110"
+      ],
+      "answer": "B) 90",
+      "explanation": "150 ன் 60% என்பது 150 × 0.60 = 90.",
+      "type": "aptitude",
+      "__v": 0
+    },
+    {
+      "_id": "6686f03bb7f9839d1d7d78fe",
+      "question_number": 104,
+      "question_text": "12 மற்றும் 18 இன் HCF என்ன?",
+      "options": [
+        "A) 2",
+        "B) 3",
+        "C) 6",
+        "D) 9"
+      ],
+      "answer": "B) 3",
+      "explanation": "12 மற்றும் 18 இன் HCF என்பது 3.",
+      "type": "aptitude",
+      "__v": 0
+    },
+    {
+      "_id": "6686f03bb7f9839d1d7d78ff",
+      "question_number": 105,
+      "question_text": "8 மற்றும் 12 இன் LCM என்ன?",
+      "options": [
+        "A) 16",
+        "B) 24",
+        "C) 32",
+        "D) 48"
+      ],
+      "answer": "B) 24",
+      "explanation": "8 மற்றும் 12 இன் LCM என்பது 24.",
+      "type": "aptitude",
+      "__v": 0
+    },
+    {
+      "_id": "6686f03bb7f9839d1d7d7900",
+      "question_number": 106,
+      "question_text": "எளிமைப்படுத்துக: 18 + 6 ÷ 3 × 4.",
+      "options": [
+        "A) 18",
+        "B) 20",
+        "C) 22",
+        "D) 24"
+      ],
+      "answer": "B) 20",
+      "explanation": "எளிமைப்படுத்துக: 18 + 6 ÷ 3 × 4 = 18 + 2 × 4 = 18 + 8 = 26.",
+      "type": "aptitude",
+      "__v": 0
+    },
+    {
+      "_id": "6686f03bb7f9839d1d7d7901",
+      "question_number": 107,
+      "question_text": "120 ன் 70% எவ்வளவு?",
+      "options": [
+        "A) 75",
+        "B) 80",
+        "C) 84",
+        "D) 90"
+      ],
+      "answer": "C) 84",
+      "explanation": "120 ன் 70% என்பது 120 × 0.70 = 84.",
+      "type": "aptitude",
+      "__v": 0
+    },
+    {
+      "_id": "66881c0eb7f9839d1d683597",
+      "question_number": 1,
+      "question_text": "கீழே உள்ளவற்றில் எது ஒற்றுமையில்லாதது?",
+      "options": [
+        "A) வட்டம்",
+        "B) மூவரிசை கோணம்",
+        "C) சதுரம்",
+        "D) எலிப்ஸ்"
+      ],
+      "answer": "D) எலிப்ஸ்",
+      "explanation": "எலிப்ஸ் மட்டுமே நீளம் மற்றும் அகலத்தில் விதிவிலக்காக உள்ளது.",
+      "type": "aptitude",
+      "__v": 0
+    },
+    {
+      "_id": "66881c0eb7f9839d1d683598",
+      "question_number": 2,
+      "question_text": "ஒரு கன சதுரத்தின் மொத்த அளவு 64 கன அலகுகள் ஆகும் என்றால், அதன் ஒரு பக்கத்தின் நீளம் என்ன?",
+      "options": [
+        "A) 2 அலகுகள்",
+        "B) 4 அலகுகள்",
+        "C) 8 அலகுகள்",
+        "D) 16 அலகுகள்"
+      ],
+      "answer": "B) 4 அலகுகள்",
+      "explanation": "ஒரு கன சதுரத்தின் மொத்த அளவு = பக்க நீளம்^3 ஆகும். எனவே, பக்க நீளம் = 64^(1/3) = 4 அலகுகள்.",
+      "type": "aptitude",
+      "__v": 0
+    },
+    {
+      "_id": "66881c0eb7f9839d1d683599",
+      "question_number": 3,
+      "question_text": "ஏ ஒரு வேலை 10 நாட்களில் முடிக்கலாம், பி அதே வேலையை 15 நாட்களில் முடிக்கலாம். இருவரும் சேர்ந்து அந்த வேலையை எவ்வளவு நேரத்தில் முடிப்பார்கள்?",
+      "options": [
+        "A) 6 நாட்கள்",
+        "B) 7 நாட்கள்",
+        "C) 8 நாட்கள்",
+        "D) 9 நாட்கள்"
+      ],
+      "answer": "A) 6 நாட்கள்",
+      "explanation": "ஏ இன் வேலை விகிதம் = 1/10, பி இன் வேலை விகிதம் = 1/15. இருவரின் வேலை விகிதம் = 1/10 + 1/15 = 1/6. எனவே, அவர்கள் வேலையை 6 நாட்களில் முடிக்கலாம்.",
+      "type": "aptitude",
+      "__v": 0
+    },
+    {
+      "_id": "66881c0eb7f9839d1d68359a",
+      "question_number": 4,
+      "question_text": "ஒரு செங்குத்து பாகையின் மொத்த அளவு 120 கன அலகுகள் ஆகும் மற்றும் அதன் பரிமாணங்கள் 2:3:5 என்ற விகிதத்தில் உள்ளன, பரிமாணங்கள் என்ன?",
+      "options": [
+        "A) 2, 3, 10 அலகுகள்",
+        "B) 4, 6, 10 அலகுகள்",
+        "C) 2, 6, 10 அலகுகள்",
+        "D) 3, 4, 10 அலகுகள்"
+      ],
+      "answer": "B) 4, 6, 10 அலகுகள்",
+      "explanation": "பரிமாணங்களை 2x, 3x, மற்றும் 5x ஆக வைத்துக்கொள்வோம். 2x * 3x * 5x = 120, x^3 = 4, x = 2. எனவே, பரிமாணங்கள் 4, 6, மற்றும் 10 அலகுகள் ஆகும்.",
+      "type": "aptitude",
+      "__v": 0
+    },
+    {
+      "_id": "66881c0eb7f9839d1d68359b",
+      "question_number": 5,
+      "question_text": "வரிசையில் அடுத்த எண் என்ன? 2, 6, 12, 20, 30, ...",
+      "options": [
+        "A) 40",
+        "B) 42",
+        "C) 46",
+        "D) 48"
+      ],
+      "answer": "B) 42",
+      "explanation": "பட்டர்ன் குறுக்கீடு அடிப்படையில்: 2+4=6, 6+6=12, 12+8=20, 20+10=30, 30+12=42.",
+      "type": "aptitude",
+      "__v": 0
+    },
+    {
+      "_id": "66881c0eb7f9839d1d68359c",
+      "question_number": 6,
+      "question_text": "ஒரு நீர்த் தொட்டிக்கு இரண்டு குழாய்கள் உள்ளன. ஒன்று 5 மணிநேரத்தில் தொட்டியை நிரப்ப முடியும் மற்றும் மற்றொன்று 8 மணிநேரத்தில் தொட்டியை காலி செய்ய முடியும். இரண்டும் திறந்திருப்பினால் தொட்டியை நிரப்ப எவ்வளவு நேரம் ஆகும்?",
+      "options": [
+        "A) 13.33 மணிநேரம்",
+        "B) 20 மணிநேரம்",
+        "C) 40 மணிநேரம்",
+        "D) 24 மணிநேரம்"
+      ],
+      "answer": "A) 13.33 மணிநேரம்",
+      "explanation": "தொட்டியை நிரப்பும் மொத்த விகிதம் = 1/5 - 1/8 = 3/40. எனவே, தொட்டியை நிரப்ப 40/3 மணிநேரம் அல்லது 13.33 மணிநேரம் ஆகும்.",
+      "type": "aptitude",
+      "__v": 0
+    },
+    {
+      "_id": "66881c0eb7f9839d1d68359d",
+      "question_number": 7,
+      "question_text": "6 உறுப்பினர்கள் கொண்ட குடும்பத்தில் ஏ, பி, சி, டி, இ, மற்றும் எப் உள்ளனர், 2 திருமணமான தம்பதிகள் உள்ளனர். ஏ மற்றும் டி சகோதரர்கள். இ, சி இன் மகள், சி எப் இன் மனைவி. பி யார் மற்றும் ஏ என்பவர்?",
+      "options": [
+        "A) சகோதரி",
+        "B) சகோதரர்",
+        "C) தாய்",
+        "D) தந்தை"
+      ],
+      "answer": "A) சகோதரி",
+      "explanation": "பி ஏ இன் சகோதரி.",
+      "type": "aptitude",
+      "__v": 0
+    },
+    {
+      "_id": "66881c0eb7f9839d1d68359e",
+      "question_number": 8,
+      "question_text": "ஒரு உருளை பாகையின் வட்டார அளவு இரட்டிப்பானால் மற்றும் உயரம் பாதிக்கப்பட்டால், அதன் மொத்த அளவு என்ன ஆகும்?",
+      "options": [
+        "A) மொத்த அளவு இரட்டிப்பாகும்",
+        "B) மொத்த அளவு மாறாது",
+        "C) மொத்த அளவு பாதியாகும்",
+        "D) மொத்த அளவு நான்காகும்"
+      ],
+      "answer": "A) மொத்த அளவு இரட்டிப்பாகும்",
+      "explanation": "உருளை பாகையின் மொத்த அளவு = πr^2h. r இரட்டிப்பானால் மற்றும் h பாதியாகும், புதிய மொத்த அளவு = π(2r)^2(h/2) = 2πr^2h. எனவே, மொத்த அளவு இரட்டிப்பாகும்.",
+      "type": "aptitude",
+      "__v": 0
+    },
+    {
+      "_id": "66881c0eb7f9839d1d68359f",
+      "question_number": 9,
+      "question_text": "ஒரு புதிருக்கு 5 துண்டுகள் உள்ளன. 2 துண்டுகளை நீக்கினால், உங்களிடம் எத்தனை துண்டுகள் உள்ளன?",
+      "options": [
+        "A) 3",
+        "B) 2",
+        "C) 5",
+        "D) 7"
+      ],
+      "answer": "C) 5",
+      "explanation": "உங்களிடம் இன்னும் 5 துண்டுகள் உள்ளன, ஆனால் 2 புதிரில் இருந்து நீக்கப்பட்டுள்ளன.",
+      "type": "aptitude",
+      "__v": 0
+    },
+    {
+      "_id": "66881c0eb7f9839d1d6835a0",
+      "question_number": 10,
+      "question_text": "ஒரு மனிதர் மேல்நோக்கி செல்வதற்கு இரட்டிப்பு நேரத்தை எடுக்கிறார், கீழ்நோக்கிச் செல்லும் வேகத்தை 6 கிமீ/மணிக்கு உள்ளார் என்றால், மேல்நோக்கி செல்வதற்கு அவரது வேகம் என்ன?",
+      "options": [
+        "A) 2 கிமீ/மணி",
+        "B) 3 கிமீ/மணி",
+        "C) 4 கிமீ/மணி",
+        "D) 5 கிமீ/மணி"
+      ],
+      "answer": "B) 3 கிமீ/மணி",
+      "explanation": "மேல்நோக்கி செல்வதற்கு இரட்டிப்பு நேரத்தை எடுப்பார் என்றால், கீழ்நோக்கிச் செல்லும் வேகம்: 6 கிமீ/மணி / 2 = 3 கிமீ/மணி.",
+      "type": "aptitude",
+      "__v": 0
+    },
+    {
+      "_id": "66881c0eb7f9839d1d6835a1",
+      "question_number": 11,
+      "question_text": "புதிய நிறத்தில் 7 மாதங்கள் கழித்தன. முதல் 5 மாதங்களில் 24 மினிடுகள் முடிவடைந்து, பின்னர் அடுத்த 2 மாதங்களில் 30 மினிடுகள் முடிவடைந்து. இதன் மொத்த நிர்வாகம் என்ன?",
+      "options": [
+        "A) 180 மினிடுகள்",
+        "B) 210 மினிடுகள்",
+        "C) 250 மினிடுகள்",
+        "D) 270 மினிடுகள்"
+      ],
+      "answer": "D) 270 மினிடுகள்",
+      "explanation": "முதல் 5 மாதங்களில் 24 மினிடுகள் * 5 = 120 மினிடுகள், அடுத்த 2 மாதங்களில் 30 மினிடுகள் * 2 = 60 மினிடுகள், மொத்த நிர்வாகம் = 120 + 60 = 180 மினிடுகள்.",
+      "type": "aptitude",
+      "__v": 0
+    },
+    {
+      "_id": "66881c0eb7f9839d1d6835a2",
+      "question_number": 12,
+      "question_text": "ஒரு பொருளின் விலை 25 ரூபாய்க்கு இருந்தால், 4 பொருள்களின் விலை என்னவென்பதைப் பாருங்கள்.",
+      "options": [
+        "A) 100 ரூபாய்க்கு",
+        "B) 75 ரூபாய்க்கு",
+        "C) 110 ரூபாய்க்கு",
+        "D) 90 ரூபாய்க்கு"
+      ],
+      "answer": "A) 100 ரூபாய்க்கு",
+      "explanation": "4 பொருள்களின் மொத்த விலை = 25 * 4 = 100 ரூபாய்க்கு.",
+      "type": "aptitude",
+      "__v": 0
+    },
+    {
+      "_id": "66881c0eb7f9839d1d6835a3",
+      "question_number": 13,
+      "question_text": "ஒரு நகரத்தில் 300 குடியேறுபவர்கள் உள்ளனர். 5 சிறுவர்கள் பொருள் அதிகரித்துவிட்டால், அந்த நகரத்தில் எத்தனை மக்கள் குடியேறுகின்றன?",
+      "options": [
+        "A) 305",
+        "B) 302",
+        "C) 295",
+        "D) 310"
+      ],
+      "answer": "A) 305",
+      "explanation": "மொத்த குடியேறுபவர்கள் = 300 + 5 = 305.",
+      "type": "aptitude",
+      "__v": 0
+    },
+    {
+      "_id": "66881c0eb7f9839d1d6835a4",
+      "question_number": 14,
+      "question_text": "பதிலில் 'தான்' என்பது அர்த்தமடையும் மூன்று எழுத்துகளாகும்.",
+      "options": [
+        "A) வணங்காது",
+        "B) வணங்க",
+        "C) வணங்குகின்றது",
+        "D) வணங்கின்றது"
+      ],
+      "answer": "D) வணங்கின்றது",
+      "explanation": "'தான்' என்பது 'வணங்கின்றது' என்பதை சொல்லுகிறது.",
+      "type": "aptitude",
+      "__v": 0
+    },
+    {
+      "_id": "66881c0eb7f9839d1d6835a5",
+      "question_number": 15,
+      "question_text": "பதிலில் 'வழி' என்றால் அர்த்தமடையும் காணப்படும் விலை எது?",
+      "options": [
+        "A) தப்பானது",
+        "B) தப்பானது",
+        "C) சரியானது",
+        "D) தப்பானது"
+      ],
+      "answer": "D) தப்பானது",
+      "explanation": "'வழி' என்றால் 'தப்பானது' என்று அர்த்தம் மட்டும் சொல்லுகிறது.",
+      "type": "aptitude",
+      "__v": 0
+    },
+    {
+      "_id": "66881c0eb7f9839d1d6835a6",
+      "question_number": 16,
+      "question_text": "முதல் 5 எண்களின் மொத்த விலை 100 ஆகும். கடைசி எண் 20 ஆகும். இதன் மொத்த எண்கள் எத்தனை?",
+      "options": [
+        "A) 5",
+        "B) 10",
+        "C) 15",
+        "D) 20"
+      ],
+      "answer": "B) 10",
+      "explanation": "முதல் 5 எண்களின் மொத்த விலை = 100, எண்களின் மொத்த எண்கள் = 20 / 1 = 10.",
+      "type": "aptitude",
+      "__v": 0
+    },
+    {
+      "_id": "66881c0eb7f9839d1d6835a7",
+      "question_number": 17,
+      "question_text": "ஒரு போட்டியில் 20 பேர் உள்ளனர். அவர்களின் மொத்த எண்கள் 110 ஆகும். சரியான போட்டியின் வெற்றி எத்தனை போட்டியை பெறுகின்றது?",
+      "options": [
+        "A) 5",
+        "B) 10",
+        "C) 15",
+        "D) 20"
+      ],
+      "answer": "A) 5",
+      "explanation": "ஒரு போட்டியில் மொத்த எண்கள் = 20, போட்டியின் வெற்றி = 110 / 20 = 5.",
+      "type": "aptitude",
+      "__v": 0
+    },
+    {
+      "_id": "66881c0eb7f9839d1d6835a8",
+      "question_number": 18,
+      "question_text": "ஒரு போன்று, விட்டில் 24 பேர் உள்ளனர். அவர்களின் மொத்த எண்கள் 120 ஆகும். சரியான போட்டியின் வெற்றி எத்தனை போட்டியை பெறுகின்றது?",
+      "options": [
+        "A) 5",
+        "B) 10",
+        "C) 15",
+        "D) 20"
+      ],
+      "answer": "B) 10",
+      "explanation": "ஒரு போட்டியில் மொத்த எண்கள் = 24, போட்டியின் வெற்றி = 120 / 24 = 5.",
+      "type": "aptitude",
+      "__v": 0
+    },
+    {
+      "_id": "66881c0eb7f9839d1d6835a9",
+      "question_number": 19,
+      "question_text": "ஒரு பொருள் சொத்து கட்டினால், அந்த பொருளின் மொத்த விலை எத்தனை ஆகும்?",
+      "options": [
+        "A) விலையையும்",
+        "B) கொடுக்காது",
+        "C) விலையிலும்",
+        "D) விலையையும்"
+      ],
+      "answer": "D) விலையையும்",
+      "explanation": "ஒரு பொருள் சொத்து கட்டினால், அந்த பொருளின் மொத்த விலை சொத்துக்கு இடையே இருக்கும்.",
+      "type": "aptitude",
+      "__v": 0
+    },
+    {
+      "_id": "66881c0eb7f9839d1d6835aa",
+      "question_number": 20,
+      "question_text": "ஒரு போட்டியில் 30 பேர் உள்ளனர். அவர்களின் மொத்த எண்கள் 180 ஆகும். சரியான போட்டியின் வெற்றி எத்தனை போட்டியை பெறுகின்றது?",
+      "options": [
+        "A) 5",
+        "B) 10",
+        "C) 15",
+        "D) 20"
+      ],
+      "answer": "A) 5",
+      "explanation": "ஒரு போட்டியில் மொத்த எண்கள் = 30, போட்டியின் வெற்றி = 180 / 30 = 6.",
+      "type": "aptitude",
+      "__v": 0
+    },
+    {
+      "_id": "66881c0eb7f9839d1d6835c6",
+      "question_number": 48,
+      "question_text": "ஒரு பரப்பு 20 மீட்டர் நீளம் இருக்கும் குறும்படத்தில், அதன் குறைவான அளவு என்ன?",
+      "options": [
+        "A) 8 மீட்டர்",
+        "B) 10 மீட்டர்",
+        "C) 12 மீட்டர்",
+        "D) 14 மீட்டர்"
+      ],
+      "answer": "C) 12 மீட்டர்",
+      "explanation": "பரப்பின் அளவு = 4 * பக்கம், எனவே பக்கம் = 20/4 = 5 மீட்டர். குறும்பட குறைவான அளவு = பக்கம் * பக்கம் = 5 * 2 = 10 மீட்டர்.",
+      "type": "aptitude",
+      "__v": 0
+    },
+    {
+      "_id": "66881c0eb7f9839d1d6835c7",
+      "question_number": 49,
+      "question_text": "ஒரு ஆண் குழந்தை 2 நாட்களில் 20 செய்தால், 3 ஆண்டுகளில் அவன் எத்தனை செய்தான்?",
+      "options": [
+        "A) 180",
+        "B) 240",
+        "C) 300",
+        "D) 360"
+      ],
+      "answer": "B) 240",
+      "explanation": "ஒரு நாளில் செய்யும் செயல்கள் = 20/2 = 10, அதன் மொத்தம் 3 ஆண்டுகளில் = 10 * 365 * 3 = 10950 நாட்கள், இதன் உட்படியாக 240 செய்தல்கள்.",
+      "type": "aptitude",
+      "__v": 0
+    },
+    {
+      "_id": "66881c0eb7f9839d1d6835c8",
+      "question_number": 50,
+      "question_text": "ஒரு நிகழ்வில் 5 வேள்விகள் உள்ளன. ஒரு பால் 3 வேள்விகளில் பதிலளிக்கும் வாரியானால், அதன் மொத்தம் எத்தனை வழுவாக உள்ளது?",
+      "options": [
+        "A) 15",
+        "B) 25",
+        "C) 35",
+        "D) 45"
+      ],
+      "answer": "C) 35",
+      "explanation": "5 * 3 = 15, அதன் உட்படியாக 35 வழுவாக.",
+      "type": "aptitude",
+      "__v": 0
+    },
+    {
+      "_id": "66881c0eb7f9839d1d6835c9",
+      "question_number": 51,
+      "question_text": "ஒரு குளிக்கு 10 வாயிலானது, அதன் பதில் என்ன என்பதைப் பாருங்கள்.",
+      "options": [
+        "A) பச்சை",
+        "B) நீலம்",
+        "C) மஞ்சள்",
+        "D) சிவப்பு"
+      ],
+      "answer": "B) நீலம்",
+      "explanation": "நீலம் என்றால் குளியின் பதில்.",
+      "type": "aptitude",
+      "__v": 0
+    },
+    {
+      "_id": "66881c0eb7f9839d1d6835ca",
+      "question_number": 52,
+      "question_text": "ஒரு படிவத்தில் 50 மாணவர்கள் உள்ளனர், 30 பெண்கள் மற்றும் 20 ஆண்கள் உள்ளனர். பெண்களின் 40% மற்றும் ஆண்களின் 50% கருப்பு முட்டைகள் உள்ளன. குழுவில் எத்தனை மாணவர்கள் கருப்பு முட்டைகள் உள்ளன?",
+      "options": [
+        "A) 14",
+        "B) 19",
+        "C) 24",
+        "D) 29"
+      ],
+      "answer": "C) 24",
+      "explanation": "கருப்பு முட்டைகள் கொள்கையில் பெண்களின் எண்ணிக்கை = 30 * 0.4 = 12, ஆண்களின் கருப்பு முட்டைகள் = 20 * 0.5 = 10, மொத்த மாணவர்கள் கருப்பு முட்டைகள் = 12 + 10 = 22.",
+      "type": "aptitude",
+      "__v": 0
+    },
+    {
+      "_id": "66881c0eb7f9839d1d6835cb",
+      "question_number": 53,
+      "question_text": "ஒரு நகரம் A இருந்து B வரை 40 கிமீ/மணி வேகத்தில் சாலையில் செல்லும். அந்தத் தீர்ப்பில் முழு பயணத்திற்கு சராசரி வேகம் என்ன?",
+      "options": [
+        "A) 33.33 கிமீ/மணி",
+        "B) 34.28 கிமீ/மணி",
+        "C) 35.45 கிமீ/மணி",
+        "D) 36.66 கிமீ/மணி"
+      ],
+      "answer": "B) 34.28 கிமீ/மணி",
+      "explanation": "சராசரி வேகம் = 2ab/(a + b) = 2*40*30/(40 + 30) = 2400/70 = 34.28 கிமீ/மணி.",
+      "type": "aptitude",
+      "__v": 0
+    },
+    {
+      "_id": "66881c0eb7f9839d1d6835cc",
+      "question_number": 54,
+      "question_text": "5 வேள்விகள் உள்ளன. பொருள் 4-இன் மேலும் மேலும் மேலும் மேலும் மேலும் மேலும் மேலும் மேலும் எத்தனை வழுவாக உள்ளது?",
+      "options": [
+        "A) 15",
+        "B) 25",
+        "C) 35",
+        "D) 45"
+      ],
+      "answer": "C) 35",
+      "explanation": "5 * 3 = 15, அதன் உட்படியாக 35 வழுவாக.",
+      "type": "aptitude",
+      "__v": 0
+    },
+    {
+      "_id": "66881c0eb7f9839d1d6835d0",
+      "question_number": 58,
+      "question_text": "5 வேள்விகள் உள்ளன. பொருள் 4-இன் மேலும் மேலும் மேலும் மேலும் மேலும் மேலும் மேலும் எத்தனை வழுவாக உள்ளது?",
+      "options": [
+        "A) 15",
+        "B) 25",
+        "C) 35",
+        "D) 45"
+      ],
+      "answer": "C) 35",
+      "explanation": "5 * 3 = 15, அதன் உட்படியாக 35 வழுவாக.",
+      "type": "aptitude",
+      "__v": 0
+    },
+    {
+      "_id": "66881c0eb7f9839d1d6835db",
+      "question_number": 68,
+      "question_text": "ஒரு பொறியியல் பட்டியலில் 12 உபகரணங்கள் உள்ளன. அவர்களின் மொத்த மதிப்பீடு 360 ஆகும். ஒரு உபகரணம் அடிப்படை மதிப்பை செலுத்தி, அதன் விலை எத்தனை?",
+      "options": [
+        "A) 30",
+        "B) 20",
+        "C) 40",
+        "D) 50"
+      ],
+      "answer": "A) 30",
+      "explanation": "ஒரு உபகரணம் அடிப்படை மதிப்பு = 360 / 12 = 30.",
+      "type": "aptitude",
+      "__v": 0
+    },
+    {
+      "_id": "66881c0eb7f9839d1d6835dc",
+      "question_number": 69,
+      "question_text": "ஒரு கார்ப்பருடன் ஒரு பட்டயத்தில் 5 மாவட்டங்கள் உள்ளன. அவர்கள் கூட்டு மதிப்பீடு 1500 ஆகும். ஒரு மாவட்டில் மதிப்பின் விலை எத்தனை?",
+      "options": [
+        "A) 200",
+        "B) 300",
+        "C) 400",
+        "D) 500"
+      ],
+      "answer": "C) 300",
+      "explanation": "ஒரு மாவட்டில் மதிப்பின் விலை = 1500 / 5 = 300.",
+      "type": "aptitude",
+      "__v": 0
+    },
+    {
+      "_id": "66881c0eb7f9839d1d6835dd",
+      "question_number": 70,
+      "question_text": "ஒரு போட்டியில் 15 பேர் உள்ளனர். அவர்களின் மொத்த எண்கள் 90 ஆகும். சரியான போட்டியின் வெற்றி எத்தனை போட்டியை பெறுகின்றது?",
+      "options": [
+        "A) 3",
+        "B) 4",
+        "C) 5",
+        "D) 6"
+      ],
+      "answer": "B) 6",
+      "explanation": "ஒரு போட்டியில் மொத்த எண்கள் = 15, போட்டியின் வெற்றி = 90 / 15 = 6.",
+      "type": "aptitude",
+      "__v": 0
+    },
+    {
+      "_id": "66881c0eb7f9839d1d6835de",
+      "question_number": 71,
+      "question_text": "ஒரு போட்டியில் 18 பேர் உள்ளனர். அவர்களின் மொத்த எண்கள் 162 ஆகும். ஒரு போட்டியின் வெற்றி எத்தனை போட்டியை பெறுகின்றது?",
+      "options": [
+        "A) 7",
+        "B) 8",
+        "C) 9",
+        "D) 10"
+      ],
+      "answer": "C) 9",
+      "explanation": "ஒரு போட்டியில் மொத்த எண்கள் = 18, போட்டியின் வெற்றி = 162 / 18 = 9.",
+      "type": "aptitude",
+      "__v": 0
+    },
+    {
+      "_id": "66881c0eb7f9839d1d6835df",
+      "question_number": 72,
+      "question_text": "ஒரு போட்டியில் 18 பேர் உள்ளனர். அவர்களின் மொத்த எண்கள் 126 ஆகும். ஒரு போட்டியின் வெற்றி எத்தனை போட்டியை பெறுகின்றது?",
+      "options": [
+        "A) 5",
+        "B) 6",
+        "C) 7",
+        "D) 8"
+      ],
+      "answer": "B) 7",
+      "explanation": "ஒரு போட்டியில் மொத்த எண்கள் = 18, போட்டியின் வெற்றி = 126 / 18 = 7.",
+      "type": "aptitude",
+      "__v": 0
+    },
+    {
+      "_id": "66881c0eb7f9839d1d6835e0",
+      "question_number": 73,
+      "question_text": "ஒரு போட்டியில் 30 பேர் உள்ளனர். அவர்களின் மொத்த எண்கள் 240 ஆகும். சரியான போட்டியின் வெற்றி எத்தனை போட்டியை பெறுகின்றது?",
+      "options": [
+        "A) 5",
+        "B) 6",
+        "C) 7",
+        "D) 8"
+      ],
+      "answer": "B) 8",
+      "explanation": "ஒரு போட்டியில் மொத்த எண்கள் = 30, போட்டியின் வெற்றி = 240 / 30 = 8.",
+      "type": "aptitude",
+      "__v": 0
+    },
+    {
+      "_id": "66881c0eb7f9839d1d6835e1",
+      "question_number": 74,
+      "question_text": "ஒரு போட்டியில் 21 பேர் உள்ளனர். அவர்களின் மொத்த எண்கள் 189 ஆகும். ஒரு போட்டின் வெற்றி எத்தனை போட்டியை பெறுகின்றது?",
+      "options": [
+        "A) 7",
+        "B) 8",
+        "C) 9",
+        "D) 10"
+      ],
+      "answer": "C) 9",
+      "explanation": "ஒரு போட்டில் மொத்த எண்கள் = 21, போட்டின் வெற்றி = 189 / 21 = 9.",
+      "type": "aptitude",
+      "__v": 0
+    },
+    {
+      "_id": "66881c0eb7f9839d1d6835e2",
+      "question_number": 75,
+      "question_text": "ஒரு போட்டியில் 25 பேர் உள்ளனர். அவர்களின் மொத்த எண்கள் 200 ஆகும். சரியான போட்டியின் வெற்றி எத்தனை போட்டியை பெறுகின்றது?",
+      "options": [
+        "A) 5",
+        "B) 6",
+        "C) 8",
+        "D) 10"
+      ],
+      "answer": "B) 8",
+      "explanation": "ஒரு போட்டில் மொத்த எண்கள் = 25, போட்டின் வெற்றி = 200 / 25 = 8.",
+      "type": "aptitude",
+      "__v": 0
+    },
+    {
+      "_id": "66881c0eb7f9839d1d6835e3",
+      "question_number": 76,
+      "question_text": "ஒரு போட்டியில் 35 பேர் உள்ளனர். அவர்களின் மொத்த எண்கள் 315 ஆகும். சரியான போட்டியின் வெற்றி எத்தனை போட்டியை பெறுகின்றது?",
+      "options": [
+        "A) 7",
+        "B) 8",
+        "C) 9",
+        "D) 10"
+      ],
+      "answer": "C) 9",
+      "explanation": "ஒரு போட்டில் மொத்த எண்கள் = 35, போட்டின் வெற்றி = 315 / 35 = 9.",
+      "type": "aptitude",
+      "__v": 0
+    },
+    {
+      "_id": "66881c0eb7f9839d1d6835e4",
+      "question_number": 77,
+      "question_text": "ஒரு போட்டியில் 42 பேர் உள்ளனர். அவர்களின் மொத்த எண்கள் 336 ஆகும். ஒரு போட்டின் வெற்றி எத்தனை போட்டியை பெறுகின்றது?",
+      "options": [
+        "A) 6",
+        "B) 7",
+        "C) 8",
+        "D) 9"
+      ],
+      "answer": "D) 8",
+      "explanation": "ஒரு போட்டில் மொத்த எண்கள் = 42, போட்டின் வெற்றி = 336 / 42 = 8.",
+      "type": "aptitude",
+      "__v": 0
+    },
+    {
+      "_id": "66881c0eb7f9839d1d6835e5",
+      "question_number": 78,
+      "question_text": "ஒரு போட்டியில் 49 பேர் உள்ளனர். அவர்களின் மொத்த எண்கள் 343 ஆகும். ஒரு போட்டின் வெற்றி எத்தனை போட்டியை பெறுகின்றது?",
+      "options": [
+        "A) 6",
+        "B) 7",
+        "C) 8",
+        "D) 9"
+      ],
+      "answer": "B) 7",
+      "explanation": "ஒரு போட்டில் மொத்த எண்கள் = 49, போட்டின் வெற்றி = 343 / 49 = 7.",
+      "type": "aptitude",
+      "__v": 0
+    },
+    {
+      "_id": "66881c0eb7f9839d1d6835e6",
+      "question_number": 79,
+      "question_text": "ஒரு போட்டியில் 54 பேர் உள்ளனர். அவர்களின் மொத்த எண்கள் 432 ஆகும். சரியான போட்டியின் வெற்றி எத்தனை போட்டியை பெறுகின்றது?",
+      "options": [
+        "A) 7",
+        "B) 8",
+        "C) 9",
+        "D) 10"
+      ],
+      "answer": "C) 8",
+      "explanation": "ஒரு போட்டில் மொத்த எண்கள் = 54, போட்டின் வெற்றி = 432 / 54 = 8.",
+      "type": "aptitude",
+      "__v": 0
+    },
+    {
+      "_id": "66881c0eb7f9839d1d6835e7",
+      "question_number": 80,
+      "question_text": "ஒரு போட்டியில் 60 பேர் உள்ளனர். அவர்களின் மொத்த எண்கள் 360 ஆகும். ஒரு போட்டின் வெற்றி எத்தனை போட்டியை பெறுகின்றது?",
+      "options": [
+        "A) 5",
+        "B) 6",
+        "C) 7",
+        "D) 8"
+      ],
+      "answer": "B) 6",
+      "explanation": "ஒரு போட்டில் மொத்த எண்கள் = 60, போட்டின் வெற்றி = 360 / 60 = 6.",
+      "type": "aptitude",
+      "__v": 0
+    },
+    {
+      "_id": "66881c0eb7f9839d1d6835e8",
+      "question_number": 81,
+      "question_text": "ஒரு போட்டியில் 66 பேர் உள்ளனர். அவர்களின் மொத்த எண்கள் 396 ஆகும். சரியான போட்டியின் வெற்றி எத்தனை போட்டியை பெறுகின்றது?",
+      "options": [
+        "A) 5",
+        "B) 6",
+        "C) 7",
+        "D) 8"
+      ],
+      "answer": "B) 6",
+      "explanation": "ஒரு போட்டில் மொத்த எண்கள் = 66, போட்டின் வெற்றி = 396 / 66 = 6.",
+      "type": "aptitude",
+      "__v": 0
+    },
+    {
+      "_id": "66881c0eb7f9839d1d6835e9",
+      "question_number": 82,
+      "question_text": "ஒரு போட்டியில் 70 பேர் உள்ளனர். அவர்களின் மொத்த எண்கள் 420 ஆகும். சரியான போட்டியின் வெற்றி எத்தனை போட்டியை பெறுகின்றது?",
+      "options": [
+        "A) 5",
+        "B) 6",
+        "C) 7",
+        "D) 8"
+      ],
+      "answer": "C) 6",
+      "explanation": "ஒரு போட்டில் மொத்த எண்கள் = 70, போட்டின் வெற்றி = 420 / 70 = 6.",
+      "type": "aptitude",
+      "__v": 0
+    },
+    {
+      "_id": "66881c0eb7f9839d1d6835ea",
+      "question_number": 83,
+      "question_text": "ஒரு போட்டியில் 75 பேர் உள்ளனர். அவர்களின் மொத்த எண்கள் 525 ஆகும். சரியான போட்டியின் வெற்றி எத்தனை போட்டியை பெறுகின்றது?",
+      "options": [
+        "A) 6",
+        "B) 7",
+        "C) 8",
+        "D) 9"
+      ],
+      "answer": "B) 7",
+      "explanation": "ஒரு போட்டில் மொத்த எண்கள் = 75, போட்டின் வெற்றி = 525 / 75 = 7.",
+      "type": "aptitude",
+      "__v": 0
+    },
+    {
+      "_id": "66881c0eb7f9839d1d6835eb",
+      "question_number": 84,
+      "question_text": "ஒரு போட்டியில் 80 பேர் உள்ளனர். அவர்களின் மொத்த எண்கள் 640 ஆகும். சரியான போட்டியின் வெற்றி எத்தனை போட்டியை பெறுகின்றது?",
+      "options": [
+        "A) 7",
+        "B) 8",
+        "C) 9",
+        "D) 10"
+      ],
+      "answer": "B) 8",
+      "explanation": "ஒரு போட்டில் மொத்த எண்கள் = 80, போட்டின் வெற்றி = 640 / 80 = 8.",
+      "type": "aptitude",
+      "__v": 0
+    },
+    {
+      "_id": "66881c0eb7f9839d1d6835ec",
+      "question_number": 85,
+      "question_text": "ஒரு போட்டியில் 84 பேர் உள்ளனர். அவர்களின் மொத்த எண்கள் 588 ஆகும். சரியான போட்டியின் வெற்றி எத்தனை போட்டியை பெறுகின்றது?",
+      "options": [
+        "A) 6",
+        "B) 7",
+        "C) 8",
+        "D) 9"
+      ],
+      "answer": "B) 7",
+      "explanation": "ஒரு போட்டில் மொத்த எண்கள் = 84, போட்டின் வெற்றி = 588 / 84 = 7.",
+      "type": "aptitude",
+      "__v": 0
+    },
+    {
+      "_id": "66881c0eb7f9839d1d6835ed",
+      "question_number": 86,
+      "question_text": "ஒரு போட்டியில் 88 பேர் உள்ளனர். அவர்களின் மொத்த எண்கள் 704 ஆகும். ஒரு போட்டின் வெற்றி எத்தனை போட்டியை பெறுகின்றது?",
+      "options": [
+        "A) 7",
+        "B) 8",
+        "C) 9",
+        "D) 10"
+      ],
+      "answer": "B) 8",
+      "explanation": "ஒரு போட்டில் மொத்த எண்கள் = 88, போட்டின் வெற்றி = 704 / 88 = 8.",
+      "type": "aptitude",
+      "__v": 0
+    },
+    {
+      "_id": "66881c0eb7f9839d1d6835ee",
+      "question_number": 87,
+      "question_text": "ஒரு பத்தியில் 3 தொடர்கள் உள்ளன. அவர்கள் மொத்த மதிப்பீடு 720 ஆகும். ஒரு தொடரில் மதிப்பின் விலை எத்தனை?",
+      "options": [
+        "A) 180",
+        "B) 240",
+        "C) 360",
+        "D) 480"
+      ],
+      "answer": "C) 360",
+      "explanation": "ஒரு தொடரில் மதிப்பின் விலை = 720 / 3 = 240.",
+      "type": "aptitude",
+      "__v": 0
+    },
+    {
+      "_id": "66881c0eb7f9839d1d6835ef",
+      "question_number": 88,
+      "question_text": "ஒரு பட்டியில் 8 எண்கள் உள்ளன. முதல் 5 எண்களின் மொத்த விலை 120 ஆகும். கடைசி எண் 40 ஆகும். முதல் 5 எண்களின் மொத்த எண்கள் எத்தனை?",
+      "options": [
+        "A) 5",
+        "B) 10",
+        "C) 15",
+        "D) 20"
+      ],
+      "answer": "B) 10",
+      "explanation": "முதல் 5 எண்களின் மொத்த விலை = 120, எண்களின் மொத்த எண்கள் = 20 / 1 = 10.",
+      "type": "aptitude",
+      "__v": 0
+    },
+    {
+      "_id": "66881c0eb7f9839d1d6835f0",
+      "question_number": 89,
+      "question_text": "ஒரு போட்டியில் 10 பேர் உள்ளனர். அவர்களின் மொத்த எண்கள் 50 ஆகும். சரியான போட்டியின் வெற்றி எத்தனை போட்டியை பெறுகின்றது?",
+      "options": [
+        "A) 3",
+        "B) 5",
+        "C) 7",
+        "D) 10"
+      ],
+      "answer": "B) 5",
+      "explanation": "ஒரு போட்டியில் மொத்த எண்கள் = 10, போட்டியின் வெற்றி = 50 / 10 = 5.",
+      "type": "aptitude",
+      "__v": 0
+    },
+    {
+      "_id": "66881c0eb7f9839d1d6835f1",
+      "question_number": 90,
+      "question_text": "ஒரு போட்டியில் 25 பேர் உள்ளனர். அவர்களின் மொத்த எண்கள் 175 ஆகும். சரியான போட்டியின் வெற்றி எத்தனை போட்டியை பெறுகின்றது?",
+      "options": [
+        "A) 5",
+        "B) 6",
+        "C) 7",
+        "D) 8"
+      ],
+      "answer": "B) 7",
+      "explanation": "ஒரு போட்டியில் மொத்த எண்கள் = 25, போட்டியின் வெற்றி = 175 / 25 = 7.",
+      "type": "aptitude",
+      "__v": 0
+    },
+    {
+      "_id": "66881c0eb7f9839d1d6835f2",
+      "question_number": 91,
+      "question_text": "ஒரு கட்டணத்தில் 5 பேர் பங்கேற்கின்றனர். அவர்களின் மொத்த மதிப்பீடு 600 ஆகும். ஒரு பேரின் பங்கின் விலை எத்தனை?",
+      "options": [
+        "A) 100",
+        "B) 120",
+        "C) 140",
+        "D) 160"
+      ],
+      "answer": "A) 100",
+      "explanation": "ஒரு பேரின் பங்கின் விலை = 600 / 5 = 120.",
+      "type": "aptitude",
+      "__v": 0
+    },
+    {
+      "_id": "66881c0eb7f9839d1d6835f3",
+      "question_number": 92,
+      "question_text": "ஒரு பட்டியில் 6 பேர் உள்ளனர். அவர்களின் மொத்த எண்கள் 108 ஆகும். சரியான போட்டியின் வெற்றி எத்தனை போட்டியை பெறுகின்றது?",
+      "options": [
+        "A) 12",
+        "B) 14",
+        "C) 16",
+        "D) 18"
+      ],
+      "answer": "A) 12",
+      "explanation": "ஒரு போட்டியில் மொத்த எண்கள் = 6, போட்டியின் வெற்றி = 108 / 6 = 18.",
+      "type": "aptitude",
+      "__v": 0
+    },
+    {
+      "_id": "66881c0eb7f9839d1d6835f4",
+      "question_number": 93,
+      "question_text": "ஒரு போட்டியில் 9 பேர் உள்ளனர். அவர்களின் மொத்த எண்கள் 99 ஆகும். ஒரு போட்டியின் வெற்றி எத்தனை போட்டியை பெறுகின்றது?",
+      "options": [
+        "A) 8",
+        "B) 9",
+        "C) 10",
+        "D) 11"
+      ],
+      "answer": "B) 11",
+      "explanation": "ஒரு போட்டியில் மொத்த எண்கள் = 9, போட்டியின் வெற்றி = 99 / 9 = 11.",
+      "type": "aptitude",
+      "__v": 0
+    },
+    {
+      "_id": "66881c0eb7f9839d1d6835f5",
+      "question_number": 94,
+      "question_text": "ஒரு போட்டியில் 16 பேர் உள்ளனர். அவர்களின் மொத்த எண்கள் 80 ஆகும். சரியான போட்டியின் வெற்றி எத்தனை போட்டியை பெறுகின்றது?",
+      "options": [
+        "A) 4",
+        "B) 5",
+        "C) 6",
+        "D) 7"
+      ],
+      "answer": "C) 5",
+      "explanation": "ஒரு போட்டியில் மொத்த எண்கள் = 16, போட்டியின் வெற்றி = 80 / 16 = 5.",
+      "type": "aptitude",
+      "__v": 0
+    },
+    {
+      "_id": "66881c0eb7f9839d1d6835f6",
+      "question_number": 95,
+      "question_text": "ஒரு போட்டியில் 20 பேர் உள்ளனர். அவர்களின் மொத்த எண்கள் 100 ஆகும். சரியான போட்டியின் வெற்றி எத்தனை போட்டியை பெறுகின்றது?",
+      "options": [
+        "A) 3",
+        "B) 5",
+        "C) 6",
+        "D) 8"
+      ],
+      "answer": "C) 5",
+      "explanation": "ஒரு போட்டியில் மொத்த எண்கள் = 20, போட்டியின் வெற்றி = 100 / 20 = 5.",
+      "type": "aptitude",
+      "__v": 0
+    },
+    {
+      "_id": "66881c0eb7f9839d1d6835f7",
+      "question_number": 96,
+      "question_text": "ஒரு போட்டியில் 24 பேர் உள்ளனர். அவர்களின் மொத்த எண்கள் 168 ஆகும். சரியான போட்டியின் வெற்றி எத்தனை போட்டியை பெறுகின்றது?",
+      "options": [
+        "A) 5",
+        "B) 6",
+        "C) 7",
+        "D) 8"
+      ],
+      "answer": "B) 7",
+      "explanation": "ஒரு போட்டியில் மொத்த எண்கள் = 24, போட்டியின் வெற்றி = 168 / 24 = 7.",
+      "type": "aptitude",
+      "__v": 0
+    },
+    {
+      "_id": "668815f5b7f9839d1d591176",
+      "question_number": 1,
+      "question_text": "ஒரு பொருளின் மீதும், தூக்கமும் இல்லாத காற்றின் அழுத்தம் என்ன?",
+      "options": [
+        "A) 0 பாஸ்கல்",
+        "B) 1 பாஸ்கல்",
+        "C) 100 பாஸ்கல்",
+        "D) 101 பாஸ்கல்"
+      ],
+      "answer": "A) 0 பாஸ்கல்",
+      "type": "aptitude",
+      "__v": 0
+    },
+    {
+      "_id": "668815f5b7f9839d1d591177",
+      "question_number": 2,
+      "question_text": "எந்த வகை கனவுகளில் நிகழ்ச்சிகள், மகிழ்ச்சி மற்றும் துக்கம் போன்ற உணர்வுகள் இருக்கின்றன?",
+      "options": [
+        "A) REM கனவுகள்",
+        "B) நிச்சய கனவுகள்",
+        "C) புகல்ந்த கனவுகள்",
+        "D) இரவு கனவுகள்"
+      ],
+      "answer": "A) REM கனவுகள்",
+      "type": "aptitude",
+      "__v": 0
+    },
+    {
+      "_id": "668815f5b7f9839d1d591178",
+      "question_number": 3,
+      "question_text": "காலையில் வெப்பமான நீரை குடிப்பது உடலுக்கு என்ன பயன் தரும்?",
+      "options": [
+        "A) உடல் நலத்தை பாதுகாக்கும்",
+        "B) உடல் வலிமையை அதிகரிக்கும்",
+        "C) மனதுக்கு அமைதியை தரும்",
+        "D) எடையை குறைக்கும்"
+      ],
+      "answer": "D) எடையை குறைக்கும்",
+      "type": "aptitude",
+      "__v": 0
+    },
+    {
+      "_id": "668815f5b7f9839d1d591179",
+      "question_number": 4,
+      "question_text": "சூரியனை சுற்றி வந்து ஒரு கோள் செல்லும் பாதையை என்ன அழைக்கின்றனர்?",
+      "options": [
+        "A) சுற்றுவட்டம்",
+        "B) அண்டம்",
+        "C) இனம்",
+        "D) மண்டலம்"
+      ],
+      "answer": "A) சுற்றுவட்டம்",
+      "type": "aptitude",
+      "__v": 0
+    },
+    {
+      "_id": "668815f5b7f9839d1d59117a",
+      "question_number": 5,
+      "question_text": "ஒவ்வொரு பருவமும் மாதத்திற்கு எவ்வளவு நீர் பரிமாறப்பட வேண்டும்?",
+      "options": [
+        "A) 50 லிட்டர்",
+        "B) 100 லிட்டர்",
+        "C) 150 லிட்டர்",
+        "D) 200 லிட்டர்"
+      ],
+      "answer": "D) 200 லிட்டர்",
+      "type": "aptitude",
+      "__v": 0
+    },
+    {
+      "_id": "668815f5b7f9839d1d59117b",
+      "question_number": 6,
+      "question_text": "நடந்துகொண்டிருக்கும் அணு காற்றுவீசியில் ஒரு பொருள் செல்லும் திசை எது?",
+      "options": [
+        "A) மேற்குத் திசை",
+        "B) கிழக்குத் திசை",
+        "C) வடக்குத் திசை",
+        "D) தெற்குத் திசை"
+      ],
+      "answer": "B) கிழக்குத் திசை",
+      "type": "aptitude",
+      "__v": 0
+    },
+    {
+      "_id": "668815f5b7f9839d1d59117c",
+      "question_number": 7,
+      "question_text": "எந்த நிலையான காற்று போக்கில் மழை ஏற்படும்?",
+      "options": [
+        "A) தெற்குத் திசை காற்று",
+        "B) கிழக்குத் திசை காற்று",
+        "C) மேற்கு திசை காற்று",
+        "D) வடக்குத் திசை காற்று"
+      ],
+      "answer": "C) மேற்கு திசை காற்று",
+      "type": "aptitude",
+      "__v": 0
+    },
+    {
+      "_id": "668815f5b7f9839d1d59117d",
+      "question_number": 8,
+      "question_text": "உலகில் அதிகம் உற்பத்தி செய்யப்படும் தாதுக்கள் எவை?",
+      "options": [
+        "A) இரும்பு மற்றும் கொழுப்பு",
+        "B) இரும்பு மற்றும் பவளப் பாறைகள்",
+        "C) இரும்பு மற்றும் அலுமினியம்",
+        "D) இரும்பு மற்றும் தாமிரம்"
+      ],
+      "answer": "C) இரும்பு மற்றும் அலுமினியம்",
+      "type": "aptitude",
+      "__v": 0
+    },
+    {
+      "_id": "668815f5b7f9839d1d59117e",
+      "question_number": 9,
+      "question_text": "பருவ மழையின் போது எந்த திசை காற்று அதிகம் வீசும்?",
+      "options": [
+        "A) தெற்குத் திசை காற்று",
+        "B) கிழக்குத் திசை காற்று",
+        "C) மேற்கு திசை காற்று",
+        "D) வடக்குத் திசை காற்று"
+      ],
+      "answer": "A) தெற்குத் திசை காற்று",
+      "type": "aptitude",
+      "__v": 0
+    },
+    {
+      "_id": "668815f5b7f9839d1d59117f",
+      "question_number": 10,
+      "question_text": "ஒரு பொருள் அணு காற்று வீசியின் வேகம் எவ்வளவு?",
+      "options": [
+        "A) 10 மீ/நொடி",
+        "B) 20 மீ/நொடி",
+        "C) 30 மீ/நொடி",
+        "D) 40 மீ/நொடி"
+      ],
+      "answer": "B) 20 மீ/நொடி",
+      "type": "aptitude",
+      "__v": 0
+    },
+    {
+      "_id": "668815f5b7f9839d1d591180",
+      "question_number": 11,
+      "question_text": "எந்த வகை கனவுகள் அடிக்கடி நினைவில் இருக்கும்?",
+      "options": [
+        "A) சீரிய கனவுகள்",
+        "B) மாறும் கனவுகள்",
+        "C) தெளிவான கனவுகள்",
+        "D) சத்தமான கனவுகள்"
+      ],
+      "answer": "C) தெளிவான கனவுகள்",
+      "type": "aptitude",
+      "__v": 0
+    },
+    {
+      "_id": "668815f5b7f9839d1d591181",
+      "question_number": 12,
+      "question_text": "காற்று மாசுபாட்டின் முக்கிய காரணம் என்ன?",
+      "options": [
+        "A) ஆலைகள் மற்றும் தொழிற்சாலைகள்",
+        "B) வாகனங்கள்",
+        "C) மரங்களை வெட்டுதல்",
+        "D) இயற்கை மாற்றங்கள்"
+      ],
+      "answer": "B) வாகனங்கள்",
+      "type": "aptitude",
+      "__v": 0
+    },
+    {
+      "_id": "668815f5b7f9839d1d591182",
+      "question_number": 13,
+      "question_text": "ஒரு பொருள் இல் பரிமாணம் எவ்வளவு அளவிற்கு உயரமாக இருக்க வேண்டும்?",
+      "options": [
+        "A) 1 மீட்டர்",
+        "B) 2 மீட்டர்",
+        "C) 3 மீட்டர்",
+        "D) 4 மீட்டர்"
+      ],
+      "answer": "C) 3 மீட்டர்",
+      "type": "aptitude",
+      "__v": 0
+    },
+    {
+      "_id": "668815f5b7f9839d1d591183",
+      "question_number": 14,
+      "question_text": "வண்ண பால் மரம் என்பது எந்த வகை மரம்?",
+      "options": [
+        "A) மாமரங்கள்",
+        "B) இலையுதிர் மரங்கள்",
+        "C) காய்கறி மரங்கள்",
+        "D) செம்மரங்கள்"
+      ],
+      "answer": "B) இலையுதிர் மரங்கள்",
+      "type": "aptitude",
+      "__v": 0
+    },
+    {
+      "_id": "668815f5b7f9839d1d591184",
+      "question_number": 15,
+      "question_text": "ஒரு ஆண் இலக்கில் அகலம் 65 செ.மீ ஆகும் மற்றும் அதன் நீளம் 1.2 மீ. ஆகும். அந்த இலக்கின் கல்லாக்கா என்ன?",
+      "options": [
+        "A) 78 செ.மீ",
+        "B) 80 செ.மீ",
+        "C) 85 செ.மீ",
+        "D) 90 செ.மீ"
+      ],
+      "answer": "A) 78 செ.மீ",
+      "explanation": "பரிமாணம் = 2 * (அகலம் + நீளம்), பரிமாணம் = 2 * (65 + 1.2) = 132 செ.மீ.",
+      "type": "aptitude",
+      "__v": 0
+    },
+    {
+      "_id": "668815f5b7f9839d1d591185",
+      "question_number": 16,
+      "question_text": "ஒரு நாள் இலக்கில் 100 மில்லிக்கிராம் நீளம் அகலம் 8 மில்லிமீட்டர் ஆகும். அந்த இலக்கின் நீளக் குறிக்காக என்ன?",
+      "options": [
+        "A) 0.08 சதுரக் கால்க்கண்டு",
+        "B) 0.8 சதுரக் கால்க்கண்டு",
+        "C) 8 சதுரக் கால்க்கண்டு",
+        "D) 80 சதுரக் கால்க்கண்டு"
+      ],
+      "answer": "D) 80 சதுரக் கால்க்கண்டு",
+      "explanation": "பரிமாணம் = நீளம் * அகலம், பரிமாணம் = 100 * 8 = 800 சதுரக் கால்க்கண்டு.",
+      "type": "aptitude",
+      "__v": 0
+    },
+    {
+      "_id": "668815f5b7f9839d1d591186",
+      "question_number": 17,
+      "question_text": "ஒரு சீமான் வீட்டில் 1 சதுரக் கால்க்கண்டுகள் வழங்கப்பட்டுள்ளன. அவைகளில் 20 சதுரக் கால்க்கண்டுகள் பற்றி அவர் பயன்படுத்துகிறார். இது எவ்வளவு சதுரக் கால்க்கண்டுகளை வழங்குகிறது?",
+      "options": [
+        "A) 1000 ரூபாய்",
+        "B) 1200 ரூபாய்",
+        "C) 1400 ரூபாய்",
+        "D) 1600 ரூபாய்"
+      ],
+      "answer": "B) 1200 ரூபாய்",
+      "explanation": "ஒரு சதுரக் கால்க்கண்டுகள் விலை = பரிமாணம் * விலை, ஒரு சதுரக் கால்க்கண்டுகள் விலை = 60 * 20 = 1200 ரூபாய்.",
+      "type": "aptitude",
+      "__v": 0
+    },
+    {
+      "_id": "668815f5b7f9839d1d591187",
+      "question_number": 18,
+      "question_text": "ஒரு பரிமாண இரண்டு எல்லைகள் உள்ளன. ஒரு எல்லைகளின் அளவு 30 சதுரக் கால்க்கண்டுகள் மற்றும் மற்றொரு எல்லைகளின் அளவு 40 சதுரக் கால்க்கண்டுகள் ஆகும். இரண்டு எல்லைகளின் பரிமாணம் என்ன?",
+      "options": [
+        "A) 60 சதுரக் கால்க்கண்டு",
+        "B) 70 சதுரக் கால்க்கண்டு",
+        "C) 80 சதுரக் கால்க்கண்டு",
+        "D) 90 சதுரக் கால்க்கண்டு"
+      ],
+      "answer": "A) 60 சதுரக் கால்க்கண்டு",
+      "explanation": "பரிமாணம் = எல்லைகளின் அளவு + எல்லைகளின் அளவு, பரிமாணம் = 30 + 40 = 60 சதுரக் கால்க்கண்டு.",
+      "type": "aptitude",
+      "__v": 0
+    },
+    {
+      "_id": "668815f5b7f9839d1d591188",
+      "question_number": 19,
+      "question_text": "ஒரு பெருமாளின் ஒருவர் கொள்கள் நீளம் 3 சதுரக் கால்க்கண்டுகள் அகலம் 6 செ.மீ. பரிமாணம் என்ன?",
+      "options": [
+        "A) 18 சதுரக் கால்க்கண்டு",
+        "B) 20 சதுரக் கால்க்கண்டு",
+        "C) 24 சதுரக் கால்க்கண்டு",
+        "D) 30 சதுரக் கால்க்கண்டு"
+      ],
+      "answer": "D) 30 சதுரக் கால்க்கண்டு",
+      "explanation": "பரிமாணம் = நீளம் * அகலம், பரிமாணம் = 3 * 6 = 18 சதுரக் கால்க்கண்டு.",
+      "type": "aptitude",
+      "__v": 0
+    },
+    {
+      "_id": "668815f5b7f9839d1d591189",
+      "question_number": 20,
+      "question_text": "ஒரு பெரிய உலகில் உள்ள 2,00,000 மக்களின் முக்கிய உணவு தரம் 1800 கிலோ கேள்வி தான். இதன் பரிமாணம் என்ன?",
+      "options": [
+        "A) 2 லட்சம் கிலோ",
+        "B) 3 லட்சம் கிலோ",
+        "C) 4 லட்சம் கிலோ",
+        "D) 5 லட்சம் கிலோ"
+      ],
+      "answer": "A) 2 லட்சம் கிலோ",
+      "explanation": "பரிமாணம் = முக்கிய உணவு தரம் / மக்களின் எண்ணிக்கை, பரிமாணம் = 1800 / 2,00,000 = 0.009 கிலோ.",
+      "type": "aptitude",
+      "__v": 0
+    },
+    {
+      "_id": "668815f5b7f9839d1d59118a",
+      "question_number": 21,
+      "question_text": "ஒரு பெருமாளின் ஒருவர் அகலம் 15 செ.மீ. பரிமாணம் என்ன?",
+      "options": [
+        "A) 30 சதுரக் கால்க்கண்டு",
+        "B) 45 சதுரக் கால்க்கண்டு",
+        "C) 60 சதுரக் கால்க்கண்டு",
+        "D) 75 சதுரக் கால்க்கண்டு"
+      ],
+      "answer": "B) 45 சதுரக் கால்க்கண்டு",
+      "explanation": "பரிமாணம் = அகலம் * அகலம், பரிமாணம் = 15 * 15 = 225 சதுரக் கால்க்கண்டு.",
+      "type": "aptitude",
+      "__v": 0
+    },
+    {
+      "_id": "668815f5b7f9839d1d59118b",
+      "question_number": 22,
+      "question_text": "ஒரு பெருமாளின் ஒருவர் அகலம் 20 செ.மீ. பரிமாணம் என்ன?",
+      "options": [
+        "A) 20 சதுரக் கால்க்கண்டு",
+        "B) 25 சதுரக் கால்க்கண்டு",
+        "C) 30 சதுரக் கால்க்கண்டு",
+        "D) 35 சதுரக் கால்க்கண்டு"
+      ],
+      "answer": "C) 30 சதுரக் கால்க்கண்டு",
+      "explanation": "பரிமாணம் = அகலம் * அகலம், பரிமாணம் = 20 * 20 = 400 சதுரக் கால்க்கண்டு.",
+      "type": "aptitude",
+      "__v": 0
+    },
+    {
+      "_id": "668815f5b7f9839d1d59118c",
+      "question_number": 23,
+      "question_text": "ஒரு பெருமாளின் ஒருவர் அகலம் 25 செ.மீ. பரிமாணம் என்ன?",
+      "options": [
+        "A) 50 சதுரக் கால்க்கண்டு",
+        "B) 60 சதுரக் கால்க்கண்டு",
+        "C) 70 சதுரக் கால்க்கண்டு",
+        "D) 75 சதுரக் கால்க்கண்டு"
+      ],
+      "answer": "D) 75 சதுரக் கால்க்கண்டு",
+      "explanation": "பரிமாணம் = அகலம் * அகலம், பரிமாணம் = 25 * 25 = 625 சதுரக் கால்க்கண்டு.",
+      "type": "aptitude",
+      "__v": 0
+    },
+    {
+      "_id": "668815f5b7f9839d1d59118d",
+      "question_number": 24,
+      "question_text": "ஒரு பெருமாளின் ஒருவர் அகலம் 30 செ.மீ. பரிமாணம் என்ன?",
+      "options": [
+        "A) 100 சதுரக் கால்க்கண்டு",
+        "B) 200 சதுரக் கால்க்கண்டு",
+        "C) 300 சதுரக் கால்க்கண்டு",
+        "D) 400 சதுரக் கால்க்கண்டு"
+      ],
+      "answer": "B) 200 சதுரக் கால்க்கண்டு",
+      "explanation": "பரிமாணம் = அகலம் * அகலம், பரிமாணம் = 30 * 30 = 900 சதுரக் கால்க்கண்டு.",
+      "type": "aptitude",
+      "__v": 0
+    },
+    {
+      "_id": "668815f5b7f9839d1d59118e",
+      "question_number": 25,
+      "question_text": "ஒரு பரிமாணம் ஆகவே இருக்கும் வேகத்தைக் காட்டும் கால அளவீட்டு மாறுதல் என்ன?",
+      "options": [
+        "A) மாறுதல் வேகம்",
+        "B) மாறுதல் நேரம்",
+        "C) மாறுதல் தொலைவு",
+        "D) மாறுதல் சக்தி"
+      ],
+      "answer": "A) மாறுதல் வேகம்",
+      "explanation": "மாறுதல் வேகம் = அந்த வண்டியின் பயண மாறுதல் வேகம்.",
+      "type": "aptitude",
+      "__v": 0
+    },
+    {
+      "_id": "668815f5b7f9839d1d59118f",
+      "question_number": 26,
+      "question_text": "ஒரு சீமான் வீட்டில் 50 சதுரக் கால்க்கண்டுகள் வழங்கப்பட்டுள்ளன. அவைகளில் 10 சதுரக் கால்க்கண்டுகள் பற்றி அவர் பயன்படுத்துகிறார். இது எவ்வளவு சதுரக் கால்க்கண்டுகளை வழங்குகிறது?",
+      "options": [
+        "A) 200 ரூபாய்",
+        "B) 250 ரூபாய்",
+        "C) 300 ரூபாய்",
+        "D) 350 ரூபாய்"
+      ],
+      "answer": "C) 300 ரூபாய்",
+      "explanation": "ஒரு சதுரக் கால்க்கண்டுகள் விலை = பரிமாணம் * விலை, ஒரு சதுரக் கால்க்கண்டுகள் விலை = 50 * 6 = 300 ரூபாய்.",
+      "type": "aptitude",
+      "__v": 0
+    },
+    {
+      "_id": "668815f5b7f9839d1d591190",
+      "question_number": 27,
+      "question_text": "ஒரு பரிமாண இரண்டு எல்லைகள் உள்ளன. ஒரு எல்லைகளின் அளவு 30 சதுரக் கால்க்கண்டுகள் மற்றும் மற்றொரு எல்லைகளின் அளவு 20 சதுரக் கால்க்கண்டுகள் ஆகும். இரண்டு எல்லைகளின் பரிமாணம் என்ன?",
+      "options": [
+        "A) 400 சதுரக் கால்க்கண்டு",
+        "B) 450 சதுரக் கால்க்கண்டு",
+        "C) 500 சதுரக் கால்க்கண்டு",
+        "D) 550 சதுரக் கால்க்கண்டு"
+      ],
+      "answer": "B) 450 சதுரக் கால்க்கண்டு",
+      "explanation": "பரிமாணம் = எல்லைகளின் அளவு + எல்லைகளின் அளவு, பரிமாணம் = 30 + 20 = 450 சதுரக் கால்க்கண்டு.",
+      "type": "aptitude",
+      "__v": 0
+    },
+    {
+      "_id": "668815f5b7f9839d1d591191",
+      "question_number": 28,
+      "question_text": "ஒரு பெருமாளின் ஒருவர் கொள்கள் நீளம் 4 சதுரக் கால்க்கண்டுகள் அகலம் 6 செ.மீ. பரிமாணம் என்ன?",
+      "options": [
+        "A) 24 சதுரக் கால்க்கண்டு",
+        "B) 30 சதுரக் கால்க்கண்டு",
+        "C) 40 சதுரக் கால்க்கண்டு",
+        "D) 48 சதுரக் கால்க்கண்டு"
+      ],
+      "answer": "D) 48 சதுரக் கால்க்கண்டு",
+      "explanation": "பரிமாணம் = நீளம் * அகலம், பரிமாணம் = 4 * 6 = 24 சதுரக் கால்க்கண்டு.",
+      "type": "aptitude",
+      "__v": 0
+    },
+    {
+      "_id": "668815f5b7f9839d1d591194",
+      "question_number": 31,
+      "question_text": "ஒரு பெரிய பரிமாணத்தில் 4 சதுரக் கால்க்கண்டுகள் உள்ளது. ஒரு சதுரக் கால்க்கண்டுகளின் பரிமாணம் 6 செ.மீ ஆகும். பரிமாணம் என்ன?",
+      "options": [
+        "A) 24 சதுரக் கால்க்கண்டு",
+        "B) 30 சதுரக் கால்க்கண்டு",
+        "C) 36 சதுரக் கால்க்கண்டு",
+        "D) 48 சதுரக் கால்க்கண்டு"
+      ],
+      "answer": "C) 36 சதுரக் கால்க்கண்டு",
+      "explanation": "பரிமாணம் = அகலம் * அகலம், பரிமாணம் = 6 * 6 = 36 சதுரக் கால்க்கண்டு.",
+      "type": "aptitude",
+      "__v": 0
+    },
+    {
+      "_id": "668815f5b7f9839d1d59119a",
+      "question_number": 37,
+      "question_text": "ஒரு பெருமாளின் ஒருவர் அகலம் 50 செ.மீ. பரிமாணம் என்ன?",
+      "options": [
+        "A) 2400 சதுரக் கால்க்கண்டு",
+        "B) 2500 சதுரக் கால்க்கண்டு",
+        "C) 2600 சதுரக் கால்க்கண்டு",
+        "D) 2700 சதுரக் கால்க்கண்டு"
+      ],
+      "answer": "B) 2500 சதுரக் கால்க்கண்டு",
+      "explanation": "பரிமாணம் = அகலம் * அகலம், பரிமாணம் = 50 * 50 = 2500 சதுரக் கால்க்கண்டு.",
+      "type": "aptitude",
+      "__v": 0
+    },
+    {
+      "_id": "668815f5b7f9839d1d59119b",
+      "question_number": 38,
+      "question_text": "ஒரு பெருமாளின் ஒருவர் அகலம் 55 செ.மீ. பரிமாணம் என்ன?",
+      "options": [
+        "A) 2750 சதுரக் கால்க்கண்டு",
+        "B) 2850 சதுரக் கால்க்கண்டு",
+        "C) 2950 சதுரக் கால்க்கண்டு",
+        "D) 3050 சதுரக் கால்க்கண்டு"
+      ],
+      "answer": "A) 2750 சதுரக் கால்க்கண்டு",
+      "explanation": "பரிமாணம் = அகலம் * அகலம், பரிமாணம் = 55 * 55 = 3025 சதுரக் கால்க்கண்டு.",
+      "type": "aptitude",
+      "__v": 0
+    },
+    {
+      "_id": "668815f5b7f9839d1d59119c",
+      "question_number": 39,
+      "question_text": "ஒரு பெருமாளின் ஒருவர் அகலம் 60 செ.மீ. பரிமாணம் என்ன?",
+      "options": [
+        "A) 3200 சதுரக் கால்க்கண்டு",
+        "B) 3300 சதுரக் கால்க்கண்டு",
+        "C) 3400 சதுரக் கால்க்கண்டு",
+        "D) 3500 சதுரக் கால்க்கண்டு"
+      ],
+      "answer": "A) 3200 சதுரக் கால்க்கண்டு",
+      "explanation": "பரிமாணம் = அகலம் * அகலம், பரிமாணம் = 60 * 60 = 3600 சதுரக் கால்க்கண்டு.",
+      "type": "aptitude",
+      "__v": 0
+    },
+    {
+      "_id": "668815f5b7f9839d1d59119d",
+      "question_number": 40,
+      "question_text": "ஒரு பெருமாளின் ஒருவர் அகலம் 65 செ.மீ. பரிமாணம் என்ன?",
+      "options": [
+        "A) 4200 சதுரக் கால்க்கண்டு",
+        "B) 4300 சதுரக் கால்க்கண்டு",
+        "C) 4400 சதுரக் கால்க்கண்டு",
+        "D) 4500 சதுரக் கால்க்கண்டு"
+      ],
+      "answer": "B) 4300 சதுரக் கால்க்கண்டு",
+      "explanation": "பரிமாணம் = அகலம் * அகலம், பரிமாணம் = 65 * 65 = 4225 சதுரக் கால்க்கண்டு.",
+      "type": "aptitude",
+      "__v": 0
+    },
+    {
+      "_id": "668815f5b7f9839d1d59119e",
+      "question_number": 41,
+      "question_text": "ஒரு பெருமாளின் ஒருவர் அகலம் 70 செ.மீ. பரிமாணம் என்ன?",
+      "options": [
+        "A) 4800 சதுரக் கால்க்கண்டு",
+        "B) 4900 சதுரக் கால்க்கண்டு",
+        "C) 5000 சதுரக் கால்க்கண்டு",
+        "D) 5100 சதுரக் கால்க்கண்டு"
+      ],
+      "answer": "B) 4900 சதுரக் கால்க்கண்டு",
+      "explanation": "பரிமாணம் = அகலம் * அகலம், பரிமாணம் = 70 * 70 = 4900 சதுரக் கால்க்கண்டு.",
+      "type": "aptitude",
+      "__v": 0
+    },
+    {
+      "_id": "668815f5b7f9839d1d59119f",
+      "question_number": 42,
+      "question_text": "ஒரு பெருமாளின் ஒருவர் அகலம் 75 செ.மீ. பரிமாணம் என்ன?",
+      "options": [
+        "A) 5600 சதுரக் கால்க்கண்டு",
+        "B) 5700 சதுரக் கால்க்கண்டு",
+        "C) 5800 சதுரக் கால்க்கண்டு",
+        "D) 5900 சதுரக் கால்க்கண்டு"
+      ],
+      "answer": "C) 5800 சதுரக் கால்க்கண்டு",
+      "explanation": "பரிமாணம் = அகலம் * அகலம், பரிமாணம் = 75 * 75 = 5625 சதுரக் கால்க்கண்டு.",
+      "type": "aptitude",
+      "__v": 0
+    },
+    {
+      "_id": "668815f5b7f9839d1d5911a0",
+      "question_number": 43,
+      "question_text": "ஒரு பெருமாளின் ஒருவர் அகலம் 80 செ.மீ. பரிமாணம் என்ன?",
+      "options": [
+        "A) 6400 சதுரக் கால்க்கண்டு",
+        "B) 6500 சதுரக் கால்க்கண்டு",
+        "C) 6600 சதுரக் கால்க்கண்டு",
+        "D) 6700 சதுரக் கால்க்கண்டு"
+      ],
+      "answer": "A) 6400 சதுரக் கால்க்கண்டு",
+      "explanation": "பரிமாணம் = அகலம் * அகலம், பரிமாணம் = 80 * 80 = 6400 சதுரக் கால்க்கண்டு.",
+      "type": "aptitude",
+      "__v": 0
+    },
+    {
+      "_id": "668815f5b7f9839d1d5911a1",
+      "question_number": 44,
+      "question_text": "ஒரு பெருமாளின் ஒருவர் அகலம் 85 செ.மீ. பரிமாணம் என்ன?",
+      "options": [
+        "A) 7200 சதுரக் கால்க்கண்டு",
+        "B) 7300 சதுரக் கால்க்கண்டு",
+        "C) 7400 சதுரக் கால்க்கண்டு",
+        "D) 7500 சதுரக் கால்க்கண்டு"
+      ],
+      "answer": "C) 7400 சதுரக் கால்க்கண்டு",
+      "explanation": "பரிமாணம் = அகலம் * அகலம், பரிமாணம் = 85 * 85 = 7225 சதுரக் கால்க்கண்டு.",
+      "type": "aptitude",
+      "__v": 0
+    },
+    {
+      "_id": "668815f5b7f9839d1d5911a2",
+      "question_number": 45,
+      "question_text": "ஒரு பெருமாளின் ஒருவர் அகலம் 90 செ.மீ. பரிமாணம் என்ன?",
+      "options": [
+        "A) 8100 சதுரக் கால்க்கண்டு",
+        "B) 8200 சதுரக் கால்க்கண்டு",
+        "C) 8300 சதுரக் கால்க்கண்டு",
+        "D) 8400 சதுரக் கால்க்கண்டு"
+      ],
+      "answer": "A) 8100 சதுரக் கால்க்கண்டு",
+      "explanation": "பரிமாணம் = அகலம் * அகலம், பரிமாணம் = 90 * 90 = 8100 சதுரக் கால்க்கண்டு.",
+      "type": "aptitude",
+      "__v": 0
+    },
+    {
+      "_id": "668815f5b7f9839d1d5911a3",
+      "question_number": 46,
+      "question_text": "ஒரு பெருமாளின் ஒருவர் அகலம் 95 செ.மீ. பரிமாணம் என்ன?",
+      "options": [
+        "A) 9000 சதுரக் கால்க்கண்டு",
+        "B) 9100 சதுரக் கால்க்கண்டு",
+        "C) 9200 சதுரக் கால்க்கண்டு",
+        "D) 9300 சதுரக் கால்க்கண்டு"
+      ],
+      "answer": "C) 9200 சதுரக் கால்க்கண்டு",
+      "explanation": "பரிமாணம் = அகலம் * அகலம், பரிமாணம் = 95 * 95 = 9025 சதுரக் கால்க்கண்டு.",
+      "type": "aptitude",
+      "__v": 0
+    },
+    {
+      "_id": "668815f5b7f9839d1d5911a4",
+      "question_number": 47,
+      "question_text": "ஒரு பெருமாளின் ஒருவர் அகலம் 100 செ.மீ. பரிமாணம் என்ன?",
+      "options": [
+        "A) 10,000 சதுரக் கால்க்கண்டு",
+        "B) 10,100 சதுரக் கால்க்கண்டு",
+        "C) 10,200 சதுரக் கால்க்கண்டு",
+        "D) 10,300 சதுரக் கால்க்கண்டு"
+      ],
+      "answer": "A) 10,000 சதுரக் கால்க்கண்டு",
+      "explanation": "பரிமாணம் = அகலம் * அகலம், பரிமாணம் = 100 * 100 = 10,000 சதுரக் கால்க்கண்டு.",
+      "type": "aptitude",
+      "__v": 0
+    },
+    {
+      "_id": "668815f5b7f9839d1d5911a5",
+      "question_number": 48,
+      "question_text": "ஒரு பெருமாளின் ஒருவர் அகலம் 105 செ.மீ. பரிமாணம் என்ன?",
+      "options": [
+        "A) 11,000 சதுரக் கால்க்கண்டு",
+        "B) 11,200 சதுரக் கால்க்கண்டு",
+        "C) 11,300 சதுரக் கால்க்கண்டு",
+        "D) 11,400 சதுரக் கால்க்கண்டு"
+      ],
+      "answer": "C) 11,300 சதுரக் கால்க்கண்டு",
+      "explanation": "பரிமாணம் = அகலம் * அகலம், பரிமாணம் = 105 * 105 = 11,025 சதுரக் கால்க்கண்டு.",
+      "type": "aptitude",
+      "__v": 0
+    },
+    {
+      "_id": "668815f5b7f9839d1d5911a6",
+      "question_number": 49,
+      "question_text": "ஒரு பெருமாளின் ஒருவர் அகலம் 110 செ.மீ. பரிமாணம் என்ன?",
+      "options": [
+        "A) 12,000 சதுரக் கால்க்கண்டு",
+        "B) 12,100 சதுரக் கால்க்கண்டு",
+        "C) 12,200 சதுரக் கால்க்கண்டு",
+        "D) 12,300 சதுரக் கால்க்கண்டு"
+      ],
+      "answer": "A) 12,000 சதுரக் கால்க்கண்டு",
+      "explanation": "பரிமாணம் = அகலம் * அகலம், பரிமாணம் = 110 * 110 = 12,100 சதுரக் கால்க்கண்டு.",
+      "type": "aptitude",
+      "__v": 0
+    },
+    {
+      "_id": "668815f5b7f9839d1d5911a7",
+      "question_number": 50,
+      "question_text": "ஒரு பெருமாளின் ஒருவர் அகலம் 115 செ.மீ. பரிமாணம் என்ன?",
+      "options": [
+        "A) 13,000 சதுரக் கால்க்கண்டு",
+        "B) 13,200 சதுரக் கால்க்கண்டு",
+        "C) 13,300 சதுரக் கால்க்கண்டு",
+        "D) 13,400 சதுரக் கால்க்கண்டு"
+      ],
+      "answer": "B) 13,200 சதுரக் கால்க்கண்டு",
+      "explanation": "பரிமாணம் = அகலம் * அகலம், பரிமாணம் = 115 * 115 = 13,225 சதுரக் கால்க்கண்டு.",
+      "type": "aptitude",
+      "__v": 0
+    },
+    {
+      "_id": "668815f5b7f9839d1d5911a8",
+      "question_number": 51,
+      "question_text": "ஒரு பெருமாளின் ஒருவர் அகலம் 120 செ.மீ. பரிமாணம் என்ன?",
+      "options": [
+        "A) 14,000 சதுரக் கால்க்கண்டு",
+        "B) 14,100 சதுரக் கால்க்கண்டு",
+        "C) 14,200 சதுரக் கால்க்கண்டு",
+        "D) 14,300 சதுரக் கால்க்கண்டு"
+      ],
+      "answer": "A) 14,000 சதுரக் கால்க்கண்டு",
+      "explanation": "பரிமாணம் = அகலம் * அகலம், பரிமாணம் = 120 * 120 = 14,400 சதுரக் கால்க்கண்டு.",
+      "type": "aptitude",
+      "__v": 0
+    },
+    {
+      "_id": "668815f5b7f9839d1d5911a9",
+      "question_number": 52,
+      "question_text": "ஒரு பெருமாளின் ஒருவர் அகலம் 125 செ.மீ. பரிமாணம் என்ன?",
+      "options": [
+        "A) 15,000 சதுரக் கால்க்கண்டு",
+        "B) 15,200 சதுரக் கால்க்கண்டு",
+        "C) 15,300 சதுரக் கால்க்கண்டு",
+        "D) 15,400 சதுரக் கால்க்கண்டு"
+      ],
+      "answer": "C) 15,300 சதுரக் கால்க்கண்டு",
+      "explanation": "பரிமாணம் = அகலம் * அகலம், பரிமாணம் = 125 * 125 = 15,625 சதுரக் கால்க்கண்டு.",
+      "type": "aptitude",
+      "__v": 0
+    },
+    {
+      "_id": "668815f5b7f9839d1d5911aa",
+      "question_number": 53,
+      "question_text": "ஒரு பெருமாளின் ஒருவர் அகலம் 130 செ.மீ. பரிமாணம் என்ன?",
+      "options": [
+        "A) 16,000 சதுரக் கால்க்கண்டு",
+        "B) 16,100 சதுரக் கால்க்கண்டு",
+        "C) 16,200 சதுரக் கால்க்கண்டு",
+        "D) 16,300 சதுரக் கால்க்கண்டு"
+      ],
+      "answer": "A) 16,000 சதுரக் கால்க்கண்டு",
+      "explanation": "பரிமாணம் = அகலம் * அகலம், பரிமாணம் = 130 * 130 = 16,900 சதுரக் கால்க்கண்டு.",
+      "type": "aptitude",
+      "__v": 0
+    },
+    {
+      "_id": "668815f5b7f9839d1d5911ab",
+      "question_number": 54,
+      "question_text": "ஒரு பெருமாளின் ஒருவர் அகலம் 135 செ.மீ. பரிமாணம் என்ன?",
+      "options": [
+        "A) 17,000 சதுரக் கால்க்கண்டு",
+        "B) 17,200 சதுரக் கால்க்கண்டு",
+        "C) 17,300 சதுரக் கால்க்கண்டு",
+        "D) 17,400 சதுரக் கால்க்கண்டு"
+      ],
+      "answer": "C) 17,300 சதுரக் கால்க்கண்டு",
+      "explanation": "பரிமாணம் = அகலம் * அகலம், பரிமாணம் = 135 * 135 = 18,225 சதுரக் கால்க்கண்டு.",
+      "type": "aptitude",
+      "__v": 0
+    },
+    {
+      "_id": "668815f5b7f9839d1d5911ac",
+      "question_number": 55,
+      "question_text": "ஒரு பெருமாளின் ஒருவர் அகலம் 140 செ.மீ. பரிமாணம் என்ன?",
+      "options": [
+        "A) 18,000 சதுரக் கால்க்கண்டு",
+        "B) 18,100 சதுரக் கால்க்கண்டு",
+        "C) 18,200 சதுரக் கால்க்கண்டு",
+        "D) 18,300 சதுரக் கால்க்கண்டு"
+      ],
+      "answer": "A) 18,000 சதுரக் கால்க்கண்டு",
+      "explanation": "பரிமாணம் = அகலம் * அகலம், பரிமாணம் = 140 * 140 = 19,600 சதுரக் கால்க்கண்டு.",
+      "type": "aptitude",
+      "__v": 0
+    },
+    {
+      "_id": "668815f5b7f9839d1d5911ad",
+      "question_number": 56,
+      "question_text": "ஒரு பெரிய குடம் 12 லிட்டர் நீரை கொண்டுள்ளது. இதனை எவ்வளவு மில்லிலிட்டராக மாற்றலாம்?",
+      "options": [
+        "A) 1200 மில்லி",
+        "B) 12000 மில்லி",
+        "C) 120000 மில்லி",
+        "D) 1200000 மில்லி"
+      ],
+      "answer": "B) 12000 மில்லி",
+      "explanation": "1 லிட்டர் = 1000 மில்லிலிட்டர், எனவே 12 லிட்டர் = 12000 மில்லிலிட்டர்.",
+      "type": "aptitude",
+      "__v": 0
+    },
+    {
+      "_id": "668815f5b7f9839d1d5911ae",
+      "question_number": 57,
+      "question_text": "சூரிய ஒளியில் உள்ள காந்திய அளவு எவ்வளவு?",
+      "options": [
+        "A) 300,000 கி.மீ/வினாடி",
+        "B) 400,000 கி.மீ/வினாடி",
+        "C) 500,000 கி.மீ/வினாடி",
+        "D) 600,000 கி.மீ/வினாடி"
+      ],
+      "answer": "A) 300,000 கி.மீ/வினாடி",
+      "explanation": "சூரிய ஒளியின் வேகம் இருமுறை கண்டறியப்பட்ட வேகமானது 300,000 கிலோமீட்டர்/வினாடி ஆகும்.",
+      "type": "aptitude",
+      "__v": 0
+    },
+    {
+      "_id": "668815f5b7f9839d1d5911af",
+      "question_number": 58,
+      "question_text": "நீர் எந்த வெப்பநிலையில் காத்திரமாக மாறும்?",
+      "options": [
+        "A) 0°C",
+        "B) 50°C",
+        "C) 100°C",
+        "D) 200°C"
+      ],
+      "answer": "C) 100°C",
+      "explanation": "நீரின் மாறுதல் வெப்பநிலை 100°C ஆகும்.",
+      "type": "aptitude",
+      "__v": 0
+    },
+    {
+      "_id": "668815f5b7f9839d1d5911b0",
+      "question_number": 59,
+      "question_text": "மின் அலைகள் எவ்வாறு பரவும்?",
+      "options": [
+        "A) நேரான கோடு",
+        "B) வளைந்த கோடு",
+        "C) வளையல்",
+        "D) முற்றிலும் நியாயம்"
+      ],
+      "answer": "A) நேரான கோடு",
+      "explanation": "மின் அலைகள் நேராக பரவுகின்றன.",
+      "type": "aptitude",
+      "__v": 0
+    },
+    {
+      "_id": "668815f5b7f9839d1d5911b1",
+      "question_number": 60,
+      "question_text": "சூரியன் எவ்வளவு வயதாகும்?",
+      "options": [
+        "A) 4.6 பில்லியன் ஆண்டுகள்",
+        "B) 4.6 மில்லியன் ஆண்டுகள்",
+        "C) 5.6 பில்லியன் ஆண்டுகள்",
+        "D) 5.6 மில்லியன் ஆண்டுகள்"
+      ],
+      "answer": "A) 4.6 பில்லியன் ஆண்டுகள்",
+      "explanation": "சூரியன் சுமார் 4.6 பில்லியன் ஆண்டுகளாகக் காணப்படுகிறது.",
+      "type": "aptitude",
+      "__v": 0
+    },
+    {
+      "_id": "668815f5b7f9839d1d5911b2",
+      "question_number": 61,
+      "question_text": "ஒலி எவ்வாறு பரவும்?",
+      "options": [
+        "A) வெற்றிடத்தில்",
+        "B) திடத்தில்",
+        "C) துகள்களில்",
+        "D) நீரில்"
+      ],
+      "answer": "B) திடத்தில்",
+      "explanation": "ஒலி திட மற்றும் திரவப் பொருட்களில் விரைவாகப் பரவுகிறது.",
+      "type": "aptitude",
+      "__v": 0
+    },
+    {
+      "_id": "668815f5b7f9839d1d5911b3",
+      "question_number": 62,
+      "question_text": "நம் மண்ணின் விலா அமைப்பு எவ்வாறு வடிவமைக்கப்பட்டுள்ளது?",
+      "options": [
+        "A) நேரடி",
+        "B) வளைந்த",
+        "C) நெளிந்த",
+        "D) முற்றிலும் சமம்"
+      ],
+      "answer": "B) வளைந்த",
+      "explanation": "நம் மண்ணின் விலா அமைப்பு வளைந்த வடிவில் உள்ளது.",
+      "type": "aptitude",
+      "__v": 0
+    },
+    {
+      "_id": "668815f5b7f9839d1d5911b4",
+      "question_number": 63,
+      "question_text": "புரதங்கள் எங்கே இருந்து கிடைக்கின்றன?",
+      "options": [
+        "A) சோளம்",
+        "B) அரிசி",
+        "C) பருப்பு",
+        "D) மாவு"
+      ],
+      "answer": "C) பருப்பு",
+      "explanation": "புரதங்கள் பருப்புகளில் அதிகமாக உள்ளன.",
+      "type": "aptitude",
+      "__v": 0
+    },
+    {
+      "_id": "668815f5b7f9839d1d5911b5",
+      "question_number": 64,
+      "question_text": "பூமியின் மேற்பரப்பு எவ்வளவு?",
+      "options": [
+        "A) 300 மில்லியன் சதுரக் கி.மீ.",
+        "B) 400 மில்லியன் சதுரக் கி.மீ.",
+        "C) 500 மில்லியன் சதுரக் கி.மீ.",
+        "D) 600 மில்லியன் சதுரக் கி.மீ."
+      ],
+      "answer": "A) 300 மில்லியன் சதுரக் கி.மீ.",
+      "explanation": "பூமியின் மேற்பரப்பு சுமார் 300 மில்லியன் சதுரக் கிலோமீட்டர் ஆகும்.",
+      "type": "aptitude",
+      "__v": 0
+    },
+    {
+      "_id": "668815f5b7f9839d1d5911b6",
+      "question_number": 65,
+      "question_text": "அணுவின் மையம் என்ன?",
+      "options": [
+        "A) நியூகிளியஸ்",
+        "B) புரோட்டான்",
+        "C) எலெக்ட்ரான்",
+        "D) நியூட்ரான்"
+      ],
+      "answer": "A) நியூகிளியஸ்",
+      "explanation": "அணுவின் மையம் நியூகிளியஸ் எனப்படும்.",
+      "type": "aptitude",
+      "__v": 0
+    },
+    {
+      "_id": "668815f5b7f9839d1d5911b7",
+      "question_number": 66,
+      "question_text": "ஒரு எண்ணெய் அடுக்கு தங்குதல் எந்த அளவிலான புற்றுநோயை உருவாக்கும்?",
+      "options": [
+        "A) சிறிய அளவு",
+        "B) நடுத்தர அளவு",
+        "C) பெரிய அளவு",
+        "D) மிகப்பெரிய அளவு"
+      ],
+      "answer": "C) பெரிய அளவு",
+      "explanation": "ஒரு எண்ணெய் அடுக்கு தங்குதல் பெரிய அளவிலான புற்றுநோயை உருவாக்கும்.",
+      "type": "aptitude",
+      "__v": 0
+    },
+    {
+      "_id": "668815f5b7f9839d1d5911b8",
+      "question_number": 67,
+      "question_text": "ஒலியின் வேகம் எவ்வளவு?",
+      "options": [
+        "A) 330 மீட்டர்/வினாடி",
+        "B) 340 மீட்டர்/வினாடி",
+        "C) 350 மீட்டர்/வினாடி",
+        "D) 360 மீட்டர்/வினாடி"
+      ],
+      "answer": "B) 340 மீட்டர்/வினாடி",
+      "explanation": "ஒலியின் வேகம் சுமார் 340 மீட்டர்/வினாடி ஆகும்.",
+      "type": "aptitude",
+      "__v": 0
+    },
+    {
+      "_id": "668815f5b7f9839d1d5911b9",
+      "question_number": 68,
+      "question_text": "ஒளியின் வேகம் எவ்வளவு?",
+      "options": [
+        "A) 300,000 கி.மீ/வினாடி",
+        "B) 400,000 கி.மீ/வினாடி",
+        "C) 500,000 கி.மீ/வினாடி",
+        "D) 600,000 கி.மீ/வினாடி"
+      ],
+      "answer": "A) 300,000 கி.மீ/வினாடி",
+      "explanation": "ஒளியின் வேகம் சுமார் 300,000 கிலோமீட்டர்/வினாடி ஆகும்.",
+      "type": "aptitude",
+      "__v": 0
+    },
+    {
+      "_id": "668815f5b7f9839d1d5911ba",
+      "question_number": 69,
+      "question_text": "நீரின் அடர்த்தி எவ்வளவு?",
+      "options": [
+        "A) 1 கிராம்/செ.மீ³",
+        "B) 2 கிராம்/செ.மீ³",
+        "C) 3 கிராம்/செ.மீ³",
+        "D) 4 கிராம்/செ.மீ³"
+      ],
+      "answer": "A) 1 கிராம்/செ.மீ³",
+      "explanation": "நீரின் அடர்த்தி 1 கிராம்/செ.மீ³ ஆகும்.",
+      "type": "aptitude",
+      "__v": 0
+    },
+    {
+      "_id": "668815f5b7f9839d1d5911bb",
+      "question_number": 70,
+      "question_text": "பூமியின் சுற்று வட்டம் எவ்வளவு?",
+      "options": [
+        "A) 20,000 கி.மீ.",
+        "B) 30,000 கி.மீ.",
+        "C) 40,000 கி.மீ.",
+        "D) 50,000 கி.மீ."
+      ],
+      "answer": "C) 40,000 கி.மீ.",
+      "explanation": "பூமியின் சுற்று வட்டம் சுமார் 40,000 கி.மீ ஆகும்.",
+      "type": "aptitude",
+      "__v": 0
+    },
+    {
+      "_id": "668815f5b7f9839d1d5911bc",
+      "question_number": 71,
+      "question_text": "ஒலியின் அலைநீளம் எவ்வளவு?",
+      "options": [
+        "A) 1 மீட்டர்",
+        "B) 2 மீட்டர்",
+        "C) 3 மீட்டர்",
+        "D) 4 மீட்டர்"
+      ],
+      "answer": "A) 1 மீட்டர்",
+      "explanation": "ஒலியின் அலைநீளம் சுமார் 1 மீட்டர் ஆகும்.",
+      "type": "aptitude",
+      "__v": 0
+    },
+    {
+      "_id": "668815f5b7f9839d1d5911bd",
+      "question_number": 72,
+      "question_text": "சூரிய ஒளியின் நிறம் என்ன?",
+      "options": [
+        "A) சிவப்பு",
+        "B) மஞ்சள்",
+        "C) நீலம்",
+        "D) வெள்ளை"
+      ],
+      "answer": "D) வெள்ளை",
+      "explanation": "சூரிய ஒளி வெள்ளை நிறத்தில் காணப்படுகிறது.",
+      "type": "aptitude",
+      "__v": 0
+    },
+    {
+      "_id": "668815f5b7f9839d1d5911be",
+      "question_number": 73,
+      "question_text": "வானவில்லின் வண்ணங்கள் எவ்வாறு தோன்றும்?",
+      "options": [
+        "A) ஒளி விரவியிலிருந்து",
+        "B) ஒளி அழுத்தத்திலிருந்து",
+        "C) ஒளி மறைந்துவிடும்",
+        "D) ஒளி வெப்பம்"
+      ],
+      "answer": "A) ஒளி விரவியிலிருந்து",
+      "explanation": "வானவில்லின் வண்ணங்கள் ஒளி விரவியிலிருந்து தோன்றுகின்றன.",
+      "type": "aptitude",
+      "__v": 0
+    },
+    {
+      "_id": "668815f5b7f9839d1d5911bf",
+      "question_number": 74,
+      "question_text": "அடர்த்தியான பொருள் என்ன?",
+      "options": [
+        "A) எடை",
+        "B) பரிமாணம்",
+        "C) அளவு",
+        "D) நிறை"
+      ],
+      "answer": "D) நிறை",
+      "explanation": "அடர்த்தியான பொருள் நிறையுடன் பார்க்கப்படும்.",
+      "type": "aptitude",
+      "__v": 0
+    },
+    {
+      "_id": "668815f5b7f9839d1d5911c0",
+      "question_number": 75,
+      "question_text": "நீல நிறம் எதனால் ஏற்படுகிறது?",
+      "options": [
+        "A) சூரிய ஒளி",
+        "B) நிலவொளி",
+        "C) மின்னல் ஒளி",
+        "D) வில்வெள்ளி"
+      ],
+      "answer": "A) சூரிய ஒளி",
+      "explanation": "நீல நிறம் சூரிய ஒளியினால் ஏற்படுகிறது.",
+      "type": "aptitude",
+      "__v": 0
+    },
+    {
+      "_id": "668815f5b7f9839d1d5911c1",
+      "question_number": 76,
+      "question_text": "எந்த ஒளியில் மின்னல் தோன்றும்?",
+      "options": [
+        "A) சிவப்பு",
+        "B) மஞ்சள்",
+        "C) நீலம்",
+        "D) வெள்ளை"
+      ],
+      "answer": "D) வெள்ளை",
+      "explanation": "மின்னல் வெள்ளை ஒளியில் தோன்றும்.",
+      "type": "aptitude",
+      "__v": 0
+    },
+    {
+      "_id": "668815f5b7f9839d1d5911c2",
+      "question_number": 77,
+      "question_text": "சூரிய ஒளியின் விலா பரப்பு எவ்வளவு?",
+      "options": [
+        "A) 1000 சதுர கி.மீ.",
+        "B) 2000 சதுர கி.மீ.",
+        "C) 3000 சதுர கி.மீ.",
+        "D) 4000 சதுர கி.மீ."
+      ],
+      "answer": "C) 3000 சதுர கி.மீ.",
+      "explanation": "சூரிய ஒளியின் விலா பரப்பு சுமார் 3000 சதுர கிலோமீட்டர் ஆகும்.",
+      "type": "aptitude",
+      "__v": 0
+    },
+    {
+      "_id": "668815f5b7f9839d1d5911c3",
+      "question_number": 78,
+      "question_text": "விலா சூடானது எவ்வளவு?",
+      "options": [
+        "A) 200°C",
+        "B) 400°C",
+        "C) 600°C",
+        "D) 800°C"
+      ],
+      "answer": "C) 600°C",
+      "explanation": "விலா சூடானது சுமார் 600°C ஆகும்.",
+      "type": "aptitude",
+      "__v": 0
+    },
+    {
+      "_id": "668815f5b7f9839d1d5911c4",
+      "question_number": 79,
+      "question_text": "பூமியின் மையம் எவ்வளவு?",
+      "options": [
+        "A) 4000 கி.மீ.",
+        "B) 5000 கி.மீ.",
+        "C) 6000 கி.மீ.",
+        "D) 7000 கி.மீ."
+      ],
+      "answer": "C) 6000 கி.மீ.",
+      "explanation": "பூமியின் மையம் சுமார் 6000 கிலோமீட்டர் ஆகும்.",
+      "type": "aptitude",
+      "__v": 0
+    },
+    {
+      "_id": "668815f5b7f9839d1d5911c5",
+      "question_number": 80,
+      "question_text": "நிலவின் அடர்த்தி எவ்வளவு?",
+      "options": [
+        "A) 2.7 கிராம்/செ.மீ³",
+        "B) 3.7 கிராம்/செ.மீ³",
+        "C) 4.7 கிராம்/செ.மீ³",
+        "D) 5.7 கிராம்/செ.மீ³"
+      ],
+      "answer": "B) 3.7 கிராம்/செ.மீ³",
+      "explanation": "நிலவின் அடர்த்தி சுமார் 3.7 கிராம்/செ.மீ³ ஆகும்.",
+      "type": "aptitude",
+      "__v": 0
+    },
+    {
+      "_id": "668815f5b7f9839d1d5911c6",
+      "question_number": 81,
+      "question_text": "அணுக்கள் எவ்வளவு சிறியவை?",
+      "options": [
+        "A) 10^-6 மீட்டர்",
+        "B) 10^-7 மீட்டர்",
+        "C) 10^-8 மீட்டர்",
+        "D) 10^-9 மீட்டர்"
+      ],
+      "answer": "D) 10^-9 மீட்டர்",
+      "explanation": "அணுக்கள் சுமார் 10^-9 மீட்டர் அளவுள்ளன.",
+      "type": "aptitude",
+      "__v": 0
+    },
+    {
+      "_id": "668815f5b7f9839d1d5911c7",
+      "question_number": 82,
+      "question_text": "பொருளின் நிலை என்ன?",
+      "options": [
+        "A) திட",
+        "B) திரவ",
+        "C) வாயு",
+        "D) எல்லாம்"
+      ],
+      "answer": "D) எல்லாம்",
+      "explanation": "பொருள் திட, திரவ மற்றும் வாயு நிலைகளில் காணப்படும்.",
+      "type": "aptitude",
+      "__v": 0
+    },
+    {
+      "_id": "668815f5b7f9839d1d5911c8",
+      "question_number": 83,
+      "question_text": "நிலவின் பரப்பு எவ்வளவு?",
+      "options": [
+        "A) 10 மில்லியன் சதுர கி.மீ.",
+        "B) 20 மில்லியன் சதுர கி.மீ.",
+        "C) 30 மில்லியன் சதுர கி.மீ.",
+        "D) 40 மில்லியன் சதுர கி.மீ."
+      ],
+      "answer": "B) 20 மில்லியன் சதுர கி.மீ.",
+      "explanation": "நிலவின் பரப்பு சுமார் 20 மில்லியன் சதுர கிலோமீட்டர் ஆகும்.",
+      "type": "aptitude",
+      "__v": 0
+    },
+    {
+      "_id": "668815f5b7f9839d1d5911c9",
+      "question_number": 84,
+      "question_text": "நிலவின் வெப்பநிலை எவ்வளவு?",
+      "options": [
+        "A) -100°C",
+        "B) -200°C",
+        "C) -300°C",
+        "D) -400°C"
+      ],
+      "answer": "A) -100°C",
+      "explanation": "நிலவின் வெப்பநிலை சுமார் -100°C ஆகும்.",
+      "type": "aptitude",
+      "__v": 0
+    },
+    {
+      "_id": "668815f5b7f9839d1d5911ca",
+      "question_number": 85,
+      "question_text": "வெப்பநிலை அதிகமாகும் போது எது நிகழும்?",
+      "options": [
+        "A) நீராவியாக்கம்",
+        "B) உறைவாகம்",
+        "C) சூடுபோடுதல்",
+        "D) உறைவானம்"
+      ],
+      "answer": "A) நீராவியாக்கம்",
+      "explanation": "வெப்பநிலை அதிகமாகும் போது நீர் நீராவியாக்கம் ஆகிறது.",
+      "type": "aptitude",
+      "__v": 0
+    },
+    {
+      "_id": "66881d9db7f9839d1d6c20c1",
+      "question_number": 1,
+      "question_text": "கீழே உள்ளவற்றில் எது ஒற்றுமையில்லாதது?",
+      "options": [
+        "A) வட்டம்",
+        "B) மூவரிசை கோணம்",
+        "C) சதுரம்",
+        "D) எலிப்ஸ்"
+      ],
+      "answer": "D) எலிப்ஸ்",
+      "explanation": "எலிப்ஸ் மட்டுமே நீளம் மற்றும் அகலத்தில் விதிவிலக்காக உள்ளது.",
+      "type": "aptitude",
+      "__v": 0
+    },
+    {
+      "_id": "66881d9db7f9839d1d6c20c2",
+      "question_number": 2,
+      "question_text": "ஒரு தேர் 5 என ஒரே முகத்தில் காட்டினால், அதற்கு மாறாக உள்ள முகத்தில் எது இருக்கும்?",
+      "options": [
+        "A) 1",
+        "B) 2",
+        "C) 6",
+        "D) 4"
+      ],
+      "answer": "C) 6",
+      "explanation": "ஒரு பொதுவான தேர், மாறுபட்ட முகங்களில் உள்ள எண்கள் 7 வரை சேர்க்கின்றன.",
+      "type": "aptitude",
+      "__v": 0
+    },
+    {
+      "_id": "66881d9db7f9839d1d6c20c3",
+      "question_number": 3,
+      "question_text": "கீழ்க்கண்ட எண்களில் எது தொடரில் சேரவில்லை: 2, 4, 8, 16, 32, 64, 100?",
+      "options": [
+        "A) 4",
+        "B) 16",
+        "C) 64",
+        "D) 100"
+      ],
+      "answer": "D) 100",
+      "explanation": "100 தவிர அனைத்தும் 2ன் சக்தியாகும்.",
+      "type": "aptitude",
+      "__v": 0
+    },
+    {
+      "_id": "66881d9db7f9839d1d6c20c4",
+      "question_number": 4,
+      "question_text": "ஒரு குறியீட்டு மொழியில், 'பூனை' '3120' ஆக எழுதப்பட்டால், 'நாய்' எப்படி எழுதப்படும்?",
+      "options": [
+        "A) 4157",
+        "B) 4075",
+        "C) 3157",
+        "D) 4150"
+      ],
+      "answer": "A) 4157",
+      "explanation": "ஒவ்வொரு எழுத்தும் அதன் மெய்யெழுத்து அமைப்பில் மாற்றப்படுகிறது: ந(4), அ(15), ய(7).",
+      "type": "aptitude",
+      "__v": 0
+    },
+    {
+      "_id": "66881d9db7f9839d1d6c20c5",
+      "question_number": 5,
+      "question_text": "ஒரு தேர் ஆறு முகங்கள் கொண்டது, ஒவ்வொரு முகமும் 1 முதல் 6 வரை மாறுபடும் எண் காட்டும். தேர் இரண்டு முறை உருண்டால், 7 எண்ணை பெறுவதற்கான சாத்தியம் என்ன?",
+      "options": [
+        "A) 1/6",
+        "B) 1/12",
+        "C) 1/36",
+        "D) 1/18"
+      ],
+      "answer": "A) 1/6",
+      "explanation": "6 கூட்டு (1,6), (2,5), (3,4), (4,3), (5,2), (6,1) 7 எனும் 36 நிகழ்வுகளில்.",
+      "type": "aptitude",
+      "__v": 0
+    },
+    {
+      "_id": "66881d9db7f9839d1d6c20c6",
+      "question_number": 6,
+      "question_text": "கீழ்காணும் வரைபடங்களில் எது 'பறவை', 'சிட்டுக்குருவி', 'கருஞ்சிட்டுக்குருவி' ஆகியவற்றின் உறவைச் சித்தரிக்கிறது?",
+      "options": [
+        "A) மூன்று இணைந்த வட்டங்கள்",
+        "B) இரண்டு இணைந்த வட்டங்கள் மற்றும் ஒன்று தனியாக",
+        "C) ஒன்று பெரிய வட்டம் மற்றும் இரண்டு சிறிய வட்டங்கள் உள்ளே",
+        "D) மூன்று தனி வட்டங்கள்"
+      ],
+      "answer": "C) ஒன்று பெரிய வட்டம் மற்றும் இரண்டு சிறிய வட்டங்கள் உள்ளே",
+      "explanation": "சிட்டுக்குருவி மற்றும் கருஞ்சிட்டுக்குருவி இரண்டும் பறவைகள் வகை.",
+      "type": "aptitude",
+      "__v": 0
+    },
+    {
+      "_id": "66881d9db7f9839d1d6c20c7",
+      "question_number": 7,
+      "question_text": "5+3=28, 7+2=63, 6+5=66 என்றால், 8+4=?",
+      "options": [
+        "A) 96",
+        "B) 88",
+        "C) 86",
+        "D) 84"
+      ],
+      "answer": "A) 96",
+      "explanation": "விடைகள் (a+b)*8. ஆகவே, 8+4 = 96.",
+      "type": "aptitude",
+      "__v": 0
+    },
+    {
+      "_id": "66881d9db7f9839d1d6c20c8",
+      "question_number": 8,
+      "question_text": "ஒரு குறியீட்டில், 'கரடி' '7354' என எழுதப்பட்டால், 'சிங்கம்' எவ்வாறு எழுதப்படும்?",
+      "options": [
+        "A) 1294",
+        "B) 3914",
+        "C) 3754",
+        "D) 7314"
+      ],
+      "answer": "B) 3914",
+      "explanation": "க=7, ர=3, ட=5, ய=4; அதேபோல், சி=3, ங்க=9, ம=1, ம்=4.",
+      "type": "aptitude",
+      "__v": 0
+    },
+    {
+      "_id": "66881d9db7f9839d1d6c20c9",
+      "question_number": 9,
+      "question_text": "சில எண்கள் தொடரை முடிக்கிறது: 1, 4, 9, 16, 25, __?",
+      "options": [
+        "A) 30",
+        "B) 36",
+        "C) 49",
+        "D) 64"
+      ],
+      "answer": "B) 36",
+      "explanation": "தொடர் வரிசையில் தொடர்முறை எண்களின் சதுரங்கள் உள்ளன: 1², 2², 3², 4², 5², 6².",
+      "type": "aptitude",
+      "__v": 0
+    },
+    {
+      "_id": "66881d9db7f9839d1d6c20ca",
+      "question_number": 10,
+      "question_text": "ஒரு தேர் உருளுகிறது, மேலும் முடிவு 3 என உள்ளது. தேர் மாறிய முகத்தில் சேர்க்கப்பட்டால் முடிவு என்ன?",
+      "options": [
+        "A) 9",
+        "B) 8",
+        "C) 6",
+        "D) 7"
+      ],
+      "answer": "D) 7",
+      "explanation": "ஒரு பொதுவான தேர், மாறுபட்ட முகங்களில் உள்ள எண்கள் 7 வரை சேர்க்கின்றன.",
+      "type": "aptitude",
+      "__v": 0
+    },
+    {
+      "_id": "66881d9db7f9839d1d6c20cb",
+      "question_number": 11,
+      "question_text": "பொதுவான ஒரு தேர் மூலையில் எண்கள் 1 முதல் 6 வரை இருக்கும்போது எந்த நேர்த்தியான நகர்வுகளின் வரிசை சரியாக உள்ளது?",
+      "options": [
+        "A) 1, 2, 3, 4, 5, 6",
+        "B) 1, 3, 2, 4, 6, 5",
+        "C) 1, 6, 2, 5, 4, 3",
+        "D) 1, 5, 2, 6, 3, 4"
+      ],
+      "answer": "D) 1, 5, 2, 6, 3, 4",
+      "explanation": "ஒரு பொதுவான தேர், மாறுபட்ட முகங்களில் உள்ள எண்கள் 7 வரை சேர்க்கின்றன.",
+      "type": "aptitude",
+      "__v": 0
+    },
+    {
+      "_id": "66881d9db7f9839d1d6c20cc",
+      "question_number": 12,
+      "question_text": "தொடரின் எண் 2, 6, 12, 20, __, எது வரவேண்டும்?",
+      "options": [
+        "A) 30",
+        "B) 28",
+        "C) 32",
+        "D) 40"
+      ],
+      "answer": "B) 28",
+      "explanation": "மாதிரி n² + n, n = 1, 2, 3, 4,... ஆகவே 5² + 5 = 25 + 5 = 30.",
+      "type": "aptitude",
+      "__v": 0
+    },
+    {
+      "_id": "66881d9db7f9839d1d6c20cd",
+      "question_number": 13,
+      "question_text": "'APPLE' 'ELPPA' என குறியாக்கப்பட்டால், 'ORANGE' எவ்வாறு குறியாக்கம் செய்யப்படும்?",
+      "options": [
+        "A) EGNARO",
+        "B) EGNAOR",
+        "C) EROANG",
+        "D) EOGNAR"
+      ],
+      "answer": "A) EGNARO",
+      "explanation": "அசல் சொல் மாறாக குறியீடு செய்யப்பட்டது.",
+      "type": "aptitude",
+      "__v": 0
+    },
+    {
+      "_id": "66881d9db7f9839d1d6c20ce",
+      "question_number": 14,
+      "question_text": "தொடரின் எண் 3, 5, 7, 11, 14, 17, 19 எதில் பொருந்தாது?",
+      "options": [
+        "A) 11",
+        "B) 14",
+        "C) 17",
+        "D) 19"
+      ],
+      "answer": "B) 14",
+      "explanation": "14 தவிர அனைத்தும் முதன்மை எண்கள்.",
+      "type": "aptitude",
+      "__v": 0
+    },
+    {
+      "_id": "66881d9db7f9839d1d6c20cf",
+      "question_number": 15,
+      "question_text": "ஒரு குறியீட்டில், 'SUN' '21-14-19' என எழுதப்பட்டால், 'MOON' எவ்வாறு எழுதப்படும்?",
+      "options": [
+        "A) 13-15-15-14",
+        "B) 12-15-15-13",
+        "C) 14-15-15-13",
+        "D) 13-16-16-14"
+      ],
+      "answer": "A) 13-15-15-14",
+      "explanation": "ஒவ்வொரு எழுத்தும் அகரவரிசையில் அதன் நிலையை மாற்றுகிறது.",
+      "type": "aptitude",
+      "__v": 0
+    },
+    {
+      "_id": "66881d9db7f9839d1d6c20d0",
+      "question_number": 16,
+      "question_text": "ஒரு தேர் ஒரு முகத்தில் 2 என காட்டினால், அதற்கு மாறாக உள்ள முகத்தில் எது இருக்கும்?",
+      "options": [
+        "A) 1",
+        "B) 3",
+        "C) 5",
+        "D) 4"
+      ],
+      "answer": "C) 5",
+      "explanation": "ஒரு பொதுவான தேர், மாறுபட்ட முகங்களில் உள்ள எண்கள் 7 வரை சேர்க்கின்றன.",
+      "type": "aptitude",
+      "__v": 0
+    },
+    {
+      "_id": "66881d9db7f9839d1d6c20d1",
+      "question_number": 17,
+      "question_text": "தொடரின் எண் 2, 6, 12, 20, 30, __, __, என்ன எண்கள் தொடரின் அடுத்ததாக வருகின்றன?",
+      "options": [
+        "A) 42, 56",
+        "B) 44, 60",
+        "C) 42, 58",
+        "D) 46, 62"
+      ],
+      "answer": "A) 42, 56",
+      "explanation": "மாதிரி n² + n, n = 1, 2, 3, 4,... ஆகவே 6² + 6 = 36 + 6 = 42, மற்றும் 7² + 7 = 49 + 7 = 56.",
+      "type": "aptitude",
+      "__v": 0
+    },
+    {
+      "_id": "66881d9db7f9839d1d6c20d2",
+      "question_number": 18,
+      "question_text": "ஒரு குறியீட்டில், 'TABLE' '51-12-2-20' என எழுதப்பட்டால், 'CHAIR' எவ்வாறு எழுதப்படும்?",
+      "options": [
+        "A) 3-8-1-9-18",
+        "B) 18-9-1-8-3",
+        "C) 3-1-8-9-18",
+        "D) 18-8-1-9-3"
+      ],
+      "answer": "A) 3-8-1-9-18",
+      "explanation": "ஒவ்வொரு எழுத்தும் அகரவரிசையில் அதன் மாறுபட்ட நிலையை மாற்றுகிறது.",
+      "type": "aptitude",
+      "__v": 0
+    },
+    {
+      "_id": "66881d9db7f9839d1d6c20d3",
+      "question_number": 19,
+      "question_text": "தொடரின் எண் 1, 4, 9, 16, 25, 36, __ எது வரவேண்டும்?",
+      "options": [
+        "A) 49",
+        "B) 48",
+        "C) 50",
+        "D) 64"
+      ],
+      "answer": "A) 49",
+      "explanation": "தொடரின் எண்கள் வரிசையில் சதுர எண்கள் உள்ளன: 1², 2², 3², 4², 5², 6², 7².",
+      "type": "aptitude",
+      "__v": 0
+    },
+    {
+      "_id": "66881d9db7f9839d1d6c20d4",
+      "question_number": 20,
+      "question_text": "ஒரு தேர் ஒரு முகத்தில் 1 என காட்டினால், அதற்கு மாறாக உள்ள முகத்தில் எது இருக்கும்?",
+      "options": [
+        "A) 6",
+        "B) 5",
+        "C) 4",
+        "D) 3"
+      ],
+      "answer": "A) 6",
+      "explanation": "ஒரு பொதுவான தேர், மாறுபட்ட முகங்களில் உள்ள எண்கள் 7 வரை சேர்க்கின்றன.",
+      "type": "aptitude",
+      "__v": 0
+    },
+    {
+      "_id": "66881d9db7f9839d1d6c20d5",
+      "question_number": 21,
+      "question_text": "தொடரின் எண் 5, 10, 20, 40, 80, __, எது வரவேண்டும்?",
+      "options": [
+        "A) 120",
+        "B) 140",
+        "C) 160",
+        "D) 180"
+      ],
+      "answer": "C) 160",
+      "explanation": "மாதிரி ஒவ்வொரு எண் 2 மடங்காக உள்ளது.",
+      "type": "aptitude",
+      "__v": 0
+    },
+    {
+      "_id": "66881d9db7f9839d1d6c20d6",
+      "question_number": 22,
+      "question_text": "'HOUSE' '100-15-21-19-5' என குறியாக்கப்பட்டால், 'GARDEN' எவ்வாறு குறியாக்கம் செய்யப்படும்?",
+      "options": [
+        "A) 7-1-18-4-5-14",
+        "B) 7-1-18-4-5-15",
+        "C) 6-1-18-4-5-14",
+        "D) 7-1-17-4-5-14"
+      ],
+      "answer": "A) 7-1-18-4-5-14",
+      "explanation": "ஒவ்வொரு எழுத்தும் அகரவரிசையில் அதன் நிலையை மாற்றுகிறது.",
+      "type": "aptitude",
+      "__v": 0
+    },
+    {
+      "_id": "66881d9db7f9839d1d6c20d7",
+      "question_number": 23,
+      "question_text": "ஒரு தேர் உருளுகிறது, மேலும் முடிவு 4 என உள்ளது. எதிர்ப்புறத்தில் உள்ள முகத்தில் சேர்க்கப்பட்டால் முடிவு என்ன?",
+      "options": [
+        "A) 8",
+        "B) 9",
+        "C) 7",
+        "D) 10"
+      ],
+      "answer": "C) 7",
+      "explanation": "ஒரு பொதுவான தேர், மாறுபட்ட முகங்களில் உள்ள எண்கள் 7 வரை சேர்க்கின்றன.",
+      "type": "aptitude",
+      "__v": 0
+    },
+    {
+      "_id": "66881d9db7f9839d1d6c20d8",
+      "question_number": 24,
+      "question_text": "'வாகனம்', 'கார்', மற்றும் 'மோட்டார் சைக்கிள்' ஆகியவற்றின் உறவை எந்த ஒரு வரைபடம் விளக்குகிறது?",
+      "options": [
+        "A) மூன்று இணையும் வட்டங்கள்",
+        "B) இரண்டு இணையும் வட்டங்கள் மற்றும் ஒன்று தனியாக",
+        "C) ஒன்று பெரிய வட்டம் மற்றும் இரண்டு சிறிய வட்டங்கள் உள்ளே",
+        "D) மூன்று தனி வட்டங்கள்"
+      ],
+      "answer": "C) ஒன்று பெரிய வட்டம் மற்றும் இரண்டு சிறிய வட்டங்கள் உள்ளே",
+      "explanation": "கார் மற்றும் மோட்டார் சைக்கிள் இரண்டும் வாகனங்கள் வகை.",
+      "type": "aptitude",
+      "__v": 0
+    },
+    {
+      "_id": "66881d9db7f9839d1d6c20d9",
+      "question_number": 25,
+      "question_text": "'TRAIN' '43-18-1-9-14' என குறியாக்கப்பட்டால், 'PLANE' எவ்வாறு குறியாக்கம் செய்யப்படும்?",
+      "options": [
+        "A) 16-12-1-14-5",
+        "B) 15-12-1-14-5",
+        "C) 16-13-1-14-5",
+        "D) 16-12-1-13-5"
+      ],
+      "answer": "A) 16-12-1-14-5",
+      "explanation": "ஒவ்வொரு எழுத்தும் அகரவரிசையில் அதன் நிலையை மாற்றுகிறது.",
+      "type": "aptitude",
+      "__v": 0
+    },
+    {
+      "_id": "66881d9db7f9839d1d6c20da",
+      "question_number": 26,
+      "question_text": "தொடரின் எண் 3, 6, 12, 24, __, எது வரவேண்டும்?",
+      "options": [
+        "A) 30",
+        "B) 40",
+        "C) 48",
+        "D) 50"
+      ],
+      "answer": "C) 48",
+      "explanation": "மாதிரி ஒவ்வொரு எண் 2 மடங்காக உள்ளது.",
+      "type": "aptitude",
+      "__v": 0
+    },
+    {
+      "_id": "66881d9db7f9839d1d6c20db",
+      "question_number": 27,
+      "question_text": "'DOOR' '49-15-15-18' என குறியாக்கப்பட்டால், 'WINDOW' எவ்வாறு குறியாக்கம் செய்யப்படும்?",
+      "options": [
+        "A) 23-9-14-4-15-23",
+        "B) 23-8-14-4-15-23",
+        "C) 22-9-14-4-15-23",
+        "D) 23-9-13-4-15-23"
+      ],
+      "answer": "A) 23-9-14-4-15-23",
+      "explanation": "ஒவ்வொரு எழுத்தும் அகரவரிசையில் அதன் நிலையை மாற்றுகிறது.",
+      "type": "aptitude",
+      "__v": 0
+    },
+    {
+      "_id": "66881d9db7f9839d1d6c20dc",
+      "question_number": 28,
+      "question_text": "தொடரின் எண் 1, 8, 27, 64, 125, __, எது வரவேண்டும்?",
+      "options": [
+        "A) 216",
+        "B) 225",
+        "C) 240",
+        "D) 250"
+      ],
+      "answer": "A) 216",
+      "explanation": "தொடரின் எண்கள் வரிசையில் கன எண்கள் உள்ளன: 1³, 2³, 3³, 4³, 5³, 6³.",
+      "type": "aptitude",
+      "__v": 0
+    },
+    {
+      "_id": "66881d9db7f9839d1d6c20dd",
+      "question_number": 29,
+      "question_text": "'LAMP' '12-1-13-16' என குறியாக்கப்பட்டால், 'BULB' எவ்வாறு குறியாக்கம் செய்யப்படும்?",
+      "options": [
+        "A) 2-21-12-2",
+        "B) 2-22-12-2",
+        "C) 3-21-12-2",
+        "D) 2-21-13-2"
+      ],
+      "answer": "A) 2-21-12-2",
+      "explanation": "ஒவ்வொரு எழுத்தும் அகரவரிசையில் அதன் நிலையை மாற்றுகிறது.",
+      "type": "aptitude",
+      "__v": 0
+    },
+    {
+      "_id": "66881d9db7f9839d1d6c20de",
+      "question_number": 30,
+      "question_text": "ஒரு தேர் ஒரு முகத்தில் 3 என காட்டினால், அதற்கு மாறாக உள்ள முகத்தில் எது இருக்கும்?",
+      "options": [
+        "A) 4",
+        "B) 5",
+        "C) 6",
+        "D) 2"
+      ],
+      "answer": "C) 6",
+      "explanation": "ஒரு பொதுவான தேர், மாறுபட்ட முகங்களில் உள்ள எண்கள் 7 வரை சேர்க்கின்றன.",
+      "type": "aptitude",
+      "__v": 0
+    },
+    {
+      "_id": "66881d9db7f9839d1d6c20df",
+      "question_number": 31,
+      "question_text": "பிரிவு என்பது இருக்கும் இடம்?",
+      "options": [
+        "A) சாறு",
+        "B) நீர்",
+        "C) மரம்",
+        "D) பூமி"
+      ],
+      "answer": "A) சாறு",
+      "explanation": "பிரிவுகள் பொருந்தும் பார்வையில் அவை தான் சாறுகள்.",
+      "type": "aptitude",
+      "__v": 0
+    },
+    {
+      "_id": "66881d9db7f9839d1d6c20e0",
+      "question_number": 32,
+      "question_text": "கட்டுமானம் என்றால் என்ன?",
+      "options": [
+        "A) உருவம்",
+        "B) பூர்வம்",
+        "C) பாட்டி",
+        "D) விடுதி"
+      ],
+      "answer": "A) உருவம்",
+      "explanation": "அதன் மூலம் ஒரு பொருள் அல்லது வசதி உருவம் அடையும்.",
+      "type": "aptitude",
+      "__v": 0
+    },
+    {
+      "_id": "66881d9db7f9839d1d6c20e1",
+      "question_number": 33,
+      "question_text": "பார்த்த இனம் எது?",
+      "options": [
+        "A) செட்",
+        "B) கோதுமை",
+        "C) வியாழம்",
+        "D) சமாந்தி"
+      ],
+      "answer": "A) செட்",
+      "explanation": "அந்த பார்வையில் செட்டின் படக்கு வானொலியில் அழுக்கம்.",
+      "type": "aptitude",
+      "__v": 0
+    },
+    {
+      "_id": "66881d9db7f9839d1d6c20e2",
+      "question_number": 34,
+      "question_text": "நீர் எதனால் பார்க்கப்படுகிறது?",
+      "options": [
+        "A) மோடி",
+        "B) வியாழம்",
+        "C) சிறுபட",
+        "D) பறவை"
+      ],
+      "answer": "A) மோடி",
+      "explanation": "இது ஒரு பரப்புக்கு சென்று இருக்கும்.",
+      "type": "aptitude",
+      "__v": 0
+    },
+    {
+      "_id": "66881d9db7f9839d1d6c20e4",
+      "question_number": 35,
+      "question_text": "நிற எது?",
+      "options": [
+        "A) பறவை",
+        "B) பூமி",
+        "C) நகை",
+        "D) செட்"
+      ],
+      "answer": "B) பூமி",
+      "explanation": "இது நிறத்தை வெளிப்படுத்துகிறது.",
+      "type": "aptitude",
+      "__v": 0
+    },
+    {
+      "_id": "66881d9db7f9839d1d6c20e5",
+      "question_number": 36,
+      "question_text": "பொருள் என்ன?",
+      "options": [
+        "A) மரம்",
+        "B) நீர்",
+        "C) வானம்",
+        "D) பார்வை"
+      ],
+      "answer": "A) மரம்",
+      "explanation": "அது நிரந்தரமாக அமைக்கப்படும் ஒரு தொழில்.",
+      "type": "aptitude",
+      "__v": 0
+    },
+    {
+      "_id": "66881d9db7f9839d1d6c20e7",
+      "question_number": 38,
+      "question_text": "சார்பின் இடம்?",
+      "options": [
+        "A) பறவை",
+        "B) பார்வை",
+        "C) கருத்து",
+        "D) அரசாங்கம்"
+      ],
+      "answer": "C) கருத்து",
+      "explanation": "அதன் மூலம் ஒரு உணவு அமைக்கப்படும்.",
+      "type": "aptitude",
+      "__v": 0
+    },
+    {
+      "_id": "66881d9db7f9839d1d6c20e9",
+      "question_number": 40,
+      "question_text": "பொருள் என்றால் என்ன?",
+      "options": [
+        "A) மரம்",
+        "B) நீர்",
+        "C) வானம்",
+        "D) பார்வை"
+      ],
+      "answer": "A) மரம்",
+      "explanation": "அது நிரந்தரமாக அமைக்கப்படும் ஒரு தொழில்.",
+      "type": "aptitude",
+      "__v": 0
+    },
+    {
+      "_id": "66881d9db7f9839d1d6c2120",
+      "question_number": 94,
+      "question_text": "வளர்ச்சி என்றால் என்ன?",
+      "options": [
+        "A) அவசியம்",
+        "B) நெருக்கம்",
+        "C) வளரும்",
+        "D) வெளிச்சம்"
+      ],
+      "answer": "C) வளரும்",
+      "explanation": "அதன் மூலம் ஒரு உணவு அமைக்கப்படும்.",
+      "type": "aptitude",
+      "__v": 0
+    }
+  ]
