@@ -13,6 +13,7 @@
       "answer": "B) 18",
       "explanation": "எளிய மதிப்பு 12 + 3 × 10 / 5 = 12 + 6 = 18.",
       "type": "aptitude",
+      "topic":"simplification",
       "__v": 0
     },
     {
@@ -28,12 +29,13 @@
       "answer": "B) 50",
       "explanation": "200-ன் 25% என்பது 200 × 0.25 = 50.",
       "type": "aptitude",
+      "topic":"percentage",
       "__v": 0
     },
     {
       "_id": "6686f03bb7f9839d1d7d7897",
       "question_number": 3,
-      "question_text": "24 மற்றும் 36-ன் மிகுந்த பொது கோட்டைக் கண்டறியுங்கள்.",
+      "question_text": "24 மற்றும் 36-ன் HCF  கண்டறியுங்கள்.",
       "options": [
         "A) 6",
         "B) 8",
@@ -43,6 +45,7 @@
       "answer": "C) 12",
       "explanation": "24 மற்றும் 36-ன் மிகுந்த பொது கோட்டை 12.",
       "type": "aptitude",
+      "topic":"hcf",
       "__v": 0
     },
     {

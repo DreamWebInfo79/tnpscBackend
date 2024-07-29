@@ -205,8 +205,7 @@ app.post('/questions', async (req, res) => {
     const Question = database.model('Question', QuestionSchema, subject);
     const questions = await Question.aggregate([{ $sample: { size: 20 } }]);
 
-    res.json(questions);
-    console.log(questions);
+    res.json({questions:questions,user:user});
   } catch (error) {
     console.error('Error processing request:', error);
     res.status(500).send(error);
@@ -318,7 +317,7 @@ app.post('/api/aptitude', async (req, res) => {
       questions = questions.concat(topicQuestions);
     }
 
-    res.status(200).send({ questions });
+    res.status(200).send({ questions:questions,user:user });
   } catch (error) {
     console.error('Error fetching questions:', error);
     res.status(500).send({ message: 'Error fetching questions' });
