@@ -1,10 +1,12 @@
 
-POST http://localhost:3000/aptitude
+POST http://localhost:3001/questions
 Content-Type: application/json
 
 {
-    "standard":"aptitudeEM",
-    "subject":"12-16Unit"
+    "standard":"TamilSubject",
+    "subject":"tenthTamilFull",
+    "userId": "b0b6555d-637f-45d4-9f96-3aad3bd54404",
+    "noOfQuestions": "5"
 }
 
 
@@ -14,8 +16,8 @@ Content-Type: application/json
 
 {
     "userId": "b0b6555d-637f-45d4-9f96-3aad3bd54404",
-    "standard":"commonApiEM",
-    "subject":"allAptitude"
+    "standard":"generalStudiesTM",
+    "subject":"generalStudies"
 }
 
 ###

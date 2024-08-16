@@ -184,9 +184,8 @@ app.get('/auth/google',
 app.get('/helloworld', (req, res) => {
   res.send('Hello World!');
 });
-
 app.post('/questions', async (req, res) => {
-  const { userId, standard, subject } = req.body;
+  const { userId, standard, subject, noOfQuestions } = req.body;
 
   try {
     const user = await User.findOne({ uniqueId: userId }); 
@@ -203,15 +202,17 @@ app.post('/questions', async (req, res) => {
 
     const database = mongoose.connection.useDb(standard);
     const Question = database.model('Question', QuestionSchema, subject);
-    const questions = await Question.aggregate([{ $sample: { size: 20 } }]);
+    
+    // Determine the number of questions to retrieve
+    const questionsCount = parseInt(noOfQuestions) || 20;
+    const questions = await Question.aggregate([{ $sample: { size: questionsCount } }]);
 
-    res.json({questions:questions,user:user});
+    res.json({ questions: questions, user: user });
   } catch (error) {
     console.error('Error processing request:', error);
     res.status(500).send(error);
   }
 });
-
 
 
 
@@ -384,33 +385,33 @@ app.post('/api/weekly-test-em', async (req, res) => {
 
 // To get all the data from the collection 
 
-// app.post('/get-all-questions', async (req, res) => {
-//   const { userId, standard, subject } = req.body;
+app.post('/get-all-questions', async (req, res) => {
+  const { userId, standard, subject } = req.body;
 
-//   try {
-//     const user = await User.findOne({ uniqueId: userId }); 
-//     if (!user) {
-//       return res.status(404).send({ message: 'User not found' });
-//     }
+  try {
+    const user = await User.findOne({ uniqueId: userId }); 
+    if (!user) {
+      return res.status(404).send({ message: 'User not found' });
+    }
 
-//     const isNotPremiumOrBasic = user.plan !== 'premium' && user.plan !== 'basic';
+    const isNotPremiumOrBasic = user.plan !== 'premium' && user.plan !== 'basic';
     
-//     if (isNotPremiumOrBasic) {
-//       user.count = (user.count || 0) + 1;
-//       await user.save();
-//     }
+    if (isNotPremiumOrBasic) {
+      user.count = (user.count || 0) + 1;
+      await user.save();
+    }
 
-//     const database = mongoose.connection.useDb(standard);
-//     const Question = database.model('Question', QuestionSchema, subject);
-//     const questions = await Question.find({});
+    const database = mongoose.connection.useDb(standard);
+    const Question = database.model('Question', QuestionSchema, subject);
+    const questions = await Question.find({});
 
-//     res.json(questions);
-//     console.log(questions);
-//   } catch (error) {
-//     console.error('Error processing request:', error);
-//     res.status(500).send(error);
-//   }
-// });
+    res.json(questions);
+    console.log(questions);
+  } catch (error) {
+    console.error('Error processing request:', error);
+    res.status(500).send(error);
+  }
+});
 
 
 
