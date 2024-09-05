@@ -11,7 +11,9 @@ const { v4: uuidv4 } = require('uuid');
 const crypto = require('crypto');
 const { OAuth2Client } = require('google-auth-library');
 const client = new OAuth2Client(process.env.GOOGLE_CLIENT_ID);
-
+const PDFDocument = require('pdfkit');
+const fs = require('fs');
+const path = require('path');
 
 mongoose.connect(process.env.MONGO_URI, {
   useNewUrlParser: true,
@@ -184,6 +186,68 @@ app.get('/auth/google',
 app.get('/helloworld', (req, res) => {
   res.send('Hello World!');
 });
+
+
+
+
+
+
+app.get('/generate-tamil-pdf', (req, res) => {
+  // Create a new PDF document
+  const doc = new PDFDocument();
+  
+  // Set the path for your Tamil font
+  const tamilFontPath = path.join(__dirname, 'fonts', 'NotoSansTamil-VariableFont_wdth,wght.ttf');
+  
+  // Set the output file path
+  const filePath = path.join(__dirname, 'test_results_tamil.pdf');
+
+  // Pipe the PDF document to a file
+  doc.pipe(fs.createWriteStream(filePath));
+
+  // Load the custom Tamil font
+  doc.font(tamilFontPath);
+
+  // Add Tamil text
+  doc.fontSize(18).text('MCQ தேர்வு முடிவுகள்', { align: 'center' });
+  doc.moveDown();
+  doc.fontSize(14).text(`மதிப்பெண்: ${req.query.score || 80}`, { align: 'left' });
+  
+  // Add some Tamil questions and answers
+  const questions = [
+    { question: 'இந்தியாவின் தலைநகர் எது?', answer: 'புதிய டெல்லி', yourAnswer: 'புதுச்சேரி' },
+    { question: 'பாரதிராஜாவின் பிறந்த ஆண்டு எது?', answer: '1941', yourAnswer: '1942' },
+  ];
+
+  questions.forEach((q, index) => {
+    doc.moveDown();
+    doc.text(`Q${index + 1}: ${q.question}`);
+    doc.text(`சரியான பதில்: ${q.answer}`);
+    doc.text(`உங்கள் பதில்: ${q.yourAnswer}`);
+  });
+
+  // Finalize the PDF and end the document
+  doc.end();
+
+  // Send the PDF to the frontend once it's done generating
+  doc.on('finish', () => {
+    res.download(filePath, 'test_results_tamil.pdf', (err) => {
+      if (err) {
+        console.error('Error while downloading PDF:', err);
+        res.status(500).send('Error generating PDF');
+      }
+      // Optionally delete the file after sending it to the client
+      fs.unlinkSync(filePath);
+    });
+  });
+});
+
+
+
+
+
+
+
 app.post('/questions', async (req, res) => {
   const { userId, standard, subject, noOfQuestions } = req.body;
 
@@ -745,8 +809,34 @@ app.listen(PORT, () => {
   console.log(`Server started on http://localhost:${PORT}`);
 });
 
+exports.handler = async (event) => {
+  const headers = {
+    "Access-Control-Allow-Origin": "*",
+    "Access-Control-Allow-Headers": "Content-Type,Authorization",
+    "Access-Control-Allow-Methods": "OPTIONS,POST,GET,PUT,DELETE"
+  };
 
-module.exports.handler = serverless(app);
+  if (event.httpMethod === 'OPTIONS') {
+    return {
+      statusCode: 200,
+      headers,
+      body: '',
+    };
+  }
+
+  const serverlessHandler = serverless(app);
+
+  const response = await serverlessHandler(event);
+
+  return {
+    ...response,
+    headers: {
+      ...headers,
+      ...response.headers,
+    },
+  };
+};
+
 
 
 
