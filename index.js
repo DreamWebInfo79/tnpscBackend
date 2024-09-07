@@ -243,10 +243,43 @@ app.get('/generate-tamil-pdf', (req, res) => {
 });
 
 
+//aptitude-series
+
+app.post('/aptitude-series', async (req, res) => {
+  const { userId, standard, subject, noOfQuestions } = req.body;
+
+  try {
+    const user = await User.findOne({ uniqueId: userId }); 
+    if (!user) {
+      return res.status(404).send({ message: 'User not found' });
+    }
+
+    const isNotPremiumOrBasic = user.plan !== 'premium' && user.plan !== 'basic';
+    
+    if (isNotPremiumOrBasic) {
+      user.count = (user.count || 0) + 1;
+      await user.save();
+    }
+
+    const database = mongoose.connection.useDb(standard);
+    const Question = database.model('Question', QuestionSchema, subject);
+    
+    // Fetch all questions from the collection
+    const questions = await Question.find({});
+
+    res.json({ questions: questions, user: user });
+  } catch (error) {
+    console.error('Error processing request:', error);
+    res.status(500).send(error);
+  }
+});
 
 
 
 
+
+
+//the above one aptitude series is for checking
 
 app.post('/questions', async (req, res) => {
   const { userId, standard, subject, noOfQuestions } = req.body;

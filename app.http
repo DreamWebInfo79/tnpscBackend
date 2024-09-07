@@ -31,6 +31,17 @@ Content-Type: application/json
     "medium":"TM"
 }
 
+
+###
+POST http://localhost:3001/aptitude-series
+Content-Type: application/json
+
+{
+    "standard":"aptitudeSeriesTM",
+    "subject":"partOne",
+    "userId": "b0b6555d-637f-45d4-9f96-3aad3bd54404"
+}
+
 ###
 GET http://localhost:3001/generate-tamil-pdf
 Content-Type: application/json
